@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/cam_pos/mc_cam_pos" itemID="55ef12a7-0000093a" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="src.popup.PopupBtnCameraPosition" lastModified="1441882576" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="mc_cam_pos">
+      <layers>
+        <DOMLayer name="mcPopup" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/cam_pos/mc_cam_pos_popup" name="mcPopup" selected="true" centerPoint3DX="11.6" centerPoint3DY="-56.6">
+                  <matrix>
+                    <Matrix tx="11.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_custom_item_size" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/cam_pos/mc_cam_pos_button" name="btnPopup" centerPoint3DX="11.5" centerPoint3DY="11.5">
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

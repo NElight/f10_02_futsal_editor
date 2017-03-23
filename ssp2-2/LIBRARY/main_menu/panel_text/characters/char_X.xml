@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_X" itemID="4e04f94f-000001f1" linkageExportForAS="true" linkageIdentifier="char_X" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_X" lastModified="1333037827">
+  <timeline>
+    <DOMTimeline name="char_X">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!105 -115|68 -115!68 -115|10 -197!10 -197[5 -204 0 -212!0 -212[-8 -200 -11 -195!-11 -195|-69 -115!-69 -115|-106 -115!-106 -115|-17 -234!-17 -234|-95 -344!-95 -344|-59 -344!-59 -344|-17 -285!-17 -285[-4 -267 1 -257!1 -257[9 -270 20 -283
+!20 -283|66 -344!66 -344|99 -344!99 -344|18 -236!18 -236|105 -115"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

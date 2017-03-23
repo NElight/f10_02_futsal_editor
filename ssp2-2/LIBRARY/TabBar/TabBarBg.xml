@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/TabBarBg" itemID="508e678a-0000a0dd" symbolType="graphic" lastModified="1352892978" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="TabBarBg">
+      <layers>
+        <DOMLayer name="right line" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/TabBarBgR" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="663" ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.5" y="-2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="left line" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/TabBarBgL" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.5" y="-2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#4FFFFF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/TabBarBgC" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="21.3871002197266"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

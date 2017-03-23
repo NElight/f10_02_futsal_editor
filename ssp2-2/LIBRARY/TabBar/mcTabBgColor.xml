@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/mcTabBgColor" itemID="508e6898-0000a0f1" lastModified="1351510168">
+  <timeline>
+    <DOMTimeline name="mcTabBgColor">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1961 0|60 0!60 0[0 0 0 50!0 50/0 400!0 400|2020 400!2020 400/2020 50!2020 50[2020 0 1961 0"/>
+                    <Edge cubics="!2020 50(;2020,17 2000,0 1961,0q2020 50Q2020 0q1961 0);"/>
+                    <Edge cubics="!60 0(;20,0 0,17 0,50q60 0Q0 0q0 50);"/>
+                    <Edge cubics="!1961 0(;1961,0 60,0 60,0q1961 0 60 0);"/>
+                    <Edge cubics="!0 400(;0,400 2020,400 2020,400q0 400 2020 400);"/>
+                    <Edge cubics="!2020 400(;2020,400 2020,50 2020,50q2020 400 2020 50);"/>
+                    <Edge cubics="!0 50(;0,50 0,400 0,400q0 50 0 400);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

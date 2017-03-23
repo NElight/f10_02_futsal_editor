@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ComponentsSSP/SSPSlider/SSPSliderTick_skin" itemID="5161aee6-0000ca4d" linkageExportForAS="true" linkageClassName="SSPSliderTick_skin" lastModified="1365379375">
+  <timeline>
+    <DOMTimeline name="SSPSliderTick_skin">
+      <layers>
+        <DOMLayer name="skin" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix d="0.909088134765625"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#919999"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!10 220S2|-10 220!-10 220|-10 0!-10 0|10 0!10 0|10 220"/>
+                    <Edge cubics="!10 0(;10,0 10,220 10,220q10 0 10 220);"/>
+                    <Edge cubics="!-10 220(;-10,220 -10,0 -10,0q-10 220 -10 0);"/>
+                    <Edge cubics="!10 220(;10,220 -10,220 -10,220q10 220 -10 220);"/>
+                    <Edge cubics="!-10 0(;-10,0 10,0 10,0q-10 0 10 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_templates/mc_line_0_5_2_shadow" itemID="4f10701b-0000049b" lastModified="1326477872">
+  <timeline>
+    <DOMTimeline name="mc_line_0_5_2_shadow">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.498039215686275"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1590 281|10 281!10 281|10 280!10 280|1590 280!1590 280|1590 281"/>
+                    <Edge cubics="!1600 280(;1600,280 0,280 0,280q1600 280 0 280);"/>
+                    <Edge cubics="!1600 280(;1600,280 1600,281 1600,281q1600 280 1600 281);"/>
+                    <Edge cubics="!0 281(;0,281 0,280 0,280q0 281 0 280);"/>
+                    <Edge cubics="!1600 281(;1600,281 0,281 0,281q1600 281 0 281);"/>
+                    <Edge cubics="!0 20(;0,20 1600,20 1600,20q0 20 1600 20);"/>
+                    <Edge cubics="!1600 300(;1600,300 0,300 0,300q1600 300 0 300);"/>
+                    <Edge cubics="!1600 281(;1600,281 1600,300 1600,300q1600 281 1600 300);"/>
+                    <Edge cubics="!1600 20(;1600,20 1600,280 1600,280q1600 20 1600 280);"/>
+                    <Edge cubics="!0 280(;0,280 0,20 0,20q0 280 0 20);"/>
+                    <Edge cubics="!0 300(;0,300 0,281 0,281q0 300 0 281);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1590 290S1|10 290!10 290|10 30!10 30|1590 30!1590 30|1590 290!1610 10|-10 10!-10 10|-10 310!-10 310|1610 310!1610 310|1610 10"/>
+                    <Edge cubics="!1610 310(;1610,310 1610,10 1610,10q1610 310 1610 10);"/>
+                    <Edge cubics="!1590 290(;1590,290 10,290 10,290q1590 290 10 290);"/>
+                    <Edge cubics="!10 30(;10,30 1590,30 1590,30q10 30 1590 30);"/>
+                    <Edge cubics="!-10 10(;-10,10 -10,310 -10,310q-10 10 -10 310);"/>
+                    <Edge cubics="!-10 310(;-10,310 1610,310 1610,310q-10 310 1610 310);"/>
+                    <Edge cubics="!1610 10(;1610,10 -10,10 -10,10q1610 10 -10 10);"/>
+                    <Edge cubics="!1590 30(;1590,30 1590,290 1590,290q1590 30 1590 290);"/>
+                    <Edge cubics="!10 290(;10,290 10,30 10,30q10 290 10 30);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

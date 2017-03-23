@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/mcTabBar" itemID="5054cf7e-000001f0" linkageExportForAS="true" linkageClassName="src.tabbar.SSPTabBarBase" lastModified="1376412501" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="mcTabBar">
+      <layers>
+        <DOMLayer name="scroll" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/btnTabScrollRight" name="btn_scroll_r" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="639" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="TabBar/btnTabScrollLeft" name="btn_scroll_l" symbolType="button">
+                  <matrix>
+                    <Matrix tx="617" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/TabBarBg" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="331.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

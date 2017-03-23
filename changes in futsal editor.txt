@@ -1,0 +1,21 @@
+// Changes from Football Editor:
+--------------------------------
+
+- SSPSettings.as (static var of session sport number)
+- language_data.xml (Kick-in instead of Throw-in).
+
+src3d\models\soccer\equipment\Goal.as (line 32: this._internalScale = 1.08; and this.controllerScale = 1.8;)
+src3d\models\soccer\equipment\GoalToScale.as (in line 32: this._internalScale = .82;)
+src3d\models\soccer\equipment\Goal.3ds (futsal Goal 3D model. Used for Goal and GoalToScale).
+src3d\models\soccer\equipment\images\goalposts.png (futsal Goal posts texture).
+
+src3d\models\soccer\players\Player002a.3ds (futsal throw in)
+
+src3d\models\soccer\pitches\PitchMarks.3ds (futsal pitch marks)
+src3d\models\soccer\pitches\images (different pitch floors)
+
+Changes in FLX:
+---------------
+ - Different Pitch texture change button.
+ - Different Pitch Camera View icons.
+ - Different player2 icon (Kick-in instead of Throw-in).

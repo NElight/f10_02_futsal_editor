@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/main_panel_tabs/mc_tab2_deselected" itemID="50afb895-000008f4" lastModified="1353693333">
+  <timeline>
+    <DOMTimeline name="mc_tab2_deselected">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-1.52587890625e-005" b="0.0142822265625" c="-0.0146484375" d="0" tx="45.05" ty="12.05"/>
+                        </matrix>
+                        <GradientEntry color="#E5E5E5" ratio="0"/>
+                        <GradientEntry color="#B2B2B2" ratio="0.898039215686275"/>
+                        <GradientEntry color="#7F7F7F" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1777 24S2[1800 47 1800 80!1800 80|1800 480!1800 480|0 480!0 480|0 80!0 80[0 47 23 24!23 24[46 0 80 0!80 0|1720 0!1720 0[1753 0 1777 24"/>
+                    <Edge cubics="!0 480(;0,480 0,80 0,80p0 480q0 80);"/>
+                    <Edge cubics="!0 80(0,80;0,36 35,0 80,0q0 80Q0 47q23 24Q46 0q80 0)80,0;"/>
+                    <Edge cubics="!1720 0(;1764,0 1800,36 1800,80q1720 0Q1753 0q1777 24Q1800 47q1800 80);"/>
+                    <Edge cubics="!1800 80(1800,80;1800,80 1800,480 1800,480q1800 80 1800 480);"/>
+                    <Edge cubics="!1800 480(;1800,480 0,480 0,480q1800 480 0 480);"/>
+                    <Edge cubics="!80 0(;80,0 1720,0 1720,0q80 0 1720 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_S" itemID="4e04f8c5-000001e7" linkageExportForAS="true" linkageIdentifier="char_S" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_S" lastModified="1333037827">
+  <timeline>
+    <DOMTimeline name="char_S">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!84 -280|54 -277!54 -277[52 -299 39 -310!39 -310[25 -321 -2 -321!-2 -321[-29 -321 -42 -311!-42 -311[-54 -301 -54 -287!-54 -287[-54 -275 -45 -267!-45 -267[-37 -259 0 -250!0 -250[38 -242 51 -236!51 -236[71 -226 81 -212!81 -212[91 -198 91
+ -180!91 -180[91 -161 80 -145!80 -145[70 -129 50 -120!50 -120[30 -111 6 -111!6 -111[-26 -111 -47 -120!-47 -120[-68 -129 -80 -147!-80 -147[-92 -166 -93 -189!-93 -189|-64 -191!-64 -191[-62 -174 -54 -163!-54 -163[-47 -152 -31 -145!-31 -145
+[-16 -138 4 -138!4 -138[22 -138 35 -143!35 -143[48 -149 55 -157!55 -157[61 -167 61 -177!61 -177[61 -188 55 -196!55 -196[49 -204 34 -210!34 -210[25 -213 -7 -221!-7 -221[-38 -228 -51 -235!-51 -235[-68 -244 -76 -256!-76 -256[-84 -269 -84
+ -285!-84 -285[-84 -302 -74 -317!-74 -317[-64 -332 -45 -340!-45 -340[-26 -348 -3 -348!-3 -348[23 -348 42 -340!42 -340[62 -332 72 -316!72 -316[83 -300 84 -280"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

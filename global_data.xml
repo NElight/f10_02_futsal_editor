@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="utf-8"?>
+<static_data>
+  <meta_data>
+    <activity _activityCode="goal" _activityId="201" _activityName="Goal" />
+    <activity _activityCode="own_goal" _activityId="202" _activityName="Own goal" />
+    <activity _activityCode="substitute" _activityId="203" _activityName="Substitute" />
+    <activity _activityCode="substituted" _activityId="204" _activityName="Substituded" />
+    <activity _activityCode="yellow_card" _activityId="205" _activityName="Yellow Card" />
+    <activity _activityCode="red_card" _activityId="206" _activityName="Red Card" />
+    <activity _activityCode="injury" _activityId="207" _activityName="Injury" />
+    <activity _activityCode="corner" _activityId="208" _activityName="Corner" />
+    <activity _activityCode="free_kick" _activityId="209" _activityName="Free kick" />
+    <activity _activityCode="penalty" _activityId="210" _activityName="Penalty kick" />
+    <activity _activityCode="shot_on_goal" _activityId="211" _activityName="Shot on goal" />
+    <activity _activityCode="start_play" _activityId="212" _activityName="Play starts" />
+    <activity _activityCode="stop_play" _activityId="213" _activityName="Play stops" />
+    <activity _activityCode="line_up" _activityId="214" _activityName="Initial Line-up" />
+    <category _globCategoryId="202" _globCategoryName="Technical: Shooting" _globCategoryType="Training" />
+    <category _globCategoryId="203" _globCategoryName="Technical: Individual Defensive skills" _globCategoryType="Training" />
+    <category _globCategoryId="204" _globCategoryName="Technical: Passing &amp; Receiving " _globCategoryType="Training" />
+    <category _globCategoryId="206" _globCategoryName="Technical: Dribbling and RWB" _globCategoryType="Training" />
+    <category _globCategoryId="207" _globCategoryName="Technical: Individual Attacking skills" _globCategoryType="Training" />
+    <category _globCategoryId="208" _globCategoryName="Technical: Shielding the Ball" _globCategoryType="Training" />
+    <category _globCategoryId="209" _globCategoryName="Technical: Ball Control" _globCategoryType="Training" />
+    <category _globCategoryId="210" _globCategoryName="Technical: Turning" _globCategoryType="Training" />
+    <category _globCategoryId="211" _globCategoryName="Technical: Movement off the ball" _globCategoryType="Training" />
+    <category _globCategoryId="212" _globCategoryName="Tactical: Keeping Possession" _globCategoryType="Training" />
+    <category _globCategoryId="213" _globCategoryName="Tactical: Switching Play" _globCategoryType="Training" />
+    <category _globCategoryId="214" _globCategoryName="Tactical: Counter attack" _globCategoryType="Training" />
+    <category _globCategoryId="215" _globCategoryName="Tactical: Attacking Principles/Formations" _globCategoryType="Training" />
+    <category _globCategoryId="216" _globCategoryName="Tactical: Combination Play" _globCategoryType="Training" />
+    <category _globCategoryId="217" _globCategoryName="Tactical: Defensive Principles/Formations" _globCategoryType="Training" />
+    <category _globCategoryId="232" _globCategoryName="Set-Pieces: Kick offs" _globCategoryType="Training" />
+    <category _globCategoryId="219" _globCategoryName="Tactical: Team Rotation" _globCategoryType="Training" />
+    <category _globCategoryId="220" _globCategoryName="Physical: Agility" _globCategoryType="Training" />
+    <category _globCategoryId="221" _globCategoryName="Physical: Speed" _globCategoryType="Training" />
+    <category _globCategoryId="222" _globCategoryName="Physical: Strength/ Power" _globCategoryType="Training" />
+    <category _globCategoryId="223" _globCategoryName="Physical: Endurance" _globCategoryType="Training" />
+    <category _globCategoryId="224" _globCategoryName="Set-Pieces: Kick-ins" _globCategoryType="Training" />
+    <category _globCategoryId="225" _globCategoryName="Set-Pieces: Corners" _globCategoryType="Training" />
+    <category _globCategoryId="226" _globCategoryName="Set-Pieces: Free-Kicks" _globCategoryType="Training" />
+    <category _globCategoryId="227" _globCategoryName="Goalkeeping" _globCategoryType="Training" />
+    <category _globCategoryId="228" _globCategoryName="Psychological Practices" _globCategoryType="Training" />
+    <category _globCategoryId="229" _globCategoryName="Warm-ups" _globCategoryType="Training" />
+    <category _globCategoryId="230" _globCategoryName="Set-Pieces: Goal Throws" _globCategoryType="Training" />
+    <category _globCategoryId="231" _globCategoryName="Referees: Movement on the Court" _globCategoryType="Training" />
+    <category _globCategoryId="1201" _globCategoryName="League" _globCategoryType="Match" />
+    <category _globCategoryId="1202" _globCategoryName="Friendly" _globCategoryType="Match" />
+    <category _globCategoryId="1203" _globCategoryName="Festival" _globCategoryType="Match" />
+    <category _globCategoryId="1204" _globCategoryName="Tournament" _globCategoryType="Match" />
+    <category _globCategoryId="1205" _globCategoryName="International" _globCategoryType="Match" />
+    <category _globCategoryId="1206" _globCategoryName="Cup Match" _globCategoryType="Match" />
+    <category _globCategoryId="2201" _globCategoryName="Free Kicks" _globCategoryType="Set-piece" />
+    <category _globCategoryId="2202" _globCategoryName="Corners" _globCategoryType="Set-piece" />
+    <category _globCategoryId="2203" _globCategoryName="Throw-ins" _globCategoryType="Set-piece" />
+    <category _globCategoryId="2204" _globCategoryName="Set-plays" _globCategoryType="Set-piece" />
+    <difficulty _globDifficultyId="7" _globDifficultyName="Beginner" />
+    <difficulty _globDifficultyId="8" _globDifficultyName="Junior" />
+    <difficulty _globDifficultyId="9" _globDifficultyName="Senior" />
+    <difficulty _globDifficultyId="10" _globDifficultyName="Pro" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFF0000" _lineStyle="0" _lineThickness="1" _lineType="0" _linesLibraryId="1" _useArrowHead="1" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFF0000" _lineStyle="0" _lineThickness="1" _lineType="1" _linesLibraryId="2" _useArrowHead="1" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0x000000" _lineStyle="1" _lineThickness="1" _lineType="0" _linesLibraryId="3" _useArrowHead="1" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xB7B7B7" _lineStyle="0" _lineThickness="1" _lineType="1" _linesLibraryId="4" _useArrowHead="1" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFFFFFF" _lineStyle="0" _lineThickness="1" _lineType="0" _linesLibraryId="5" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0x000000" _lineStyle="1" _lineThickness="1" _lineType="1" _linesLibraryId="6" _useArrowHead="1" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFF0000" _lineStyle="0" _lineThickness="1" _lineType="0" _linesLibraryId="7" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0x00FF00" _lineStyle="0" _lineThickness="1" _lineType="0" _linesLibraryId="8" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0x0000FF" _lineStyle="0" _lineThickness="1" _lineType="0" _linesLibraryId="9" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFFFFFF" _lineStyle="0" _lineThickness="1" _lineType="3" _linesLibraryId="10" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFFFFFF" _lineStyle="0" _lineThickness="1" _lineType="4" _linesLibraryId="11" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFFFFFF" _lineStyle="3" _lineThickness="1" _lineType="0" _linesLibraryId="12" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFFFFFF" _lineStyle="3" _lineThickness="1" _lineType="1" _linesLibraryId="13" _useArrowHead="0" _useHandles="TRUE" />
+    <initial_lines_library _arrowThickness="1" _lineColor="0xFFFFFF" _lineStyle="0" _lineThickness="2" _lineType="5" _linesLibraryId="14" _useArrowHead="0" _useHandles="TRUE" />
+    <language _direction="Left-to-Right" _globLanguageCode="sq" _globLanguageName="Albanian (Shqip)" _order="1" />
+    <language _direction="Right-to-Left" _globLanguageCode="ar" _globLanguageName="Arabic (العربية)" _order="2" />
+    <language _direction="Left-to-Right" _globLanguageCode="hy" _globLanguageName="Armenian (Հայերեն Լեզու)" _order="3" />
+    <language _direction="Left-to-Right" _globLanguageCode="as" _globLanguageName="Assamese (অসমীয়া)" _order="4" />
+    <language _direction="Left-to-Right" _globLanguageCode="ay" _globLanguageName="Aymara (Aymar Aru)" _order="5" />
+    <language _direction="Left-to-Right" _globLanguageCode="az" _globLanguageName="Azerbaijani (Azərbaycanca)" _order="6" />
+    <language _direction="Left-to-Right" _globLanguageCode="bm" _globLanguageName="Bambara (Bamanankan)" _order="7" />
+    <language _direction="Left-to-Right" _globLanguageCode="bn" _globLanguageName="Bengali (বাংলা)" _order="8" />
+    <language _direction="Left-to-Right" _globLanguageCode="bs" _globLanguageName="Bosnian (Bosanski Jezik)" _order="9" />
+    <language _direction="Left-to-Right" _globLanguageCode="bg" _globLanguageName="Bulgarian (Български Език)" _order="10" />
+    <language _direction="Left-to-Right" _globLanguageCode="my" _globLanguageName="Burmese (မြန်မာစာ)" _order="11" />
+    <language _direction="Left-to-Right" _globLanguageCode="zh" _globLanguageName="Chinese (中文)" _order="12" />
+    <language _direction="Left-to-Right" _globLanguageCode="hr" _globLanguageName="Croatian (Hrvatski Jezik)" _order="13" />
+    <language _direction="Left-to-Right" _globLanguageCode="cs" _globLanguageName="Czech (Čeština)" _order="14" />
+    <language _direction="Left-to-Right" _globLanguageCode="da" _globLanguageName="Danish (Dansk)" _order="15" />
+    <language _direction="Left-to-Right" _globLanguageCode="nl" _globLanguageName="Dutch (Nederlands)" _order="16" />
+    <language _direction="Left-to-Right" _globLanguageCode="en" _globLanguageName="English (English)" _order="17" />
+    <language _direction="Left-to-Right" _globLanguageCode="et" _globLanguageName="Estonian (Eesti Keel)" _order="18" />
+    <language _direction="Left-to-Right" _globLanguageCode="fi" _globLanguageName="Finnish (Suomi)" _order="19" />
+    <language _direction="Left-to-Right" _globLanguageCode="fr" _globLanguageName="French (Français)" _order="20" />
+    <language _direction="Left-to-Right" _globLanguageCode="ka" _globLanguageName="Georgian (ქართული ენა)" _order="21" />
+    <language _direction="Left-to-Right" _globLanguageCode="de" _globLanguageName="German (Deutsch)" _order="22" />
+    <language _direction="Left-to-Right" _globLanguageCode="el" _globLanguageName="Greek (Ελληνικά)" _order="23" />
+    <language _direction="Left-to-Right" _globLanguageCode="gu" _globLanguageName="Gujarati (ગુજરાતી)" _order="24" />
+    <language _direction="Left-to-Right" _globLanguageCode="ht" _globLanguageName="Hatian (Kreyòl Ayisyen)" _order="25" />
+    <language _direction="Right-to-Left" _globLanguageCode="ha" _globLanguageName="Hausa (هَوُسَ)" _order="26" />
+    <language _direction="Right-to-Left" _globLanguageCode="he" _globLanguageName="Hebrew (עִבְרִית, עברית)" _order="27" />
+    <language _direction="Left-to-Right" _globLanguageCode="hi" _globLanguageName="Hindi (हिन्दी)" _order="28" />
+    <language _direction="Left-to-Right" _globLanguageCode="hu" _globLanguageName="Hungarian (Magyar)" _order="29" />
+    <language _direction="Left-to-Right" _globLanguageCode="is" _globLanguageName="Icelandic (Íslenska)" _order="30" />
+    <language _direction="Left-to-Right" _globLanguageCode="id" _globLanguageName="Indonesian (Bahasa Indonesia)" _order="31" />
+    <language _direction="Left-to-Right" _globLanguageCode="it" _globLanguageName="Italian (Italiano)" _order="32" />
+    <language _direction="Left-to-Right" _globLanguageCode="ja" _globLanguageName="Japanese (日本語)" _order="33" />
+    <language _direction="Left-to-Right" _globLanguageCode="jv" _globLanguageName="Javanese (Basa Jawa)" _order="34" />
+    <language _direction="Left-to-Right" _globLanguageCode="kn" _globLanguageName="Kannada (ಕನ್ನಡ)" _order="35" />
+    <language _direction="Left-to-Right" _globLanguageCode="km" _globLanguageName="Khmer (ភាសាខ្មែរ)" _order="36" />
+    <language _direction="Left-to-Right" _globLanguageCode="ko" _globLanguageName="Korean (한국어 )" _order="37" />
+    <language _direction="Left-to-Right" _globLanguageCode="lo" _globLanguageName="Lao (ພາສາລາວ)" _order="38" />
+    <language _direction="Left-to-Right" _globLanguageCode="lv" _globLanguageName="Latvian (Latviešu Valoda)" _order="39" />
+    <language _direction="Left-to-Right" _globLanguageCode="lt" _globLanguageName="Lithuanian (Lietuvių Kalba)" _order="40" />
+    <language _direction="Left-to-Right" _globLanguageCode="mk" _globLanguageName="Macedonian (Македонски Јазик)" _order="41" />
+    <language _direction="Right-to-Left" _globLanguageCode="ms" _globLanguageName="Malay (بهاس ملايو)" _order="42" />
+    <language _direction="Left-to-Right" _globLanguageCode="mn" _globLanguageName="Mongolian (Монгол Хэл)" _order="43" />
+    <language _direction="Left-to-Right" _globLanguageCode="ne" _globLanguageName="Nepali (नेपाली)" _order="44" />
+    <language _direction="Left-to-Right" _globLanguageCode="no" _globLanguageName="Norwegian (Norsk)" _order="45" />
+    <language _direction="Left-to-Right" _globLanguageCode="ii" _globLanguageName="Nuosu (ꆇꉙ)" _order="46" />
+    <language _direction="Right-to-Left" _globLanguageCode="ps" _globLanguageName="Pashto (پښتو)" _order="47" />
+    <language _direction="Right-to-Left" _globLanguageCode="fa" _globLanguageName="Persian (فارسی)" _order="48" />
+    <language _direction="Left-to-Right" _globLanguageCode="pl" _globLanguageName="Polish (Polski)" _order="49" />
+    <language _direction="Left-to-Right" _globLanguageCode="pt" _globLanguageName="Portuguese (Português)" _order="50" />
+    <language _direction="Left-to-Right" _globLanguageCode="pa" _globLanguageName="Punjabi (ਪੰਜਾਬੀ)" _order="51" />
+    <language _direction="Left-to-Right" _globLanguageCode="ro" _globLanguageName="Romanian (Română)" _order="52" />
+    <language _direction="Left-to-Right" _globLanguageCode="ru" _globLanguageName="Russian (Русский Язык)" _order="53" />
+    <language _direction="Left-to-Right" _globLanguageCode="sa" _globLanguageName="Sanskrit (संस्कृतम्)" _order="54" />
+    <language _direction="Left-to-Right" _globLanguageCode="sr" _globLanguageName="Serbian (Српски Језик)" _order="55" />
+    <language _direction="Left-to-Right" _globLanguageCode="si" _globLanguageName="Sinhala (සිංහල)" _order="56" />
+    <language _direction="Left-to-Right" _globLanguageCode="sk" _globLanguageName="Slovak (Slovenčina)" _order="57" />
+    <language _direction="Left-to-Right" _globLanguageCode="sl" _globLanguageName="Slovenian (Slovenščina)" _order="58" />
+    <language _direction="Left-to-Right" _globLanguageCode="so" _globLanguageName="Somali (Soomaaliga)" _order="59" />
+    <language _direction="Left-to-Right" _globLanguageCode="es" _globLanguageName="Spanish (Español)" _order="60" />
+    <language _direction="Left-to-Right" _globLanguageCode="sw" _globLanguageName="Swahili (Kiswahili)" _order="61" />
+    <language _direction="Left-to-Right" _globLanguageCode="sv" _globLanguageName="Swedish (Svenska)" _order="62" />
+    <language _direction="Left-to-Right" _globLanguageCode="tl" _globLanguageName="Tagalog (Wikang Tagalog)" _order="63" />
+    <language _direction="Left-to-Right" _globLanguageCode="tg" _globLanguageName="Tajik (Тоҷикӣ)" _order="64" />
+    <language _direction="Left-to-Right" _globLanguageCode="ta" _globLanguageName="Tamil (தமிழ்)" _order="65" />
+    <language _direction="Left-to-Right" _globLanguageCode="te" _globLanguageName="Telugu (తెలుగు)" _order="66" />
+    <language _direction="Left-to-Right" _globLanguageCode="th" _globLanguageName="Thai (ภาษาไทย)" _order="67" />
+    <language _direction="Left-to-Right" _globLanguageCode="bo" _globLanguageName="Tibetan (བོད་ཡིག)" _order="68" />
+    <language _direction="Left-to-Right" _globLanguageCode="tr" _globLanguageName="Turkish (Türkçe)" _order="69" />
+    <language _direction="Left-to-Right" _globLanguageCode="uk" _globLanguageName="Ukrainian (Українська Мова)" _order="70" />
+    <language _direction="Right-to-Left" _globLanguageCode="ur" _globLanguageName="Urdu (اردو)" _order="71" />
+    <language _direction="Left-to-Right" _globLanguageCode="vi" _globLanguageName="Vietnamese (Tiếng Việt)" _order="72" />
+    <skill _globSkillLevelId="30" _globSkillLevelName="U3 to U6" />
+    <skill _globSkillLevelId="31" _globSkillLevelName="U7 to U10" />
+    <skill _globSkillLevelId="35" _globSkillLevelName="U11 and U12" />
+    <skill _globSkillLevelId="37" _globSkillLevelName="U13 to U16" />
+    <skill _globSkillLevelId="38" _globSkillLevelName="Youth" />
+    <skill _globSkillLevelId="44" _globSkillLevelName="Senior Amateur" />
+    <skill _globSkillLevelId="45" _globSkillLevelName="Senior Professional" />
+  </meta_data>
+</static_data>

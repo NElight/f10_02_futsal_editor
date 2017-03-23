@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/mc_kits" itemID="4de8bbeb-00005a58" lastModified="1446661652" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="mc_kits">
+      <layers>
+        <DOMLayer name="actions" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit_1a" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_design" name="kit1_a" centerPoint3DX="82" centerPoint3DY="80.25">
+                  <transformationPoint>
+                    <Point x="61.5" y="77.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit_1b" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_design_keeper" name="kit1_b" selected="true" centerPoint3DX="83.5" centerPoint3DY="271.55">
+                  <matrix>
+                    <Matrix tx="1.5" ty="191.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="61.5" y="77.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit_2a" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_design" name="kit2_a">
+                  <transformationPoint>
+                    <Point x="61.5" y="77.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit_2b" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_design_keeper" name="kit2_b">
+                  <matrix>
+                    <Matrix tx="1.5" ty="191.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="61.5" y="77.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit_3a" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_design" name="kit3_a">
+                  <transformationPoint>
+                    <Point x="61.5" y="77.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,344 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bottom/mcVideosTabS" itemID="51d6ec5e-00000d3e" linkageExportForAS="true" linkageIdentifier="mcVideosTabS" linkageBaseClass="src.buttons.SSPLabelButton" linkageClassName="mcVideosTabS" lastModified="1376993304" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="mcVideosTabS" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;20&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="deselected, over, selected" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="up" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="over" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" name="down" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" name="selected" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="actions" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="button" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/btnTabSelect" name="btnSelect" symbolType="button" centerPoint3DX="11.1" centerPoint3DY="12.9">
+                  <matrix>
+                    <Matrix a="0.1785888671875" tx="1" ty="1.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtLabel" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txtLabel" width="15" height="14.5" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="3.4" ty="5.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0.4" size="13" bitmapSize="260" face="_sans" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="bottom/mcIconPlay" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="4" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.35" y="7.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg_highlight_border" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" joints="miter">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal" caps="square" joints="miter" miterLimit="1">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="3">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="1">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="4">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="4" edges="!430 87|430 457"/>
+                    <Edge strokeStyle="1" edges="!381 47[429 47 430 87"/>
+                    <Edge strokeStyle="2" edges="!60 47/381 47"/>
+                    <Edge strokeStyle="1" edges="!10 87[11 47 60 47"/>
+                    <Edge strokeStyle="4" edges="!10 457|10 87"/>
+                    <Edge strokeStyle="3" edges="!0 467/440 467"/>
+                    <Edge cubics="!10 87(;11,60 27,47 60,47q10 87Q11 47q60 47);"/>
+                    <Edge cubics="!10 457(;10,457 10,87 10,87q10 457 10 87);"/>
+                    <Edge cubics="!381 47(;413,47 429,60 430,87q381 47Q429 47q430 87);"/>
+                    <Edge cubics="!430 87(;430,87 430,457 430,457q430 87 430 457);"/>
+                    <Edge cubics="!60 47(;60,47 381,47 381,47q60 47 381 47);"/>
+                    <Edge cubics="!0 467(;0,467 440,467 440,467q0 467 440 467)440,467;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter">
+                        <fill>
+                          <SolidColor color="#FFFFFF" alpha="0.501960784313725"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="1">
+                        <fill>
+                          <SolidColor color="#FFFFFF" alpha="0.501960784313725"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!10 457|10 87!10 87[11 47 60 47"/>
+                    <Edge strokeStyle="2" edges="!60 47/381 47"/>
+                    <Edge strokeStyle="1" edges="!381 47[429 47 430 87!430 87|430 457"/>
+                    <Edge strokeStyle="2" edges="!0 467/440 467"/>
+                    <Edge cubics="!10 87(;11,60 27,47 60,47q10 87Q11 47q60 47);"/>
+                    <Edge cubics="!10 457(;10,457 10,87 10,87q10 457 10 87);"/>
+                    <Edge cubics="!381 47(;413,47 429,60 430,87q381 47Q429 47q430 87);"/>
+                    <Edge cubics="!430 87(;430,87 430,457 430,457q430 87 430 457);"/>
+                    <Edge cubics="!60 47(;60,47 381,47 381,47q60 47 381 47);"/>
+                    <Edge cubics="!0 467(0,467;0,467 440,467 440,467q0 467 440 467)440,467;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg_highlight" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.301960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!440 285/440 87!440 87[440 37 381 37!381 37|60 37!60 37[0 37 0 87!0 87/0 285!0 285/0 457!0 457|440 457!440 457/440 285"/>
+                    <Edge cubics="!60 37(;20,37 0,54 0,87q60 37Q0 37q0 87);"/>
+                    <Edge cubics="!0 87(;0,87 0,285 0,285q0 87 0 285);"/>
+                    <Edge cubics="!0 285(;0,285 0,457 0,457q0 285 0 457);"/>
+                    <Edge cubics="!440 87(;440,54 420,37 381,37q440 87Q440 37q381 37);"/>
+                    <Edge cubics="!440 285(440,285;440,285 440,87 440,87q440 285 440 87)440,87;"/>
+                    <Edge cubics="!440 457(440,457;440,457 440,285 440,285q440 457 440 285)440,285;"/>
+                    <Edge cubics="!381 37(;381,37 318,37 318,37q381 37 318 37);"/>
+                    <Edge cubics="!318 457(318,457;318,457 440,457 440,457q318 457 440 457);"/>
+                    <Edge cubics="!318 37(;318,37 318,457 318,457q318 37 318 457);"/>
+                    <Edge cubics="!154 457(;154,457 318,457 318,457q154 457 318 457);"/>
+                    <Edge cubics="!318 37(318,37;318,37 154,37 154,37q318 37 154 37);"/>
+                    <Edge cubics="!154 457(;154,457 154,37 154,37q154 457 154 37);"/>
+                    <Edge cubics="!154 37(;154,37 60,37 60,37q154 37 60 37);"/>
+                    <Edge cubics="!0 457(;0,457 154,457 154,457q0 457 154 457);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none">
+                        <fill>
+                          <SolidColor color="#666666"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!440 467|0 467"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tab_bg_color" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-1.52587890625e-005" b="-0.013427734375" c="0.013427734375" d="-1.52587890625e-005" tx="11" ty="12.85"/>
+                        </matrix>
+                        <GradientEntry color="#9C46A5" ratio="0"/>
+                        <GradientEntry color="#BD52BE" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!440 323S1/440 89!440 89[440 37 381 37!381 37|60 37!60 37[51 37 43 38!43 38[35 39 29 42!29 42[0 53 0 89!0 89/0 323!0 323/0 477!0 477|440 477!440 477/440 323"/>
+                    <Edge cubics="!60 37(60,37;54,37 48,37 43,38q60 37Q51 37q43 38)43,38;"/>
+                    <Edge cubics="!43 38(;38,39 33,40 29,42q43 38Q35 39q29 42)29,42;"/>
+                    <Edge cubics="!0 89(;0,89 0,323 0,323q0 89 0 323);"/>
+                    <Edge cubics="!29 42(;10,50 0,65 0,89q29 42Q0 53q0 89);"/>
+                    <Edge cubics="!0 323(;0,323 0,477 0,477q0 323 0 477);"/>
+                    <Edge cubics="!440 89(;440,55 420,37 381,37q440 89Q440 37q381 37);"/>
+                    <Edge cubics="!440 323(440,323;440,323 440,89 440,89q440 323 440 89);"/>
+                    <Edge cubics="!440 477(440,477;440,477 440,323 440,323q440 477 440 323);"/>
+                    <Edge cubics="!381 37(;381,37 318,37 318,37q381 37 318 37);"/>
+                    <Edge cubics="!318 477(;318,477 440,477 440,477q318 477 440 477)440,477;"/>
+                    <Edge cubics="!318 37(;318,37 318,477 318,477q318 37 318 477);"/>
+                    <Edge cubics="!154 477(;154,477 318,477 318,477q154 477 318 477);"/>
+                    <Edge cubics="!318 37(;318,37 154,37 154,37q318 37 154 37)154,37;"/>
+                    <Edge cubics="!154 477(;154,477 154,37 154,37q154 477 154 37);"/>
+                    <Edge cubics="!154 37(;154,37 60,37 60,37q154 37 60 37);"/>
+                    <Edge cubics="!0 477(;0,477 154,477 154,477q0 477 154 477);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-1.52587890625e-005" b="0.013427734375" c="-0.013427734375" d="-1.52587890625e-005" tx="11" ty="12.85"/>
+                        </matrix>
+                        <GradientEntry color="#9C46A5" ratio="0"/>
+                        <GradientEntry color="#BD52BE" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!440 323/440 89!440 89[440 37 381 37!381 37|60 37!60 37[51 37 43 38!43 38[35 39 29 42!29 42[0 53 0 89!0 89/0 323!0 323/0 477!0 477|440 477!440 477/440 323"/>
+                    <Edge cubics="!60 37(60,37;54,37 48,37 43,38q60 37Q51 37q43 38)43,38;"/>
+                    <Edge cubics="!43 38(;38,39 33,40 29,42q43 38Q35 39q29 42)29,42;"/>
+                    <Edge cubics="!0 89(;0,89 0,323 0,323q0 89 0 323);"/>
+                    <Edge cubics="!29 42(;10,50 0,65 0,89q29 42Q0 53q0 89);"/>
+                    <Edge cubics="!0 323(;0,323 0,477 0,477q0 323 0 477);"/>
+                    <Edge cubics="!440 89(;440,55 420,37 381,37q440 89Q440 37q381 37);"/>
+                    <Edge cubics="!440 323(440,323;440,323 440,89 440,89q440 323 440 89);"/>
+                    <Edge cubics="!440 477(440,477;440,477 440,323 440,323q440 477 440 323);"/>
+                    <Edge cubics="!381 37(;381,37 318,37 318,37q381 37 318 37);"/>
+                    <Edge cubics="!318 477(;318,477 440,477 440,477q318 477 440 477)440,477;"/>
+                    <Edge cubics="!318 37(318,37;318,37 318,477 318,477q318 37 318 477)318,477;"/>
+                    <Edge cubics="!154 477(154,477;154,477 318,477 318,477q154 477 318 477)318,477;"/>
+                    <Edge cubics="!318 37(;318,37 154,37 154,37q318 37 154 37)154,37;"/>
+                    <Edge cubics="!154 477(;154,477 154,37 154,37q154 477 154 37);"/>
+                    <Edge cubics="!154 37(154,37;154,37 60,37 60,37q154 37 60 37)60,37;"/>
+                    <Edge cubics="!0 477(;0,477 154,477 154,477q0 477 154 477);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#9C46A5"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!440 323S1/440 89!440 89[440 37 381 37!381 37|60 37!60 37[51 37 43 38!43 38[35 39 29 42!29 42[0 53 0 89!0 89/0 323!0 323/0 477!0 477|440 477!440 477/440 323"/>
+                    <Edge cubics="!60 37(60,37;54,37 48,37 43,38q60 37Q51 37q43 38)43,38;"/>
+                    <Edge cubics="!43 38(;38,39 33,40 29,42q43 38Q35 39q29 42)29,42;"/>
+                    <Edge cubics="!0 89(;0,89 0,323 0,323q0 89 0 323);"/>
+                    <Edge cubics="!29 42(;10,50 0,65 0,89q29 42Q0 53q0 89);"/>
+                    <Edge cubics="!0 323(;0,323 0,477 0,477q0 323 0 477);"/>
+                    <Edge cubics="!440 89(;440,55 420,37 381,37q440 89Q440 37q381 37);"/>
+                    <Edge cubics="!440 323(440,323;440,323 440,89 440,89q440 323 440 89);"/>
+                    <Edge cubics="!440 477(440,477;440,477 440,323 440,323q440 477 440 323);"/>
+                    <Edge cubics="!381 37(;381,37 60,37 60,37q381 37 60 37)60,37;"/>
+                    <Edge cubics="!0 477(0,477;0,477 440,477 440,477q0 477 440 477);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,176 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_team/mcBtnOneLine" itemID="50d32d51-00000b7c" linkageExportForAS="true" linkageClassName="src.buttons.SSPLabelButtonOneLine" lastModified="1360096304">
+  <timeline>
+    <DOMTimeline name="mcBtnOneLine">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="button" color="#FF4FFF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_buttons/myButton" name="btnButton" symbolType="button">
+                  <matrix>
+                    <Matrix a="6.38790893554688" d="0.695648193359375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="highlight" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="2" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="146.75" objectHeight="15.65" x="0" y="0" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#00CCFF"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="146.75" objectHeight="15.65" x="0" y="0" selected="true" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <fill>
+                    <SolidColor color="#66FFFF" alpha="0.2"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#00CCFF"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtLabel" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txtLabel" selected="true" fontRenderingMode="standard" width="142.5" height="10.05" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="9" bitmapSize="180" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="146.75" objectHeight="15.65" x="0" y="0" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <fill>
+                    <LinearGradient>
+                      <matrix>
+                        <Matrix a="0" b="-0.00921630859375" c="0.009552001953125" d="0" tx="73.35" ty="7.8"/>
+                      </matrix>
+                      <GradientEntry color="#EBEBEB" ratio="0"/>
+                      <GradientEntry color="#FDFDFD" ratio="1"/>
+                    </LinearGradient>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="0" b="-0.00921630859375" c="0.010162353515625" d="0" tx="73.35" ty="7.8"/>
+                          </matrix>
+                          <GradientEntry color="#666666" ratio="0"/>
+                          <GradientEntry color="#CCCCCC" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="146.75" objectHeight="15.65" x="0" y="0" selected="true" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="0" b="-0.00921630859375" c="0.010162353515625" d="0" tx="73.35" ty="7.8"/>
+                          </matrix>
+                          <GradientEntry color="#666666" ratio="0"/>
+                          <GradientEntry color="#CCCCCC" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="146.75" objectHeight="15.65" x="0" y="0" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <fill>
+                    <LinearGradient>
+                      <matrix>
+                        <Matrix a="0" b="-0.00921630859375" c="0.009552001953125" d="0" tx="73.35" ty="7.8"/>
+                      </matrix>
+                      <GradientEntry color="#FDFDFD" ratio="0"/>
+                      <GradientEntry color="#EBEBEB" ratio="1"/>
+                    </LinearGradient>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="0" b="-0.00921630859375" c="0.010162353515625" d="0" tx="73.35" ty="7.8"/>
+                          </matrix>
+                          <GradientEntry color="#666666" ratio="0"/>
+                          <GradientEntry color="#CCCCCC" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

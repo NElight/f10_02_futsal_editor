@@ -1,0 +1,44 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_0" itemID="4e04f989-000001f7" linkageExportForAS="true" linkageIdentifier="char_0" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_0" lastModified="1337364878">
+  <timeline>
+    <DOMTimeline name="char_0">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!55 -306[64 -292 69 -272!69 -272[74 -252 74 -218!74 -218[74 -178 66 -153!66 -153[58 -128 41 -115!41 -115[25 -101 -1 -101!-1 -101[-34 -101 -53 -125!-53 -125[-76 -153 -76 -218!-76 -218[-76 -259 -67 -283!-67 -283[-59 -308 -42 -322!-42 -322
+[-26 -335 -1 -335!-1 -335[18 -335 32 -327!32 -327[46 -320 55 -306!45 -218[45 -275 32 -293!32 -293[19 -312 -1 -312!-1 -312[-20 -312 -32 -295!-32 -295[-47 -274 -47 -218!-47 -218[-47 -162 -33 -143!-33 -143[-20 -124 -1 -124!-1 -124[19 -124
+ 32 -143!32 -143[45 -162 45 -218"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

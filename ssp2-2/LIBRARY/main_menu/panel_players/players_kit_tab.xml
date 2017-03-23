@@ -1,0 +1,140 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/players_kit_tab" itemID="4dde2e43-0000340a" lastModified="1352902490" lastUniqueIdentifier="18">
+  <timeline>
+    <DOMTimeline name="players_kit_tab">
+      <layers>
+        <DOMLayer name="Layer 6" color="#808080" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kits" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/mc_kits" name="kits" centerPoint3DX="15.25" centerPoint3DY="248.2">
+                  <matrix>
+                    <Matrix tx="-67.5" ty="72.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="61.5" y="77.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kits_buttons_bar" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/kits_buttons_bar" name="kit_types_bar" centerPoint3DX="-1.6" centerPoint3DY="42.5">
+                  <matrix>
+                    <Matrix tx="-102" ty="32"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="button" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players_tab_button" name="button" symbolType="button">
+                  <transformationPoint>
+                    <Point x="52.5" y="12"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="label" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="btn_label" selected="true" width="100.3" height="12.8" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.00180053710938" tx="2" ty="6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>KIT DESIGNER</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0.2" size="11" bitmapSize="220" face="_sans" fillColor="#4C4C4C"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2180 10000|-2260 10000!-2260 10000|-2260 480!-2260 480|2180 480!2180 480|2180 10000"/>
+                    <Edge cubics="!2180 480(2180,480;2180,480 2180,10000 2180,10000q2180 480 2180 10000)2180,10000;"/>
+                    <Edge cubics="!-2260 10000(-2260,10000;-2260,10000 -2260,480 -2260,480q-2260 10000 -2260 480);"/>
+                    <Edge cubics="!2180 10000(;2180,10000 -2260,10000 -2260,10000q2180 10000 -2260 10000);"/>
+                    <Edge cubics="!-2260 480(-2260,480;-2260,480 2180,480 2180,480q-2260 480 2180 480)2180,480;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tab" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kits_tab_selected" centerPoint3DX="52.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="52.5" y="12"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter distance="1"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kits_tab_deselected" centerPoint3DX="52.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="52.5" y="12"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter distance="1"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

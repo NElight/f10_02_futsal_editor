@@ -1,0 +1,197 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/text_popup/btn_text_size" itemID="4f3cfe9e-00000462" symbolType="button" lastModified="1329397663">
+  <timeline>
+    <DOMTimeline name="btn_text_size" currentFrame="2">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!255 166S2|255 309!255 309[255 324 257 327!257 327[259 331 263 333!263 333[268 336 276 336!276 336|282 336!282 336|282 341!282 341|185 341!185 341|185 336!185 336|191 336!191 336[199 336 204 333!204 333[207 331 209 327!209 327[211 323
+ 211 309!211 309|211 166!211 166|198 166!198 166[179 166 170 174!170 174[158 185 155 206!155 206|150 206!150 206|150 156!150 156|317 156!317 156|317 206!317 206|312 206!312 206[307 188 302 181!302 181[297 173 287 169!287 169[282 166 269
+ 166!269 166|255 166"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#006633"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!312 206[307 188 302 181!302 181[297 173 287 169!287 169[282 166 269 166!269 166|255 166!255 166|255 309!255 309[255 324 257 327!257 327[259 331 263 333!263 333[268 336 276 336!276 336|282 336!282 336|282 341!282 341|185 341!185 341|185
+ 336!185 336|191 336!191 336[199 336 204 333!204 333[207 331 209 327!209 327[211 323 211 309!211 309|211 166!211 166|198 166!198 166[179 166 170 174!170 174[158 185 155 206!155 206|150 206!150 206|150 156!150 156|317 156!317 156|317 206
+!317 206|312 206"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#E5E5E5" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!10 450S6|10 10!10 10|450 10!450 10|450 450!450 450|10 450"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#E5E5E5" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!10 10|450 10!450 10|450 450!450 450|10 450!10 450|10 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#E5E5E5" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!450 10|450 450!450 450|10 450!10 450|10 10!10 10|450 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#E5E5E5" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!450 450|10 450!10 450|10 10!10 10|450 10!450 10|450 450"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

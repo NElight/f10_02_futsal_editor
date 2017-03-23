@@ -1,0 +1,232 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/mc_line_list_full" itemID="4f54757f-00000787" lastModified="1340208621">
+  <timeline>
+    <DOMTimeline name="mc_line_list_full">
+      <layers>
+        <DOMLayer name="btn_line_grid" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_grid" centerPoint3DX="111.3" centerPoint3DY="472">
+                  <matrix>
+                    <Matrix tx="0.05" ty="455"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.25" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_custsin" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_custsin" centerPoint3DX="111.3" centerPoint3DY="437">
+                  <matrix>
+                    <Matrix tx="0.05" ty="420"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.25" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_sin" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_sin" centerPoint3DX="111.25" centerPoint3DY="402">
+                  <matrix>
+                    <Matrix ty="385"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.25" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_parabolic" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_parabolic" selected="true" centerPoint3DX="111.25" centerPoint3DY="367">
+                  <matrix>
+                    <Matrix ty="350"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.25" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_elevated" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_elevated" centerPoint3DX="111.25" centerPoint3DY="332">
+                  <matrix>
+                    <Matrix ty="315"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.25" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_line4" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_line4" centerPoint3DX="111.5" centerPoint3DY="297">
+                  <matrix>
+                    <Matrix ty="280"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_line3" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_line3" centerPoint3DX="111.5" centerPoint3DY="262">
+                  <matrix>
+                    <Matrix ty="245"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_line2" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_line2" centerPoint3DX="111.5" centerPoint3DY="227">
+                  <matrix>
+                    <Matrix ty="210"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_line" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_line" centerPoint3DX="111.5" centerPoint3DY="192">
+                  <matrix>
+                    <Matrix ty="175"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_dribble" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_dribble" centerPoint3DX="111.5" centerPoint3DY="157">
+                  <matrix>
+                    <Matrix ty="140"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_custompass" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_custompass" centerPoint3DX="111.5" centerPoint3DY="122">
+                  <matrix>
+                    <Matrix ty="105"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_pass" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_pass" centerPoint3DX="111.5" centerPoint3DY="87">
+                  <matrix>
+                    <Matrix ty="70"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_custom" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_custom" centerPoint3DX="111.55" centerPoint3DY="52">
+                  <matrix>
+                    <Matrix tx="0.05" ty="35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_movement" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_line_button" name="btn_line_movement" centerPoint3DX="111.25" centerPoint3DY="17">
+                  <matrix>
+                    <Matrix a="0.999969482421875" d="1.00021362304688"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51.65" y="5.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

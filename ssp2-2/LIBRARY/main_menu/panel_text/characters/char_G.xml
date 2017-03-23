@@ -1,0 +1,44 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_G" itemID="4e04e744-000001cf" linkageExportForAS="true" linkageIdentifier="char_G" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_G" lastModified="1333037826">
+  <timeline>
+    <DOMTimeline name="char_G">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!8 -312[-12 -312 -28 -306!-28 -306[-43 -299 -52 -289!-52 -289[-62 -279 -67 -266!-67 -266[-76 -245 -76 -220!-76 -220[-76 -190 -65 -169!-65 -169[-54 -148 -34 -138!-34 -138[-14 -128 9 -128!9 -128[29 -128 48 -136!48 -136[66 -144 76 -152!76
+ -152|76 -195!76 -195|8 -195!8 -195|8 -222!8 -222|106 -222!106 -222|106 -137!106 -137[83 -119 60 -110!60 -110[36 -101 11 -101!11 -101[-23 -101 -51 -115!-51 -115[-79 -130 -93 -157!-93 -157[-107 -185 -107 -218!-107 -218[-107 -252 -93 -281
+!-93 -281[-79 -310 -52 -324!-52 -324[-26 -338 8 -338!8 -338[33 -338 53 -330!53 -330[74 -322 85 -307!85 -307[96 -293 102 -270!102 -270|75 -262!75 -262[70 -280 62 -290!62 -290[54 -300 40 -306!40 -306[26 -312 8 -312"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

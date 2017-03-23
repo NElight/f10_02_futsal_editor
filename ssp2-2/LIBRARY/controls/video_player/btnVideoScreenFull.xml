@@ -1,0 +1,213 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/video_player/btnVideoScreenFull" itemID="57c8769a-0000309a" symbolType="button" lastModified="1472755575">
+  <timeline>
+    <DOMTimeline name="btnVideoScreenFull">
+      <layers>
+        <DOMLayer name="highlight2" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#66FFFF" alpha="0.203921568627451"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 0S2|460 0!460 0|460 460!460 460|0 460!0 460|0 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#669900" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!380 200/260 80!260 80|380 80!380 80|380 200!80 80|200 80!200 80/80 200!80 200|80 80!80 380|80 260!80 260/200 380!200 380|80 380!380 260|380 380!380 380|260 380!260 380/380 260"/>
+                    <Edge cubics="!80 80(;80,80 200,80 200,80q80 80 200 80);"/>
+                    <Edge cubics="!80 200(;80,200 80,80 80,80q80 200 80 80);"/>
+                    <Edge cubics="!200 80(;200,80 80,200 80,200q200 80 80 200);"/>
+                    <Edge cubics="!260 80(;260,80 380,80 380,80q260 80 380 80);"/>
+                    <Edge cubics="!380 80(;380,80 380,200 380,200q380 80 380 200);"/>
+                    <Edge cubics="!380 200(;380,200 260,80 260,80q380 200 260 80);"/>
+                    <Edge cubics="!80 380(;80,380 80,260 80,260q80 380 80 260);"/>
+                    <Edge cubics="!200 380(;200,380 80,380 80,380q200 380 80 380);"/>
+                    <Edge cubics="!80 260(;80,260 200,380 200,380q80 260 200 380);"/>
+                    <Edge cubics="!380 260(;380,260 260,380 260,380q380 260 260 380);"/>
+                    <Edge cubics="!380 380(;380,380 260,380 260,380q380 380 260 380);"/>
+                    <Edge cubics="!380 260(;380,260 380,380 380,380q380 260 380 380);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon_shadow" color="#808080" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!380 220/260 100!260 100|380 100!380 100|380 220!80 100|200 100!200 100/80 220!80 220|80 100!80 400|80 280!80 280/200 400!200 400|80 400!380 280|380 400!380 400|260 400!260 400/380 280"/>
+                    <Edge cubics="!80 100(;80,100 200,100 200,100q80 100 200 100);"/>
+                    <Edge cubics="!80 220(;80,220 80,100 80,100q80 220 80 100);"/>
+                    <Edge cubics="!200 100(;200,100 80,220 80,220q200 100 80 220);"/>
+                    <Edge cubics="!260 100(;260,100 380,100 380,100q260 100 380 100);"/>
+                    <Edge cubics="!380 100(;380,100 380,220 380,220q380 100 380 220);"/>
+                    <Edge cubics="!380 220(;380,220 260,100 260,100q380 220 260 100);"/>
+                    <Edge cubics="!80 400(;80,400 80,280 80,280q80 400 80 280);"/>
+                    <Edge cubics="!200 400(;200,400 80,400 80,400q200 400 80 400);"/>
+                    <Edge cubics="!80 280(;80,280 200,400 200,400q80 280 200 400);"/>
+                    <Edge cubics="!380 280(;380,280 260,400 260,400q380 280 260 400);"/>
+                    <Edge cubics="!380 400(;380,400 260,400 260,400q380 400 260 400);"/>
+                    <Edge cubics="!380 280(;380,280 380,400 380,400q380 280 380 400);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#E5E5E5" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!10 10S6|450 10!450 10|450 450!450 450|10 450!10 450|10 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#99D7FE" ratio="0"/>
+                        <GradientEntry color="#D9F0FE" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0.0140380859375" d="0.0140380859375" tx="11.5" ty="11.5"/>
+                            </matrix>
+                            <GradientEntry color="#0075BF" ratio="0"/>
+                            <GradientEntry color="#009DFF" ratio="0.992156862745098"/>
+                          </LinearGradient>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!10 10S6|450 10!450 10|450 450!450 450|10 450!10 450|10 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.013427734375" c="0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#99D7FE" ratio="0"/>
+                        <GradientEntry color="#D9F0FE" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0.0140380859375" d="0.0140380859375" tx="11.5" ty="11.5"/>
+                            </matrix>
+                            <GradientEntry color="#0075BF" ratio="0"/>
+                            <GradientEntry color="#009DFF" ratio="0.992156862745098"/>
+                          </LinearGradient>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!450 10S6|450 450!450 450|10 450!10 450|10 10!10 10|450 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

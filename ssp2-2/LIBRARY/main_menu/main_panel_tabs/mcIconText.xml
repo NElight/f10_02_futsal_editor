@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/main_panel_tabs/mcIconText" itemID="51486f57-0000059a" symbolType="graphic" lastModified="1363701913" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="mcIconText">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1802 1732|980 1732!980 1732|980 1686!980 1686|1015 1686!1015 1686[1114 1686 1153 1657!1153 1657[1180 1639 1180 1599!1180 1599[1180 1579 1174 1554!1174 1554[1170 1544 1135 1461!1135 1461|1046 1248!1046 1248|446 1248!446 1248|374 1413
+!374 1413[339 1496 339 1550!339 1550[339 1622 397 1655!397 1655[432 1676 564 1686!564 1686|564 1732!564 1732|0 1732!0 1732|0 1686!0 1686[91 1672 149 1610!149 1610[209 1548 296 1353!296 1353|901 0!901 0|926 0!926 0|1538 1391!1538 1391
+[1624 1589 1680 1641!1680 1641[1724 1680 1802 1686!1802 1686|1802 1732!1002 1155|750 572!750 572|490 1155!490 1155|1002 1155"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

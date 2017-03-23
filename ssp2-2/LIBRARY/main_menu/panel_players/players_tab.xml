@@ -1,0 +1,198 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/players_tab" itemID="4d9db1f6-0000a087" lastModified="1352828893">
+  <timeline>
+    <DOMTimeline name="players_tab">
+      <layers>
+        <DOMLayer name="actions" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="button" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screens/tabs/tab_button" name="player_button" symbolType="button" centerPoint3DX="112.75" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="112.75" y="12"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="graphic" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="111.25" y="12"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix d="1.02127075195313"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.01434326171875" c="-0.0146484375" d="0" tx="111.5" ty="11.75"/>
+                            </matrix>
+                            <GradientEntry color="#CCCCCC" ratio="0"/>
+                            <GradientEntry color="#F2F2F2" ratio="0.996078431372549"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!4460 470|0 470!0 470|0 0!0 0|4460 0!4460 0|4460 470"/>
+                        <Edge cubics="!4460 470(;4460,470 0,470 0,470q4460 470 0 470);"/>
+                        <Edge cubics="!0 470(;0,470 0,0 0,0q0 470 0 0);"/>
+                        <Edge cubics="!0 0(0,0;0,0 4460,0 4460,0q0 0 4460 0)4460,0;"/>
+                        <Edge cubics="!4460 0(;4460,0 4460,470 4460,470q4460 0 4460 470);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#B2B2B2"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!0 470|4460 470"/>
+                        <Edge cubics="!0 470(;0,470 4460,470 4460,470q0 470 4460 470);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#FFFFFF"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!0 10|4460 10"/>
+                        <Edge cubics="!0 10(;0,10 4460,10 4460,10q0 10 4460 10);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="1.00224304199219"/>
+                      </matrix>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#FFFFFF"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!10 0|10 460"/>
+                        <Edge cubics="!10 0(;10,0 10,460 10,460q10 0 10 460);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.0146484375" c="-0.0146484375" d="0" tx="111.5" ty="12"/>
+                            </matrix>
+                            <GradientEntry color="#F2F2F2" ratio="0"/>
+                            <GradientEntry color="#CCCCCC" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!4460 480S2|0 480!0 480|0 0!0 0|4460 0!4460 0|4460 480"/>
+                        <Edge cubics="!4460 480(4460,480;4460,480 3887,480 3887,480q4460 480 3887 480)3887,480;"/>
+                        <Edge cubics="!3887 480(;3887,480 0,480 0,480q3887 480 0 480);"/>
+                        <Edge cubics="!0 480(;0,480 0,0 0,0q0 480 0 0);"/>
+                        <Edge cubics="!0 0(;0,0 3887,0 3887,0q0 0 3887 0);"/>
+                        <Edge cubics="!3887 0(;3887,0 4460,0 4460,0q3887 0 4460 0);"/>
+                        <Edge cubics="!4460 0(;4460,0 4460,480 4460,480q4460 0 4460 480);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#B2B2B2"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!0 470|4460 470"/>
+                        <Edge cubics="!0 470(;0,470 4460,470 4460,470q0 470 4460 470);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#FFFFFF"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!0 10|4460 10"/>
+                        <Edge cubics="!0 10(;0,10 4460,10 4460,10q0 10 4460 10);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="1.00224304199219"/>
+                      </matrix>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#FFFFFF"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!10 0|10 460"/>
+                        <Edge cubics="!10 0(;10,0 10,460 10,460q10 0 10 460);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

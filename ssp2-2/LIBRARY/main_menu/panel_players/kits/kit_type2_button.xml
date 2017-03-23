@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/kits/kit_type2_button" itemID="4dde63d7-0000c236" symbolType="button" lastModified="1336505626">
+  <timeline>
+    <DOMTimeline name="kit_type2_button">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="1.52587890625e-005" b="-0.01220703125" c="0.0148468017578125" d="1.52587890625e-005" tx="36.5" ty="10"/>
+                        </matrix>
+                        <GradientEntry color="#E6E6E6" ratio="0"/>
+                        <GradientEntry color="#777777" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1262 0|0 0!0 0|0 400!0 400|1262 400!1262 400|1262 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

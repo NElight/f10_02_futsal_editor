@@ -1,0 +1,308 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_team/team_forms/mcSelectTeamFromSquad" itemID="50b755dd-0000322e" linkageExportForAS="true" linkageClassName="src.team.forms.PRTeamSelectForm" lastModified="1377269264" lastUniqueIdentifier="34">
+  <timeline>
+    <DOMTimeline name="mcSelectTeamFromSquad" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;475&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="btnAddAll" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/mcBtnArrowAddAll" name="btnAddAll" centerPoint3DX="473.75" centerPoint3DY="233">
+                  <matrix>
+                    <Matrix tx="427.5" ty="212"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.5" y="21"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnClearAll" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/mcBtnArrowRemoveAll" name="btnRemoveAll" centerPoint3DX="473.75" centerPoint3DY="320">
+                  <matrix>
+                    <Matrix tx="427.5" ty="295.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnOK" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_buttons/mc_ok" name="btnOK" centerPoint3DX="469" centerPoint3DY="500">
+                  <matrix>
+                    <Matrix tx="413" ty="485"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="14.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblTeamThisMatch" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblTeamThisMatch" selected="true" fontRenderingMode="standard" width="345" height="25" isSelectable="false" hasAccessibleData="true">
+                  <matrix>
+                    <Matrix a="1.00299072265625" d="0.879867553710938" tx="536" ty="54.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="172.6" y="12.25"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>This Match:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="_sans" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="drag your players" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="message_box/popupBoxTopBg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.826278686523438" d="0.719619750976563" tx="529.5" ty="48"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="targetListBG" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-0.0001068115234375" b="-0.318496704101563" c="0.178924560546875" d="-0.0001373291015625" tx="708.5" ty="260.35"/>
+                        </matrix>
+                        <GradientEntry color="#0064A0" ratio="0"/>
+                        <GradientEntry color="#009FD5" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!17771 9462|10570 9462!10570 9462|10570 961!10570 961|17771 961!17771 961|17771 9462"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="drag your players" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblDragPlayers" width="91.75" height="68.25" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix a="1.00299072265625" d="0.879867553710938" tx="427.15" ty="150.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="60.65" y="12.25"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Drag your players</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="18" bitmapSize="360" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSquadSelector" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblSquadSelector" selected="true" width="135.6" height="25" isSelectable="false" hasAccessibleData="true">
+                  <matrix>
+                    <Matrix a="1.00299072265625" d="0.879867553710938" tx="67" ty="54.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="67.9" y="12.25"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Squad Selector:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cmbSquadSelector" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/ComboBox" name="cmbSquadSelector" hasAccessibleData="true" centerPoint3DX="270.3" centerPoint3DY="58" uniqueID="33">
+                  <matrix>
+                    <Matrix a="1.99998474121094" d="1.18182373046875" tx="208.5" ty="48"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.15" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="dataProvider">
+      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 0, 0" type="Collection"/>
+   </property>
+   <property id="editable">
+      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="prompt">
+      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="restrict">
+      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
+   </property>
+   <property id="rowCount">
+      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblFixture" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblFixture" width="461.65" height="30.15" isSelectable="false" hasAccessibleData="true">
+                  <matrix>
+                    <Matrix a="1.00299072265625" d="0.879867553710938" tx="60.95" ty="12.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="451.15" y="15.05"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Fixture:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="_sans" fillColor="#0073AD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cmbFixture" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/ComboBox" name="cmbFixture" centerPoint3DX="590.8" centerPoint3DY="21.45" uniqueID="34">
+                  <matrix>
+                    <Matrix a="2" d="1.18182373046875" tx="529.45" ty="11.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.05" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="dataProvider">
+      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 0, 0" type="Collection"/>
+   </property>
+   <property id="editable">
+      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="prompt">
+      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="restrict">
+      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
+   </property>
+   <property id="rowCount">
+      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lines" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!898 9540|18098 9540"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg1" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!19000 10700S2|0 10700!0 10700|0 0!0 0|19000 0!19000 0|19000 10700"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

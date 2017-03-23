@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player20_shoes" itemID="56390e8b-0000231a" lastModified="1446579851">
+  <timeline>
+    <DOMTimeline name="player20_shoes">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#33FFCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!624 4S1|618 92!618 92|870 100!870 100|824 8!824 8|726 2!726 2|727 0!727 0|624 4!0 110|270 114!270 114|224 30!224 30|156 4!156 4|55 8!55 8|0 110"/>
+                    <Edge cubics="!0 110(;0,110 270,114 270,114q0 110 270 114);"/>
+                    <Edge cubics="!270 114(;270,114 224,30 224,30q270 114 224 30);"/>
+                    <Edge cubics="!224 30(;224,30 156,4 156,4q224 30 156 4);"/>
+                    <Edge cubics="!624 4(;624,4 618,92 618,92q624 4 618 92);"/>
+                    <Edge cubics="!618 92(;618,92 870,100 870,100q618 92 870 100);"/>
+                    <Edge cubics="!870 100(;870,100 824,8 824,8q870 100 824 8);"/>
+                    <Edge cubics="!824 8(;824,8 726,2 726,2q824 8 726 2);"/>
+                    <Edge cubics="!726 2(;726,2 727,0 727,0q726 2 727 0);"/>
+                    <Edge cubics="!727 0(;727,0 624,4 624,4q727 0 624 4);"/>
+                    <Edge cubics="!55 8(;55,8 0,110 0,110q55 8 0 110);"/>
+                    <Edge cubics="!156 4(;156,4 55,8 55,8q156 4 55 8);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

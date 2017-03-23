@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="pitch_scroller/pitch_button" itemID="4db00610-00002574" symbolType="button" lastModified="1303385121">
+  <timeline>
+    <DOMTimeline name="pitch_button">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="0.991073608398438"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2240 600|0 600!0 600|0 0!0 0|2240 0!2240 0|2240 600"/>
+                    <Edge cubics="!2240 600(;2240,600 0,600 0,600q2240 600 0 600);"/>
+                    <Edge cubics="!0 600(;0,600 0,0 0,0q0 600 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 2240,0 2240,0q0 0 2240 0);"/>
+                    <Edge cubics="!2240 0(;2240,0 2240,600 2240,600q2240 0 2240 600);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,100 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="3D_helpers/cursor_undo" itemID="5106a195-00006dfc" linkageExportForAS="true" linkageClassName="cursor_undo" lastModified="1359389849">
+  <timeline>
+    <DOMTimeline name="cursor_undo">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="13" ty="-4.6"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-260 94S2|-124 -200!-124 -200|7 172!7 172|-260 94"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="13" ty="-4.6"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!256 126S2[98 -67 -91 126!-91 126|-91 -74!-91 -74[92 -246 256 -74!256 -74|256 126"/>
+                    <Edge cubics="!-91 126(;-91,126 -91,-74 -91,-74q-91 126 -91 -74);"/>
+                    <Edge cubics="!256 -74(;256,-74 256,126 256,126q256 -74 256 126);"/>
+                    <Edge cubics="!256 126(;151,-2 35,-2 -91,126q256 126Q98 -67q-91 126);"/>
+                    <Edge cubics="!-91 -74(;31,-188 146,-188 256,-74q-91 -74Q92 -246q256 -74);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="13" ty="-4.6"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-220 134S2|-84 -160!-84 -160|47 212!47 212|-220 134"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="13" ty="-4.6"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!296 164S2[138 -29 -51 164!-51 164|-51 -36!-51 -36[132 -208 296 -36!296 -36|296 164"/>
+                    <Edge cubics="!-51 164(;-51,164 -51,-36 -51,-36q-51 164 -51 -36);"/>
+                    <Edge cubics="!296 -36(;296,-36 296,164 296,164q296 -36 296 164);"/>
+                    <Edge cubics="!296 164(;191,36 75,36 -51,164q296 164Q138 -29q-51 164);"/>
+                    <Edge cubics="!-51 -36(;71,-150 186,-150 296,-36q-51 -36Q132 -208q296 -36);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player9_top" itemID="4ded4b1a-00001020" lastModified="1307400490">
+  <timeline>
+    <DOMTimeline name="player9_top">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-10.35" ty="-13.5"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#33FF66"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!478 327/418 276!418 276/301 338!301 338/207 613!207 613/240 608!240 608/331 644!331 644/327 912!327 912/524 913!524 913/677 882!677 882/677 597!677 597/803 569!803 569/737 398!737 398/680 303!680 303/571 270!571 270/535 325!535 325/478
+ 327"/>
+                    <Edge cubics="!418 276(;418,276 301,338 301,338q418 276 301 338);"/>
+                    <Edge cubics="!301 338(;301,338 207,613 207,613q301 338 207 613);"/>
+                    <Edge cubics="!207 613(;207,613 240,608 240,608q207 613 240 608);"/>
+                    <Edge cubics="!240 608(;240,608 331,644 331,644q240 608 331 644);"/>
+                    <Edge cubics="!331 644(;331,644 327,912 327,912q331 644 327 912);"/>
+                    <Edge cubics="!327 912(;327,912 524,913 524,913q327 912 524 913);"/>
+                    <Edge cubics="!524 913(;524,913 677,882 677,882q524 913 677 882);"/>
+                    <Edge cubics="!677 882(;677,882 677,597 677,597q677 882 677 597);"/>
+                    <Edge cubics="!677 597(;677,597 803,569 803,569q677 597 803 569);"/>
+                    <Edge cubics="!803 569(;803,569 737,398 737,398q803 569 737 398);"/>
+                    <Edge cubics="!680 303(;680,303 571,270 571,270q680 303 571 270);"/>
+                    <Edge cubics="!571 270(;571,270 535,325 535,325q571 270 535 325);"/>
+                    <Edge cubics="!478 327(;478,327 418,276 418,276q478 327 418 276);"/>
+                    <Edge cubics="!737 398(;737,398 680,303 680,303q737 398 680 303);"/>
+                    <Edge cubics="!535 325(;535,325 478,327 478,327q535 325 478 327);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,44 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_D" itemID="4e04e6e9-000001c9" linkageExportForAS="true" linkageIdentifier="char_D" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_D" lastModified="1333037826">
+  <timeline>
+    <DOMTimeline name="char_D">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!22 -302[10 -307 -17 -307!-17 -307|-66 -307!-66 -307|-66 -132!-66 -132|-17 -132!-17 -132[6 -132 19 -136!19 -136[32 -140 40 -148!40 -148[51 -159 57 -177!57 -177[63 -195 63 -221!63 -221[63 -257 51 -276!51 -276[39 -296 22 -302!85 -275[94
+ -251 94 -221!94 -221[94 -195 88 -175!88 -175[82 -154 72 -141!72 -141[63 -128 51 -120!51 -120[40 -113 24 -109!24 -109[8 -105 -13 -105!-13 -105|-96 -105!-96 -105|-96 -334!-96 -334|-17 -334!-17 -334[10 -334 24 -331!24 -331[44 -326 58 -314
+!58 -314[76 -299 85 -275"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

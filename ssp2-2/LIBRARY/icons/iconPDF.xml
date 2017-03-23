@@ -1,0 +1,55 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="icons/iconPDF" itemID="52397104-000005c8" lastModified="1379496396">
+  <timeline>
+    <DOMTimeline name="iconPDF">
+      <layers>
+        <DOMLayer name="PDF" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!514 84|438 84!438 84|438 121!438 121|504 121!504 121|504 148!504 148|438 148!438 148|438 215!438 215|406 215!406 215|406 58!406 58|514 58!514 58|514 84!335 61[349 65 359 75!359 75[369 85 374 101!374 101[379 116 379 138!379 138[379 157
+ 374 171!374 171[368 188 357 199!357 199[349 207 335 212!335 212[324 215 307 215!307 215|247 215!247 215|247 58!247 58|305 58!305 58[325 58 335 61!334 93[328 88 319 86!319 86[312 84 293 84!293 84|279 84!279 84|279 188!279 188|302 188
+!302 188[316 188 322 187!322 187[329 185 335 180!335 180[340 176 343 165!343 165[346 155 346 136!346 136[346 118 343 108!343 108[340 99 334 93!221 106[221 120 215 130!215 130[210 140 202 146!202 146[194 152 186 153!186 153[174 156 153
+ 156!153 156|132 156!132 156|132 215!132 215|100 215!100 215|100 58!100 58|151 58!151 58[180 58 189 60!189 60[202 63 212 75!212 75[221 87 221 106!132 84|132 129!132 129|149 129!149 129[168 129 174 126!174 126[181 124 184 119!184 119[188
+ 113 188 106!188 106[188 98 183 92!183 92[178 87 170 85!170 85[164 84 147 84!147 84|132 84"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.018310546875" d="0.00848388671875" tx="15" ty="6.95"/>
+                        </matrix>
+                        <GradientEntry color="#FF0000" ratio="0"/>
+                        <GradientEntry color="#A80000" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!0 278|0 0!0 0|600 0!600 0|600 278!600 278|0 278"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

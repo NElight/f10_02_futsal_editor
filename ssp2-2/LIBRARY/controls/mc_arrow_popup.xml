@@ -1,0 +1,105 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/mc_arrow_popup" itemID="4e5f4181-00000426" lastModified="1314875431">
+  <timeline>
+    <DOMTimeline name="mc_arrow_popup">
+      <layers>
+        <DOMLayer name="points" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1000 60|200 60!200 60|200 20!200 20|1000 20!1000 20|1000 60"/>
+                    <Edge fillStyle0="1" edges="!1000 620|400 620!400 620|400 560!400 560|200 640!200 640|400 720!400 720|400 660!400 660|1000 660!1000 660|1000 620"/>
+                    <Edge fillStyle1="1" edges="!800 260|1000 340!1000 340|800 420!800 420|800 360!800 360|200 360!200 360|200 320!200 320|800 320!800 320|800 260"/>
+                    <Edge fillStyle1="1" edges="!400 920S2|800 920!800 920|800 860!800 860|1000 940!1000 940|800 1020!800 1020|800 960!800 960|400 960!400 960|400 1020!400 1020|200 940!200 940|400 860!400 860|400 920"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_select_small" name="arrowpos_3" symbolType="button">
+                  <matrix>
+                    <Matrix tx="5" ty="40"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_select_small" name="arrowpos_2" symbolType="button">
+                  <matrix>
+                    <Matrix tx="5" ty="25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_select_small" name="arrowpos_1" symbolType="button">
+                  <matrix>
+                    <Matrix tx="5" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_select_small" name="arrowpos_0" symbolType="button">
+                  <matrix>
+                    <Matrix tx="5" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pitch" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1100 1100|100 1100!100 1100|100 100!100 100|1100 100!1100 100|1100 1100"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grey_background" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 -123|0 1123!0 1123[0 1200 65 1200!65 1200|482 1200!482 1200|606 1324!606 1324|730 1200!730 1200|1135 1200!1135 1200[1200 1200 1200 1123!1200 1123|1200 -123!1200 -123[1200 -200 1135 -200!1135 -200|65 -200!65 -200[0 -200 0 -123"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

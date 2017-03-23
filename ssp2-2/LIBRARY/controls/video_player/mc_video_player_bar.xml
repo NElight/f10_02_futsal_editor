@@ -1,0 +1,112 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/video_player/mc_video_player_bar" itemID="57c2e512-0000013e" linkageExportForAS="true" linkageClassName="src.videos.SSPVideoPlayerBar" lastModified="1472755816">
+  <timeline>
+    <DOMTimeline name="mc_video_player_bar">
+      <layers>
+        <DOMLayer name="mcVideoSeeker" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/video_player/mcVideoSeeker" name="mcVideoSeeker">
+                  <matrix>
+                    <Matrix tx="-217" ty="-26"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="217" y="-4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtVideoTime" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txtVideoTime" top="10.4" width="146.75" height="22">
+                  <matrix>
+                    <Matrix tx="-130.95" ty="-34.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>999:00/999:00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="_sans" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="2" blurY="2" distance="0" strength="4"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcVideoVolume" color="#808080" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/video_player/mcVideoVolume" name="mcVideoVolume" selected="true">
+                  <matrix>
+                    <Matrix tx="-186.45" ty="-23.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23.25" y="10.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnVideoPlay" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/video_player/btnVideoPlay" name="btnVideoPlay" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-212.95" ty="-24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnVideoPause" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/video_player/btnVideoPause" name="btnVideoPause" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-212.95" ty="-24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcBg" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/video_player/mc_control_bar_bg" name="mcBg">
+                  <matrix>
+                    <Matrix d="0.7884521484375" tx="-217"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="217" y="-16.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

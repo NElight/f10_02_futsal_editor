@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/mc_controls_popup_container" itemID="4f2c6191-000032c6" lastModified="1350749274">
+  <timeline>
+    <DOMTimeline name="mc_controls_popup_container">
+      <layers>
+        <DOMLayer name="bg" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.0201416015625" c="-0.0201416015625" d="0" ty="-16.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.301960784313725" ratio="0"/>
+                        <GradientEntry color="#CCCCCC" alpha="0.501960784313725" ratio="0.117647058823529"/>
+                        <GradientEntry alpha="0.301960784313725" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-4340 -660|4340 -660!4340 -660|4340 0!4340 0|-4340 0!-4340 0|-4340 -660"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

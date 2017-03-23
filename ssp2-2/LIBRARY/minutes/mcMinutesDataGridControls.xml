@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="minutes/mcMinutesDataGridControls" itemID="51829df1-0001136d" linkageExportForAS="true" linkageBaseClass="src.minutes.MinutesDataGridControls" linkageClassName="mcMinutesDataGridControls" lastModified="1367834247" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="mcMinutesDataGridControls">
+      <layers>
+        <DOMLayer name="mcButtonRemove" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/team_forms/mcButtonRemove" selected="true" centerPoint3DX="11" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix tx="2" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9" y="9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcButtonEdit" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/team_lists/mcButtonEdit" centerPoint3DX="30.75" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix tx="21.75" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9" y="9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

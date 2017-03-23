@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_U" itemID="4e04f904-000001eb" linkageExportForAS="true" linkageIdentifier="char_U" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_U" lastModified="1333037827">
+  <timeline>
+    <DOMTimeline name="char_U">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!54 -124[34 -111 0 -111!0 -111[-32 -111 -53 -122!-53 -122[-73 -133 -82 -154!-82 -154[-91 -175 -91 -212!-91 -212|-91 -344!-91 -344|-60 -344!-60 -344|-60 -212!-60 -212[-60 -182 -55 -168!-55 -168[-49 -154 -35 -146!-35 -146[-22 -138 -2 -138
+!-2 -138[31 -138 45 -154!45 -154[60 -169 60 -212!60 -212|60 -344!60 -344|90 -344!90 -344|90 -212!90 -212[90 -177 82 -157!82 -157[75 -137 54 -124"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

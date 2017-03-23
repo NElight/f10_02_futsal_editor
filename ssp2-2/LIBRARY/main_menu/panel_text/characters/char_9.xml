@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_9" itemID="4e04fcbd-00000209" linkageExportForAS="true" linkageIdentifier="char_9" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_9" lastModified="1333037825">
+  <timeline>
+    <DOMTimeline name="char_9">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!65 -289[75 -266 75 -224!75 -224[75 -180 65 -154!65 -154[55 -128 37 -115!37 -115[18 -101 -8 -101!-8 -101[-35 -101 -52 -116!-52 -116[-69 -131 -72 -158!-72 -158|-45 -160!-45 -160[-42 -141 -32 -133!-32 -133[-22 -124 -7 -124!-7 -124[6 -124
+ 16 -130!16 -130[25 -136 32 -146!32 -146[38 -156 42 -173!42 -173[47 -190 47 -207!47 -207[47 -209 46 -213!46 -213[38 -199 23 -191!23 -191[9 -183 -9 -183!-9 -183[-37 -183 -57 -203!-57 -203[-77 -224 -77 -258!-77 -258[-77 -292 -56 -314!-56
+ -314[-35 -335 -4 -335!-4 -335[18 -335 37 -323!37 -323[55 -311 65 -289!30 -297[17 -312 -1 -312!-1 -312[-20 -312 -34 -296!-34 -296[-48 -281 -48 -257!-48 -257[-48 -235 -34 -221!-34 -221[-21 -207 -2 -207!-2 -207[18 -207 31 -221!31 -221[43
+ -235 43 -259!43 -259[43 -283 30 -297"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

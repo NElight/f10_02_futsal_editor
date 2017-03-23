@@ -1,0 +1,1746 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "package src3d.models\n{\n\timport away3d.containers.ObjectContainer3D;\n\timport away3d.core.base.Mesh;\n\timport away3d.core.base.Object3D;\n\timport away3d.core.geom.Path;\n\timport away3d.core.geom.PathCommand;\n\timport away3d.materials.ColorMaterial;\n\timport away3d.primitives.RegularPolygon;\n\t\n\timport flash.geom.Vector3D;\n\t\n\timport src3d.ButtonSettings;\n\timport src3d.SessionScreen;\n\timport src3d.models.soccer.ObjectTypeLibrary;\n\timport src3d.models.soccer.equipment.EquipmentLibrary;\n\timport src3d.models.soccer.equipment.EquipmentSettings;\n\timport src3d.utils.ColorUtils;\n\timport src3d.utils.LineUtils;\n\timport src3d.utils.MiscUtils;\n\timport src3d.utils.ModelUtils;\n\t\n\tpublic class Equipment extends SSPObjectBase {\n\t\t\n\t\tpublic static const RESIZE_BLOCK_NONE:String\t= \"\";\n\t\tpublic static const RESIZE_BLOCK_X:String\t\t= \"X\";\n\t\tpublic static const RESIZE_BLOCK_Y:String\t\t= \"Y\";\n\t\tpublic static const RESIZE_BLOCK_Z:String\t\t= \"Z\";\n\t\tpublic static const RESIZE_BLOCK_XY:String\t\t= \"XY\";\n\t\tpublic static const RESIZE_BLOCK_XZ:String\t\t= \"XZ\";\n\t\tpublic static const RESIZE_BLOCK_YZ:String\t\t= \"YZ\";\n\t\t\n\t\tprivate var objSettingsRef:EquipmentSettings;\n\t\tprotected var accessories:Array = [];\n\t\tprotected var enabledAccessories:Array = [];\n\t\tpublic var pathData:Path = new Path();\n\t\tprotected var _color1:uint;\n\t\tprotected var _color1default:uint;\n\t\tprotected var _color2:uint;\n\t\tprotected var _color2default:uint;\n\n\t\tprotected var centralDisc:RegularPolygon; // Control Base container.\n\t\tprotected var centralDiscInitialScale:Number = 1;\n\t\tprotected var shadow:Shadow;\n//\t\tprotected var aShadows:Vector.<Shadow> = new Vector.<Shadow>(); // Array of shadows.\n\t\tprotected var _rotator:Rotator;\n\t\tprivate var _objRotateWithMouse:Boolean = false;\n\t\tprotected var repeater:SSPObjectRepeater;\n\t\t\n\t\tprotected var objectSet:Array = [];\n\t\tprotected var _internalScale:Number; // Scale factor for the embeded 3d files.\n\t\t\n\t\tprotected var minYPos:Number = 1;\n\t\tprotected var maxYPos:Number = 70;\n\t\tprotected var yPosOffset:Number = 0; // Corrects object adjustments like football radius.\n\t\tprotected var _elevationDefault:Number = 0; // Some objects are elevated by default, like jumping players.\n\t\tprotected var _elevationNumber:Number = 0;\n\t\tprotected var _mainContainerHeight:Number; // To place objects on top like the repeater handle.\n\t\t\n\t\tpublic var aSizeRatios:Array;\n\t\tpublic var minSize = .5;\n\t\tpublic var maxSize = 2;\n\t\tprotected var _sizeDefault:Number; // The initial object size (scale) of new objects.\n\t\tprotected var _size:Number = 1;\n\t\tprotected var resizeBlockAxis:String = RESIZE_BLOCK_NONE;\n\t\t\n\t\tpublic function Equipment(sessionScreen:SessionScreen, objSettings:SSPObjectBaseSettings) {\n\t\t\tobjSettingsRef = objSettings as EquipmentSettings;\n\t\t\tsuper(sessionScreen, objSettings);\n\t\t\tobjSettingsRef._objectType = ObjectTypeLibrary.OBJECT_TYPE_EQUIPMENT; // The type of object, used for xml storing and array classification.\n\t\t\t\n\t\t\t// Properties.\n\t\t\tthis._internalScale = 1; // Corrects the scale proportions of each child object.\n\t\t\tif (objSettingsRef._equipColor > -1) {\n\t\t\t\t_color1 = _color1default = objSettingsRef._equipColor;\n\t\t\t} else {\n\t\t\t\tobjSettingsRef._equipColor = -1;\n\t\t\t\t_color1 = _color1default;\n\t\t\t}\n\t\t\t\n\t\t\tinitcentralDisc();\n\t\t\t//init2DButtons(); // Use only in extending classes.\n\t\t\t//initRotator(); // Use only in extending classes.\n\t\t\t//initObjectRepeater(objSettingsRef._pathData); // Use only in extending classes.\n\t\t\t//initAccessories(enableAccessories); // Use only in extending classes.\n\t\t\t//initElevation(); // Use only in extending classes.\n\t\t\t//applyGlobalScale(); // Use only in extending classes.\n\t\t\tthis.useShadow = true;\n\t\t\tthis.ownCanvas = false; // Needs own canvas true before being deleted or it will throw an error when removing.\n\t\t\t_rotator = new Rotator(this, drag3d);\n\t\t}\n\t\t\n\t\t\n\t\t\n\t\t// ------------------------------- Inits ------------------------------- //\n\t\tprotected override function initShadow():void {\n\t\t\tshadow = new Shadow();\n\t\t}\n\t\t\n\t\t/**\n\t\t * Creates the control point (a circle in the base of the object).\n\t\t */\t\t\n\t\tprivate function initcentralDisc():void {\n\t\t\t// Create Control Base.\n\t\t\tcentralDisc = new RegularPolygon({sides:16, radius:40, material:new ColorMaterial(0xffffff, {alpha:0.6}), visible:false, ownCanvas:true, name:\"centralDisc\"});\n\t\t\tthis.mainContainer.addChild(centralDisc);\n\t\t\t//this.useHandCursor = true;\n\t\t\t//this.mouseEnabled = true;\n\t\t}\n\t\t\n\t\tpublic function initRotator():void {\n\t\t\tif (_rotable) {\n\t\t\t\tthis.addChild(_rotator);\n\t\t\t\t_rotator.rotatorEnabled = false;\n\t\t\t\tif (_rotable) this.rotationY = objSettings._rotationY;\n\t\t\t}\n\t\t}\n\t\t\n\t\t/**\n\t\t * Dispatches the event to enable/disable the custom button (eg: Player's Custom Kit button) in the 2D toolbar.\n\t\t * This fuction is empty to be overwritten by the extending class. \n\t\t */\t\t\n\t\tprotected override function init2DButtons():void {\n\t\t\tif (this._colorable) {\n\t\t\t\t// Set Equipment Colors.\n\t\t\t\tvBtnSettings.push(new ButtonSettings(ButtonSettings.CTRL_CUSTOM_EQUIP_COLOR, true, 0, this, false));\n\t\t\t}\n\t\t\tif (this._elevatable) {\n\t\t\t\t// Set Item Elevation.\n\t\t\t\tvBtnSettings.push(new ButtonSettings(ButtonSettings.CTRL_CUSTOM_ITEM_ELEVATION, true, 0, this, false));\n\t\t\t}\n\t\t\tif (this._resizable && maxSize-minSize>0) {\n\t\t\t\t// Set Item Resize.\n\t\t\t\tvBtnSettings.push(new ButtonSettings(ButtonSettings.CTRL_CUSTOM_ITEM_SIZE, true, 0, this, false));\n\t\t\t}\n\t\t\tif (this._clonable) {\n\t\t\t\t// Set Item Cloning.\n\t\t\t\tvBtnSettings.push(new ButtonSettings(ButtonSettings.CTRL_CUSTOM_ITEM_CLONE, true, 0, this, false));\n\t\t\t}\n\t\t\tif (this._transparentable) {\n\t\t\t\t// Set Item Transparency.\n\t\t\t\tvBtnSettings.push(new ButtonSettings(ButtonSettings.CTRL_CUSTOM_ITEM_TRANSPARENCY, true, 0, this, false));\n\t\t\t}\n\t\t}\n\t\t\n\t\tprotected function initObjectRepeater(pdStr:String, maxSpace:Number = 100, maxFullDistance:Number = 1000, objAxis:String = SSPObjectRepeater.AXIS_Z):void {\n\t\t\tif (!this._repeatable) return;\n\t\t\tpathData = LineUtils.stringToPathDataNew(pdStr);\n\t\t\tfixPathData(); // Trim if needed.\n\t\t\trepeater = new SSPObjectRepeater(this, sScreen.drag3d, maxSpace, maxFullDistance, objAxis);\n\t\t\trepeater.startRepeater();\n\t\t}\n\t\t\n\t\t// Overriden by extending classes (eg: Player.as).\n\t\tprotected function initAccessories():void {};\n\t\t\n\t\tprotected function initElevation():void {\n\t\t\tif (this._elevatable) {\n\t\t\t\tgetElevationDefault();\n\t\t\t\tif (!isNaN(objSettingsRef._elevationNumber)) {\n\t\t\t\t\televationNumber = objSettingsRef._elevationNumber;\n\t\t\t\t} else {\n\t\t\t\t\tresetElevation();\n\t\t\t\t}\n\t\t\t\tthis.sspPosition = objSettings._objPos;\n\t\t\t}\n\t\t}\n\t\t\n\t\tprotected function initSize():void {\n\t\t\tif (isNaN(objSettingsRef._size) || objSettingsRef._size < minSize || objSettingsRef._size > maxSize) {\n\t\t\t\t//Logger.getInstance().addAlert(\"Incorrect size for this \"+this.name+\" (\"+String(objSettingsRef._size)+\"). Using default.\");\n\t\t\t\tobjSettingsRef._size = this.sizeDefault;\n\t\t\t}\n\t\t\tif (this._resizable) {\n\t\t\t\tif (!isNaN(objSettingsRef._size)) {\n\t\t\t\t\tthis.size = objSettingsRef._size;\n\t\t\t\t} else {\n\t\t\t\t\tresetSize();\n\t\t\t\t}\n\t\t\t\t//this.sspSize = objSettings._objSize;\n\t\t\t}\n\t\t}\n\t\t// ----------------------------- End Inits ----------------------------- //\n\t\t\n\t\t\n\t\t/**\n\t\t * Change the 'selected' state of the object. \n\t\t * @param s (Selected) True to mark the object as selected. Otherwise set it to false.\n\t\t */\t\t\n\t\tpublic override function set selected(s:Boolean):void {\n\t\t\tif (this._selectable) {\n\t\t\t\tif (s) {\n\t\t\t\t\tif (!sspObjEnabled) return;\n\t\t\t\t\t_selected = s;\n\t\t\t\t\t//trace(this.name+\" Selected\");\n\t\t\t\t\tactivate2DButtons(true);\n\t\t\t\t\tcentralDisc.visible = true;\n\t\t\t\t\tshadowEnabled(false);\n\t\t\t\t\tif (_rotable) _rotator.rotatorEnabled = true;\n\t\t\t\t\tif (_repeatable && repeater) {repeater.repeaterEnabled(true);}\n\t\t\t\t}else {\n\t\t\t\t\t_selected = s;\n\t\t\t\t\t//trace(this.name+\" DeSelected\");\n\t\t\t\t\t//activate2DButtons(false); // Do not dispatch. Conflicts if other equipment is being selected at the same time.\n\t\t\t\t\tcentralDisc.visible = false;\n\t\t\t\t\t_rotator.rotatorEnabled = false;\n\t\t\t\t\tshadowEnabled(true);\n\t\t\t\t\tif (_repeatable && repeater) {repeater.repeaterEnabled(false);}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\t//trace(this.name+\" is not selectable.\");\n\t\t\t\t//trace(this.name+\" DeSelected\");\n//\t\t\t\tactivate2DButtons(false);\n\t\t\t\tcentralDisc.visible = false;\n\t\t\t\tshadowEnabled(true);\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic function getGlobalScale():Number {\n\t\t\treturn mainContainer.scaleX;\n\t\t}\n\t\t\n\t\tprotected function updateInternalScale(objContainer:ObjectContainer3D):void {\n\t\t\tModelUtils.changeScaleInMesh(objContainer, _internalScale);\n\t\t}\n\t\t\n\t\tprotected function set controllerScale(newScale:Number):void {\n\t\t\t_rotator.scale(newScale);\n\t\t\tthis.centralDiscScale = newScale;\n\t\t}\n\n\t\t/**\n\t\t * Changes the scale of the controller base. \n\t\t * @param _scl Number.\n\t\t * \n\t\t */\t\t\n\t\tprotected function set centralDiscScale(newScale:Number):void {\n\t\t\tcentralDisc.scale(newScale);\n\t\t\tcentralDiscInitialScale = newScale;\n\t\t}\n\t\t\n\t\t/**\n\t\t * Indicates if this object will have a shadow. \n\t\t * @param us Boolean.\n\t\t * \n\t\t */\t\t\n\t\tpublic override function set useShadow(us:Boolean):void {\n\t\t\t_useShadow = us;\n\t\t\tshadowEnabled(_useShadow);\n\t\t}\n\t\tprivate function shadowEnabled(en:Boolean):void {\n\t\t\tif (!_useShadow) return;\n\t\t\t/*for each (var s:Shadow in aShadows) {\n\t\t\t\ts.visible = _useShadow;\n\t\t\t}*/\n\t\t}\n\t\tprivate function resetShadowPos():void {\n\t\t\tif (!_useShadow) return;\n\t\t\tif (!shadow || !shadow.parent) return;\n\t\t\t// If objContainer is rotated, use Z axis.\n\t\t\tif (shadow.parent.rotationX == 90) {\n\t\t\t\tshadow.z = -shadow.parent.y;\n\t\t\t} else if (shadow.parent.rotationX == -90) {\n\t\t\t\tshadow.z = +shadow.parent.y;\n\t\t\t} else {\n\t\t\t\tshadow.y = -shadow.parent.y;\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic function toggleFlipH():void {\n\t\t\tif (!objSettingsRef._flipH) {\n\t\t\t\tflipH(true);\n\t\t\t} else {\n\t\t\t\tflipH(false);\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic function flipH(f:Boolean):void {\n\t\t\tif (!_flipable) return;\n\t\t\tvar p:Object;\n\t\t\tvar obj3d:Object3D;\n\t\t\tvar mesh:Mesh\n\t\t\tobjSettingsRef._flipH = f;\n\t\t\tif (objSettingsRef._flipH) {\n\t\t\t\tfor each(p in objectSet) {\n\t\t\t\t\tp.scaleY *= -1;\n\t\t\t\t\tp.rotationY += 180;\n\t\t\t\t\t\n\t\t\t\t\t//var explode:Explode = new Explode();\n\t\t\t\t\t//explode.apply(p);\n\t\t\t\t\t//Mirror.apply(p, \"x\",false,false,true,true);\n\t\t\t\t\t\n\t\t\t\t\t// Enable both sides for the textured meshes.\n\t\t\t\t\tfor each(obj3d in p.children) {\n\t\t\t\t\t\tmesh = obj3d as Mesh;\n\t\t\t\t\t\tif (mesh != null) mesh.bothsides = true;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\t// FlipH back only if it has been flipped already.\n\t\t\t\tif (objectSet[0].scaleY < 0) {\n\t\t\t\t\tfor each(p in objectSet) {\n\t\t\t\t\t\tp.scaleY *= -1;\n\t\t\t\t\t\tp.rotationY -= 180;\t\n\t\t\t\t\t}\n\t\t\t\t\t// If not flipH, disable bothsides to save resources.\n\t\t\t\t\tfor each(obj3d in p.children) {\n\t\t\t\t\t\tmesh = obj3d as Mesh;\n\t\t\t\t\t\tif (mesh != null) mesh.bothsides = false;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t\n\t\t// Overriden by extending classes (eg: Player.as).\n\t\tprotected function setAccessoriesTransparency():void {};\n\t\t\n\t\t/**\n\t\t * Override in extending classes (eg. Players) to use custom library info (eg. PlayerLibrary). \n\t\t */\t\t\n\t\tprotected function get ElevationDefault():void {\n\t\t\tvar modelIdx:int = src3d.utils.MiscUtils.indexInArray(EquipmentLibrary._aEquipment, \"EquipmentId\", objSettingsRef._libraryId);\n\t\t\t_elevationDefault = EquipmentLibrary._aEquipment[modelIdx].ElevationDefault;\n\t\t}\n\t\t\n\t\tprotected function get SizeDefault():void {\n\t\t\tvar modelIdx:int = src3d.utils.MiscUtils.indexInArray(EquipmentLibrary._aEquipment, \"EquipmentId\", objSettingsRef._libraryId);\n\t\t\t_sizeDefault = EquipmentLibrary._aEquipment[modelIdx].SizeDefault;\n\t\t}\n\t\t\n\t\tprotected function enableAccessory(acc:String):void {\n\t\t\tif (acc == \"\" || acc == \",\") return;\n\t\t\tif (enabledAccessories.indexOf(acc) != -1) return;\n\t\t\tenabledAccessories.push(acc);\n\t\t}\n\t\tprotected function disableAccessory(acc:String):void {\n\t\t\tif (acc == \"\" || acc == \",\" || !hasAccessory(acc)) return;\n\t\t\tvar idx:int = enabledAccessories.indexOf(acc); \n\t\t\tif (idx == -1) return;\n\t\t\tenabledAccessories.splice(idx,1);\n\t\t}\n\t\t\n\t\t/**\n\t\t * Delete all accessories to dispose the object.\n\t\t * This function is overriden when needed in extending classes.\n\t\t */\n\t\tprotected function deleteAccessories():void {}\n\t\t\n\t\tpublic function hasAccessory(acc:String):Boolean {\n\t\t\tif (!accessories || accessories.length == 0) return false;\n\t\t\treturn (accessories.indexOf(acc) != -1)? true :false;\n\t\t}\n\t\tpublic function hasAnyAccessory():Boolean {\n\t\t\treturn (!accessories || accessories.length == 0)? false : true; \n\t\t}\n\t\t\n\t\t/**\n\t\t * Color textures and apply materials.\n\t\t * This function is overriden when needed in extending classes.\n\t\t */\t\t\n\t\tprotected function setMaterials():void {}\n\t\t\n\t\tpublic function changeMainColor(newColor:uint):void {\n\t\t\tif (this._color1 == newColor || !this._colorable) return;\n\t\t\tobjSettingsRef._equipColor = _color1 = newColor;\n\t\t\tsetMaterials();\n\t\t}\n\t\t\n\t\tpublic function resetColor():void {\n\t\t\tif (this._color1 == _color1default || !this._colorable) return;\n\t\t\tobjSettingsRef._equipColor = -1;\n\t\t\t_color1 = _color1default;\n\t\t\tsetMaterials();\n\t\t}\n\t\t\n\t\t// ------------------------------- Clicks and Drags ------------------------------- //\n\t\toverride protected function enableMouse():void {\n\t\t\tsuper.enableMouse(); // Note that super calls disableMouse.\n\t\t\tif (sspObjEnabled && _selectable && _rotable) {\n\t\t\t\t_rotator.rotatorEnabled = true;\n\t\t\t\t_rotator.visible = false; // Listeners enabled, but rotator invisible until selected.\n\t\t\t}\n\t\t}\n\t\toverride protected function disableMouse():void {\n\t\t\tsuper.disableMouse();\n\t\t\tif (!sspObjEnabled) {\n\t\t\t\t_rotator.rotatorEnabled = false;\n\t\t\t}\n\t\t}\n\t\t// ----------------------------- End Clicks and Drags ----------------------------- //\n\t\t\n\t\t\n\t\t\n\t\tpublic function set transparency(t:Boolean):void {\n\t\t\tobjSettingsRef._transparency = t;\n\t\t\tColorUtils.changeMaterialTransparency(objectSet, transparencyValue);\n\t\t\tsetAccessoriesTransparency();\n\t\t}\n\t\tpublic function get transparency():Boolean { return objSettingsRef._transparency; }\n\t\tpublic function get transparencyValue():Number {\n\t\t\tvar t:Number = (objSettingsRef._transparency)? sspObjTransparencyValue : 1;\n\t\t\treturn t;\n\t\t}\n\t\t\n\t\tpublic function get enabledAccessoriesString():String {\n\t\t\tif (!enabledAccessories || enabledAccessories.length == 0) return \"\";\n\t\t\treturn enabledAccessories.join(\",\");\n\t\t}\n\t\t\n\t\tpublic function get _equipColorHex():String {\n\t\t\tvar ec:String = \"-1\";\n\t\t\tif (objSettingsRef._equipColor > -1) {\n\t\t\t\t//ec = \"0x\"+_equipColor.toString(16);\n\t\t\t\tec = MiscUtils.getNumberAsHexString(objSettingsRef._equipColor);\n\t\t\t}\n\t\t\treturn ec;\n\t\t}\n\t\t\n\t\t/**\n\t\t * Changes the scale of the object container while keeping the scale of the objects inside of it. \n\t\t * @param _scl Number.\n\t\t */\t\t\n\t\tpublic function applyGlobalScale():void {\n\t\t\tif (!_scalable && !_resizable) return;\n\t\t\t//var gScale:Number = (_scalable)? sScreen.globalScaleNum * this.size : this.size;\n\t\t\tvar gScale:Number = (_scalable)? sScreen.globalScaleNum : 1;\n\t\t\tvar scaleXValue:Number = (resizeBlockAxis != RESIZE_BLOCK_X && resizeBlockAxis != RESIZE_BLOCK_XY && resizeBlockAxis !=RESIZE_BLOCK_XZ)? this.size : 1;\n\t\t\tvar scaleYValue:Number = (resizeBlockAxis != RESIZE_BLOCK_Y && resizeBlockAxis != RESIZE_BLOCK_XY && resizeBlockAxis !=RESIZE_BLOCK_YZ)? this.size : 1;\n\t\t\tvar scaleZValue:Number = (resizeBlockAxis != RESIZE_BLOCK_Z && resizeBlockAxis != RESIZE_BLOCK_XZ && resizeBlockAxis !=RESIZE_BLOCK_YZ)? this.size : 1;\n\t\t\t\n\t\t\tif (isNaN(gScale) || isNaN(this.size)) return;\n\t\t\t\n\t\t\t// centralDisc needs to be inside mainContainer to be draggable, but keeping the scale.\n\t\t\tvar newCDScale:Number = centralDiscInitialScale / (gScale * this.size);\n\t\t\tcentralDisc.scale(newCDScale);\n\t\t\t\n\t\t\tmainContainer.scaleX = gScale * scaleXValue;\n\t\t\tmainContainer.scaleY = gScale * scaleYValue;\n\t\t\tmainContainer.scaleZ = gScale * scaleZValue;\n\t\t\tif (_repeatable && repeater) repeater.updateRepeater(0, false);\n\t\t\tshadowEnabled(true);\n\t\t\n\t\t\t//controllerScale = gScale;\n\t\t}\n\t\t\n\t\tpublic function get sizeDefault():Number {\n\t\t\tif (!_sizeDefault) getSizeDefault();\n\t\t\treturn _sizeDefault;\n\t\t}\n\t\t\n\t\tpublic function resetSize():void {\n\t\t\tthis.size = this.sizeDefault;\n\t\t}\n\t\t\n\t\tpublic function set size(value:Number):void {\n\t\t\tif (isNaN(value)) return;\n\t\t\tif (_size == value) return;\n\t\t\tif (value >= minSize && value <= maxSize) {\n\t\t\t\t_size = value;\n\t\t\t\tapplyGlobalScale();\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic function get size():Number {\n\t\t\treturn _size;\n\t\t}\n\t\t\n\t\tprotected function resetElevation():void {\n\t\t\tthis.elevationNumber = _elevationDefault;\n\t\t}\n\t\t\n\t\tpublic function set elevationNumber(value:Number):void {\n\t\t\tif (isNaN(value)) return;\n\t\t\tif (_elevationNumber == value) return;\n\t\t\tif (value >= minYPos && value <= maxYPos) {\n\t\t\t\t_elevationNumber = value;\n\t\t\t\tfor each(var p:Object in objectSet) {\n\t\t\t\t\tp.y = _elevationNumber;\n\t\t\t\t}\n\t\t\t}\n\t\t\tresetShadowPos();\n\t\t}\n\t\t\n\t\tpublic function get elevationNumber():Number {\n\t\t\treturn _elevationNumber;\n\t\t}\n\t\t\n\t\tpublic function set elevationRatio(value:Number):void {\n\t\t\tif (!_elevatable) return;\n\t\t\tif (isNaN(value)) return;\n\t\t\tif (value < 0 && value > 1) return;\n\t\t\tvar newElev:Number = minYPos + ((maxYPos - minYPos) * value);\n\t\t\tif (isNaN(newElev)) return;\n\t\t\t_elevationNumber = newElev;\n\t\t\tfor each(var p:Object in objectSet) {\n\t\t\t\tp.y = _elevationNumber + yPosOffset;\n\t\t\t}\n\t\t\tresetShadowPos();\n\t\t}\n\t\tpublic function get elevationRatio():Number {\n\t\t\treturn (_elevationNumber - yPosOffset) / (maxYPos - minYPos);\n\t\t}\n\t\t\n\t\tpublic function repeatObjects(objSpace:Number, maxDistance:Number):void {\n\t\t\tvar i:uint;\n\t\t\tvar startPoint:uint;\n\t\t\tvar newPoints:Array = [];\n\t\t\tvar newObjSpace:Number = objSpace;\n\t\t\tvar newObjAmount:uint = (maxDistance/this.getGlobalScale()) / newObjSpace;\n\t\t\t\n\t\t\tif (newObjAmount+1 == objectSet.length) return;\n\t\t\t\n\t\t\t// Prepare clones positions.\n\t\t\tfor (i = 0;i<=newObjAmount;i++) {\n\t\t\t\tnewPoints.push(-newObjSpace*i);\n\t\t\t}\n\t\t\t\n\t\t\t// Remove all previous clones.\n\t\t\tfor (i = 1;i<objectSet.length;i++) {\n\t\t\t\tthis.mainContainer.removeChild(objectSet[i]);\n\t\t\t\tobjectSet[i] = null;\n\t\t\t}\n\t\t\tobjectSet.splice(1,objectSet.length-1);\n\t\t\t\n\t\t\t// If points amount is bigger, add new clones.\n\t\t\tif (newPoints.length > objectSet.length && newPoints.length > 1) {\n\t\t\t\t//for (i = objectSet.length;i<newPoints.length;i++) {\n\t\t\t\tfor (i = 1;i<newPoints.length;i++) {\n\t\t\t\t\tthis.objectSet.push(objectSet[0].clone());\n\t\t\t\t\tobjectSet[i].z = newPoints[i];\n\t\t\t\t\tthis.mainContainer.addChild(objectSet[i]);\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t\n\t\tprivate function fixPathData():void {\n\t\t\tif (!pathData) pathData = new Path();\n\t\t\tif (pathData.length == 0) pathData.add(new PathCommand(PathCommand.LINE, new Vector3D(), new Vector3D(), new Vector3D()));\n\t\t\t// Equipment pathData should only have one path command.\n\t\t\tif (pathData.length > 1) {\n\t\t\t\ttrace(\"Error: Equipment pathData too long. Trimmed.\");\n\t\t\t\t//pathData.aSegments.splice(1,pathData.aSegments.length);\n\t\t\t\ttry {\n\t\t\t\t\tpathData = new Path([\n\t\t\t\t\t\tpathData.aSegments[0].pStart,\n\t\t\t\t\t\tpathData.aSegments[0].pControl,\n\t\t\t\t\t\tpathData.aSegments[0].pEnd\n\t\t\t\t\t]);\n\t\t\t\t} catch (error:Error) {\n\t\t\t\t\ttrace(error.message);\n\t\t\t\t\ttrace(\"Using a blank path\");\n\t\t\t\t\t// If there is an error with the existing data, create a new path.\n\t\t\t\t\tpathData = new Path();\n\t\t\t\t\tpathData.add(new PathCommand(PathCommand.LINE, new Vector3D(), new Vector3D(), new Vector3D()));\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t\n\t\t/**\n\t\t * Session Data. \n\t\t * @return A <code>String</code> of <code>Path</code> commands.\n\t\t */\t\t\n\t\tpublic function get pathDataString():String {\n\t\t\tvar lString:String = \"\";\n\t\t\tif (!pathData || pathData.length == 0) return \"\";\n\t\t\t// If path distance == 0, return an empty string to save database space.\n\t\t\tvar pDistance:Number = Vector3D.distance(\n\t\t\t\tpathData.aSegments[0].pStart,\n\t\t\t\tpathData.aSegments[0].pEnd\n\t\t\t\t);\n\t\t\tif (pDistance != 0) {\n\t\t\t\tfixPathData();\n\t\t\t\tlString = LineUtils.pathDataToString(pathData, true);\n\t\t\t}\n\t\t\treturn lString;\n\t\t}\n\t\t\n\t\tpublic function get mainContainerHeight():Number {\n\t\t\tif (isNaN(_mainContainerHeight)) _mainContainerHeight = 100;\n\t\t\treturn _mainContainerHeight * mainContainer.scaleX;\n\t\t}\n\t\t\n\t\tpublic function get repeatable():Boolean {return _repeatable;}\n\t\t\n\t\tpublic function get rotator():Rotator {return _rotator;}\n\t\t\n\t\tpublic function get centralDiscRadius():Number {\n\t\t\tif (!centralDisc) return 0;\n\t\t\treturn centralDisc.radius * centralDiscInitialScale * getGlobalScale();\n\t\t}\n\t\t\n\t\tprotected override function get objSettings():SSPObjectBaseSettings {\n\t\t\treturn objSettingsRef;\n\t\t}\n\t\tprotected override function updateObjSettings():SSPObjectBaseSettings {\n\t\t\tsuper.updateObjSettings();\n\t\t\tif (!objSettingsRef) return null;\n\t\t\tobjSettingsRef._elevationNumber = this.elevationNumber;\n\t\t\tobjSettingsRef._size = this.size;\n\t\t\tobjSettingsRef._pathData = this.pathDataString;\n\t\t\treturn objSettingsRef;\n\t\t}\n\t\t\n\t\tpublic override function dispose():void {\n\t\t\tif (repeater) repeater.dispose();\n\t\t\tif (_rotator) _rotator.dispose();\n\t\t\tif (centralDisc) centralDisc.material = null;\n\t\t\tif (shadow) shadow.dispose();\n\t\t\tsuper.dispose();\n\t\t\t\n\t\t\tobjSettingsRef = null\n\t\t\trepeater = null;\n\t\t\t_rotator = null;\n\t\t\tobjectSet = [];\n\t\t\taccessories = [];\n\t\t\tenabledAccessories = [];\n\t\t\tpathData = null;\n\t\t\tcentralDisc = null;\n\t\t\tshadow = null;\n\t\t}\n\t}\n}",
+			"file": "src3d/models/Equipment.as",
+			"file_size": 21621,
+			"file_write_time": 131285796380000000,
+			"settings":
+			{
+				"buffer_size": 21002,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/pitches/Pitch.as",
+			"settings":
+			{
+				"buffer_size": 6609,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/equipment/Goal.as",
+			"settings":
+			{
+				"buffer_size": 2764,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/utils/ModelUtils.as",
+			"settings":
+			{
+				"buffer_size": 3026,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "srclibs/away3d/core/base/Object3D.as",
+			"settings":
+			{
+				"buffer_size": 61935,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "CR"
+			}
+		},
+		{
+			"contents": "Searching 2071 files for \"SCALE_CHANGED\"\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Object3D.as:\n  290  \t\t\t_scaleDirty = true;\n  291          \t\n  292:             if (!hasEventListener(Object3DEvent.SCALE_CHANGED))\n  293                  return;\n  294  \t\t\t\n  295              if (!_scalechanged)\n  296:                 _scalechanged = new Object3DEvent(Object3DEvent.SCALE_CHANGED, this);\n  297              \n  298              dispatchEvent(_scalechanged);\n  ...\n 1964          public function addOnScaleChange(listener:Function):void\n 1965          {\n 1966: \t\t\taddEventListener(Object3DEvent.SCALE_CHANGED, listener, false, 0, true);\n 1967          }\n 1968  \t\t\n ....\n 1974          public function removeOnScaleChange(listener:Function):void\n 1975          {\n 1976:             removeEventListener(Object3DEvent.SCALE_CHANGED, listener, false);\n 1977          }\n 1978          \t\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/events/Object3DEvent.as:\n   43      \t * Defines the value of the type property of a scaleChanged event object.\n   44      \t */\n   45:     \tpublic static const SCALE_CHANGED:String = \"scaleChanged\";\n   46  \t\t\t\t    \t\n   47      \t/**\n\n5 matches across 2 files\n\n\nSearching 2071 files for \"addOnScaleChange\"\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/containers/ObjectContainer3D.as:\n   26  \t\t\tchild.addOnSceneTransformChange(onSessionUpdate);\n   27              child.addOnPositionChange(onDimensionsChange);\n   28:             child.addOnScaleChange(onDimensionsChange);\n   29              child.addOnDimensionsChange(onDimensionsChange);\n   30  \n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Object3D.as:\n 1962  \t\t * @param\tlistener\t\tThe listener function\n 1963  \t\t */\n 1964:         public function addOnScaleChange(listener:Function):void\n 1965          {\n 1966  \t\t\taddEventListener(Object3DEvent.SCALE_CHANGED, listener, false, 0, true);\n\n2 matches across 2 files\n\n\nSearching 2071 files for \"DIMENSIONS_CHANGED\"\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Geometry.as:\n  180              _faceplanesDirty = true;\n  181              \n  182:             if (!hasEventListener(GeometryEvent.DIMENSIONS_CHANGED))\n  183              \treturn;\n  184              \n  185              if (!_dimensionsupdated)\n  186:                 _dimensionsupdated = new GeometryEvent(GeometryEvent.DIMENSIONS_CHANGED, this);\n  187                  \n  188              dispatchEvent(_dimensionsupdated);\n  ...\n 1162          public function addOnDimensionsUpdate(listener:Function):void\n 1163          {\n 1164: \t\t\taddEventListener(GeometryEvent.DIMENSIONS_CHANGED, listener, false, 0, true);\n 1165          }\n 1166  \t\t\n ....\n 1172          public function removeOnDimensionsUpdate(listener:Function):void\n 1173          {\n 1174:             removeEventListener(GeometryEvent.DIMENSIONS_CHANGED, listener, false);\n 1175          }\n 1176          \n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Object3D.as:\n  363              _dimensionsDirty = true;\n  364          \t\n  365:            \tif (!hasEventListener(Object3DEvent.DIMENSIONS_CHANGED))\n  366                  return;\n  367              \n  368              if (!_dimensionschanged)\n  369:                 _dimensionschanged = new Object3DEvent(Object3DEvent.DIMENSIONS_CHANGED, this);\n  370                  \n  371              dispatchEvent(_dimensionschanged);\n  ...\n 1924          public function addOnDimensionsChange(listener:Function):void\n 1925          {\n 1926:             addEventListener(Object3DEvent.DIMENSIONS_CHANGED, listener, false, 0, true);\n 1927          }\n 1928  \t\t\n ....\n 1934          public function removeOnDimensionsChange(listener:Function):void\n 1935          {\n 1936:             removeEventListener(Object3DEvent.DIMENSIONS_CHANGED, listener, false);\n 1937          }\n 1938          \n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/events/GeometryEvent.as:\n   18      \t * Defines the value of the type property of a dimensionsChanged event object.\n   19      \t */\n   20:     \tpublic static const DIMENSIONS_CHANGED:String = \"dimensionsChanged\";\n   21      \t    \t    \t\n   22      \t/**\n   ..\n   48  \t\t * Creates a new <code>MaterialEvent</code> object.\n   49  \t\t * \n   50: \t\t * @param\ttype\t\tThe type of the event. Possible values are: <code>Object3DEvent.TRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENETRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENE_CHANGED</code>, <code>Object3DEvent.RADIUS_CHANGED</code> and <code>Object3DEvent.DIMENSIONS_CHANGED</code>.\n   51  \t\t * @param\tobject\t\tA reference to the 3d object that is relevant to the event.\n   52  \t\t */\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/events/Object3DEvent.as:\n   33      \t * Defines the value of the type property of a dimensionsChanged event object.\n   34      \t */\n   35:     \tpublic static const DIMENSIONS_CHANGED:String = \"dimensionsChanged\";\n   36      \t\n   37      \t/**\n   ..\n   53  \t\t * Creates a new <code>MaterialEvent</code> object.\n   54  \t\t * \n   55: \t\t * @param\ttype\t\tThe type of the event. Possible values are: <code>Object3DEvent.TRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENETRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENE_CHANGED</code>, <code>Object3DEvent.RADIUS_CHANGED</code> and <code>Object3DEvent.DIMENSIONS_CHANGED</code>.\n   56  \t\t * @param\tobject\t\tA reference to the 3d object that is relevant to the event.\n   57  \t\t */\n\n12 matches across 4 files\n\n\nSearching 2071 files for \"addOnDimensionsChange\"\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/containers/ObjectContainer3D.as:\n   27              child.addOnPositionChange(onDimensionsChange);\n   28              child.addOnScaleChange(onDimensionsChange);\n   29:             child.addOnDimensionsChange(onDimensionsChange);\n   30  \n   31              notifyDimensionsChange();\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Object3D.as:\n 1922  \t\t * @param\tlistener\t\tThe listener function\n 1923  \t\t */\n 1924:         public function addOnDimensionsChange(listener:Function):void\n 1925          {\n 1926              addEventListener(Object3DEvent.DIMENSIONS_CHANGED, listener, false, 0, true);\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/primitives/ReflectivePlane.as:\n  311  \t\t\t//Listens for transform change to update plane data (normal and reflection matrixes) and dummy plane.\n  312  \t\t\tthis.addOnSceneTransformChange(transformChangeHandler);\n  313: \t\t\tthis.addOnDimensionsChange(dimensionsChangeHandler);\n  314  \t\t}\n  315  \t\t\n\n3 matches across 3 files\n\n\nSearching 2071 files for \"DIMENSIONS_CHANGED\"\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Geometry.as:\n  180              _faceplanesDirty = true;\n  181              \n  182:             if (!hasEventListener(GeometryEvent.DIMENSIONS_CHANGED))\n  183              \treturn;\n  184              \n  185              if (!_dimensionsupdated)\n  186:                 _dimensionsupdated = new GeometryEvent(GeometryEvent.DIMENSIONS_CHANGED, this);\n  187                  \n  188              dispatchEvent(_dimensionsupdated);\n  ...\n 1162          public function addOnDimensionsUpdate(listener:Function):void\n 1163          {\n 1164: \t\t\taddEventListener(GeometryEvent.DIMENSIONS_CHANGED, listener, false, 0, true);\n 1165          }\n 1166  \t\t\n ....\n 1172          public function removeOnDimensionsUpdate(listener:Function):void\n 1173          {\n 1174:             removeEventListener(GeometryEvent.DIMENSIONS_CHANGED, listener, false);\n 1175          }\n 1176          \n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Object3D.as:\n  363              _dimensionsDirty = true;\n  364          \t\n  365:            \tif (!hasEventListener(Object3DEvent.DIMENSIONS_CHANGED))\n  366                  return;\n  367              \n  368              if (!_dimensionschanged)\n  369:                 _dimensionschanged = new Object3DEvent(Object3DEvent.DIMENSIONS_CHANGED, this);\n  370                  \n  371              dispatchEvent(_dimensionschanged);\n  ...\n 1924          public function addOnDimensionsChange(listener:Function):void\n 1925          {\n 1926:             addEventListener(Object3DEvent.DIMENSIONS_CHANGED, listener, false, 0, true);\n 1927          }\n 1928  \t\t\n ....\n 1934          public function removeOnDimensionsChange(listener:Function):void\n 1935          {\n 1936:             removeEventListener(Object3DEvent.DIMENSIONS_CHANGED, listener, false);\n 1937          }\n 1938          \n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/events/GeometryEvent.as:\n   18      \t * Defines the value of the type property of a dimensionsChanged event object.\n   19      \t */\n   20:     \tpublic static const DIMENSIONS_CHANGED:String = \"dimensionsChanged\";\n   21      \t    \t    \t\n   22      \t/**\n   ..\n   48  \t\t * Creates a new <code>MaterialEvent</code> object.\n   49  \t\t * \n   50: \t\t * @param\ttype\t\tThe type of the event. Possible values are: <code>Object3DEvent.TRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENETRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENE_CHANGED</code>, <code>Object3DEvent.RADIUS_CHANGED</code> and <code>Object3DEvent.DIMENSIONS_CHANGED</code>.\n   51  \t\t * @param\tobject\t\tA reference to the 3d object that is relevant to the event.\n   52  \t\t */\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/events/Object3DEvent.as:\n   33      \t * Defines the value of the type property of a dimensionsChanged event object.\n   34      \t */\n   35:     \tpublic static const DIMENSIONS_CHANGED:String = \"dimensionsChanged\";\n   36      \t\n   37      \t/**\n   ..\n   53  \t\t * Creates a new <code>MaterialEvent</code> object.\n   54  \t\t * \n   55: \t\t * @param\ttype\t\tThe type of the event. Possible values are: <code>Object3DEvent.TRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENETRANSFORM_CHANGED</code>, <code>Object3DEvent.SCENE_CHANGED</code>, <code>Object3DEvent.RADIUS_CHANGED</code> and <code>Object3DEvent.DIMENSIONS_CHANGED</code>.\n   56  \t\t * @param\tobject\t\tA reference to the 3d object that is relevant to the event.\n   57  \t\t */\n\n12 matches across 4 files\n\n\nSearching 2071 files for \"addOnDimensionsUpdate\"\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Geometry.as:\n 1160  \t\t * @param\tlistener\t\tThe listener function\n 1161  \t\t */\n 1162:         public function addOnDimensionsUpdate(listener:Function):void\n 1163          {\n 1164  \t\t\taddEventListener(GeometryEvent.DIMENSIONS_CHANGED, listener, false, 0, true);\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Mesh.as:\n  327              \t_geometry.addOnMaterialUpdate(onMaterialUpdate);\n  328              \t_geometry.addOnMappingChange(onMappingChange);\n  329:             \t_geometry.addOnDimensionsUpdate(onDimensionsUpdate);\n  330              \t_geometry.addOnGeometryChange(onGeometryChange);\n  331              }\n\n2 matches across 2 files\n\n\nSearching 2071 files for \" push\"\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/gs/TweenGroup.as:\n   11  \t\t  these capabilities to TweenLite instances without the extra Kb of TweenMax!\n   12  \t\t  \n   13: \t\t- Treat a TweenGroup instance just like an Array, so you can push(), splice(), unshift(), pop(),\n   14  \t\t  slice(), shift(), loop through the elements, access them directly like myGroup[1], and set them directly \n   15  \t\t  like myGroup[2] = new TweenLite(mc, 1, {x:300}) and it'll automatically adjust the timing\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Object3D.as:\n  577  \t\t * Elements use their furthest point from the camera when z-sorting\n  578  \t\t */\n  579:         public var pushback:Boolean;\n  580  \t\t\n  581  \t\t/**\n  582  \t\t * Elements use their nearest point to the camera when z-sorting\n  583  \t\t */\n  584:         public var pushfront:Boolean;\n  585          \n  586  \t\t/**\n  ...\n 1467              debugbb = ini.getBoolean(\"debugbb\", false);\n 1468              debugbs = ini.getBoolean(\"debugbs\", false);\n 1469:             pushback = ini.getBoolean(\"pushback\", false);\n 1470:             pushfront = ini.getBoolean(\"pushfront\", false);\n 1471              screenXOffset = ini.getNumber(\"screenXOffset\", 0);\n 1472              screenYOffset = ini.getNumber(\"screenYOffset\", 0);\n ....\n 1828              object3D.mouseEnabled = mouseEnabled;\n 1829              object3D.useHandCursor = useHandCursor;\n 1830:             object3D.pushback = pushback;\n 1831:             object3D.pushfront = pushfront;\n 1832              object3D.screenZOffset = screenZOffset;\n 1833              object3D.pivotPoint = pivotPoint;\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/render/QuadrantTreeNode.as:\n  134  \t\t * Adds a primitive to the quadrant\n  135  \t\t */\n  136:         public function push(renderer:QuadrantRenderer, priIndex:uint):QuadrantTreeNode\n  137          {\n  138              if (onlysourceFlag) {\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/debug/AwayStats.as:\n  784  \t\t\t\n  785  \t\t\t// If using a limited length log of frames\n  786: \t\t\t// for the average, push the latest recorded\n  787  \t\t\t// framerate onto fifo, shift one off and\n  788  \t\t\t// subtract it from the running sum, to keep\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/exporters/AS3Exporter.as:\n  183  \t\t\t\t\tv = object3d.transform.rawData;\n  184  \t\t\t\t\tmeshString +=\"\\t\\t\\tm\"+objcount+\".rawData = Vector.<Number>([\"+v[0]+\",\"+v[1]+\",\"+v[2]+\",\"+v[3]+\",\"+v[4]+\",\"+v[5]+\",\"+v[6]+\",\"+v[7]+\",\"+v[8]+\",\"+v[9]+\",\"+v[10]+\",\"+v[11]+\",\"+v[12]+\",\"+v[13]+\",\"+v[14]+\",\"+v[15]+\"]);\\n\";\n  185: \t\t\t\t\tmeshString +=\"\\n\\t\\t\\tobjs.obj\"+objcount+\" = {\"+nameinsert+\" transform:m\"+objcount+\", pivotPoint:new Vector3D(\"+object3d.pivotPoint.x+\",\"+object3d.pivotPoint.y+\",\"+object3d.pivotPoint.z+\"), container:\"+containerid+\", bothsides:\"+(object3d as Mesh).bothsides+\", material:\"+mat+\", ownCanvas:\"+(object3d as Mesh).ownCanvas+\", pushfront:\"+(object3d as Mesh).pushfront+\", pushback:\"+(object3d as Mesh).pushback+\"};\";\n  186  \t\t\t\t\t\n  187  \t\t\t\t\tvar aFaces:Vector.<Face> = mesh.faces;\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/graphs/bsp/BSPPortal.as:\n  787  \t\t\t}\n  788  \t\t\t\n  789: \t\t\t// last plane is unused, push back on pool\n  790  \t\t\t_planePool.push(plane);\n  791  \t\t\treturn anti;\n\n/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/loaders/Loader3D.as:\n  178              _result.mouseEnabled = mouseEnabled;\n  179              _result.useHandCursor = useHandCursor;\n  180:             _result.pushback = pushback;\n  181:             _result.pushfront = pushfront;\n  182              _result.screenZOffset = screenZOffset;\n  183              _result.pivotPoint = pivotPoint;\n\n14 matches across 7 files\n",
+			"settings":
+			{
+				"buffer_size": 14755,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "srclibs/away3d/core/base/Geometry.as",
+			"settings":
+			{
+				"buffer_size": 36845,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "srclibs/away3d/containers/ObjectContainer3D.as",
+			"settings":
+			{
+				"buffer_size": 17271,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/players/PlayerLibrary.as",
+			"settings":
+			{
+				"buffer_size": 8395,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "srclibs/away3d/core/base/Mesh.as",
+			"settings":
+			{
+				"buffer_size": 25491,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/equipment/HeadTennisNet.as",
+			"settings":
+			{
+				"buffer_size": 2740,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/SSPObjectBase.as",
+			"settings":
+			{
+				"buffer_size": 17933,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/equipment/Football.as",
+			"settings":
+			{
+				"buffer_size": 2980,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/equipment/AgilityCones.as",
+			"settings":
+			{
+				"buffer_size": 3697,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/equipment/BalanceBall.as",
+			"settings":
+			{
+				"buffer_size": 2499,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "srclibs/away3d/loaders/Max3DS.as",
+			"settings":
+			{
+				"buffer_size": 18530,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "srclibs/away3d/loaders/Loader3D.as",
+			"settings":
+			{
+				"buffer_size": 18377,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "srclibs/away3d/core/utils/Init.as",
+			"settings":
+			{
+				"buffer_size": 8933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/equipment/Mannequin.as",
+			"settings":
+			{
+				"buffer_size": 2419,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/SessionLoader.as",
+			"settings":
+			{
+				"buffer_size": 15139,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/SessionScreen.as",
+			"settings":
+			{
+				"buffer_size": 40356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/utils/SessionScreenUtils.as",
+			"settings":
+			{
+				"buffer_size": 24523,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/soccer/equipment/EquipmentSettings.as",
+			"settings":
+			{
+				"buffer_size": 990,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/tabbar/SSPTabBarContainer.as",
+			"settings":
+			{
+				"buffer_size": 16951,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/SSPObjectBaseSettings.as",
+			"settings":
+			{
+				"buffer_size": 3282,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src3d/models/EquipmentCreator.as",
+			"settings":
+			{
+				"buffer_size": 7473,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/yioks-mac/Desktop/equipmentScale",
+			"settings":
+			{
+				"buffer_size": 7022,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: acti",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"action",
+				"Set Syntax: ActionScript"
+			],
+			[
+				"ActionScript",
+				"Set Syntax: ActionScript"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/caurina",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/text",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras"
+	],
+	"file_history":
+	[
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/render/QuadrantTreeNode.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/utils/Init.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/FlatShoeLeft.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/BalanceBall.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/SSPObjectRepeater.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/SSPObjectRepeaterHandle.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/FlatShoeRight.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/tabbar/SSPTab.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/ObjectTypeLibrary.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/MCPlayer.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/ScreensController.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/tabbar/SSPTabBase.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/PlayerModels.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils/ModelUtils.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/primitives/RegularPolygon.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/primitives/AbstractPrimitive.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Mesh.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/text/Billboard.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/AgilityCones.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/Goal.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/SSPObjectBase.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/FlatDiscMarker.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/PlayerLibrary.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/loaders/Max3DS.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/PlayersManager.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/EquipmentLibrary.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/Football.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/Player.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/gs/utils/tween/SubVars.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/Equipment.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/SessionLoader.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/SSPSettings.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/SessionScreen.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/materials/TransformBitmapMaterial.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/SSPCameraController.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/pitches/PitchController.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/EquipmentCreator.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/Pole.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/gs/utils/tween/TransformAroundPointVars.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/containers/ObjectContainer3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/popup/PopupBtnItemElevation.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/HoverCamera3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/filter/QuadrantRiddleFilter.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/utils/FaceNormalShader.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/controls.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/render/BasicRenderer.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils/MiscUtils.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/SSPObjectBaseSettings.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/materials/BitmapFileMaterial.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/team/PlayerIcons.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/team/PRItem.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/team/PRCellRendererBase.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/AccessoriesLibrary.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/loaders/Loader3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/loaders/AC3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/Player024a.3ds",
+		"/Users/yioks-mac/Desktop/util.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/containers/View3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/pitches/PitchViewLibrary.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/ObjectCloner.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/equipment/EquipmentSettings.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/PlayerSettings.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/popup/PopupBtnItemSize.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/base/Object3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/containers/LODObject.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/lenses/OrthogonalLens.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/Camera3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/test/SimpleView.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/animators/PathAnimator.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/SpringCam.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/materials/utils/NormalBumpMaker.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/lines/ArrowHead.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/TargetCamera3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/lenses/PerspectiveLens.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/lenses/ZoomFocusLens.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/utils/ViewSourceObject.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/project/PrimitiveProjector.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/lenses/AbstractLens.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/test/BaseDemo.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/SSPCameraUpdater.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/popup/PopupToolbar.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/cameras/lenses/SphericalLens.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/traverse/ProjectionTraverser.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/mainmenu/MainMenuPanelTeam.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/tools/utils/Drag3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/SSP3DLogo.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/pitches/PitchTarget.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/materials/MovieMaterial.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/pitches/PitchTargets.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/filter/FogFilter.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/team/list/PRCContainerBase.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/PlayerCollider.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/audio/Sound3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/stats/Stats.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/utils/IClonable.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/SSPCameraSettings.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/MinutesClock.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/utils/DofCache.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils/Dragger.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/SessionView.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/stats/Tasks.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/materials/AnimatedBitmapMaterial.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/events/CameraEvent.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/pitches/Pitch.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/audio/drivers/ISound3DDriver.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/gs/TweenGroup.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/traverse/PrimitiveTraverser.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/traverse/Traverser.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/Rotator.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/PeriodMinutes.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/containers/Scene3D.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/ScreenSettings.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils/SessionScreenUtils.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils/SessionDataSaver.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/gs/plugins/QuaternionsPlugin.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/math/Quaternion.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/core/math/Vector3DUtils.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/popup/PopupToolbarBase.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils/Validator.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/MinutesManager.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/MinutesItem.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/MinutesPlayerItem.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/models/soccer/players/PlayerDisc.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/accordion.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d/primitives/Plane.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/MinutesGlobals.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/MinutesDataGrid.as",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src/minutes/MinutesDataGridCellRenderer.as"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor/,/Users/yioks-mac/Desktop/f10_02_futsal_editor",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor/",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor/srclibs/away3d",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src",
+			"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" push",
+			"addOnDimensionsUpdate",
+			"DIMENSIONS_CHANGED",
+			"addOnDimensionsChange",
+			"DIMENSIONS_CHANGED",
+			"addOnScaleChange",
+			"SCALE_CHANGED",
+			"_scaleX",
+			"repeaterHandleYPos",
+			"mainContainerHeight",
+			"_mainContainerHeight",
+			"scale",
+			"1034",
+			"2809",
+			"controllerScale",
+			"centralDiscScale",
+			"centralDiscInitialScale",
+			"OBJECT_TYPE_PLAYER",
+			"\"Player\"",
+			"player",
+			"parse",
+			"updateInternalScale",
+			"new Flag",
+			"flag",
+			"createNewTabFromXML",
+			"SSPTab",
+			"_screenChangedFlag",
+			"SSPTab",
+			"_screenChangedFlag",
+			"Flag",
+			"15",
+			"_internalScale",
+			"updateInternalScale",
+			"centralDisc",
+			"mainContainer",
+			"changeScaleInMesh",
+			"20",
+			"sS",
+			"OBJECT_TYPE_EQUIPMENT",
+			"this.size",
+			"resizeBlockAxis",
+			"CTRL_CUSTOM_ITEM_SIZE",
+			"resizeBlockAxis",
+			"RESIZE_BLOCK_X",
+			"Football",
+			"initsize",
+			"size",
+			"_resizable",
+			"scale",
+			"_size",
+			"_internalScale",
+			"loadEquipment",
+			"_size",
+			"createNewObject3D",
+			"objSettings",
+			"AgilityCones",
+			"EquipmentSettings",
+			"objSettingsRef",
+			"sizeDefault",
+			"resizable",
+			"_resizable",
+			"resizeable",
+			"scalable",
+			"_scalable",
+			"createNewText",
+			"controllerScale",
+			"centralDiscScale",
+			"centralDiscInitialScale",
+			"NAME_FOOTBALL",
+			"\"Football\"",
+			"ID_002",
+			"Football",
+			"Player001a",
+			"_libraryId",
+			"_playerLibraryId",
+			"setItem",
+			"elevationRatio",
+			"yPosOffset",
+			"objectset",
+			"_aPlayers",
+			"PlayerLibrary.ID_001",
+			"ID_012",
+			"ID_003",
+			"getPlayerPropertiesFromId",
+			"getPlayerSettings",
+			"getPlayerPropertiesFromId",
+			"Description",
+			"accessories",
+			"aAccessories",
+			"Accessories",
+			"ball",
+			"strClassName",
+			"_aPlayers",
+			"ACCESSORY_BALL",
+			"accessories",
+			"getuseBall",
+			"useball",
+			"addOnLoadSuccess",
+			"addOnSuccess",
+			"LOAD_SUCCESS",
+			"objectSet",
+			"parse",
+			"_aPlayers",
+			"Player-Running",
+			"ACCESSORY_BALL",
+			"ball",
+			"useball",
+			"extends Player",
+			"Player",
+			"useball",
+			"ball_24",
+			"new Player",
+			"useball",
+			"ball",
+			"useBall",
+			"_useBall",
+			"objectSet",
+			"SCREEN_PLAYER_CREATED",
+			"oxml",
+			"size",
+			"PlayerSettings",
+			"EquipmentSettings",
+			"SSPObjectBaseSettings",
+			"_objsettings",
+			"updateObjSettings",
+			"_objsettings",
+			"set setting",
+			"setting"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src3d/models/Equipment.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19702,
+								19721
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9939.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src3d/models/soccer/pitches/Pitch.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1379,
+								1379
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 811.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src3d/models/soccer/equipment/Goal.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src3d/utils/ModelUtils.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								411
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 40.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "srclibs/away3d/core/base/Object3D.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10301,
+								10319
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5808.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14755,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										228,
+										241
+									],
+									[
+										396,
+										409
+									],
+									[
+										623,
+										636
+									],
+									[
+										843,
+										856
+									],
+									[
+										1131,
+										1144
+									],
+									[
+										1521,
+										1537
+									],
+									[
+										1815,
+										1831
+									],
+									[
+										2234,
+										2252
+									],
+									[
+										2423,
+										2441
+									],
+									[
+										2669,
+										2687
+									],
+									[
+										2899,
+										2917
+									],
+									[
+										3171,
+										3189
+									],
+									[
+										3363,
+										3381
+									],
+									[
+										3618,
+										3636
+									],
+									[
+										3848,
+										3866
+									],
+									[
+										4145,
+										4163
+									],
+									[
+										4587,
+										4605
+									],
+									[
+										4940,
+										4958
+									],
+									[
+										5372,
+										5390
+									],
+									[
+										5826,
+										5847
+									],
+									[
+										6102,
+										6123
+									],
+									[
+										6548,
+										6569
+									],
+									[
+										6895,
+										6913
+									],
+									[
+										7084,
+										7102
+									],
+									[
+										7330,
+										7348
+									],
+									[
+										7560,
+										7578
+									],
+									[
+										7832,
+										7850
+									],
+									[
+										8024,
+										8042
+									],
+									[
+										8279,
+										8297
+									],
+									[
+										8509,
+										8527
+									],
+									[
+										8806,
+										8824
+									],
+									[
+										9248,
+										9266
+									],
+									[
+										9601,
+										9619
+									],
+									[
+										10033,
+										10051
+									],
+									[
+										10418,
+										10439
+									],
+									[
+										10816,
+										10837
+									],
+									[
+										11243,
+										11248
+									],
+									[
+										11698,
+										11703
+									],
+									[
+										11852,
+										11857
+									],
+									[
+										12051,
+										12056
+									],
+									[
+										12116,
+										12121
+									],
+									[
+										12465,
+										12470
+									],
+									[
+										12515,
+										12520
+									],
+									[
+										12822,
+										12827
+									],
+									[
+										13120,
+										13125
+									],
+									[
+										13949,
+										13954
+									],
+									[
+										13993,
+										13998
+									],
+									[
+										14247,
+										14252
+									],
+									[
+										14557,
+										14562
+									],
+									[
+										14606,
+										14611
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								10977,
+								10977
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"is_init_dirty_state": false,
+							"line_numbers": false,
+							"output_tag": 7,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4492.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "srclibs/away3d/core/base/Geometry.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35156,
+								35177
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 19463.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "srclibs/away3d/containers/ObjectContainer3D.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2705,
+								2727
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1307.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src3d/models/soccer/players/PlayerLibrary.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7315,
+								7315
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "srclibs/away3d/core/base/Mesh.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1919,
+								1919
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src3d/models/soccer/equipment/HeadTennisNet.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1315,
+								1315
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src3d/models/SSPObjectBase.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3929,
+								3942
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1086.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src3d/models/soccer/equipment/Football.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								665,
+								673
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src3d/models/soccer/equipment/AgilityCones.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2869,
+								2889
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1103.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src3d/models/soccer/equipment/BalanceBall.as",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1738,
+								1743
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 711.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "srclibs/away3d/loaders/Max3DS.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17838,
+								17843
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "srclibs/away3d/loaders/Loader3D.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1652,
+								1657
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 593.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "srclibs/away3d/core/utils/Init.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "src3d/models/soccer/equipment/Mannequin.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src3d/SessionLoader.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10103,
+								10103
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "src3d/SessionScreen.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4242,
+								4257
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1774.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "src3d/utils/SessionScreenUtils.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3058,
+								3070
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "src3d/models/soccer/equipment/EquipmentSettings.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								178
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "src/tabbar/SSPTabBarContainer.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2770,
+								2789
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1052.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "src3d/models/SSPObjectBaseSettings.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "src3d/models/EquipmentCreator.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3889,
+								3889
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ActionScript 3/ActionScript 3.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1895.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/Users/yioks-mac/Desktop/equipmentScale",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								624,
+								638
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "f10_02_futsal_editor.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				".actionScriptProperties"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

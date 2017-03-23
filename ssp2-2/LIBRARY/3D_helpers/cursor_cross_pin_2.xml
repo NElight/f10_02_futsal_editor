@@ -1,0 +1,52 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="3D_helpers/cursor_cross_pin_2" itemID="4f7c8574-0000049f" lastModified="1333565895">
+  <timeline>
+    <DOMTimeline name="cursor_cross_pin_2">
+      <layers>
+        <DOMLayer name="Layer 6" color="#808080" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!118 -202S2|175 -156!175 -156|11 0!11 0|0 -8!0 -8|118 -202!264 -216|156 -302!156 -302|270 -398!270 -398|331 -348!331 -348|264 -216"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMRectangleObject objectWidth="8.5" objectHeight="2.5" x="14.15" y="9" selected="true" topLeftRadius="20" topRightRadius="20">
+                      <matrix>
+                        <Matrix a="1.26119995117188" b="1.01071166992188" c="-0.904541015625" d="1.128173828125" tx="-5.45" ty="-41"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="18.85" y="10.65"/>
+                      </transformationPoint>
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </DOMRectangleObject>
+                    <DOMRectangleObject objectWidth="8.5" objectHeight="2.5" x="14.15" y="9" selected="true" topLeftRadius="20" topRightRadius="20">
+                      <matrix>
+                        <Matrix a="-0.732498168945313" b="-0.586746215820313" c="0.63311767578125" d="-0.789886474609375" tx="23.1" ty="-1"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="18.1" y="10.65"/>
+                      </transformationPoint>
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </DOMRectangleObject>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

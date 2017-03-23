@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="unused&amp;#063/FlashAICB/Layer 1/&amp;#060Path&amp;#062" itemID="4dc26e8c-00001916" lastModified="1304591516">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.01922607421875" d="-0.01922607421875" tx="15.75" ty="3.7"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#D0D1D3" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!315 95[137 95 0 0!0 0[58 69 138 108!138 108[222 148 315 148!315 148[408 148 492 108!492 108[573 69 630 0!630 0[493 95 315 95"/>
+                    <Edge cubics="!315 95(;195,95 85,59 0,0q315 95Q137 95q0 0);"/>
+                    <Edge cubics="!0 0(;75,90 188,148 315,148q0 0Q58 69q138 108Q222 148q315 148);"/>
+                    <Edge cubics="!315 148(;442,148 555,90 630,0q315 148Q408 148q492 108Q573 69q630 0)630,0;"/>
+                    <Edge cubics="!630 0(;545,59 435,95 315,95q630 0Q493 95q315 95);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

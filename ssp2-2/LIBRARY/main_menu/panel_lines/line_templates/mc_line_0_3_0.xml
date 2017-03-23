@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_templates/mc_line_0_3_0" itemID="4f106f54-0000045e" lastModified="1326477145">
+  <timeline>
+    <DOMTimeline name="mc_line_0_3_0">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!-20.5 257S1|1939 50.5!1939 50.5|1932.5 -9!1932.5 -9|-27 197.5!-27 197.5|-20.5 257"/>
+                    <Edge cubics="!6 224(;6,224 1906,24 1906,24q6 224 1906 24)1906,24;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_balance_ball" itemID="4f475e4e-000004db" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="mc_balance_ball" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_balance_ball" lastModified="1346667058">
+  <timeline>
+    <DOMTimeline name="mc_balance_ball">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="equipment/balance_ball_icon.png">
+                  <matrix>
+                    <Matrix tx="-25" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

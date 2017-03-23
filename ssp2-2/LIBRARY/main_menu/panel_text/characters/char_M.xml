@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_M" itemID="4e04f848-000001db" linkageExportForAS="true" linkageIdentifier="char_M" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_M" lastModified="1333037826">
+  <timeline>
+    <DOMTimeline name="char_M">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!80 -110|80 -302!80 -302|13 -110!13 -110|-15 -110!-15 -110|-82 -305!-82 -305|-82 -110!-82 -110|-111 -110!-111 -110|-111 -339!-111 -339|-65 -339!-65 -339|-11 -177!-11 -177[-3 -154 1 -143!1 -143[4 -155 13 -180!13 -180|68 -339!68 -339|109
+ -339!109 -339|109 -110!109 -110|80 -110"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

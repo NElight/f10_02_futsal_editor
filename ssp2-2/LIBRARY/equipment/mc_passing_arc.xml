@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_passing_arc" itemID="4f475ee3-000004e9" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="mc_passing_arc" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_passing_arc" lastModified="1346667058">
+  <timeline>
+    <DOMTimeline name="mc_passing_arc">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="equipment/passing_arc_icon.png">
+                  <matrix>
+                    <Matrix tx="-19.5" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

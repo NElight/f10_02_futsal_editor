@@ -1,0 +1,92 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="text_editor/mcTextEditorV_old" itemID="516d841b-0002df3f" lastModified="1367778515">
+  <timeline>
+    <DOMTimeline name="mcTextEditorV_old">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="textField" selected="true" width="296" height="75" scrollable="true" border="true" renderAsHTML="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="29" ty="24"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMSymbolInstance libraryItemName="text_editor/mcBtnBold" name="buttonBold" centerPoint3DX="11.6" centerPoint3DY="33.5">
+                  <matrix>
+                    <Matrix ty="22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.55" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="text_editor/mcBtnItalic" name="buttonItalic" centerPoint3DX="11.5" centerPoint3DY="61.5">
+                  <matrix>
+                    <Matrix ty="50"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="text_editor/mcBtnUnderline" name="buttonUnderline" centerPoint3DX="11.5" centerPoint3DY="89.5">
+                  <matrix>
+                    <Matrix ty="78"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMComponentInstance libraryItemName="ui_components/UIScrollBar" name="textScrollBar" centerPoint3DX="336.5" centerPoint3DY="61.45" uniqueID="5">
+                  <matrix>
+                    <Matrix d="0.789993286132813" tx="327" ty="21.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.5" y="50"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="vertical" enumeration="vertical,horizontal" type="List"/>
+   </property>
+   <property id="scrollTargetName">
+      <Inspectable name="scrollTargetName" variable="scrollTargetName" category="" verbose="0" defaultValue="textField" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="textLabel" width="96" height="18" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_templates/mc_line_0_5_0_shadow" itemID="4f107010-00000487" lastModified="1326477802">
+  <timeline>
+    <DOMTimeline name="mc_line_0_5_0_shadow">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1570 270S1|30 270!30 270|30 50!30 50|1570 50!1570 50|1570 270!1630 -10|-30 -10!-30 -10|-30 330!-30 330|1630 330!1630 330|1630 -10"/>
+                    <Edge cubics="!1570 50(;1570,50 1570,270 1570,270q1570 50 1570 270);"/>
+                    <Edge cubics="!30 270(;30,270 30,50 30,50q30 270 30 50);"/>
+                    <Edge cubics="!1570 270(;1570,270 30,270 30,270q1570 270 30 270);"/>
+                    <Edge cubics="!30 50(;30,50 1570,50 1570,50q30 50 1570 50);"/>
+                    <Edge cubics="!1630 330(;1630,330 1630,-10 1630,-10q1630 330 1630 -10);"/>
+                    <Edge cubics="!-30 -10(;-30,-10 -30,330 -30,330q-30 -10 -30 330);"/>
+                    <Edge cubics="!1630 -10(;1630,-10 -30,-10 -30,-10q1630 -10 -30 -10);"/>
+                    <Edge cubics="!-30 330(;-30,330 1630,330 1630,330q-30 330 1630 330);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ComponentsSSP/SSPSlider/SSPSliderThumb_disabledSkin" itemID="5161aef2-0000ca51" linkageExportForAS="true" linkageClassName="SSPSliderThumb_disabledSkin" lastModified="1365368112">
+  <timeline>
+    <DOMTimeline name="SSPSliderThumb_disabledSkin">
+      <layers>
+        <DOMLayer name="skin" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="18" objectHeight="18" x="-6.7" y="-6.7" lockFlag="true" topLeftRadius="3.8" topRightRadius="3.8" bottomLeftRadius="3.8" bottomRightRadius="3.8">
+                  <matrix>
+                    <Matrix tx="-2.3" ty="-2.3"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#999999"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

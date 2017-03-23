@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player1_bottoms" itemID="4ded43ec-000009e0" lastModified="1336587189">
+  <timeline>
+    <DOMTimeline name="player1_bottoms">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#66FF99"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 26/64 172!64 172/46 271!46 271/176 339!176 339/366 240!366 240/267 142!267 142/265 0!265 0/0 26"/>
+                    <Edge cubics="!0 26(;0,26 64,172 64,172q0 26 64 172);"/>
+                    <Edge cubics="!64 172(;64,172 46,271 46,271q64 172 46 271);"/>
+                    <Edge cubics="!46 271(;46,271 176,339 176,339q46 271 176 339);"/>
+                    <Edge cubics="!176 339(;176,339 366,240 366,240q176 339 366 240);"/>
+                    <Edge cubics="!366 240(;366,240 267,142 267,142q366 240 267 142);"/>
+                    <Edge cubics="!267 142(;267,142 265,0 265,0q267 142 265 0);"/>
+                    <Edge cubics="!265 0(;265,0 0,26 0,26q265 0 0 26);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

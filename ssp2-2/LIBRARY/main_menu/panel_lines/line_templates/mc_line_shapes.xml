@@ -1,0 +1,1640 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_templates/mc_line_shapes" itemID="4e54d6eb-0000040d" lastModified="1326478098" lastUniqueIdentifier="101">
+  <timeline>
+    <DOMTimeline name="mc_line_shapes">
+      <layers>
+        <DOMLayer name="arrow_right_0" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_0" name="arrow_right_0" selected="true" centerPoint3DX="84.8" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix tx="80" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_0" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_0" name="arrow_left_0" centerPoint3DX="-4.8" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_1" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_1" name="arrow_right_1" centerPoint3DX="84.8" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix tx="80" ty="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_1" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_1" name="arrow_left_1" centerPoint3DX="-4.8" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_2" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_2" name="arrow_right_2" centerPoint3DX="84.8" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix tx="80" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_2" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_2" name="arrow_left_2" centerPoint3DX="-4.8" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_0_4" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_0_4" name="arrow_left_0_4" centerPoint3DX="-2.1" centerPoint3DY="7.9">
+                  <matrix>
+                    <Matrix a="0.866012573242188" b="-0.5" c="0.500015258789063" d="0.866012573242188" tx="-9.6" ty="5.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_1_4" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_1_4" name="arrow_left_1_4" centerPoint3DX="-3.15" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="-9.1" ty="6.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.85" y="3.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_2_4" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_2_4" name="arrow_left_2_4" centerPoint3DX="-3.2" centerPoint3DY="7.55">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="-8.6" ty="7.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_0_4" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_0_4" name="arrow_right_0_4" centerPoint3DX="83" centerPoint3DY="7.45">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="0.5" c="-0.5" d="0.86602783203125" tx="81.1" ty="1.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_1_4" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_1_4" name="arrow_right_1_4" centerPoint3DX="83" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="0.5" c="-0.5" d="0.86602783203125" tx="80.6" ty="2.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_2_4" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_2_4" name="arrow_right_2_4" centerPoint3DX="82.95" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="0.5" c="-0.5" d="0.86602783203125" tx="80.05" ty="2.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_0_3" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_0_3" name="arrow_left_0_3" centerPoint3DX="-5.55" centerPoint3DY="5.6">
+                  <matrix>
+                    <Matrix a="0.993560791015625" b="-0.113204956054688" c="0.113204956054688" d="0.993560791015625" tx="-10.75" ty="1.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.7" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_1_3" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_1_3" name="arrow_left_1_3" centerPoint3DX="-5.5" centerPoint3DY="5.6">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="-10.65" ty="2.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_2_3" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_2_3" name="arrow_left_2_3" centerPoint3DX="-5.65" centerPoint3DY="5.7">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="-10.65" ty="3.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.75" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_0_3" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_0_3" name="arrow_right_0_3" centerPoint3DX="85.35" centerPoint3DY="-5.8">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="80.1" ty="-9.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.75" y="4.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_1_3" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_1_3" name="arrow_right_1_3" centerPoint3DX="85.35" centerPoint3DY="-5.75">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="80.2" ty="-8.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_2_3" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_2_3" name="arrow_right_2_3" centerPoint3DX="85.35" centerPoint3DY="-5.6">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="80.3" ty="-7.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_curved_0" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_1_0" name="line_3_1_0" centerPoint3DX="40.05" centerPoint3DY="-0.05">
+                  <matrix>
+                    <Matrix a="0.833740234375" tx="0.45" ty="-3.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="3.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_curved_1" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_1_1" name="line_3_1_1" centerPoint3DX="39.8" centerPoint3DY="-0.15">
+                  <matrix>
+                    <Matrix a="0.834182739257813" tx="0.25" ty="-3.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.4" y="3.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_curved_2" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_1_2" name="line_3_1_2" centerPoint3DX="40" centerPoint3DY="-0.15">
+                  <matrix>
+                    <Matrix a="0.8345947265625" tx="0.45" ty="-3.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.4" y="3.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_0" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_1_0" name="line_0_1_0" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842086791992188" ty="-4.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_1" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_1_1" name="line_0_1_1" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842086791992188" ty="-4.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_2" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_1_2" name="line_0_1_2" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842086791992188" ty="-4.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_simple_0" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_0_0" name="line_3_0_0" centerPoint3DX="40" centerPoint3DY="0.6">
+                  <matrix>
+                    <Matrix a="0.808074951171875" tx="1.6" ty="-3.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_simple_1" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_0_1" name="line_3_0_1" centerPoint3DX="39.95" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.808074951171875" tx="1.6" ty="-3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.45" y="4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_simple_2" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_0_2" name="line_3_0_2" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.808074951171875" tx="1.6" ty="-3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_0" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_0_0" name="line_0_0_0" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842086791992188" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_1" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_0_1" name="line_0_0_1" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842056274414063" ty="-0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_2" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_0_2" name="line_0_0_2" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842086791992188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dashed_0" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_1_0" name="line_1_1_0" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.815902709960938" tx="1.2" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dashed_1" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_1_1" name="line_1_1_1" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.824234008789063" tx="0.8" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dashed_2" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_1_2" name="line_1_1_2" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.833328247070313" tx="0.4" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dotted_0" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_1_0" name="line_2_1_0" centerPoint3DX="40.2">
+                  <matrix>
+                    <Matrix a="0.831161499023438" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48.35" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dotted_1" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_1_1" name="line_2_1_1" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.839447021484375" tx="-0.6" ty="-4.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48.35" y="4.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dotted_2" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_1_2" name="line_2_1_2" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.841659545898438" tx="-0.35" ty="-4.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.95" y="4.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dashed_0" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_0_0" name="line_1_0_0" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842544555664063" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dashed_1" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_0_1" name="line_1_0_1" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="-0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dashed_2" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_0_2" name="line_1_0_2" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dotted_0" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_0_0" name="line_2_0_0" selected="true" centerPoint3DX="39.9" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.842544555664063" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.35" y="1.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dotted_1" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_0_1" name="line_2_0_1" selected="true" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="-0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dotted_2" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_0_2" name="line_2_0_2" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_parabolic_0" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_4_0" name="line_0_4_0" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.80767822265625" tx="1.6" ty="-5.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="5.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_parabolic_1" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_4_1" name="line_0_4_1" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.818832397460938" tx="1.15" ty="-5.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.45" y="5.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_parabolic_2" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_4_2" name="line_0_4_2" centerPoint3DX="40">
+                  <matrix>
+                    <Matrix a="0.830307006835938" tx="0.6" ty="-5.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.45" y="5.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_elevated_0" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_5_0" name="line_0_3_0" centerPoint3DX="39.8">
+                  <matrix>
+                    <Matrix a="0.833969116210938" ty="-6.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.7" y="6.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_elevated_1" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_3_1" name="line_0_3_1" centerPoint3DX="40.1">
+                  <matrix>
+                    <Matrix a="0.843643188476563" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_elevated_2" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_3_2" name="line_0_3_2" selected="true" centerPoint3DX="40.55">
+                  <matrix>
+                    <Matrix a="0.853546142578125" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dashed_0" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_1_0_shadow" name="line_1_1_0_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.815902709960938" tx="1.2" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dashed_1" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_1_1_shadow" name="line_1_1_1_shadow" selected="true" centerPoint3DX="39.95" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.824234008789063" tx="0.8" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dashed_2" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_1_2_shadow" name="line_1_1_2_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.833328247070313" tx="0.4" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dotted_0" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_1_0_shadow" name="line_2_1_0_shadow" selected="true" centerPoint3DX="40.2" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.831161499023438" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48.35" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dotted_1" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_1_1_shadow" name="line_2_1_1_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="0.95">
+                  <matrix>
+                    <Matrix a="0.839447021484375" tx="-0.6" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48.35" y="4.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_dotted_2" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_1_2_shadow" name="line_2_1_2_shadow" selected="true" centerPoint3DX="39.95" centerPoint3DY="0.95">
+                  <matrix>
+                    <Matrix a="0.841659545898438" tx="-0.4" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.95" y="4.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dashed_0" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_0_0_shadow" name="line_1_0_0_shadow" centerPoint3DX="39.9" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.842544555664063"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.35" y="1.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dashed_1" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_0_1_shadow" name="line_1_0_1_shadow" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dashed_2" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_1_0_2_shadow" name="line_1_0_2_shadow" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dotted_0" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_0_0_shadow" name="line_2_0_0_shadow" selected="true" centerPoint3DX="40.05" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.842544555664063"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="1.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dotted_1" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_0_1_shadow" name="line_2_0_1_shadow" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_dotted_2" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_2_0_2_shadow" name="line_2_0_2_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_parabolic_0" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_4_0_shadow" name="line_0_4_0_shadow" selected="true" centerPoint3DX="37.55" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.808609008789063" tx="1.55" ty="-4.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="44.5" y="5.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_parabolic_1" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_4_1_shadow" name="line_0_4_1_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.818832397460938" tx="1.1" ty="-4.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_parabolic_2" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_4_2_shadow" name="line_0_4_2_shadow" selected="true" centerPoint3DX="40.05" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.830307006835938" tx="0.55" ty="-4.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="5.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_elevated_0" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_3_0_shadow" name="line_0_3_0_shadow" centerPoint3DX="39.7" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.834182739257813" tx="-0.15" ty="-5.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.75" y="6.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_elevated_1" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_3_1_shadow" name="line_0_3_1_shadow" selected="true" centerPoint3DX="40.1" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.843612670898438" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.55" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_elevated_2" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_3_2_shadow" name="line_0_3_2_shadow" centerPoint3DX="40.5" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix a="0.853286743164063" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.45" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grid_0" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_5_0" name="line_0_5_0" selected="true" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix ty="-6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grid_1" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_5_1" name="line_0_5_1" selected="true" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix ty="-6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grid_2" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_5_2" name="line_0_5_2" selected="true" centerPoint3DX="40" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix ty="-6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grid_0_shadow" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_5_0_shadow" name="line_0_5_0_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix ty="-6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grid_1_shadow" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_5_1_shadow" name="line_0_5_1_shadow" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix ty="-6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grid_2_shadow" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_5_2_shadow" name="line_0_5_2_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix ty="-6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_curved_0_shadow" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_1_0_shadow" name="line_3_1_0_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="0.95">
+                  <matrix>
+                    <Matrix a="0.833755493164063" tx="0.45" ty="-2.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.45" y="3.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_curved_1_shadow" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_1_1_shadow" name="line_3_1_1_shadow" selected="true" centerPoint3DX="39.8" centerPoint3DY="0.85">
+                  <matrix>
+                    <Matrix a="0.834182739257813" tx="0.25" ty="-2.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.4" y="3.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_curved_2_shadow" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_1_2_shadow" name="line_3_1_2_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="0.85">
+                  <matrix>
+                    <Matrix a="0.8345947265625" tx="0.45" ty="-2.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.4" y="3.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_simple_0_shadow" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_0_0_shadow" name="line_3_0_0_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.6">
+                  <matrix>
+                    <Matrix a="0.808074951171875" tx="1.6" ty="-2.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_simple_1_shadow" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_0_1_shadow" name="line_3_0_1_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.808074951171875" tx="1.6" ty="-2.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_sin_simple_2_shadow" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_3_0_2_shadow" name="line_3_0_2_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.808074951171875" tx="1.6" ty="-2.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_0_3_shadow" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_0_3_shadow" name="arrow_left_0_3_shadow" selected="true" centerPoint3DX="-5.45" centerPoint3DY="6.55">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="-10.75" ty="2.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.75" y="4.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_1_3_shadow" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_1_3_shadow" name="arrow_left_1_3_shadow" selected="true" centerPoint3DX="-5.5" centerPoint3DY="6.65">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="-10.65" ty="3.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_2_3_shadow" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_2_3_shadow" name="arrow_left_2_3_shadow" selected="true" centerPoint3DX="-5.6" centerPoint3DY="6.7">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="-10.65" ty="4.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_0_3_shadow" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_0_3_shadow" name="arrow_right_0_3_shadow" selected="true" centerPoint3DX="85.35" centerPoint3DY="-4.75">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="80.1" ty="-8.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.75" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_1_3_shadow" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_1_3_shadow" name="arrow_right_1_3_shadow" selected="true" centerPoint3DX="85.35" centerPoint3DY="-4.75">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="80.2" ty="-7.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_2_3_shadow" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_2_3_shadow" name="arrow_right_2_3_shadow" selected="true" centerPoint3DX="85.35" centerPoint3DY="-4.7">
+                  <matrix>
+                    <Matrix a="0.993576049804688" b="-0.113204956054688" c="0.113204956054688" d="0.993576049804688" tx="80.3" ty="-6.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_0_4_sahdow" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_0_4_shadow" name="arrow_left_0_4_shadow" selected="true" centerPoint3DX="-3.2" centerPoint3DY="8.45">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="-9.6" ty="6.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_1_4_shadow" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_1_4_shadow" name="arrow_left_1_4_shadow" centerPoint3DX="-3.2" centerPoint3DY="8.5">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="-9.1" ty="7.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_2_4_shadow" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_2_4_shadow" name="arrow_left_2_4_shadow" selected="true" centerPoint3DX="-3.2" centerPoint3DY="8.55">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="-8.6" ty="8.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_0_4_shadow" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_0_4_shadow" name="arrow_right_0_4_shadow" selected="true" centerPoint3DX="83" centerPoint3DY="8.45">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="0.5" c="-0.5" d="0.86602783203125" tx="81.1" ty="2.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_1_4_shadow" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_1_4_shadow" name="arrow_right_1_4_shadow" selected="true" centerPoint3DX="83" centerPoint3DY="8.45">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="0.5" c="-0.5" d="0.86602783203125" tx="80.6" ty="3.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_2_4_shadow" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_2_4_shadow" name="arrow_right_2_4_shadow" selected="true" centerPoint3DX="82.95" centerPoint3DY="8.5">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="0.5" c="-0.5" d="0.86602783203125" tx="80.05" ty="3.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_0_shadow" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_0_shadow" name="arrow_right_0_shadow" centerPoint3DX="84.8" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="80" ty="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_0_shadow" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_0_shadow" name="arrow_left_0_shadow" selected="true" centerPoint3DX="-4.8" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_1_shadow" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_1_shadow" name="arrow_right_1_shadow" selected="true" centerPoint3DX="84.8" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="80" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_1_shadow" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_1" name="arrow_left_1_shadow" selected="true" centerPoint3DX="-4.8" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_right_2_shadow" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_right_2_shadow" name="arrow_right_2_shadow" selected="true" centerPoint3DX="84.8" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="80" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow_left_2_shadow" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_arrow_left_2_shadow" name="arrow_left_2_shadow" selected="true" centerPoint3DX="-4.8" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="-9.6" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.8" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_0_shadow" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_1_0_shadow" name="line_0_1_0_shadow" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="-3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_1_shadow" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_1_1_shadow" name="line_0_1_1_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="-3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_curved_2_shadow" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_1_2_shadow" name="line_0_1_2_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="-3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_0_shadow" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_0_0_shadow" name="line_0_0_0_shadow" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_1_shadow" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_0_1_shadow" name="line_0_0_1_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_simple_2_shadow" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_templates/mc_line_0_0_2_shadow" name="line_0_0_2_shadow" selected="true" centerPoint3DX="40" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="0.84210205078125" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.5" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

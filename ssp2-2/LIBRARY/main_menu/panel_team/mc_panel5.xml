@@ -1,0 +1,267 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_team/mc_panel5" itemID="509d3e66-0000052b" linkageExportForAS="true" linkageClassName="src.mainmenu.MainMenuPanelTeam" lastModified="1371639357" lastUniqueIdentifier="71">
+  <timeline>
+    <DOMTimeline name="mc_panel5" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;5&lt;/guideline&gt;&lt;guideline direction="h"&gt;26&lt;/guideline&gt;&lt;guideline direction="v"&gt;196&lt;/guideline&gt;&lt;guideline direction="v"&gt;7&lt;/guideline&gt;&lt;guideline direction="v"&gt;195&lt;/guideline&gt;&lt;guideline direction="v"&gt;149&lt;/guideline&gt;&lt;guideline direction="h"&gt;178&lt;/guideline&gt;&lt;guideline direction="v"&gt;214&lt;/guideline&gt;&lt;guideline direction="h"&gt;504&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="tabs_line" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/mc_panel5_line" name="mcTabsLine" centerPoint3DX="0.5" centerPoint3DY="254">
+                  <matrix>
+                    <Matrix tx="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2.5" y="254"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcTeamSettings" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/team_settings/mc_team_settings" name="mcTeamSettings" centerPoint3DX="108.1" centerPoint3DY="195.25">
+                  <transformationPoint>
+                    <Point x="108.1" y="195"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcPlayerRecordsOurTeam" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/team_lists/mc_player_records_compact_ourteam" name="mcPlayerRecordsOurTeam" centerPoint3DX="111" centerPoint3DY="257">
+                  <transformationPoint>
+                    <Point x="111" y="257"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcPlayerRecordsOpposition" color="#808080" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/team_lists/mc_player_records_compact_opposition" name="mcPlayerRecordsOpposition" centerPoint3DX="111" centerPoint3DY="257">
+                  <transformationPoint>
+                    <Point x="111" y="257"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnTogglePlayerModel" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/btnTogglePlayerPose" name="btnTogglePlayerModel" symbolType="button">
+                  <matrix>
+                    <Matrix tx="7.9" ty="476"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnTogglePlayerNumber" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/btnTogglePlayerNumber" name="btnTogglePlayerNumber" symbolType="button">
+                  <matrix>
+                    <Matrix tx="7.9" ty="476"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnTogglePlayerDetailsExpanded" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/btnTogglePlayerDetailsFull" name="btnTogglePlayerDetailsExpanded" symbolType="button">
+                  <matrix>
+                    <Matrix tx="37.9" ty="476"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnTogglePlayerDetailsCondensed" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/btnTogglePlayerDetailsSimple" name="btnTogglePlayerDetailsCondensed" symbolType="button">
+                  <matrix>
+                    <Matrix tx="37.9" ty="476"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnCyclePlayerNameFormat" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/btnCyclePlayerName" name="btnCyclePlayerNameFormat" symbolType="button">
+                  <matrix>
+                    <Matrix tx="67.9" ty="476"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnTabSettings" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuPanelTabSmall" name="btnTabSettings" centerPoint3DX="246.5" centerPoint3DY="18">
+                  <matrix>
+                    <Matrix tx="194" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnTabOppTeam" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuPanelTab2" name="btnTabOppTeam" centerPoint3DX="151.5" centerPoint3DY="18">
+                  <matrix>
+                    <Matrix tx="99" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.5" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnTabOurTeam" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuPanelTab2" name="btnTabOurTeam" centerPoint3DX="56.5" centerPoint3DY="18">
+                  <matrix>
+                    <Matrix tx="4" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.5" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tabs_bg_gradients" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient focalPointRatio="0.156862745098039">
+                        <matrix>
+                          <Matrix a="0.021484375" d="0.021484375" tx="-11.4" ty="20.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0.474509803921569"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <RadialGradient focalPointRatio="0.156862745098039">
+                        <matrix>
+                          <Matrix a="-0.021484375" d="0.021484375" tx="234.4" ty="20.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0.474509803921569"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="2" edges="!4448 650[4454 656 4460 662!4460 662|4460 158!4460 158[4454 163 4448 169!4448 169[4348 269 4348 410!4348 410[4348 551 4448 650"/>
+                    <Edge fillStyle1="1" edges="!12 169[112 269 112 410!112 410[112 551 12 650!12 650[6 656 0 662!0 662|0 158!0 158[6 163 12 169"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tabs_bg" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.0201416015625" c="0.01953125" d="0" tx="111.5" ty="16.05"/>
+                        </matrix>
+                        <GradientEntry color="#999999" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.392156862745098"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!4460 641|0 641!0 641|0 1!0 1|4460 1!4460 1|4460 641"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F2F2F2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!4440 0|4440 10160!4440 10160|0 10160!0 10160|0 0!0 0|4440 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

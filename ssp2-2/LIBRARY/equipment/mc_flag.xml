@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_flag" itemID="4df72db9-00002652" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="mc_flag" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_flag" lastModified="1346667059">
+  <timeline>
+    <DOMTimeline name="mc_flag">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="equipment/flag_icon.png">
+                  <matrix>
+                    <Matrix tx="-19.5" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

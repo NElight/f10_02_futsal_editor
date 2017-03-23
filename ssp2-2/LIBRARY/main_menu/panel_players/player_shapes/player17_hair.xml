@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player17_hair" itemID="56391419-00003afe" lastModified="1446581273">
+  <timeline>
+    <DOMTimeline name="player17_hair">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#339999"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!131 1S1[131 -1 130 0!130 0|61 3!61 3[60 3 59 4!59 4|1 69!1 69[0 69 1 70!1 70|2 110!2 110|3 110!3 110|14 114!14 114|16 116!16 116|22 159!22 159|37 180!37 180|42 127!42 127|42 126!42 126|43 125!43 125|60 113!60 113|60 88!60 88[60 87 61
+ 87!61 87|80 78!80 78[81 77 82 78!82 78|83 79!83 79|92 90!92 90|166 82!166 82|182 61!182 61|183 60!183 60|131 1"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

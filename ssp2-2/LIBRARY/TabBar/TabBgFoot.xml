@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/TabBgFoot" itemID="505392bd-00000b33" symbolType="graphic" lastModified="1347654333">
+  <timeline>
+    <DOMTimeline name="TabBgFoot">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#DDDDDD"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#B2B2B2"/>
+                    </FillStyle>
+                    <FillStyle index="3">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                    <FillStyle index="4">
+                      <SolidColor alpha="0.298039215686275"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="3" edges="!620 40|620 20"/>
+                    <Edge fillStyle0="4" edges="!620 20|620 0!620 0|0 0!0 0|0 20"/>
+                    <Edge fillStyle0="1" edges="!620 120|620 40"/>
+                    <Edge fillStyle0="2" edges="!0 120|0 140!0 140|620 140!620 140|620 120"/>
+                    <Edge fillStyle1="1" edges="!0 120|0 40"/>
+                    <Edge fillStyle1="3" edges="!0 40|0 20"/>
+                    <Edge fillStyle0="4" fillStyle1="3" edges="!0 20|620 20"/>
+                    <Edge fillStyle0="3" fillStyle1="1" edges="!0 40|620 40"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!620 120|0 120"/>
+                    <Edge cubics="!0 20(0,20;0,20 620,20 620,20q0 20 620 20);"/>
+                    <Edge cubics="!620 120(;620,120 0,120 0,120q620 120 0 120);"/>
+                    <Edge cubics="!620 120(620,120;620,120 620,40 620,40q620 120 620 40)620,40;"/>
+                    <Edge cubics="!620 140(620,140;620,140 620,120 620,120q620 140 620 120)620,120;"/>
+                    <Edge cubics="!620 40(;620,40 620,20 620,20q620 40 620 20);"/>
+                    <Edge cubics="!620 20(;620,20 620,0 620,0q620 20 620 0);"/>
+                    <Edge cubics="!0 20(;0,20 0,40 0,40q0 20 0 40);"/>
+                    <Edge cubics="!0 40(;0,40 0,120 0,120q0 40 0 120);"/>
+                    <Edge cubics="!0 0(;0,0 0,20 0,20q0 0 0 20);"/>
+                    <Edge cubics="!0 120(0,120;0,120 0,140 0,140q0 120 0 140);"/>
+                    <Edge cubics="!0 140(0,140;0,140 620,140 620,140q0 140 620 140)620,140;"/>
+                    <Edge cubics="!620 40(;620,40 0,40 0,40q620 40 0 40);"/>
+                    <Edge cubics="!620 0(620,0;620,0 0,0 0,0q620 0 0 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/chosen_arrow_pos" itemID="4e5389fb-00000631" lastModified="1314289356" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="chosen_arrow_pos">
+      <layers>
+        <DOMLayer name="3" color="#FF800A" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/gr_arrowpos_3" name="arrow_pos_3" centerPoint3DX="41" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix tx="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="1" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/gr_arrowpos_1" name="arrow_pos_1" selected="true" centerPoint3DX="40" centerPoint3DY="1">
+                  <transformationPoint>
+                    <Point x="40" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="0" color="#4FFF4F" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/gr_arrowpos_0" name="arrow_pos_0" centerPoint3DX="40" centerPoint3DY="1">
+                  <transformationPoint>
+                    <Point x="40" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

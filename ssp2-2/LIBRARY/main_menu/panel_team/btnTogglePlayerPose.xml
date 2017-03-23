@@ -1,0 +1,293 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_team/btnTogglePlayerPose" itemID="51718950-00000c59" linkageExportForAS="true" linkageBaseClass="src.buttons.SSPSimpleButton" linkageClassName="BtnTogglePlayerPose" symbolType="button" lastModified="1371639736">
+  <timeline>
+    <DOMTimeline name="btnTogglePlayerPose">
+      <layers>
+        <DOMLayer name="button" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="misc/myButton" name="bold_button" symbolType="button">
+                  <matrix>
+                    <Matrix tx="0.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#808080" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="icons/mcIconPlayerSmall" selected="true" centerPoint3DX="11.55" centerPoint3DY="11.45">
+                  <matrix>
+                    <Matrix tx="5.65" ty="1.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.9" y="9.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!233 38/242 47!242 47/248 66!248 66/243 92!243 92/239 95!239 95/243 93!243 93/259 95!259 95/295 131!295 131/296 135!296 135/295 136!295 136/314 157!314 157/322 167!322 167/328 170!328 170|340 169!340 169|349 174!349 174|349 175!349 175
+|347 179!347 179|355 186!355 186|347 191!347 191|334 194!334 194|328 193!328 193|328 192!328 192|327 192!327 192|321 178!321 178/310 170!310 170/284 151!284 151/282 155!282 155/260 140!260 140/262 227!262 227/261 227!261 227/272 262!272
+ 262/280 308!280 308/259 311!259 311/267 310!267 310/264 327!264 327/265 327!265 327/260 388!260 388/283 408!283 408/285 419!285 419/274 419!274 419/246 407!246 407/248 391!248 391/243 328!243 328/242 311!242 311/246 311!246 311/230 310
+!230 310/224 296!224 296/219 317!219 317/212 317!212 317/209 334!209 334/197 401!197 401/208 412!208 412/217 428!217 428/201 430!201 430/178 417!178 417/185 402!185 402/186 333!186 333/186 332!186 332/186 315!186 315/175 313!175 313/187
+ 270!187 270/193 231!193 231/193 230!193 230/186 164!186 164/179 172!179 172/175 166!175 166/179 162!179 162/178 161!178 161/165 180!165 180/156 192!156 192/148 203!148 203/147 204!147 204/147 203!147 203|141 214!141 214|131 222!131 222
+|120 218!120 218|120 217!120 217|118 210!118 210|118 209!118 209|123 205!123 205|123 199!123 199|124 199!124 199|143 195!143 195/147 186!147 186/151 176!151 176/162 150!162 150/158 149!158 149/184 106!184 106/212 93!212 93/215 96!215
+ 96/211 79!211 79/206 67!206 67/209 46!209 46/221 38!221 38/233 38"/>
+                    <Edge fillStyle0="1" edges="
+!236 105/235 105!235 105/236 101!236 101/236 105"/>
+                    <Edge cubics="!156 192(;156,192 165,180 165,180q156 192 165 180);"/>
+                    <Edge cubics="!243 92(;243,92 248,66 248,66q243 92 248 66);"/>
+                    <Edge cubics="!248 66(;248,66 242,47 242,47q248 66 242 47);"/>
+                    <Edge cubics="!322 167(;322,167 314,157 314,157q322 167 314 157)314,157;"/>
+                    <Edge cubics="!314 157(;314,157 295,136 295,136q314 157 295 136);"/>
+                    <Edge cubics="!242 311(;242,311 243,328 243,328q242 311 243 328);"/>
+                    <Edge cubics="!349 175(;349,174 349,174 349,174q349 175Q349 174q349 174);"/>
+                    <Edge cubics="!340 169(;340,169 328,170 328,170q340 169 328 170);"/>
+                    <Edge cubics="!328 170(;328,170 322,167 322,167q328 170 322 167);"/>
+                    <Edge cubics="!328 193(;328,193 334,194 334,194q328 193 334 194);"/>
+                    <Edge cubics="!321 178(;321,178 327,192 327,192q321 178 327 192)327,192;"/>
+                    <Edge cubics="!327 192(327,192;327,192 327,192 328,192q327 192Q327 192q328 192);"/>
+                    <Edge cubics="!328 192(328,192;328,192 328,193 328,193q328 192 328 193);"/>
+                    <Edge cubics="!355 186(355,186;355,186 347,179 347,179q355 186 347 179);"/>
+                    <Edge cubics="!347 191(347,191;347,191 355,186 355,186q347 191 355 186);"/>
+                    <Edge cubics="!334 194(;334,194 347,191 347,191q334 194 347 191)347,191;"/>
+                    <Edge cubics="!349 174(;349,174 340,169 340,169q349 174 340 169);"/>
+                    <Edge cubics="!347 179(;347,179 349,175 349,175q347 179 349 175);"/>
+                    <Edge cubics="!310 170(310,170;310,170 321,178 321,178q310 170 321 178);"/>
+                    <Edge cubics="!147 186(147,186;147,186 143,195 143,195q147 186 143 195)143,195;"/>
+                    <Edge cubics="!147 203(147,203;147,203 147,204 147,204q147 203 147 204);"/>
+                    <Edge cubics="!147 204(147,204;147,204 148,203 148,203q147 204 148 203);"/>
+                    <Edge cubics="!151 176(151,176;151,176 147,186 147,186q151 176 147 186)147,186;"/>
+                    <Edge cubics="!148 203(;148,203 156,192 156,192q148 203 156 192)156,192;"/>
+                    <Edge cubics="!123 199(;123,199 123,205 123,205q123 199 123 205)123,205;"/>
+                    <Edge cubics="!124 199(124,199;123,199 123,199 123,199q124 199Q123 199q123 199);"/>
+                    <Edge cubics="!120 217(120,217;120,217 120,218 120,218q120 217 120 218);"/>
+                    <Edge cubics="!118 210(118,210;118,210 120,217 120,217q118 210 120 217)120,217;"/>
+                    <Edge cubics="!118 209(118,209;118,209 118,209 118,210q118 209Q118 209q118 210)118,210;"/>
+                    <Edge cubics="!131 222(131,222;131,222 141,214 141,214q131 222 141 214)141,214;"/>
+                    <Edge cubics="!123 205(123,205;123,205 118,209 118,209q123 205 118 209);"/>
+                    <Edge cubics="!120 218(120,218;120,218 131,222 131,222q120 218 131 222);"/>
+                    <Edge cubics="!141 214(141,214;141,214 147,203 147,203q141 214 147 203)147,203;"/>
+                    <Edge cubics="!143 195(143,195;143,195 124,199 124,199q143 195 124 199)124,199;"/>
+                    <Edge cubics="!212 93(;212,93 184,106 184,106q212 93 184 106);"/>
+                    <Edge cubics="!184 106(;184,106 158,149 158,149q184 106 158 149);"/>
+                    <Edge cubics="!179 162(;179,162 175,166 175,166q179 162 175 166);"/>
+                    <Edge cubics="!175 166(;175,166 179,172 179,172q175 166 179 172);"/>
+                    <Edge cubics="!179 172(;179,172 186,164 186,164q179 172 186 164);"/>
+                    <Edge cubics="!262 227(;262,227 260,140 260,140q262 227 260 140);"/>
+                    <Edge cubics="!260 140(;260,140 282,155 282,155q260 140 282 155);"/>
+                    <Edge cubics="!296 135(;296,135 295,131 295,131q296 135 295 131);"/>
+                    <Edge cubics="!295 131(;295,131 259,95 259,95q295 131 259 95);"/>
+                    <Edge cubics="!259 95(;259,95 243,93 243,93q259 95 243 93);"/>
+                    <Edge cubics="!243 93(;243,93 239,95 239,95q243 93 239 95);"/>
+                    <Edge cubics="!239 95(;239,95 243,92 243,92q239 95 243 92);"/>
+                    <Edge cubics="!236 101(;236,101 236,105 236,105q236 101 236 105);"/>
+                    <Edge cubics="!235 105(235,105;235,105 236,101 236,101q235 105 236 101);"/>
+                    <Edge cubics="!236 105(;236,105 235,105 235,105q236 105 235 105);"/>
+                    <Edge cubics="!282 155(;282,155 284,151 284,151q282 155 284 151);"/>
+                    <Edge cubics="!295 136(;295,136 296,135 296,135q295 136 296 135);"/>
+                    <Edge cubics="!284 151(;284,151 310,170 310,170q284 151 310 170);"/>
+                    <Edge cubics="!158 149(;158,149 162,150 162,150q158 149 162 150);"/>
+                    <Edge cubics="!178 161(;178,161 179,162 179,162q178 161 179 162);"/>
+                    <Edge cubics="!165 180(;165,180 178,161 178,161q165 180 178 161);"/>
+                    <Edge cubics="!162 150(;162,150 151,176 151,176q162 150 151 176);"/>
+                    <Edge cubics="!187 270(;187,270 175,313 175,313q187 270 175 313);"/>
+                    <Edge cubics="!219 317(;219,317 224,296 224,296q219 317 224 296);"/>
+                    <Edge cubics="!224 296(;224,296 230,310 230,310q224 296 230 310);"/>
+                    <Edge cubics="!280 308(;280,308 272,262 272,262q280 308 272 262);"/>
+                    <Edge cubics="!272 262(;272,262 261,227 261,227q272 262 261 227);"/>
+                    <Edge cubics="!193 230(;193,230 193,231 193,231q193 230 193 231);"/>
+                    <Edge cubics="!187 270(;187,270 193,231 193,231q187 270 193 231);"/>
+                    <Edge cubics="!259 311(;259,311 280,308 280,308q259 311 280 308);"/>
+                    <Edge cubics="!267 310(;267,310 259,311 259,311q267 310 259 311);"/>
+                    <Edge cubics="!246 311(;246,311 242,311 242,311q246 311 242 311);"/>
+                    <Edge cubics="!230 310(230,310;230,310 246,311 246,311q230 310 246 311);"/>
+                    <Edge cubics="!186 164(186,164;186,164 193,230 193,230q186 164 193 230)193,230;"/>
+                    <Edge cubics="!265 327(;265,327 264,327 264,327q265 327 264 327);"/>
+                    <Edge cubics="!264 327(;264,327 267,310 267,310q264 327 267 310);"/>
+                    <Edge cubics="!209 334(;209,334 212,317 212,317q209 334 212 317)212,317;"/>
+                    <Edge cubics="!186 315(;186,315 186,332 186,332q186 315 186 332);"/>
+                    <Edge cubics="!186 332(;186,332 186,333 186,333q186 332 186 333);"/>
+                    <Edge cubics="!178 417(;178,417 201,430 201,430q178 417 201 430);"/>
+                    <Edge cubics="!201 430(;201,430 217,428 217,428q201 430 217 428);"/>
+                    <Edge cubics="!217 428(;217,428 208,412 208,412q217 428 208 412);"/>
+                    <Edge cubics="!248 391(;248,391 246,407 246,407q248 391 246 407);"/>
+                    <Edge cubics="!246 407(;246,407 274,419 274,419q246 407 274 419);"/>
+                    <Edge cubics="!274 419(;274,419 285,419 285,419q274 419 285 419);"/>
+                    <Edge cubics="!285 419(;285,419 283,408 283,408q285 419 283 408);"/>
+                    <Edge cubics="!283 408(;283,408 260,388 260,388q283 408 260 388);"/>
+                    <Edge cubics="!178 417(;178,417 185,402 185,402q178 417 185 402);"/>
+                    <Edge cubics="!260 388(;260,388 265,327 265,327q260 388 265 327)265,327;"/>
+                    <Edge cubics="!243 328(243,328;243,328 248,391 248,391q243 328 248 391)248,391;"/>
+                    <Edge cubics="!186 333(;186,333 185,402 185,402q186 333 185 402);"/>
+                    <Edge cubics="!208 412(208,412;208,412 197,401 197,401q208 412 197 401)197,401;"/>
+                    <Edge cubics="!197 401(;197,401 209,334 209,334q197 401 209 334);"/>
+                    <Edge cubics="!206 67(;206,67 209,46 209,46q206 67 209 46);"/>
+                    <Edge cubics="!209 46(;209,46 221,38 221,38q209 46 221 38);"/>
+                    <Edge cubics="!221 38(;221,38 233,38 233,38q221 38 233 38);"/>
+                    <Edge cubics="!233 38(;233,38 242,47 242,47q233 38 242 47);"/>
+                    <Edge cubics="!211 79(;211,79 215,96 215,96q211 79 215 96);"/>
+                    <Edge cubics="!211 79(;211,79 206,67 206,67q211 79 206 67)206,67;"/>
+                    <Edge cubics="!215 96(;215,96 212,93 212,93q215 96 212 93);"/>
+                    <Edge cubics="!261 227(261,227;261,227 262,227 262,227q261 227 262 227)262,227;"/>
+                    <Edge cubics="!175 313(;175,313 186,315 186,315q175 313 186 315);"/>
+                    <Edge cubics="!212 317(212,317;212,317 219,317 219,317q212 317 219 317);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#E5E5E5" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!10 10|450 10!450 10|450 450!450 450|10 450!10 450|10 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#99D7FE" ratio="0"/>
+                        <GradientEntry color="#D9F0FE" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0.0140380859375" d="0.0140380859375" tx="11.5" ty="11.5"/>
+                            </matrix>
+                            <GradientEntry color="#0075BF" ratio="0"/>
+                            <GradientEntry color="#009DFF" ratio="0.992156862745098"/>
+                          </LinearGradient>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!10 10S6|450 10!450 10|450 450!450 450|10 450!10 450|10 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.013427734375" c="0.013427734375" d="0" tx="11.5" ty="11.5"/>
+                        </matrix>
+                        <GradientEntry color="#99D7FE" ratio="0"/>
+                        <GradientEntry color="#D9F0FE" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0.0140380859375" d="0.0140380859375" tx="11.5" ty="11.5"/>
+                            </matrix>
+                            <GradientEntry color="#0075BF" ratio="0"/>
+                            <GradientEntry color="#009DFF" ratio="0.992156862745098"/>
+                          </LinearGradient>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!450 10S6|450 450!450 450|10 450!10 450|10 10!10 10|450 10"/>
+                    <Edge cubics="!450 450(;450,450 10,450 10,450q450 450 10 450);"/>
+                    <Edge cubics="!10 450(;10,450 10,10 10,10q10 450 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 450,10 450,10q10 10 450 10);"/>
+                    <Edge cubics="!450 10(;450,10 450,450 450,450q450 10 450 450);"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup>
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

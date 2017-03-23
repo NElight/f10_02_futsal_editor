@@ -1,0 +1,333 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/mc_controls" itemID="4dd647d0-00005aaa" linkageExportForAS="true" linkageClassName="mc_controls" lastModified="1441981294" lastUniqueIdentifier="49">
+  <timeline>
+    <DOMTimeline name="mc_controls">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[arrow_select.visible = false;
+ctrl_custom_player.visible = false;
+ctrl_custom_equipment_color.visible = false;
+ctrl_custom_item_elevation.visible = false;]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_custom_item_size" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_size/mc_item_size" name="ctrl_custom_item_size" centerPoint3DX="-472" centerPoint3DY="-45.1">
+                  <matrix>
+                    <Matrix tx="-482"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="-45.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_custom_item_transparency" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_transparent/mc_transparent" name="ctrl_custom_item_transparency" centerPoint3DX="-445" centerPoint3DY="-45.1">
+                  <matrix>
+                    <Matrix tx="-455"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="-45.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_item_clone" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_clone/mc_clone" name="ctrl_item_clone" centerPoint3DX="-416.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-428"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_item_pin" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_pin/mc_pin" name="ctrl_item_pin" centerPoint3DX="-416.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-428"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_custom_item_elevation" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_elevation/mc_item_elevation" name="ctrl_custom_item_elevation" centerPoint3DX="-445" centerPoint3DY="-45.1">
+                  <matrix>
+                    <Matrix tx="-455"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="-45.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_custom_equipment_color" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/mc_button_equipment_color" name="ctrl_custom_equipment_color" centerPoint3DX="-389" centerPoint3DY="12">
+                  <matrix>
+                    <Matrix tx="-401"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_custom_player" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_button_cplayer" name="ctrl_custom_player" centerPoint3DX="-389.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-401"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="popup_arrow_select" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_arrow_popup" name="arrow_select" centerPoint3DX="-389.7" centerPoint3DY="-41">
+                  <matrix>
+                    <Matrix tx="-419.7" ty="-69.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.8" y="28.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_camera_position" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/cam_pos/mc_cam_pos" name="ctrl_camera_position" centerPoint3DX="-173.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="0.99981689453125" tx="-185"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_arrow_pos" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_arrow" name="ctrl_arrow_pos" centerPoint3DX="-389.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-401"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_mirror" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_mirror" name="ctrl_mirror" centerPoint3DX="-92.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-104"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_zoom_in" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_zoom_in" name="ctrl_zoom_in" centerPoint3DX="-362.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-374"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_zoom_out" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_zoom_out" name="ctrl_zoom_out" centerPoint3DX="-335.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-347"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ctrl_rotate_ccw" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_rotate_ccw" name="ctrl_rotate_ccw" centerPoint3DX="-38.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="0.99981689453125" tx="-50"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buttons" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_rotate_cw" name="ctrl_rotate_cw" centerPoint3DX="-65.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="0.99981689453125" tx="-77"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/mc_pitch_style" name="ctrl_pitch_style" centerPoint3DX="-200.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="0.99981689453125" tx="-212"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/mc_item_size" name="ctrl_item_size" centerPoint3DX="-146.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="0.99981689453125" tx="-158"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.6" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/mc_camera_right" name="ctrl_camera_right" centerPoint3DX="-281.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-293"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/mc_camera_left" name="ctrl_camera_left" centerPoint3DX="-308.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-320"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/mc_camera_down" name="ctrl_camera_down" centerPoint3DX="-227.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-239"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/mc_camera_up" name="ctrl_camera_up" centerPoint3DX="-254.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix tx="-266"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="delete" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/mc_delete" name="ctrl_delete" centerPoint3DX="-11.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="0.99981689453125" tx="-23"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/mc_lock" name="ctrl_cam_lock" centerPoint3DX="-119.5" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="0.99981689453125" tx="-131"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.45" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

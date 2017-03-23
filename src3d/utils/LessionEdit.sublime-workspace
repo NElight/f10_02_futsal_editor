@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "TextUtils.as",
+			"settings":
+			{
+				"buffer_size": 4373,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "package  {\n\timport fl.controls.ComboBox;\n\timport fl.controls.List;\n\timport fl.controls.TextArea;\n\timport fl.managers.StyleManager;\n\t\n\timport flash.display.DisplayObjectContainer;\n\timport flash.display.MovieClip;\n\timport flash.display.Stage;\n\timport flash.events.Event;\n\timport flash.geom.Point;\n\timport flash.geom.Rectangle;\n\timport flash.system.Capabilities;\n\timport flash.system.Security;\n\timport flash.system.System;\n\timport flash.text.TextField;\n\timport flash.text.TextFormat;\n\t\n\timport src.KeysManager;\n\timport src.MenusManager;\n\timport src.SSPBottomContainer;\n\timport src.ScreensController;\n\timport src.StageManager;\n\timport src.controls.datechooser.SSPCalendar;\n\timport src.controls.texteditor.SSPCommentsEditor;\n\timport src.controls.tooltip.SSPToolTip;\n\timport src.images.SSPImageViewer;\n\timport src.minutes.SSPMinutesEditor;\n\timport src.popup.MessageBox;\n\timport src.popup.PopupToolbar;\n\timport src.popup.ScribblePad;\n\timport src.print.SSPPrinter;\n\timport src.settings.SSPSettingsFormPopup;\n\timport src.tabbar.SSPTabBar;\n\timport src.tabbar.SSPTabBarBase;\n\timport src.tabbar.SSPTabBarDual;\n\timport src.videos.SSPVideoPlayer;\n\t\n\timport src3d.SSPCursors;\n\timport src3d.SSPEvent;\n\timport src3d.SessionGlobals;\n\timport src3d.SessionLoader;\n\timport src3d.SessionView;\n\timport src3d.context.SSPContextMenu;\n\timport src3d.utils.Logger;\n\timport src3d.utils.SSPError;\n\timport src3d.utils.SessionDataLoader;\n\timport src3d.utils.SessionSaver;\n\timport src3d.utils.SysUtils;\n\t\n\tpublic class main extends MovieClip {\n\t\tprivate static var _sessionView:SessionView;\n\t\tinternal var _pitchSlider:pitchSlider;\n\t\tinternal var _save:MovieClip;\n\t\tinternal var _clearpitch:MovieClip;\n\t\tinternal var num_screens = 1;\n\t\tpublic var _menu:accordion;\n\t\tpublic var _comments:SSPCommentsEditor;\n\t\tpublic var _minutes:SSPMinutesEditor;\n\t\tpublic var _header:header;\n\t\tpublic var _controls:controls;\n\t\tpublic var _screen_holder:MovieClip;\n\t\tpublic var _pad:ScribblePad;\n\t\tpublic var tabBar:SSPTabBarBase;\n\t\tinternal var popupToolbar:PopupToolbar;\n\t\tpublic var settingsForm:SSPSettingsFormPopup;\n\t\tprivate var screenController:ScreensController;\n\n\t\t// Containers\n\t\tinternal var _mainContainer:MovieClip; // Contains 3D Scren holders, tabbar, save, clear pitch.\n\t\tinternal var _headerContainer:MovieClip; // Contains header with full screen, full pitch, settings and scribble pad buttons.\n\t\tinternal var _padContainer:MovieClip; // Contains scribble pad area.\n\t\tinternal var _popupToolbarContainer:MovieClip; // Contains 3D popup toolbar.\n\t\tinternal var _bottomContainer:SSPBottomContainer; // Contains comments and minutes.\n\t\tprivate var _mainContainerNormal:Rectangle; // Not used in F10.\n\t\t\n\t\tprivate var sL:SessionLoader;\n\t\tprivate var _sessionSaver:SessionSaver;\n\t\tprivate var sspPrinter:SSPPrinter;\n\t\t\n\t\tprivate var sessionGlobals:SessionGlobals = SessionGlobals.getInstance();\n\t\tprivate var sessionDataLoader:SessionDataLoader = new SessionDataLoader();\n\t\tprivate var logger:Logger = Logger.getInstance();\n\t\t\n\t\tprivate static var _stage:Stage;\n\t\tprivate static var _msgBox:MessageBox;\n\t\tprivate static var _keysManager:KeysManager;\n\t\tprivate static var _videoPlayer:SSPVideoPlayer;\n\t\tprivate static var _imageViewer:SSPImageViewer;\n\t\tprivate static var _sspContextMenu:SSPContextMenu = new SSPContextMenu();\n\t\t\n\t\tpublic function main():void \n\t\t{ \n\t\t\tif(!this.stage)  {\n\t\t\t\tthis.addEventListener(Event.ADDED_TO_STAGE, initSessionLoad); \n\t\t\t} else { \n\t\t\t\tinitSessionLoad();\n\t\t\t}\n\t\t}\n\n\t\t\n\t\t\n\t\t// ----------------------------- App Initialization ----------------------------- //\n\t\tprivate function initSessionLoad(e:Event = null) : void {\n\t\t\tthis.removeEventListener(Event.ADDED_TO_STAGE, initSessionLoad);\n\t\t\t_stage = this.stage;\n\t\t\t\n\t\t\tvar globalFormat:TextFormat = new TextFormat(\"_sans\");\n\t\t\tStyleManager.setStyle(\"textFormat\", globalFormat);\n\t\t\tStyleManager.setStyle(\"textPadding\", 1); // Texts and Cell renderers default padding.\n\t\t\tStyleManager.setComponentStyle(TextArea, \"textFormat\", TextFormat);\n\t\t\t\n\t\t\tfor each (var strURL:String in SSPSettings.aAllowedDomains) {\n\t\t\t\tSecurity.allowDomain(strURL);\n\t\t\t\t//Security.allowInsecureDomain(strURL);\n\t\t\t}\n\t\t\t\n\t\t\tinitUIContainers();\n\t\t\t_sspContextMenu.applyToTarget(this,null,true);\n\t\t\t\n\t\t\t// Init Keys Manager.\n\t\t\t_keysManager = KeysManager.getInstance(this.stage);\n\t\t\t\n\t\t\t// Init Video Player.\n\t\t\t_videoPlayer = SSPVideoPlayer.getInstance(this);\n\t\t\t\n\t\t\t// Store System Info.\n\t\t\tvar sysUtils:SysUtils = new SysUtils();\n\t\t\tif (sysUtils.storeSystemInfo()) {\n\t\t\t\tlogger.addSysInfo(\"Flash Player: \"+sessionGlobals.clientFlashFullVersion+\" (\"+sessionGlobals.clientPlayerType+\")\");\n\t\t\t\tlogger.addSysInfo(\"OS: \"+sessionGlobals.clientOS+\" (\"+sessionGlobals.clientBrowserLanguage+\") (\"+sessionGlobals.clientProcessorType+\")\");\n\t\t\t\tlogger.addSysInfo(\"Screen: \"+sessionGlobals.clientScreen);\n\t\t\t\tlogger.addSysInfo(\"CPU Architecture: \"+sessionGlobals.clientCPUArchitecture);\n\t\t\t} else {\n\t\t\t\tlogger.addSysInfo(\"(A) - Can't collect System Info.\");\n\t\t\t}\n\t\t\t\n\t\t\tif (!_msgBox) {\n\t\t\t\t// Init Message Box.\n\t\t\t\t//_msgBox = new MessageBox(MovieClip(this), new Point(500, 300), true);\n\t\t\t\t_msgBox = new MessageBox(this.stage);\n\t\t\t\t_msgBox.showMsg(\"Loading Interface...\", MessageBox.BUTTONS_NONE, \"SSP\", true);\n\t\t\t\tlogger.addText(\"Loading Interface...\", false);\n\t\t\t}else {\n\t\t\t\t// If retry has been clicked.\n\t\t\t\t_msgBox.removeEventListener(MessageBox.MESSAGEBOX_EVENT_RETRY, initSessionLoad); \n\t\t\t\t_msgBox.showMsg(\"Retrying Session Load...\", MessageBox.BUTTONS_NONE);\n\t\t\t\tlogger.addText(\"Retrying Session Load...\", true);\n\t\t\t}\n\t\t\t\n\t\t\tsessionGlobals.isLocal = checkLocal();\n\t\t\t\n\t\t\tvar sessionDataURL:String = \"\";\n\t\t\tvar sspRevision:String = \"\"; // Store revision number in Session Globals.\n\t\t\tvar sessionType:String = \"\"; // Training or Match Day.\n\t\t\t\n\t\t\ttry {\n\t\t\t\tsessionDataURL = String(stage.loaderInfo.parameters.xmlRequestFile);\n\t\t\t\t// If there is a path from flashvars, work from server.\n\t\t\t\tif (sessionDataURL != \"undefined\" && sessionDataURL != null && sessionDataURL != \"\") {\n\t\t\t\t\tsessionGlobals.sessionDataURL = sessionDataURL;\n\t\t\t\t\t//sessionGlobals.isLocal = false;\n\t\t\t\t} else {\n\t\t\t\t\tsessionGlobals.isLocal = true;\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tsspRevision = String(stage.loaderInfo.parameters.revision);\n\t\t\t\tif (sspRevision != \"undefined\" && sspRevision != null && sspRevision != \"\") {\n\t\t\t\t\tsessionGlobals.sspRevision = sspRevision;\n\t\t\t\t} else {\n\t\t\t\t\tsessionGlobals.sspRevision = \"\";\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\t/*sessionType = String(stage.loaderInfo.parameters.is_match);\n\t\t\t\tif (sessionType != \"undefined\" && sessionType != null && sessionType != \"\") {\n\t\t\t\t\tif (sessionType == \"1\") {\n\t\t\t\t\t\tsessionGlobals.sessionType = SessionGlobals.SESSION_TYPE_MATCH;\n\t\t\t\t\t} else {\n\t\t\t\t\t\tsessionGlobals.sessionType = SessionGlobals.SESSION_TYPE_TRAINING;\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tsessionGlobals.sessionType = SessionGlobals.SESSION_TYPE_TRAINING;\n\t\t\t\t}*/\n\t\t\t}catch(e:Error) {\n\t\t\t\tlogger.addText(\"Can't load FlashVars.\\n\"+e, true);\n\t\t\t\tsessionGlobals.isLocal = true;\n\t\t\t\tlogger.addText(\"(A) - xmlRequestFile from Local: \"+ sessionGlobals.sessionDataURL, false);\n\t\t\t\t\n\t\t\t\tsessionGlobals.sspRevision = \"\";\n\t\t\t}\n\t\t\t\n\t\t\tsessionGlobals.sspFlashVersion = Capabilities.version;\n\t\t\t\n\t\t\tsessionDataLoader.addEventListener(SSPEvent.SUCCESS, init, false, 0, true);\n\t\t\tsessionDataLoader.addEventListener(SSPEvent.ERROR, onDataLoadingError, false, 0, true);\n\t\t\tsessionDataLoader.startSessionLoad(sessionGlobals.sessionDataURL);\n\t\t}\n\t\t\n\t\tprivate function onDataLoadingError(e:SSPEvent):void {\n\t\t\tsessionDataLoader.removeEventListener(SSPEvent.SUCCESS, init);\n\t\t\tsessionDataLoader.removeEventListener(SSPEvent.ERROR, onDataLoadingError);\n\t\t\tvar sspError:SSPError = e.eventData;\n\t\t\tvar errorMsg:String = sspError.fullErrorMessage;\n\t\t\t_msgBox.addEventListener(MessageBox.MESSAGEBOX_EVENT_RETRY, initSessionLoad, false, 0, true);\n\t\t\tshowMsg(errorMsg, true, true, MessageBox.BUTTONS_RETRY_COPY);\n\t\t}\n\n\t\tprivate function init(event:SSPEvent):void \n\t\t{\n\t\t\tsessionDataLoader.removeEventListener(SSPEvent.SUCCESS, init);\n\t\t\tsessionDataLoader.removeEventListener(SSPEvent.ERROR, onDataLoadingError);\n\t\t\tSystem.useCodePage=true;\n\t\t\t\n\t\t\t// Log Session Id.\n\t\t\tvar sId:String = sessionGlobals.sessionDataXML.session._sessionToken.text();\n\t\t\tif (sId == \"\") {\n\t\t\t\tlogger.addText(\"Missing or Empty _sessionToken\", true);\n\t\t\t} else {\n\t\t\t\tlogger.addText(\"Session Id: \"+sId, false);\n\t\t\t}\n\t\t\t\n\t\t\tgetNumScreens();\n\t\t\t\n\t\t\t// Init Stage Manager.  是否全屏控制\n\t\t\tStageManager.getInstance().initialize(this);\n\t\t\t\n\t\t\t// Init Menus Manager.  是否把场地全屏\n\t\t\tMenusManager.getInstance().initialize(this);\n\t\t\t\n\t\t\t// Init Tooltips.  鼠标悬停提示文字组件\n\t\t\tSSPToolTip.getInstance().initToolTips(this.stage);\n\t\t\t\n\t\t\t// Init calendar. \n\t\t\tSSPCalendar.getInstance().initCalendar(this.stage);\n\t\t\t\n\t\t\t// Init printer.\n\t\t\tsspPrinter = new SSPPrinter(this.stage);\n\t\t\t\n\t\t\t// Translate Message Box Labels.\n\t\t\t_msgBox.setButtonsLabels(\n\t\t\t\tsessionGlobals.interfaceLanguageDataXML.buttons[0]._btnInterfaceOk.text(),\n\t\t\t\tsessionGlobals.interfaceLanguageDataXML.buttons[0]._btnInterfaceCancel.text(),\n\t\t\t\tsessionGlobals.interfaceLanguageDataXML.buttons[0]._btnInterfaceRetry.text(),\n\t\t\t\tsessionGlobals.interfaceLanguageDataXML.buttons[0]._InterfaceCopyClipboard.text(),\n\t\t\t\t\"\",\n\t\t\t\tsessionGlobals.interfaceLanguageDataXML.buttons[0]._btnInterfaceSaveToPC.text()\n\t\t\t\t);\n\t\t\t\n\t\t\t_screen_holder = new mc_screen_holder();\n\t\t\t_screen_holder.x \t\t\t= 224;\n\t\t\t_screen_holder.y \t\t\t= 66;\n\t\t\t_mainContainer.addChild(_screen_holder);\n\t\t\t\n\t\t\t// Full Pitch Popup Toolbar.\n\t\t\tpopupToolbar = new PopupToolbar(this, this, this.stage.stageWidth/2, this.stage.stageHeight);\n\t\t\t_popupToolbarContainer.addChild(popupToolbar);\n\t\t\t\n\t\t\t// Init Image Viewer.\n\t\t\t_imageViewer = new SSPImageViewer(this.stage, this, 1);\n\t\t\t\n\t\t\t// Save Button.\n\t\t\t_save = new mc_save();\n\t\t\t_save.x \t\t\t= 124;\n\t\t\t_save.y \t\t\t= 570;\n\t\t\t_save.save_title.text = sessionGlobals.interfaceLanguageDataXML.buttons[0]._save.text();\n\t\t\t_mainContainer.addChild(_save);\n\t\t\t\n\t\t\t// Clear All Button.\n\t\t\t_clearpitch = new mc_clear_pitch();\n\t\t\t_clearpitch.x \t\t\t= 1;\n\t\t\t_clearpitch.y \t\t\t= 570;\n\t\t\t_clearpitch.clearpitch_title.text = sessionGlobals.interfaceLanguageDataXML.buttons[0]._clear.text();\n\t\t\t_mainContainer.addChild(_clearpitch);\n\t\t\t\n\t\t\t_menu \t\t\t= new accordion(this);\n\t\t\t_pitchSlider\t= new pitchSlider(this);\n\t\t\t//_comments\t\t= new comments(this,stage);\n\t\t\t_bottomContainer = new SSPBottomContainer();\n\t\t\t_mainContainer.addChild(_bottomContainer);\n\t\t\t_comments\t\t= _bottomContainer.comments;\n\t\t\t_minutes\t\t= _bottomContainer.minutes;\n\t\t\t_controls\t\t= new controls(this,stage);\n\t\t\t_header\t\t\t= new header(this,stage);\n\t\t\t\n\t\t\tif (sessionGlobals.sessionType == SessionGlobals.SESSION_TYPE_TRAINING) {\n\t\t\t\ttabBar = new SSPTabBar(new Point(249,35));\n\t\t\t\t_mainContainer.addChild(tabBar);\n\t\t\t} else {\n\t\t\t\ttabBar = new SSPTabBarDual(new Point(249,35));\n\t\t\t\t_mainContainer.addChild(tabBar);\n\t\t\t}\n\t\t\t\n\t\t\t_pad\t\t\t= new ScribblePad(this,_padContainer,_headerContainer.height);\n\t\t\tsettingsForm\t= new SSPSettingsFormPopup(this);\n\t\t\t\n\t\t\t// Init Custom Cursors.\n\t\t\tSSPCursors.getInstance().initCustomCursors(stage);\n\t\t\t\n\t\t\t// Init 3D Screens.\n\t\t\tinit3DScreens();\n\t\t\t\n\t\t\tbringHeaderToFront();\n\t\t\t\n\t\t\tbringMainContainerToFront();\n\t\t\t\n\t\t\t// Session Saver.\n\t\t\t_sessionSaver = new SessionSaver(this, this._save, _msgBox, _sessionView);\n\t\t\t\n\t\t\t// Screen Controller.\n\t\t\tscreenController = new ScreensController(this, _sessionView);\n\t\t\t\n\t\t\tsettingsForm.formContent.refreshSettings();\n\t\t}\n\t\t\n\t\tprivate function getNumScreens():void {\n\t\t\tvar sessionXML:XML = SessionGlobals.getInstance().sessionDataXML;\n\t\t\tvar tmpXMLList:XMLList = sessionXML.session.screen;\n\t\t\tif (tmpXMLList.length() < 1) {\n\t\t\t\t// Maybe thrown an error here, but this should never happen anyway\n\t\t\t\tlogger.addText(\"Error: No screens loaded\", true);\n\t\t\t\tnum_screens = 0;\n\t\t\t} else {\n\t\t\t\tnum_screens = tmpXMLList.length();\n\t\t\t}\n\t\t}\n\t\t\n\t\tprivate function init3DScreens():void {\n\t\t\ttrace(\"init3DScreens()\");\n\t\t\t_sessionView = new SessionView(662, 387, 249, 67, this);\n\t\t\tthis.addChild(_sessionView);\n\t\t}\n\t\t// --------------------------- End App Initialization --------------------------- //\n\t\t\n\t\t\n\t\t\n\t\tpublic function showMsg(newMsg:String, isError:Boolean = false, useBreak:Boolean = true, buttons:String = \"BUTTONS_UNCHANGED\", clearMsgBox:Boolean = false, entryType:String = \"T\"):void {\n\t\t\t_msgBox.popupEnabled = true;\n\t\t\tlogger.addText(newMsg, isError, false, true, false, entryType);\n\t\t\tif (!clearMsgBox) {\n\t\t\t\t_msgBox.addMsg(newMsg, useBreak, buttons);\n\t\t\t} else {\n\t\t\t\t_msgBox.showMsg(newMsg, buttons);\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic function bringToFront(dObj:DisplayObjectContainer):void {\n\t\t\tif (!dObj) return;\n\t\t\tif (this.contains(dObj)) {\n\t\t\t\tthis.setChildIndex(dObj, this.numChildren -1);\n\t\t\t\tdObj.visible = true;\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic function updateToolbars():void {\n\t\t\tvar sId:uint = sessionView.currentScreenId;\n\t\t\t_controls.updateControls(sId);\n\t\t\tpopupToolbar.updateControls(sId);\n\t\t}\n\t\t\n\t\t\n\t\t\n\t\t// ----------------------------- UI Containers ----------------------------- //\n\t\t/**\n\t\t * Creates a transparent movieclip, use to resize the whole 2D objects.\n\t\t * To use full screen, Stage3D needs \"stage.scaleMode = StageScaleMode.NO_SCALE;\".\n\t\t * This mode doesn't scale the 2D stage, so we need to put all the 2D objects\n\t\t * in a main movieclip container and scale it when the fullscreen command is called.\n\t\t * Check proportionalScale() for more info.\n\t\t */\t\t\n\t\tprivate function initUIContainers():void {\n\t\t\t// -- Main 2D Interface -- //\n\t\t\t// var tBg:Sprite = new Sprite(); // Transparent bg to resize the movieclip.\n\t\t\t//tBg.graphics.lineStyle(0,0xffffff,0);\n\t\t\t// tBg.graphics.beginFill(0xFFFFFF,1); // Set alpha to 0 for transparent.\n\t\t\t// tBg.graphics.drawRect(0,0,stage.stageWidth,stage.stageHeight);\n\t\t\t// tBg.graphics.endFill();\n\t\t\t// tBg.x = stage.stageWidth/2-tBg.width/2;\n\t\t\t// tBg.y = stage.stageHeight/2-tBg.height/2;\n\t\t\t_mainContainer = new MovieClip();\n\t\t\t//_mainContainer.addChildAt(tBg,0);\n\t\t\t_mainContainer.name = \"_mainContainer\";\n\t\t\t_mainContainerNormal = new Rectangle(0,0,stage.stageWidth,stage.stageHeight);\n\t\t\tthis.addChild(_mainContainer);\n\t\t\t\n\t\t\t// -- Header -- //\n\t\t\t_headerContainer = new MovieClip();\n\t\t\t_headerContainer.name = \"_headerContainer\";\n\t\t\tthis.addChild(_headerContainer);\n\t\t\t\n\t\t\t// -- ScribblePad -- //\n\t\t\t_padContainer = new MovieClip();\n\t\t\t_padContainer.name = \"_padContainer\";\n\t\t\tthis.addChild(_padContainer);\n\t\t\t\n\t\t\t// -- Popup Toolbar -- //\n\t\t\t_popupToolbarContainer = new MovieClip();\n\t\t\t_popupToolbarContainer.name = \"popupToolbarContainer\";\n\t\t\tthis.addChild(_popupToolbarContainer);\n\t\t}\n\t\t\n\t\tpublic function bringHeaderToFront():void {\n\t\t\tthis.setChildIndex(_headerContainer, this.numChildren -1);\n\t\t\t_headerContainer.visible = true;\n\t\t}\n\t\tpublic function bringMainContainerToFront():void {\n\t\t\tthis.setChildIndex(_mainContainer, this.numChildren -1);\n\t\t\t_mainContainer.visible = true;\n\t\t}\n\t\tpublic function bringPadContainerToFront():void {\n\t\t\tthis.setChildIndex(_padContainer, this.numChildren -1);\n\t\t\t_padContainer.visible = true;\n\t\t}\n\t\tpublic function bringPopupToolbarContainerToFront():void {\n\t\t\tthis.setChildIndex(_popupToolbarContainer, this.numChildren -1);\n\t\t\t_popupToolbarContainer.visible = true;\n\t\t}\n\t\t// --------------------------- End UI Containers --------------------------- //\n\t\t\n\t\t\n\t\t\n\t\tpublic function startSessionSave(saveToServer:Boolean):void {\n\t\t\tsessionSaver.startSessionSave(saveToServer);\n\t\t}\n\t\t\n\t\tpublic function checkMetaInfo():Boolean {\n\t\t\tif (!settingsForm.checkMetaInfo()) {\n\t\t\t\t_msgBox.popupVisible = false;\n\t\t\t\tsettingsForm.popupVisible = true;\n\t\t\t\tlogger.addText(\"(A) - Metadata is Incomplete. Displayed Settings Screen.\", false);\n\t\t\t\treturn false;\n\t\t\t}\n\t\t\treturn true;\n\t\t}\n\t\t\n\t\tprivate function checkLocal():Boolean {\n\t\t\tvar doMain:String = this.stage.loaderInfo.url;\n\t\t\t//trace(\"Running from: \"+doMain);\n\t\t\tvar doMainArray:Array = doMain.split(\"/\");\n\t\t\tvar local:Boolean = false;\n\t\t\tif (doMainArray[0] == \"file:\") {\n\t\t\t\t//trace(\"Local debug mode.\");\n\t\t\t\tlocal = true;\n\t\t\t}else{\n\t\t\t\t//trace(\"Web host mode\");\n\t\t\t\tlocal = false;\n\t\t\t\tvar tmpURL:String = doMain.substr(0,33);\n\t\t\t\tif (tmpURL == \"http://ssp.dev.kyosei-systems.com\") {\n\t\t\t\t\tsessionGlobals.isDev = true;\n\t\t\t\t}\n\t\t\t}\n\t\t\treturn local;\n\t\t}\n\t\tpublic function get sessionSaver():SessionSaver { return _sessionSaver; }\n\t\tpublic function get bottom():SSPBottomContainer { return _bottomContainer; }\n\t\t\n\t\tpublic static function get stage():Stage { return _stage; }\n\t\tpublic static function get msgBox():MessageBox { return _msgBox; }\n\t\tpublic static function get sessionView():SessionView { return _sessionView; }\n\t\tpublic static function get keysManager():KeysManager { return _keysManager; }\n\t\tpublic static function get videoPlayer():SSPVideoPlayer { return _videoPlayer; }\n\t\tpublic static function get imageViewer():SSPImageViewer { return _imageViewer; }\n\t\t/*public static function get debugMode():Boolean {\n\t\t\treturn Globals3D.getInstance().isDebug;\n\t\t}*/\n\n\t\t\n\t}\n}",
+			"file": "/Users/yioks-mac/Desktop/f10_02_futsal_editor/main.as",
+			"file_size": 17399,
+			"file_write_time": 131274815920000000,
+			"settings":
+			{
+				"buffer_size": 16889,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: acti",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"action",
+				"Set Syntax: ActionScript"
+			],
+			[
+				"ActionScript",
+				"Set Syntax: ActionScript"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils"
+	],
+	"file_history":
+	[
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/.actionScriptProperties",
+		"/Users/yioks-mac/Desktop/f10_02_futsal_editor/src3d/utils/TextUtils.as"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "TextUtils.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1323,
+								1323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ActionScript/ActionScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 618.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/yioks-mac/Desktop/f10_02_futsal_editor/main.as",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16884,
+								16884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ActionScript/ActionScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3828.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LessionEdit.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				".actionScriptProperties"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

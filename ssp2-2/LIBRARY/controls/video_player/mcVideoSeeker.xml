@@ -1,0 +1,52 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/video_player/mcVideoSeeker" itemID="57c5e74d-000202dc" linkageExportForAS="true" linkageClassName="src.videos.SSPVideoPlayerBarSeeker" lastModified="1472589345">
+  <timeline>
+    <DOMTimeline name="mcVideoSeeker">
+      <layers>
+        <DOMLayer name="mcVideoSeekerCurrent" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/video_player/mcVideoSeekerCurrent" name="mcVideoSeekerCurrent">
+                  <transformationPoint>
+                    <Point x="217" y="-4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcVideoSeekerSeek" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/video_player/mcVideoSeekerSeek" name="mcVideoSeekerSeek">
+                  <transformationPoint>
+                    <Point x="217" y="-4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TransparentBg" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#333333" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 -160S2|8680 -160!8680 -160|8680 0!8680 0|0 0!0 0|0 -160"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,58 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/char_10" itemID="4fb641ce-000004af" linkageExportForAS="true" linkageBaseClass="src3d.text.MCTextChar" linkageClassName="char_10" lastModified="1337364713">
+  <timeline>
+    <DOMTimeline name="char_10">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!31 -295[16 -274 16 -218!16 -218[16 -162 29 -143!29 -143[43 -124 62 -124!62 -124[81 -124 95 -143!95 -143[108 -162 108 -218!108 -218[108 -275 95 -293!95 -293[81 -312 62 -312!62 -312[42 -312 31 -295!132 -272[137 -252 137 -218!137 -218[137
+ -178 128 -153!128 -153[120 -128 104 -115!104 -115[87 -101 62 -101!62 -101[29 -101 10 -125!10 -125[-13 -153 -13 -218!-13 -218[-13 -259 -4 -283!-4 -283[4 -308 21 -322!21 -322[37 -335 62 -335!62 -335[80 -335 94 -327!94 -327[108 -320 117
+ -306!117 -306[126 -292 132 -272"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix tx="0.25"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!-109 -265S2[-126 -255 -139 -250!-139 -250|-139 -277!-139 -277[-116 -289 -98 -304!-98 -304[-80 -320 -73 -335!-73 -335|-55 -335!-55 -335|-55 -105!-55 -105|-83 -105!-83 -105|-83 -284!-83 -284[-93 -275 -109 -265"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="characters_bg_2" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.8" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

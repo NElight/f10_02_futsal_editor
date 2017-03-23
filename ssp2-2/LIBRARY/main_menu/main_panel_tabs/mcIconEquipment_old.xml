@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/main_panel_tabs/mcIconEquipment_old" itemID="51fa3c6d-00002bf6" symbolType="graphic" lastModified="1375353965">
+  <timeline>
+    <DOMTimeline name="mcIconEquipment_old">
+      <layers>
+        <DOMLayer name="Layer 9" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!840 0|677 0!677 0[663 5 647 9!647 9[629 12 591 18!591 18|270 1584!270 1584|0 1584!0 1584|0 1702!0 1702|727 1740!727 1740|1541 1702!1541 1702|1541 1584!1541 1584|1215 1584!1215 1584|898 27!898 27[871 14 840 0"/>
+                    <Edge cubics="!270 1584(;270,1584 591,18 591,18q270 1584 591 18);"/>
+                    <Edge cubics="!840 0(840,0;840,0 677,0 677,0q840 0 677 0);"/>
+                    <Edge cubics="!898 27(;880,18 862,9 840,0q898 27Q871 14q840 0);"/>
+                    <Edge cubics="!677 0(677,0;665,5 656,5 647,9q677 0Q663 5q647 9);"/>
+                    <Edge cubics="!647 9(;634,9 616,14 591,18q647 9Q629 12q591 18);"/>
+                    <Edge cubics="!898 27(;898,27 1215,1584 1215,1584q898 27 1215 1584);"/>
+                    <Edge cubics="!0 1702(;0,1702 0,1584 0,1584q0 1702 0 1584);"/>
+                    <Edge cubics="!1541 1584(;1541,1584 1541,1702 1541,1702q1541 1584 1541 1702);"/>
+                    <Edge cubics="!1215 1584(;1215,1584 1541,1584 1541,1584q1215 1584 1541 1584);"/>
+                    <Edge cubics="!0 1584(;0,1584 270,1584 270,1584q0 1584 270 1584);"/>
+                    <Edge cubics="!727 1740(;727,1740 0,1702 0,1702q727 1740 0 1702);"/>
+                    <Edge cubics="!1541 1702(;1541,1702 727,1740 727,1740q1541 1702 727 1740);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

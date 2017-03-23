@@ -1,0 +1,136 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/players/mc_player12" itemID="4decddaa-00003061" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="mc_player12" linkageBaseClass="src3d.models.soccer.players.MCPlayer" linkageClassName="mc_player12" lastModified="1446583220" lastUniqueIdentifier="18">
+  <timeline>
+    <DOMTimeline name="mc_player12">
+      <layers>
+        <DOMLayer name="button" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/player_button" name="button" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.909088134765625" tx="-25" ty="-95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.5" y="47.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FFFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/player_shapes/player12_hair" name="hair" centerPoint3DX="3.7" centerPoint3DY="-74.7">
+                  <matrix>
+                    <Matrix a="-1" tx="7.4" ty="-78.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.7" y="4.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/player_shapes/player12_shoes" name="shoes">
+                  <matrix>
+                    <Matrix a="-1" tx="13.4" ty="-27.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.75" y="11.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/player_shapes/player12_socks" name="socks">
+                  <matrix>
+                    <Matrix a="-1" tx="11.3" ty="-29.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="7.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/player_shapes/player12_bottoms" name="bottoms">
+                  <matrix>
+                    <Matrix a="-1" tx="14.35" ty="-45.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14" y="9.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/player_shapes/player12_top" name="shirt">
+                  <matrix>
+                    <Matrix a="-1" tx="13.15" ty="-76.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.6" y="17.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/player_shapes/player12_skin" name="skin" selected="true">
+                  <matrix>
+                    <Matrix a="-1" tx="12.6" ty="-87.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.2" y="31.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="player" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="main_menu/panel_players/player_graphics/player12_k.png">
+                  <matrix>
+                    <Matrix a="-0.5" d="0.5" tx="25" ty="-95"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

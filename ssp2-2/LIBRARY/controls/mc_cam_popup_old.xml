@@ -1,0 +1,159 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/mc_cam_popup_old" itemID="5047ae8d-0000065a" lastModified="1441970565">
+  <timeline>
+    <DOMTimeline name="mc_cam_popup_old">
+      <layers>
+        <DOMLayer name="points" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_3" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="5.5" ty="54.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_4" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="5.5" ty="14.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_7" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="45.5" ty="54.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_8" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="45.5" ty="14.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_5" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="25.5" ty="54.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_6" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="25.5" ty="14.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_0" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="25.5" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_1" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="10.5" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_2" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="40.5" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" joints="miter">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!600 1100|600 110"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pitch" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#7DBF16"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="square" joints="miter">
+                            <fill>
+                              <SolidColor color="#FFFFFF"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!1100 1100|100 1100!100 1100|100 100!100 100|1100 100!1100 100|1100 1100"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grey_background" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1135 0|65 0!65 0[0 0 0 77!0 77|0 1123!0 1123[0 1200 65 1200!65 1200|482 1200!482 1200|606 1324!606 1324|730 1200!730 1200|1135 1200!1135 1200[1200 1200 1200 1123!1200 1123|1200 77!1200 77[1200 0 1135 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

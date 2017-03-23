@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_buttons/mcButtonOff" itemID="519b9ba9-000005ac" lastModified="1369222031">
+  <timeline>
+    <DOMTimeline name="mcButtonOff">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="32" objectHeight="21" x="-0.5" y="-0.5" topLeftRadius="5" bottomLeftRadius="5">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <fill>
+                    <LinearGradient>
+                      <matrix>
+                        <Matrix a="1.52587890625e-005" b="0.0110015869140625" c="-0.013427734375" d="1.52587890625e-005" tx="16" ty="10.5"/>
+                      </matrix>
+                      <GradientEntry color="#CCCCCC" ratio="0"/>
+                      <GradientEntry color="#999999" ratio="1"/>
+                    </LinearGradient>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <LinearGradient>
+                          <matrix>
+                            <Matrix a="1.52587890625e-005" b="0.012939453125" c="-0.0140380859375" d="0" tx="16" ty="10.5"/>
+                          </matrix>
+                          <GradientEntry color="#CCCCCC" ratio="0"/>
+                          <GradientEntry color="#808588" ratio="1"/>
+                        </LinearGradient>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

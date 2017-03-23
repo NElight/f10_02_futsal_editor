@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="3D_helpers/line_handle" itemID="4e553740-00000413" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="btn_line_handle" lastModified="1314452630">
+  <timeline>
+    <DOMTimeline name="line_handle">
+      <layers>
+        <DOMLayer name="Shape 1" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="3D_helpers/line_handle_bmp">
+                  <matrix>
+                    <Matrix a="0.399993896484375" d="0.399993896484375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18" y="18"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

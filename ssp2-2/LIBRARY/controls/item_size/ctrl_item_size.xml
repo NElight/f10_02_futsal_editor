@@ -1,0 +1,323 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/item_size/ctrl_item_size" itemID="55e747c3-00002ca8" lastModified="1441532841">
+  <timeline>
+    <DOMTimeline name="ctrl_item_size">
+      <layers>
+        <DOMLayer name="actions" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="17" objectHeight="2" x="3.4" y="18" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix d="-0.988754272460938" tx="-11.4" ty="34.8"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.334823608398438" c="-1" d="0" tx="11.95" ty="18.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.05" objectHeight="2" x="3.4" y="18" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.8778076171875" c="-1" d="0" tx="27" ty="23.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.889312744140625" c="-1" d="0" tx="19.5" ty="20"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-2.92831420898438" c="-1" d="0" tx="23.3" ty="26.95"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.22001647949219" c="-1" d="0" tx="15.7" ty="21.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="1.6" objectHeight="2" x="3.4" y="18" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.8778076171875" c="-1" d="0" tx="11.95" ty="23.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="17" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix d="-0.988754272460938" tx="-11.4" ty="34.8"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.334823608398438" c="-1" d="0" tx="11.95" ty="18.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.05" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.8778076171875" c="-1" d="0" tx="27" ty="23.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.889312744140625" c="-1" d="0" tx="19.5" ty="20"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-2.92831420898438" c="-1" d="0" tx="23.3" ty="26.95"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.22001647949219" c="-1" d="0" tx="15.7" ty="21.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="2.65" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.89657592773438" c="-1" d="0" tx="15.7" ty="23.45"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="17" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix d="-0.988754272460938" tx="-11.4" ty="34.8"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.334823608398438" c="-1" d="0" tx="11.95" ty="18.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.05" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.8778076171875" c="-1" d="0" tx="27" ty="23.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.889312744140625" c="-1" d="0" tx="19.5" ty="20"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-2.92831420898438" c="-1" d="0" tx="23.3" ty="26.95"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.22001647949219" c="-1" d="0" tx="15.7" ty="21.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.35" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.85244750976563" c="-1" d="0" tx="19.5" ty="23.25"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="17" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix d="-0.988754272460938" tx="-11.4" ty="34.8"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.334823608398438" c="-1" d="0" tx="11.95" ty="18.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.05" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.8778076171875" c="-1" d="0" tx="27" ty="23.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.889312744140625" c="-1" d="0" tx="19.5" ty="20"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-2.92831420898438" c="-1" d="0" tx="23.3" ty="26.95"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.22001647949219" c="-1" d="0" tx="15.7" ty="21.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.33349609375" c="-1" d="0" tx="23.3" ty="21.55"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="17" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix d="-0.988754272460938" tx="-11.4" ty="34.8"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.334823608398438" c="-1" d="0" tx="11.95" ty="18.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.05" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.8778076171875" c="-1" d="0" tx="27" ty="23.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-0.889312744140625" c="-1" d="0" tx="19.5" ty="20"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-2.92831420898438" c="-1" d="0" tx="23.3" ty="26.95"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="4.1" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.22001647949219" c="-1" d="0" tx="15.7" ty="21.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.05" objectHeight="2" x="3.4" y="18" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="-1.8778076171875" c="-1" d="0" tx="27" ty="23.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

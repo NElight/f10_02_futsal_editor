@@ -1,0 +1,278 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="misc/ssp_final.ai" itemID="4d7df890-000005c7" symbolType="graphic" lastModified="1317300658">
+  <timeline>
+    <DOMTimeline name="ssp_final.ai">
+      <layers>
+        <DOMLayer name="Pitch" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Header" color="#00FF00" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="header/mc_header" selected="true">
+                  <matrix>
+                    <Matrix tx="5.5" ty="139.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="499.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Comments" color="#FF00FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_comments" selected="true">
+                  <matrix>
+                    <Matrix tx="237.5" ty="629.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="323" y="51"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_bold" selected="true">
+                      <matrix>
+                        <Matrix tx="860.5" ty="601.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="11.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_italics" selected="true">
+                      <matrix>
+                        <Matrix tx="831.5" ty="601.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="11.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_underline" selected="true">
+                      <matrix>
+                        <Matrix tx="802.5" ty="601.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="11.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.0616455078125" c="-0.0616455078125" d="0" tx="873.5" ty="680.35"/>
+                            </matrix>
+                            <GradientEntry color="#999999" ratio="0"/>
+                            <GradientEntry color="#CCCCCC" ratio="0.270588235294118"/>
+                            <GradientEntry color="#CCCCCC" ratio="0.729411764705882"/>
+                            <GradientEntry color="#999999" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#999999"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle0="1" strokeStyle="1" edges="!17280 12597|17280 14617!17280 14617|17660 14617!17660 14617|17660 12597!17660 12597|17280 12597"/>
+                        <Edge cubics="!17280 14617(17280,14617;17280,14617 17660,14617 17660,14617q17280 14617 17660 14617);"/>
+                        <Edge cubics="!17660 14617(17660,14617;17660,14617 17660,12597 17660,12597q17660 14617 17660 12597)17660,12597;"/>
+                        <Edge cubics="!17660 12597(;17660,12597 17280,12597 17280,12597q17660 12597 17280 12597);"/>
+                        <Edge cubics="!17280 12597(;17280,12597 17280,14617 17280,14617q17280 12597 17280 14617);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Above Pitch" color="#000000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Right Column" color="#FFFF00" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/mc_pitchSlider" selected="true">
+                  <matrix>
+                    <Matrix tx="891.5" ty="173.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56.75" y="282.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/mc_btn_up" selected="true">
+                  <matrix>
+                    <Matrix tx="892.5" ty="173.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="15.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/mc_btn_down" selected="true">
+                  <matrix>
+                    <Matrix tx="892.5" ty="708.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="15.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup selected="true">
+                  <members/>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Left Column" color="#FF0000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="accordion_menu/mc_accordion_old" selected="true">
+                  <matrix>
+                    <Matrix tx="5.5" ty="173.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="112" y="282.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/mc_panel1" selected="true">
+                  <matrix>
+                    <Matrix tx="5.5" ty="691.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/kits_buttons_bar" selected="true">
+                      <matrix>
+                        <Matrix tx="153.5" ty="264.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="35.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="main_menu/panel_players/players_actions_tab" selected="true">
+                      <matrix>
+                        <Matrix tx="9.5" ty="235.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="53" y="12"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                            <fill>
+                              <SolidColor color="#B2B2B2"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!110 13337|4570 13337"/>
+                        <Edge cubics="!110 13337(;110,13337 4570,13337 4570,13337q110 13337 4570 13337);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="controls/mc_controls" selected="true">
+                      <matrix>
+                        <Matrix tx="5.5" ty="173.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="112" y="15.25"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="controls/mc_move" selected="true">
+                      <matrix>
+                        <Matrix tx="201.5" ty="177.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="11.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="controls/mc_divider" selected="true">
+                      <matrix>
+                        <Matrix tx="105.5" ty="182.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="1" y="7"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="controls/mc_rotate_ccw" selected="true">
+                      <matrix>
+                        <Matrix tx="173.5" ty="177.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="11.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="controls/mc_rotate_cw" selected="true">
+                      <matrix>
+                        <Matrix tx="145.5" ty="177.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="11.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="controls/mc_delete" selected="true">
+                      <matrix>
+                        <Matrix tx="116.5" ty="177.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="11.5" y="11.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="main_buttons/mc_clear_all" selected="true">
+                      <matrix>
+                        <Matrix tx="5.5" ty="173.35"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="45.75" y="15.5"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#0000FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

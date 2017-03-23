@@ -1,0 +1,69 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_popup/mc_line_width" itemID="4e4d259d-000004d6" lastModified="1314098721">
+  <timeline>
+    <DOMTimeline name="mc_line_width">
+      <layers>
+        <DOMLayer name="lines" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/gr_linewidth_2" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="10" ty="9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/gr_linewidth_1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="10" ty="29"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/gr_linewidth_0" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="10" ty="48"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buttons" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_select" name="btn_linewidth_2" symbolType="button">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_select" name="btn_linewidth_1" symbolType="button">
+                  <matrix>
+                    <Matrix ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_select" name="btn_linewidth_0" symbolType="button">
+                  <matrix>
+                    <Matrix ty="40"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

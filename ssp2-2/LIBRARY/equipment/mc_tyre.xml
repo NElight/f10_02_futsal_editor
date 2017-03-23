@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_tyre" itemID="5047a20b-0000063f" linkageExportForAS="true" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_tyre" lastModified="1346871859">
+  <timeline>
+    <DOMTimeline name="mc_tyre">
+      <layers>
+        <DOMLayer name="Layer 1" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="equipment/icon_tyre.png">
+                  <matrix>
+                    <Matrix tx="-25" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

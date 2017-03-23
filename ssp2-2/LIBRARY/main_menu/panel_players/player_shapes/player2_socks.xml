@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player2_socks" itemID="4ded443d-00000a8f" lastModified="1307398733">
+  <timeline>
+    <DOMTimeline name="player2_socks">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="8.45" ty="-60.3"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999966"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!3 1253/-169 1344!-169 1344/-158 1389!-158 1389/77 1332!77 1332/3 1253!517 1206/485 1499!485 1499/543 1516!543 1516/625 1229!625 1229/517 1206"/>
+                    <Edge cubics="!-158 1389(;-158,1389 77,1332 77,1332q-158 1389 77 1332);"/>
+                    <Edge cubics="!77 1332(;77,1332 3,1253 3,1253q77 1332 3 1253);"/>
+                    <Edge cubics="!-169 1344(;-169,1344 -158,1389 -158,1389q-169 1344 -158 1389);"/>
+                    <Edge cubics="!3 1253(;3,1253 -169,1344 -169,1344q3 1253 -169 1344);"/>
+                    <Edge cubics="!517 1206(;517,1206 485,1499 485,1499q517 1206 485 1499);"/>
+                    <Edge cubics="!485 1499(;485,1499 543,1516 543,1516q485 1499 543 1516);"/>
+                    <Edge cubics="!543 1516(;543,1516 625,1229 625,1229q543 1516 625 1229);"/>
+                    <Edge cubics="!625 1229(;625,1229 517,1206 517,1206q625 1229 517 1206);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

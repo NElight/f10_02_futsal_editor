@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/equipment_colors/mc_button_equipment_color" itemID="4f47bb83-00000469" linkageExportForAS="true" linkageClassName="src.popup.PopupBtnItemColor" lastModified="1350390441" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="mc_button_equipment_color">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnEquipColor" name="btnButton" symbolType="button">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/mc_equip_color_popup" name="mcPopup" centerPoint3DX="11.5" centerPoint3DY="-41.6">
+                  <matrix>
+                    <Matrix tx="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.5" y="-41.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

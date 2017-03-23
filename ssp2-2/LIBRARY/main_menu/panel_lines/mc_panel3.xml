@@ -1,0 +1,144 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/mc_panel3" itemID="4e56582c-000004d0" lastModified="1366286026" lastUniqueIdentifier="16">
+  <timeline>
+    <DOMTimeline name="mc_panel3">
+      <layers>
+        <DOMLayer name="tabs_line" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#DF572D"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!60 10160|-40 10160!-40 10160|-40 0!-40 0|60 0!60 0|60 10160"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_scroller" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/ScrollPane" name="line_scroller" selected="true" centerPoint3DX="112.45" centerPoint3DY="169" uniqueID="15">
+                  <matrix>
+                    <Matrix a="2.18994140625" d="4.00022888183594" tx="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="horizontalLineScrollSize">
+      <Inspectable name="horizontalLineScrollSize" variable="horizontalLineScrollSize" category="" verbose="0" defaultValue="4" type="Number"/>
+   </property>
+   <property id="horizontalPageScrollSize">
+      <Inspectable name="horizontalPageScrollSize" variable="horizontalPageScrollSize" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="horizontalScrollPolicy">
+      <Inspectable name="horizontalScrollPolicy" variable="horizontalScrollPolicy" category="" verbose="0" defaultValue="off" enumeration="on,off,auto" type="List"/>
+   </property>
+   <property id="scrollDrag">
+      <Inspectable name="scrollDrag" variable="scrollDrag" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="source">
+      <Inspectable name="source" variable="source" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="verticalLineScrollSize">
+      <Inspectable name="verticalLineScrollSize" variable="verticalLineScrollSize" category="" verbose="0" defaultValue="4" type="Number"/>
+   </property>
+   <property id="verticalPageScrollSize">
+      <Inspectable name="verticalPageScrollSize" variable="verticalPageScrollSize" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="verticalScrollPolicy">
+      <Inspectable name="verticalScrollPolicy" variable="verticalScrollPolicy" category="" verbose="0" defaultValue="auto" enumeration="on,off,auto" type="List"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_line_reset" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_reset_button" name="btn_line_reset" centerPoint3DX="111.5" centerPoint3DY="409.1">
+                  <matrix>
+                    <Matrix ty="400"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="9.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="help_text" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="help_text" selected="true" fontRenderingMode="device" width="207" height="71.6" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="7" ty="425"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg2" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix a="0.995513916015625"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 8080S2|0 0!0 0|4460 0!4460 0|4460 8080!4460 8080|4450 8080"/>
+                    <Edge fillStyle0="2" edges="!0 8080S1|0 10160!0 10160|4450 10160!4450 10160|4450 8080"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!4450 8080S3|0 8080"/>
+                    <Edge cubics="!0 0(;0,0 4460,0 4460,0q0 0 4460 0);"/>
+                    <Edge cubics="!4450 10160(4450,10160;4450,10160 0,10160 0,10160q4450 10160 0 10160);"/>
+                    <Edge cubics="!0 10160(0,10160;0,10160 0,8080 0,8080q0 10160 0 8080)0,8080;"/>
+                    <Edge cubics="!4450 8080(;4450,8080 4450,10160 4450,10160q4450 8080 4450 10160);"/>
+                    <Edge cubics="!4460 0(4460,0;4460,0 4460,8080 4460,8080q4460 0 4460 8080)4460,8080;"/>
+                    <Edge cubics="!4450 8080(;4450,8080 4460,8080 4460,8080q4450 8080 4460 8080);"/>
+                    <Edge cubics="!0 8080(;0,8080 4450,8080 4450,8080q0 8080 4450 8080);"/>
+                    <Edge cubics="!0 8080(;0,8080 0,0 0,0q0 8080 0 0)0,0;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

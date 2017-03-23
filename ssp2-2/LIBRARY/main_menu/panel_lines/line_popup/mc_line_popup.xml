@@ -1,0 +1,374 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_popup/mc_line_popup" itemID="4e4ce3e2-000003fb" linkageExportForAS="true" linkageClassName="mc_line_popup" lastModified="1366286026" lastUniqueIdentifier="26">
+  <timeline>
+    <DOMTimeline name="mc_line_popup" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;382&lt;/guideline&gt;&lt;guideline direction="v"&gt;252&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="selectors" color="#4FFF4F" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/mc_arrowhead_pos" name="arrow_pos_dropdown" centerPoint3DX="435" centerPoint3DY="317">
+                  <matrix>
+                    <Matrix tx="385" ty="287"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/mc_arrowhead_size" name="arrow_size_dropdown" centerPoint3DX="435" centerPoint3DY="277">
+                  <matrix>
+                    <Matrix tx="385" ty="247"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/mc_line_width" name="line_width_dropdown" centerPoint3DX="435" centerPoint3DY="247">
+                  <matrix>
+                    <Matrix tx="385" ty="217"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="selected_attributes" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/chosen_line_width" name="chosen_line_width" centerPoint3DX="435" centerPoint3DY="207.5">
+                  <matrix>
+                    <Matrix tx="395" ty="207"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/chosen_arrow_size" name="chosen_arrow_size" centerPoint3DX="435" centerPoint3DY="238">
+                  <matrix>
+                    <Matrix tx="395" ty="235"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/chosen_arrow_pos" name="chosen_arrow_pos" centerPoint3DX="435" centerPoint3DY="278">
+                  <matrix>
+                    <Matrix tx="395" ty="277"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cancel save buttons" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/Button" name="btn_lines_cancel" centerPoint3DX="347.35" centerPoint3DY="318.35" uniqueID="24">
+                  <matrix>
+                    <Matrix tx="297.35" ty="307.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="emphasized">
+      <Inspectable name="emphasized" variable="emphasized" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Cancel" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="toggle">
+      <Inspectable name="toggle" variable="toggle" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="ui_components/Button" name="btn_lines_save" centerPoint3DX="453.8" centerPoint3DY="318.35" uniqueID="26">
+                  <matrix>
+                    <Matrix tx="403.8" ty="307.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="emphasized">
+      <Inspectable name="emphasized" variable="emphasized" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Save" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="toggle">
+      <Inspectable name="toggle" variable="toggle" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="interface_objects" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="line_name" fontRenderingMode="standard" width="111.95" height="13.35" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="387" ty="139"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_selector" name="arrow_size_selector" symbolType="button">
+                  <matrix>
+                    <Matrix tx="385" ty="227"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_selector" name="line_width_selector" symbolType="button">
+                  <matrix>
+                    <Matrix tx="385" ty="197"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/btn_selector" name="arrow_pos_selector" symbolType="button">
+                  <matrix>
+                    <Matrix tx="385" ty="267"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labels" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="editLineAppearanceLabel" fontRenderingMode="standard" width="246.45" height="15.6" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="254.5" ty="108"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Edit Line Appearance</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="2.35" size="14" bitmapSize="280" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="lineNameLabel" fontRenderingMode="standard" width="125.5" height="12.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="254.5" ty="139"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Line Name:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="_sans" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="lineColourLabel" fontRenderingMode="standard" width="125.5" height="12.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="254.5" ty="169"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Line Colour:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="_sans" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="lineWidthLabel" fontRenderingMode="standard" width="125.5" height="12.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="254.5" ty="199"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Line Width:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="_sans" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="arrowheadSizeLabel" fontRenderingMode="standard" width="125.5" height="12.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="254.5" ty="229"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Arrowhead Size:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="_sans" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="arrowheadPositionLabel" fontRenderingMode="standard" width="125.5" height="12.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="254.5" ty="269"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Arrowhead Position:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="_sans" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="divider" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" joints="miter" miterLimit="1">
+                        <fill>
+                          <SolidColor color="#EAEBEB"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!5200 5140|9960 5140"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="highlight" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="1">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!4921 1930|10241 1930"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient spreadMethod="repeat" interpolationMethod="linearRGB">
+                        <matrix>
+                          <Matrix a="-6.103515625e-005" b="0.162353515625" c="-0.136322021484375" d="-7.62939453125e-005" tx="378.95" ty="219.95"/>
+                        </matrix>
+                        <GradientEntry color="#E7E7E7" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.317647058823529"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!10259 6899S2|4899 6899!4899 6899|4899 1899!4899 1899|10259 1899!10259 1899|10259 6899"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="border" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/line_popup_container" name="line_popup_window" centerPoint3DX="379" centerPoint3DY="220">
+                  <matrix>
+                    <Matrix tx="240" ty="90"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="139" y="130"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background_main" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/line_popup/line_popup_window" name="line_popup_container" centerPoint3DX="500" centerPoint3DY="299.95">
+                  <matrix>
+                    <Matrix d="1.00006103515625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="500" y="299.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

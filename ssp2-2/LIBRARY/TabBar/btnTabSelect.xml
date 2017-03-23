@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/btnTabSelect" itemID="505386c8-00000a96" symbolType="button" lastModified="1376402464">
+  <timeline>
+    <DOMTimeline name="btnTabSelect">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix a="1.10891723632813"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.5" y="11"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!2020 59S1[2020 0 1961 0!1961 0|60 0!60 0[0 0 0 59!0 59/0 440!0 440/2020 440!2020 440/2020 59"/>
+                    <Edge cubics="!2020 59(;2020,20 2000,0 1961,0q2020 59Q2020 0q1961 0);"/>
+                    <Edge cubics="!2020 440(;2020,440 2020,59 2020,59q2020 440 2020 59);"/>
+                    <Edge cubics="!0 59(;0,59 0,440 0,440q0 59 0 440);"/>
+                    <Edge cubics="!60 0(;20,0 0,20 0,59q60 0Q0 0q0 59);"/>
+                    <Edge cubics="!0 440(;0,440 2020,440 2020,440q0 440 2020 440);"/>
+                    <Edge cubics="!1961 0(;1961,0 60,0 60,0q1961 0 60 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

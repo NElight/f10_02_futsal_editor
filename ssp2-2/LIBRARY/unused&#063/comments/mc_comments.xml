@@ -1,0 +1,203 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="unused&amp;#063/comments/mc_comments" itemID="4d7e299a-0000474e" lastModified="1367483161" lastUniqueIdentifier="17">
+  <timeline>
+    <DOMTimeline name="mc_comments">
+      <layers>
+        <DOMLayer name="text_toolbar" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_bold" name="commentsBoldBtn" centerPoint3DX="172.6" centerPoint3DY="17.5">
+                  <matrix>
+                    <Matrix tx="161" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.55" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_italics" name="commentsItalicBtn" centerPoint3DX="145.5" centerPoint3DY="17.5">
+                  <matrix>
+                    <Matrix tx="134" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_underline" name="commentsUnderlineBtn" centerPoint3DX="118.5" centerPoint3DY="17.5">
+                  <matrix>
+                    <Matrix tx="107" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="heading" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="comments_title" width="89.05" height="16.2" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.999420166015625" tx="13" ty="11"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>COMMENTS</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.2" bitmapSize="240" face="_sans" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="text_box" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="0.99224853515625" tx="11" ty="35"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!12910 10|10 10!10 10|10 2030!10 2030|12910 2030!12910 2030|12910 10"/>
+                    <Edge cubics="!12910 10(;12910,10 10,10 10,10q12910 10 10 10);"/>
+                    <Edge cubics="!10 10(;10,10 10,2030 10,2030q10 10 10 2030);"/>
+                    <Edge cubics="!10 2030(;10,2030 12910,2030 12910,2030q10 2030 12910 2030);"/>
+                    <Edge cubics="!12910 2030(;12910,2030 12910,10 12910,10q12910 2030 12910 10);"/>
+                  </edges>
+                </DOMShape>
+                <DOMInputText name="commentsField" width="627" height="98" scrollable="true" renderAsHTML="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="13" ty="37"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="13" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMComponentInstance libraryItemName="ui_components/UIScrollBar" centerPoint3DX="647.5" centerPoint3DY="85.95" uniqueID="14">
+                  <matrix>
+                    <Matrix d="1.02000427246094" tx="638" ty="34.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.5" y="50"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="vertical" enumeration="vertical,horizontal" type="List"/>
+   </property>
+   <property id="scrollTargetName">
+      <Inspectable name="scrollTargetName" variable="scrollTargetName" category="" verbose="0" defaultValue="commentsField" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lines" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="1.13493347167969" tx="-662.75" ty="-0.05"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!13265 10|13265 2530"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.00613403320313" tx="-1.5" ty="8.5"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!40 -160|13219 -160"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="1.14286804199219" tx="0.25" ty="-0.05"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!13265 10|13265 2530"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F2F2F2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!13280 2880|0 2880!0 2880|0 0!0 0|13280 0!13280 0|13280 2880"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

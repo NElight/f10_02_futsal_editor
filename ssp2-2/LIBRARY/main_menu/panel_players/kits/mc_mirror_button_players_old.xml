@@ -1,0 +1,153 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/kits/mc_mirror_button_players_old" itemID="4fa96d51-00000852" lastModified="1336503633">
+  <timeline>
+    <DOMTimeline name="mc_mirror_button_players_old">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="misc/mirror_button" name="mirror" symbolType="button" centerPoint3DX="51" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="38.05" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="btn_label" width="62.75" height="15.25" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="24.25" ty="3.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Mirror</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMRectangleObject objectWidth="1" objectHeight="15.95" x="10.55" y="3.9" selected="true" lockFlag="true">
+                      <matrix>
+                        <Matrix d="1.00338745117188" tx="0.45" ty="-1.15"/>
+                      </matrix>
+                      <fill>
+                        <SolidColor color="#CCCCCC"/>
+                      </fill>
+                    </DOMRectangleObject>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix ty="-1.15"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#666666"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!180 120|180 360!180 360|80 360!80 360/180 120"/>
+                        <Edge cubics="!180 360(;180,360 80,360 80,360q180 360 80 360);"/>
+                        <Edge cubics="!180 120(;180,120 180,360 180,360q180 120 180 360);"/>
+                        <Edge cubics="!80 360(;80,360 180,120 180,120q80 360 180 120);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix ty="-1.15"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#CCCCCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!280 120|280 360!280 360|380 360!380 360/280 120"/>
+                        <Edge cubics="!280 360(;280,360 280,120 280,120q280 360 280 120);"/>
+                        <Edge cubics="!380 360(;380,360 280,360 280,360q380 360 280 360);"/>
+                        <Edge cubics="!380 360(;380,360 280,120 280,120q380 360 280 120);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMRectangleObject objectWidth="5" objectHeight="1" x="4.05" y="18" selected="true" lockFlag="true">
+                      <matrix>
+                        <Matrix ty="-1.15"/>
+                      </matrix>
+                      <fill>
+                        <SolidColor color="#FFFFFF"/>
+                      </fill>
+                    </DOMRectangleObject>
+                    <DOMRectangleObject objectWidth="5" objectHeight="1" x="4.05" y="18" selected="true" lockFlag="true">
+                      <matrix>
+                        <Matrix tx="9.95" ty="-1.15"/>
+                      </matrix>
+                      <fill>
+                        <SolidColor color="#FFFFFF"/>
+                      </fill>
+                    </DOMRectangleObject>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix a="0.899993896484375"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013427734375" c="-0.0610198974609375" d="0" tx="49.95" ty="11"/>
+                        </matrix>
+                        <GradientEntry color="#E5E5E5" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#B2B2B2"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!1999 440S6|-1 440!-1 440|-1 0!-1 0|1999 0!1999 0|1999 440"/>
+                    <Edge cubics="!1999 440(;1999,440 -1,440 -1,440q1999 440 -1 440);"/>
+                    <Edge cubics="!-1 440(;-1,440 -1,0 -1,0q-1 440 -1 0)-1,0;"/>
+                    <Edge cubics="!-1 0(;-1,0 1999,0 1999,0q-1 0 1999 0);"/>
+                    <Edge cubics="!1999 0(;1999,0 1999,440 1999,440q1999 0 1999 440);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

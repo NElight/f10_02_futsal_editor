@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player8_bottoms" itemID="4ded4ac9-00000f86" lastModified="1307400409">
+  <timeline>
+    <DOMTimeline name="player8_bottoms">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-7.5" ty="-37.45"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#66FF99"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!605 760/395 781!395 781/227 749!227 749/209 887!209 887/150 1062!150 1062/216 1085!216 1085/213 1042!213 1042/277 1025!277 1025/339 1048!339 1048/334 1128!334 1128/379 1108!379 1108/391 1005!391 1005/433 1004!433 1004/447 1144!447 1144
+/681 1142!681 1142/632 912!632 912/605 760"/>
+                    <Edge cubics="!209 887(;209,887 150,1062 150,1062q209 887 150 1062);"/>
+                    <Edge cubics="!150 1062(;150,1062 216,1085 216,1085q150 1062 216 1085);"/>
+                    <Edge cubics="!216 1085(;216,1085 213,1042 213,1042q216 1085 213 1042);"/>
+                    <Edge cubics="!213 1042(;213,1042 277,1025 277,1025q213 1042 277 1025);"/>
+                    <Edge cubics="!277 1025(;277,1025 339,1048 339,1048q277 1025 339 1048);"/>
+                    <Edge cubics="!339 1048(;339,1048 334,1128 334,1128q339 1048 334 1128);"/>
+                    <Edge cubics="!334 1128(;334,1128 379,1108 379,1108q334 1128 379 1108);"/>
+                    <Edge cubics="!379 1108(;379,1108 391,1005 391,1005q379 1108 391 1005);"/>
+                    <Edge cubics="!391 1005(;391,1005 433,1004 433,1004q391 1005 433 1004);"/>
+                    <Edge cubics="!433 1004(;433,1004 447,1144 447,1144q433 1004 447 1144);"/>
+                    <Edge cubics="!447 1144(;447,1144 681,1142 681,1142q447 1144 681 1142);"/>
+                    <Edge cubics="!681 1142(;681,1142 632,912 632,912q681 1142 632 912);"/>
+                    <Edge cubics="!632 912(;632,912 605,760 605,760q632 912 605 760);"/>
+                    <Edge cubics="!605 760(;605,760 395,781 395,781q605 760 395 781);"/>
+                    <Edge cubics="!395 781(;395,781 227,749 227,749q395 781 227 749);"/>
+                    <Edge cubics="!227 749(;227,749 209,887 209,887q227 749 209 887);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

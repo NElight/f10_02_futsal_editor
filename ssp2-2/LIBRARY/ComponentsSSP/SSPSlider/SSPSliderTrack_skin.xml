@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ComponentsSSP/SSPSlider/SSPSliderTrack_skin" itemID="5161aee2-0000ca4b" linkageExportForAS="true" linkageClassName="SSPSliderTrack_skin" scaleGridLeft="4" scaleGridRight="76" scaleGridTop="-7" scaleGridBottom="7" lastModified="1365367816">
+  <timeline>
+    <DOMTimeline name="SSPSliderTrack_skin">
+      <layers>
+        <DOMLayer name="skin" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="79" objectHeight="11" x="0" y="0" lockFlag="true" topLeftRadius="3.8" topRightRadius="3.8" bottomLeftRadius="3.8" bottomRightRadius="3.8">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-5.5"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

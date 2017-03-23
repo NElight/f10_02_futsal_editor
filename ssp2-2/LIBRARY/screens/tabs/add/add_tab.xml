@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="screens/tabs/add/add_tab" itemID="4dc3f630-000054db" linkageExportForAS="true" linkageClassName="add_tab" lastModified="1349995511">
+  <timeline>
+    <DOMTimeline name="add_tab">
+      <layers>
+        <DOMLayer name="plus sign" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="0.849044799804688" tx="1.05" ty="-0.3"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!69 206|281 206"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="1.19204711914063" tx="-0.4" ty="-2.25"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!178 130|178 281"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="button" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="screens/tabs/add/add_tab_button" name="button" selected="true" symbolType="button">
+                  <transformationPoint>
+                    <Point x="8.5" y="10"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="add_tab" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-1.52587890625e-005" b="0.012969970703125" c="-0.0146484375" d="-1.52587890625e-005" tx="50.5" ty="10"/>
+                        </matrix>
+                        <GradientEntry color="#BBBBBB" ratio="0"/>
+                        <GradientEntry color="#959595" ratio="0.584313725490196"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 400/340 400!340 400/340 49!340 49[340 0 281 0!281 0/60 0!60 0[0 0 0 49!0 49|0 400"/>
+                    <Edge cubics="!340 49(;340,17 320,0 281,0q340 49Q340 0q281 0);"/>
+                    <Edge cubics="!340 400(;340,400 340,49 340,49q340 400 340 49);"/>
+                    <Edge cubics="!60 0(;20,0 0,17 0,49q60 0Q0 0q0 49);"/>
+                    <Edge cubics="!0 49(;0,49 0,400 0,400q0 49 0 400);"/>
+                    <Edge cubics="!0 400(;0,400 340,400 340,400q0 400 340 400);"/>
+                    <Edge cubics="!281 0(;281,0 60,0 60,0q281 0 60 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

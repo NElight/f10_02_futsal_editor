@@ -1,0 +1,111 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="message_box/mc_message_box" itemID="4df8d94e-00000735" linkageExportForAS="true" linkageClassName="mc_message_box" sourceFlashFilepath="Desktop\ssp_interface (new objects).fla" sourceLibraryItemHRef="message_box/mc_message_box" sourceLastModified="1308155185" lastModified="1366286026" lastUniqueIdentifier="15" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="mc_message_box">
+      <layers>
+        <DOMLayer name="txt_msg_box_scrollbar" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/UIScrollBar" name="txt_msg_box_scrollbar" centerPoint3DX="204.25" centerPoint3DY="0.5" uniqueID="12">
+                  <matrix>
+                    <Matrix a="1.02667236328125" d="1.44999694824219" tx="194.5" ty="-72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="50"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="vertical" enumeration="vertical,horizontal" type="List"/>
+   </property>
+   <property id="scrollTargetName">
+      <Inspectable name="scrollTargetName" variable="scrollTargetName" category="" verbose="0" defaultValue="txt_msg_box" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txt_title" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_title" selected="true" width="428" height="30.5" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-214" ty="-115"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Sport Session Planner</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0.4" size="20" bitmapSize="400" face="_sans" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txt_msg_box" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_msg_box" width="398.5" height="141" scrollable="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-206.5" ty="-70"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="14" bitmapSize="280" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mc_btn_group" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="message_box/mc_message_box_button_group" name="mc_btn_group" centerPoint3DY="100.35">
+                  <matrix>
+                    <Matrix ty="100.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="message_box/mc_message_box_bg" selected="true">
+                  <matrix>
+                    <Matrix tx="-217" ty="-127.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="217" y="127.5"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter blurX="10" blurY="10" strength="0.5"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,332 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_equipment/mc_panel2" itemID="4d7f8210-0000c5b0" lastModified="1441665378" lastUniqueIdentifier="27">
+  <timeline>
+    <DOMTimeline name="mc_panel2" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;62&lt;/guideline&gt;&lt;guideline direction="v"&gt;12&lt;/guideline&gt;&lt;guideline direction="h"&gt;136&lt;/guideline&gt;&lt;guideline direction="h"&gt;210&lt;/guideline&gt;&lt;guideline direction="v"&gt;86&lt;/guideline&gt;&lt;guideline direction="v"&gt;160&lt;/guideline&gt;&lt;guideline direction="h"&gt;284&lt;/guideline&gt;&lt;guideline direction="h"&gt;357&lt;/guideline&gt;&lt;guideline direction="h"&gt;430&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="equipment34" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_head_tennis_net" name="equipment34" selected="true" centerPoint3DX="37" centerPoint3DY="111">
+                  <matrix>
+                    <Matrix tx="37" ty="136"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment33" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_flat_shoe_right" name="equipment33" centerPoint3DX="185" centerPoint3DY="477.75">
+                  <matrix>
+                    <Matrix tx="185" ty="502.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment32" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_flat_shoe_left" name="equipment32" selected="true" centerPoint3DX="111.1" centerPoint3DY="477.75">
+                  <matrix>
+                    <Matrix tx="111.1" ty="502.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment31" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_flat_disc_marker" name="equipment31" centerPoint3DX="37.3" centerPoint3DY="477.75">
+                  <matrix>
+                    <Matrix tx="37.3" ty="502.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment24" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_tyre" name="equipment24" centerPoint3DX="185" centerPoint3DY="405.1">
+                  <matrix>
+                    <Matrix tx="185" ty="430.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment10" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_disc" name="equipment06" centerPoint3DX="37" centerPoint3DY="259">
+                  <matrix>
+                    <Matrix tx="37" ty="284"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="equipment/mc_passing_arc" name="equipment11" centerPoint3DX="111.3" centerPoint3DY="259.35">
+                  <matrix>
+                    <Matrix tx="105.8" ty="284.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="equipment/mc_balance_ball" name="equipment12" centerPoint3DX="190.8" centerPoint3DY="259.35">
+                  <matrix>
+                    <Matrix tx="185.3" ty="284.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="equipment/mc_large_hurdle" name="equipment13" centerPoint3DX="37.3" centerPoint3DY="332">
+                  <matrix>
+                    <Matrix tx="31.8" ty="357"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="equipment/mc_rebound_board_1" name="equipment14" centerPoint3DX="111.3" centerPoint3DY="332.35">
+                  <matrix>
+                    <Matrix tx="105.8" ty="357.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="equipment/mc_rebound_board_2" name="equipment15" centerPoint3DX="185.3" centerPoint3DY="332.35">
+                  <matrix>
+                    <Matrix tx="179.8" ty="357.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment8" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_pole" name="equipment07" centerPoint3DX="111" centerPoint3DY="185.75">
+                  <matrix>
+                    <Matrix tx="110.75" ty="210.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment7" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_hurdle" name="equipment05" centerPoint3DX="37" centerPoint3DY="185.75">
+                  <matrix>
+                    <Matrix tx="33.5" ty="210.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment6" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_minigoal" name="equipment10" centerPoint3DX="185" centerPoint3DY="111.25">
+                  <matrix>
+                    <Matrix tx="179" ty="136.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment5" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_goal" name="equipment09" centerPoint3DX="111" centerPoint3DY="111.25">
+                  <matrix>
+                    <Matrix tx="108" ty="136.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment4" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_ladder" name="equipment04" centerPoint3DX="37.1" centerPoint3DY="405">
+                  <matrix>
+                    <Matrix tx="42.1" ty="430"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="equipment/mc_agility_cones" name="equipment16" centerPoint3DX="111.1" centerPoint3DY="405.1">
+                  <matrix>
+                    <Matrix tx="111.1" ty="430.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment3" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_cone" name="equipment03" centerPoint3DX="185" centerPoint3DY="37">
+                  <matrix>
+                    <Matrix tx="185" ty="62"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment1" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_flag" name="equipment01" centerPoint3DX="37" centerPoint3DY="37">
+                  <matrix>
+                    <Matrix tx="31.5" ty="62"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment9" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_mannequin" name="equipment08" centerPoint3DX="185" centerPoint3DY="185.75">
+                  <matrix>
+                    <Matrix tx="185" ty="210.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="equipment2" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="equipment/mc_football" name="equipment02" centerPoint3DX="111" centerPoint3DY="37">
+                  <matrix>
+                    <Matrix tx="111" ty="62"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tabs_line" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#BC51BD"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!60 10160|-40 10160!-40 10160|-40 0!-40 0|60 0!60 0|60 10160"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!4440 0|4440 10160!4440 10160|0 10160!0 10160|0 0!0 0|4440 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

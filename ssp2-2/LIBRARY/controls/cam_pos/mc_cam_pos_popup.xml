@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/cam_pos/mc_cam_pos_popup" itemID="55ef12f8-00000951" lastModified="1441958180">
+  <timeline>
+    <DOMTimeline name="mc_cam_pos_popup">
+      <layers>
+        <DOMLayer name="mcCamPosPitch" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/cam_pos/mc_cam_pos_pitch" name="mcCamPosPitch">
+                  <matrix>
+                    <Matrix a="-0.999984741210938" b="1.52587890625e-005" c="1.52587890625e-005" d="-0.999984741210938" ty="-37.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grey_background" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#333333"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!400 -720S2[400 -653 207 -322!207 -322[19 0 2 0!2 0[-16 0 -195 -322!-195 -322[-380 -652 -380 -720!-380 -720[-380 -792 -227 -888!-227 -888[-82 -980 2 -980!2 -980[87 -980 239 -888!239 -888[400 -791 400 -720"/>
+                    <Edge cubics="!400 -720(;400,-618 17,0 2,0q400 -720Q400 -653q207 -322Q19 0q2 0);"/>
+                    <Edge cubics="!2 0(;-15,0 -380,-618 -380,-720q2 0Q-16 0q-195 -322Q-380 -652q-380 -720);"/>
+                    <Edge cubics="!-380 -720(;-380,-822 -100,-980 2,-980q-380 -720Q-380 -792q-227 -888Q-82 -980q2 -980);"/>
+                    <Edge cubics="!2 -980(;104,-980 400,-822 400,-720q2 -980Q87 -980q239 -888Q400 -791q400 -720);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

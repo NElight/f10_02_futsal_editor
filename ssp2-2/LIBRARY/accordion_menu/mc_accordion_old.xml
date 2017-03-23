@@ -1,0 +1,154 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="accordion_menu/mc_accordion_old" itemID="50a674e9-0000051a" lastModified="1353086185">
+  <timeline>
+    <DOMTimeline name="mc_accordion_old">
+      <layers>
+        <DOMLayer name="Layer 7" color="#4F80FF" locked="true" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="accordion_menu/mc_mask" name="acc_mask" centerPoint3DX="109.75" centerPoint3DY="267">
+                  <matrix>
+                    <Matrix a="1.00445556640625" tx="-2.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.5" y="267"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_team/mc_panel5" name="panel5" selected="true" centerPoint3DX="219.85" centerPoint3DY="791.85">
+                  <matrix>
+                    <Matrix ty="511"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="219.6" y="280.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel4" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/mc_panel4" name="panel4" selected="true" centerPoint3DX="111" centerPoint3DY="767.5">
+                  <matrix>
+                    <Matrix a="0.997756958007813" d="0.998764038085938" ty="487"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.55" y="280.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel3" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_panel3" name="panel3" selected="true" centerPoint3DX="111.5" centerPoint3DY="743.85">
+                  <matrix>
+                    <Matrix ty="463"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.25" y="280.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel2" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_equipment/mc_panel2" name="panel2" selected="true" centerPoint3DX="111" centerPoint3DY="719.5">
+                  <matrix>
+                    <Matrix a="0.997817993164063" d="0.998794555664063" ty="439"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.55" y="280.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel1" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/mc_panel1" name="panel1" centerPoint3DX="111.5" centerPoint3DY="11.95">
+                  <matrix>
+                    <Matrix a="1.00218200683594" d="0.998764038085938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111" y="297.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="0.995513916015625" d="0.99822998046875" ty="0.1"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!4460 -2|4460 11298!4460 11298|0 11298!0 11298|0 -2!0 -2|4460 -2"/>
+                        <Edge cubics="!0 -2(;0,-2 4460,-2 4460,-2q0 -2 4460 -2);"/>
+                        <Edge cubics="!4460 11298(;4460,11298 0,11298 0,11298q4460 11298 0 11298);"/>
+                        <Edge cubics="!0 11298(;0,11298 0,-2 0,-2q0 11298 0 -2);"/>
+                        <Edge cubics="!4460 -2(;4460,-2 4460,11298 4460,11298q4460 -2 4460 11298);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="0.997787475585938" tx="-0.5"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#B2B2B2"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!4480 0|4480 11300!4480 11300|4460 11300!4460 11300|4460 0!4460 0|4480 0"/>
+                            <Edge cubics="!4460 11300(;4460,11300 4460,0 4460,0q4460 11300 4460 0);"/>
+                            <Edge cubics="!4460 0(;4460,0 4480,0 4480,0q4460 0 4480 0);"/>
+                            <Edge cubics="!4480 0(;4480,0 4480,11300 4480,11300q4480 0 4480 11300);"/>
+                            <Edge cubics="!4480 11300(;4480,11300 4460,11300 4460,11300q4480 11300 4460 11300);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

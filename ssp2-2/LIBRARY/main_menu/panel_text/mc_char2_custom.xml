@@ -1,0 +1,67 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/mc_char2_custom" itemID="4fb67f9f-00001797" linkageExportForAS="true" linkageClassName="src3d.text.MCChar2Custom" lastModified="1337364701">
+  <timeline>
+    <DOMTimeline name="mc_char2_custom">
+      <layers>
+        <DOMLayer name="txtContent" color="#FFFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txtContent" selected="true" fontRenderingMode="standard" left="-0.45" width="32.2" height="17.9" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-15.65" ty="-19.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="3.5" size="16" bitmapSize="320" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtBg1" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg" name="txtBg1" centerPoint3DY="-11">
+                  <matrix>
+                    <Matrix tx="-7.75" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="11"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" color="#CCCCCC" distance="2" quality="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtBg2" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/characters/characters_bg_2" name="txtBg2" centerPoint3DX="-8" centerPoint3DY="-11">
+                  <matrix>
+                    <Matrix tx="-15.75" ty="-22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.5" y="11.25"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter blurX="0" blurY="0" color="#CCCCCC" distance="2" quality="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

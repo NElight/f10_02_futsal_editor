@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/kits/kits_buttons_bar" itemID="4dde4aae-00006cb0" lastModified="1336506120" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="kits_buttons_bar">
+      <layers>
+        <DOMLayer name="button2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/kit2_button" name="kit2" centerPoint3DX="86.45" centerPoint3DY="10.5">
+                  <matrix>
+                    <Matrix tx="56.7" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="button3" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/kit3_button" name="kit3" selected="true" centerPoint3DX="154.75" centerPoint3DY="10.5">
+                  <matrix>
+                    <Matrix tx="120" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="button1" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/kit1_button" name="kit1" centerPoint3DX="28.9" centerPoint3DY="10.5">
+                  <matrix>
+                    <Matrix tx="-6" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

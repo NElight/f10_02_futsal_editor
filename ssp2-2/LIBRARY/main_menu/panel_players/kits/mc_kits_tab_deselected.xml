@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/kits/mc_kits_tab_deselected" itemID="50a39e04-00000994" lastModified="1352900100">
+  <timeline>
+    <DOMTimeline name="mc_kits_tab_deselected">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="-0.0146484375" c="-0.0146484375" d="0" tx="52.5" ty="12"/>
+                            </matrix>
+                            <GradientEntry color="#FFFFFF" ratio="0"/>
+                            <GradientEntry color="#F2F2F2" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2100 480|0 480!0 480|0 80!0 80[0 47 23 24!23 24[46 0 80 0!80 0|2020 0!2020 0[2053 0 2077 24!2077 24[2100 47 2100 80!2100 80|2100 480"/>
+                        <Edge cubics="!2100 480(;2100,480 0,480 0,480p2100 480q0 480);"/>
+                        <Edge cubics="!0 480(;0,480 0,80 0,80p0 480q0 80);"/>
+                        <Edge cubics="!0 80(0,80;0,36 35,0 80,0q0 80Q0 47q23 24Q46 0q80 0)80,0;"/>
+                        <Edge cubics="!80 0(;80,0 2020,0 2020,0q80 0 2020 0);"/>
+                        <Edge cubics="!2020 0(;2064,0 2100,36 2100,80q2020 0Q2053 0q2077 24Q2100 47q2100 80);"/>
+                        <Edge cubics="!2100 80(2100,80;2100,80 2100,480 2100,480q2100 80 2100 480);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-0.5"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="0.0146484375" c="0.0146484375" d="0" tx="53" ty="12"/>
+                            </matrix>
+                            <GradientEntry color="#E5E5E5" ratio="0"/>
+                            <GradientEntry color="#B2B2B2" ratio="0.898039215686275"/>
+                            <GradientEntry color="#7F7F7F" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2110 480|10 480!10 480|10 80!10 80[10 47 33 24!33 24[56 0 90 0!90 0|2030 0!2030 0[2063 0 2087 24!2087 24[2110 47 2110 80!2110 80|2110 480"/>
+                        <Edge cubics="!2110 480(;2110,480 10,480 10,480p2110 480q10 480);"/>
+                        <Edge cubics="!10 480(;10,480 10,80 10,80p10 480q10 80);"/>
+                        <Edge cubics="!10 80(;10,36 45,0 90,0q10 80Q10 47q33 24Q56 0q90 0);"/>
+                        <Edge cubics="!90 0(90,0;90,0 2030,0 2030,0q90 0 2030 0)2030,0;"/>
+                        <Edge cubics="!2030 0(;2074,0 2110,36 2110,80q2030 0Q2063 0q2087 24Q2110 47q2110 80);"/>
+                        <Edge cubics="!2110 80(;2110,80 2110,480 2110,480q2110 80 2110 480);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

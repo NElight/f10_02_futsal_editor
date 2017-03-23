@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player15_top" itemID="56391358-00003abe" lastModified="1446582085">
+  <timeline>
+    <DOMTimeline name="player15_top">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#33FF66"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!407 25S2|491 79!491 79|492 80!492 80|504 112!504 112|513 356!513 356|484 382!484 382|455 352!455 352[454 351 453 352!453 352|388 352!388 352[387 352 387 353!387 353|389 405!389 405|407 505!407 505|407 506!407 506|370 483!370 483|313
+ 485!313 485|284 506!284 506|255 539!255 539|254 539!254 539|253 536!253 536|144 374!144 374[144 373 143 373!143 373|57 373!57 373[56 372 56 373!56 373[55 374 55 375!55 375|53 427!53 427[53 428 54 428!54 428|192 553!192 553|176 569!176
+ 569[175 570 176 571!176 571|176 573!176 573|180 577!180 577|69 585!69 585|2 581!2 581[1 580 0 580!0 580[0 579 0 578!0 578[0 577 1 576!1 576[1 575 2 576!2 576|3 576!3 576|21 391!21 391|3 358!3 358[2 357 3 357!3 357|46 142!46 142|46 141
+!46 141|67 88!67 88|201 0!201 0|203 1!203 1|202 2!202 2|306 98!306 98|308 98!308 98|348 82!348 82|407 26!407 26|407 25"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

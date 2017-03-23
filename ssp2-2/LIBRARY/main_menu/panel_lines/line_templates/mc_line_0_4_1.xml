@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_templates/mc_line_0_4_1" itemID="4f0aed2c-00000450" lastModified="1326120110">
+  <timeline>
+    <DOMTimeline name="mc_line_0_4_1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1909 182S1[#710.AF #83.77 1639.5 81!1639.5 81[#516.C9 #FFFFEC.12 957 -20!957 -20[612.25 #FFFFEC.15 267.5 81!267.5 81[#5E.56 #83.77 -9 182!-9 182|-27 191!-27 191|-9 227!-9 227|9 218!9 218[#6D.AB #A8.87 278.5 119!278.5 119[#269.BF #13.EB
+ 957 20!957 20[#511.34 #13.EC 1628.5 119!1628.5 119[#701.5 #A8.88 1891 218!1891 218|1909 227!1909 227|1927 191!1927 191|1909 182"/>
+                    <Edge cubics="!0 200(0,200;0,200 409,0 957,0q0 200Q102 150q273 100Q615 0q957 0);"/>
+                    <Edge cubics="!957 0(;1505,0 1900,200 1900,200q957 0Q1300 0q1634 100Q1801 150q1900 200)1900,200;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

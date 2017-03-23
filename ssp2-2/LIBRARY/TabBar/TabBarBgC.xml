@@ -1,0 +1,55 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/TabBarBgC" itemID="508e6796-0000a0de" symbolType="graphic" lastModified="1352902913" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="TabBarBgC">
+      <layers>
+        <DOMLayer name="foot" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/TabBgFoot" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.02197265625" c="-0.0189208984375" d="0" tx="15.5" ty="20"/>
+                        </matrix>
+                        <GradientEntry color="#2F2F2F" ratio="0"/>
+                        <GradientEntry color="#4D4D4D" ratio="0.117647058823529"/>
+                        <GradientEntry color="#6A6A6A" ratio="0.513725490196078"/>
+                        <GradientEntry color="#737373" ratio="0.701960784313725"/>
+                        <GradientEntry color="#373737" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!620 0S2|620 600!620 600|0 600!0 600|0 0!0 0|620 0"/>
+                    <Edge cubics="!620 600(;620,600 0,600 0,600q620 600 0 600);"/>
+                    <Edge cubics="!0 600(;0,600 0,0 0,0q0 600 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 620,0 620,0q0 0 620 0);"/>
+                    <Edge cubics="!620 0(;620,0 620,600 620,600q620 0 620 600);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

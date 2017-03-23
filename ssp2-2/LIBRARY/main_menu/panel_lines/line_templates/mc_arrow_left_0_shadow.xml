@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_templates/mc_arrow_left_0_shadow" itemID="4e5f7804-00000474" lastModified="1314882873">
+  <timeline>
+    <DOMTimeline name="mc_arrow_left_0_shadow">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!192 0S1|0 91!0 91|192 180!192 180|192 0"/>
+                    <Edge cubics="!0 91(;0,91 192,180 192,180q0 91 192 180);"/>
+                    <Edge cubics="!192 0(;192,0 0,91 0,91q192 0 0 91);"/>
+                    <Edge cubics="!192 180(;192,180 192,0 192,0q192 180 192 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

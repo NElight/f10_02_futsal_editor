@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/item_elevation/mc_item_elevation" itemID="4f57ec5a-00000742" linkageExportForAS="true" linkageClassName="src.popup.PopupBtnItemElevation" lastModified="1356015895" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="mc_item_elevation">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_elevation/mc_item_elevation_button" name="btn_custom_item_elevation" centerPoint3DX="11.5" centerPoint3DY="11.5">
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/item_elevation/mc_item_elevation_popup" name="mcPopup" centerPoint3DX="10" centerPoint3DY="-56.6">
+                  <matrix>
+                    <Matrix tx="9.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="-56.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

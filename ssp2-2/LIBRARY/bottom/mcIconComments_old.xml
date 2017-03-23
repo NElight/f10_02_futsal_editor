@@ -1,0 +1,68 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bottom/mcIconComments_old" itemID="517ffdf7-000014bf" symbolType="graphic" lastModified="1367342583">
+  <timeline>
+    <DOMTimeline name="mcIconComments_old">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-0.00189208984375" b="-0.00189208984375" c="0.0018768310546875" d="-0.0018768310546875" tx="11.55" ty="11.55"/>
+                        </matrix>
+                        <GradientEntry color="#316CB0" ratio="0"/>
+                        <GradientEntry color="#9FC2EC" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.0059356689453125" b="-0.0059356689453125" c="0.0059356689453125" d="0.0059356689453125" tx="6.85" ty="6.9"/>
+                        </matrix>
+                        <GradientEntry color="#9EC0EE" ratio="0.00784313725490196"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                        <GradientEntry color="#FFFFFF" ratio="1"/>
+                        <GradientEntry color="#E5E5E5" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#729ECB"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#A2C1E0"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="2" strokeStyle="2" edges="!275 178/275 0!275 0|0 0!0 0|0 275!0 275/178 275"/>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!178 275/275 178"/>
+                    <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="!275 178/177 178!177 178/178 275"/>
+                    <Edge cubics="!0 0(;0,0 275,0 275,0q0 0 275 0);"/>
+                    <Edge cubics="!275 0(;275,0 275,178 275,178q275 0 275 178);"/>
+                    <Edge cubics="!275 178(;275,178 177,178 177,178q275 178 177 178);"/>
+                    <Edge cubics="!177 178(;177,178 178,275 178,275q177 178 178 275);"/>
+                    <Edge cubics="!178 275(;178,275 0,275 0,275q178 275 0 275);"/>
+                    <Edge cubics="!0 275(;0,275 0,0 0,0q0 275 0 0);"/>
+                    <Edge cubics="!275 178(;275,178 178,275 178,275q275 178 178 275);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

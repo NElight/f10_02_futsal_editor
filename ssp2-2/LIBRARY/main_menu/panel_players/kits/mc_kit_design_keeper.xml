@@ -1,0 +1,262 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/kits/mc_kit_design_keeper" itemID="563a4718-000021f2" lastModified="1446661304" lastUniqueIdentifier="31">
+  <timeline>
+    <DOMTimeline name="mc_kit_design_keeper">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pickers" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/ColorPicker" name="cp_skin" centerPoint3DX="152" centerPoint3DY="8.05" uniqueID="27">
+                  <matrix>
+                    <Matrix tx="140" ty="-3.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12" y="12"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="selectedColor">
+      <Inspectable name="selectedColor" variable="selectedColor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+   <property id="showTextField">
+      <Inspectable name="showTextField" variable="showTextField" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="ui_components/ColorPicker" name="cp_top" centerPoint3DX="152" centerPoint3DY="42" uniqueID="28">
+                  <matrix>
+                    <Matrix tx="140" ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12" y="12"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="selectedColor">
+      <Inspectable name="selectedColor" variable="selectedColor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+   <property id="showTextField">
+      <Inspectable name="showTextField" variable="showTextField" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="ui_components/ColorPicker" name="cp_bottom" centerPoint3DX="152" centerPoint3DY="87.65" uniqueID="29">
+                  <matrix>
+                    <Matrix tx="140" ty="75.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12" y="12"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="selectedColor">
+      <Inspectable name="selectedColor" variable="selectedColor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+   <property id="showTextField">
+      <Inspectable name="showTextField" variable="showTextField" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="ui_components/ColorPicker" name="cp_socks" centerPoint3DX="152" centerPoint3DY="120" uniqueID="30">
+                  <matrix>
+                    <Matrix tx="140" ty="108"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12" y="12"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="selectedColor">
+      <Inspectable name="selectedColor" variable="selectedColor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+   <property id="showTextField">
+      <Inspectable name="showTextField" variable="showTextField" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="ui_components/ColorPicker" name="cp_shoes" uniqueID="31">
+                  <matrix>
+                    <Matrix tx="140" ty="140.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12" y="12"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="selectedColor">
+      <Inspectable name="selectedColor" variable="selectedColor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+   <property id="showTextField">
+      <Inspectable name="showTextField" variable="showTextField" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 16" color="#FF4F4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#999999"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!3160 2420|1520 2420!2930 1760|1290 1760!2930 860|1290 860!2930 174|1290 174!3240 3020|1600 3020"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit1_hair" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_2_hair" name="kit_hair">
+                  <matrix>
+                    <Matrix d="0.999679565429688" tx="53.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.6" y="3.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit1_skin" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_2_skin" name="kit_skin">
+                  <matrix>
+                    <Matrix d="0.999679565429688" tx="0.25" ty="4.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="61.15" y="56.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit1_shoes" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_2_shoes" name="kit_shoes">
+                  <matrix>
+                    <Matrix d="0.999679565429688" tx="38.8" ty="142.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit1_socks" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_2_socks" name="kit_socks">
+                  <matrix>
+                    <Matrix d="0.999679565429688" tx="41.35" ty="114.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19.8" y="16.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit1_bottom" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_2_bottom" name="kit_bottom">
+                  <matrix>
+                    <Matrix d="0.999679565429688" tx="35.5" ty="75.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="25.55" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kit1_top" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_2_shirt" name="kit_top">
+                  <matrix>
+                    <Matrix d="0.999679565429688" tx="25.3" ty="22.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.6" y="27.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="main_menu/panel_players/kits/kit_keeper.png">
+                  <matrix>
+                    <Matrix tx="-0.05"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

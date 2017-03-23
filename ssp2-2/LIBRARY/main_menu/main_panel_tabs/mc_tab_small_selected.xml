@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/main_panel_tabs/mc_tab_small_selected" itemID="50afbb14-0000147a" lastModified="1353693972">
+  <timeline>
+    <DOMTimeline name="mc_tab_small_selected">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.0146484375" c="-0.0146484375" d="0" tx="12" ty="12"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#F2F2F2" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 80S2[0 47 23 24!23 24[46 0 80 0!80 0|400 0!400 0[433 0 457 24!457 24[480 47 480 80!480 80|480 480!480 480|0 480!0 480|0 80"/>
+                    <Edge cubics="!0 480(;0,480 0,80 0,80p0 480q0 80);"/>
+                    <Edge cubics="!0 80(0,80;0,36 35,0 80,0q0 80Q0 47q23 24Q46 0q80 0)80,0;"/>
+                    <Edge cubics="!400 0(;444,0 480,36 480,80q400 0Q433 0q457 24Q480 47q480 80);"/>
+                    <Edge cubics="!480 80(480,80;480,80 480,480 480,480q480 80 480 480);"/>
+                    <Edge cubics="!80 0(80,0;80,0 400,0 400,0q80 0 400 0)400,0;"/>
+                    <Edge cubics="!480 480(480,480;480,480 0,480 0,480q480 480 0 480)0,480;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

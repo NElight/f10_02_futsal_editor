@@ -1,0 +1,210 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/mc_cam_popup" itemID="5047ae90-0000065b" lastModified="1441970565">
+  <timeline>
+    <DOMTimeline name="mc_cam_popup">
+      <layers>
+        <DOMLayer name="points" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_3" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="6.5" ty="54.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_4" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="6.5" ty="14.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_7" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="71.5" ty="54.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_8" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="71.5" ty="14.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_5" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="39" ty="54.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_6" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="39" ty="14.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_0" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="39" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_1" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="21.5" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_2" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="56.5" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_9" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="6.5" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_10" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="71.5" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_12" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="21.5" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_11" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="21.5" ty="49"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_14" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="56.5" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/btn_cam_select" name="campos_13" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="56.5" ty="49"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" joints="miter">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!870 1100S4|870 110"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pitch" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="1.5" tx="-1.5"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#7DBF16"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="square" joints="miter">
+                            <fill>
+                              <SolidColor color="#FFFFFF"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!1100 1100|100 1100!100 1100|100 100!100 100|1100 100!1100 100|1100 1100"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grey_background" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1634 0S1|109 0!109 0[0 0 0 77!0 77|0 1123!0 1123[0 1200 109 1200!109 1200|752 1200!752 1200|876 1324!876 1324|1000 1200!1000 1200|1634 1200!1634 1200[1740 1200 1740 1123!1740 1123|1740 77!1740 77[1740 0 1634 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

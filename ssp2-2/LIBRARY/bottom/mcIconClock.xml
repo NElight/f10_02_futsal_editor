@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bottom/mcIconClock" itemID="517ffd9c-000014bb" symbolType="graphic" lastModified="1367342492">
+  <timeline>
+    <DOMTimeline name="mcIconClock">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!196 114S2[195 113 193 112!193 112[190 109 187 106!187 106[184 103 180 99!180 99[179 96 178 93!178 93[176 89 175 86!175 86[174 77 178 73!178 73[184 67 192 69!192 69[204 71 213 80!213 80[221 88 223 100!223 100[226 109 220 115!220 115[216
+ 119 206 117!206 117[201 115 196 114!146 28[146 36 133 44!133 44[124 50 115 52!115 52[108 54 101 54!101 54[94 54 87 53!87 53[77 50 68 44!68 44[56 36 56 28!56 28[56 15 68 9!68 9[82 0 101 0!101 0[119 0 133 9!133 9[146 15 146 28"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
+!196 114S7[190 105 183 98!183 98[180 95 178 93"/>
+                    <Edge strokeStyle="2" edges="
+!185 122S4[204 147 204 180!204 180[204 223 174 252!174 252[145 282 102 282!102 282[59 282 29 252!29 252[0 223 0 180!0 180[0 138 29 108!29 108[59 78 102 78!102 78[141 78 169 103"/>
+                    <Edge strokeStyle="1" edges="
+!102 94S4|102 184!102 184|149 137"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

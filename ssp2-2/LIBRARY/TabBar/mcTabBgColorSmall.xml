@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/mcTabBgColorSmall" itemID="520a0daa-00001ce1" lastModified="1376390636">
+  <timeline>
+    <DOMTimeline name="mcTabBgColorSmall">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!60 0[0 0 0 49!0 49|0 400!0 400/340 400!340 400/340 49!340 49[340 0 281 0!281 0/60 0"/>
+                    <Edge cubics="!440 -491(;440,-523 420,-540 381,-540q440 -491Q440 -540q381 -540);"/>
+                    <Edge cubics="!440 -140(;440,-140 440,-491 440,-491q440 -140 440 -491);"/>
+                    <Edge cubics="!160 -540(;120,-540 100,-523 100,-491q160 -540Q100 -540q100 -491);"/>
+                    <Edge cubics="!100 -491(;100,-491 100,-140 100,-140q100 -491 100 -140);"/>
+                    <Edge cubics="!100 -140(;100,-140 440,-140 440,-140q100 -140 440 -140);"/>
+                    <Edge cubics="!381 -540(;381,-540 160,-540 160,-540q381 -540 160 -540);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,10 @@
+away3d -- These are the library files of the 3D engine.
+
+nochump -- These comes with the away3d library. It's a zip library for zip encoding. Not used at the moment becuase the old ASZip works fine so far.
+
+wumedia -- Also comes with Away3D library, it's used by some of the Away3D classes.
+
+com.adobe -- We are only using com.adobe.images.JPGEncoder.es for jpg file format encoding.
+
+org.aszip -- The zip compression library we are currently using.
+

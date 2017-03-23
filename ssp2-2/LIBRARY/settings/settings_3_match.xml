@@ -1,0 +1,306 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="settings/settings_3_match" itemID="51c86aa4-00009652" linkageExportForAS="true" linkageClassName="src.settings.MatchSettingsContainer" lastModified="1374745179" lastUniqueIdentifier="46">
+  <timeline>
+    <DOMTimeline name="settings_3_match">
+      <layers>
+        <DOMLayer name="lblSkillMix" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblSkillMix" fontRenderingMode="standard" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="24" ty="25.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Skill mix for drill:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!225 2000|15025 2000"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsLearningObjectives" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblLearningObjectives" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="24" ty="117"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Learning Objectives</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsTechnical" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesTechnical" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="142"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Technical</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsTechnical" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesTechnical" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="142"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsTactical" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesTactical" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="182"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Tactical</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsTactical" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesTactical" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="182"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsPhysical" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesPhysical" fontRenderingMode="standard" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="222"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Physical</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsPhysical" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesPhysical" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="222"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsPsychological" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesPsychological" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="262"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Psychological</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsPsychological" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesPsychological" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="262"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsSocial" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesSocial" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="302"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Social</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsSocial" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesSocial" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="302"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.15228271484375" d="1.237060546875" tx="-51.85" ty="-85.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="376.6" y="263"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!14160 9140|900 9140!900 9140|900 1380!900 1380|14160 1380!14160 1380|14160 9140"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

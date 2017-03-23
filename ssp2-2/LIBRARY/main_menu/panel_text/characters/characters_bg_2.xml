@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_text/characters/characters_bg_2" itemID="4fb64250-000004b6" symbolType="graphic" lastModified="1337364539">
+  <timeline>
+    <DOMTimeline name="characters_bg_2">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="31.5" objectHeight="22" x="0" y="0.15" lockFlag="true" topLeftRadius="3" topRightRadius="3" bottomLeftRadius="3" bottomRightRadius="3">
+                  <matrix>
+                    <Matrix ty="-0.15"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

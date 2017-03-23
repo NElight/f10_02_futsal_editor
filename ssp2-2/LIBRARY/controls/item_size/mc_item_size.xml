@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/item_size/mc_item_size" itemID="55e747c6-00002ca9" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="src.popup.PopupBtnItemSize" lastModified="1441266935" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="mc_item_size">
+      <layers>
+        <DOMLayer name="mcPopup" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_size/mc_item_size_popup" name="mcPopup" selected="true" centerPoint3DX="10" centerPoint3DY="-56.6">
+                  <matrix>
+                    <Matrix tx="9.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="-56.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btn_custom_item_size" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/item_size/mc_item_size_button" name="btn_custom_item_size" centerPoint3DX="11.5" centerPoint3DY="11.5">
+                  <transformationPoint>
+                    <Point x="11.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

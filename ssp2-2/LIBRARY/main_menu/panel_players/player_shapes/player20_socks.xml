@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player20_socks" itemID="56390e7e-00002318" lastModified="1446579838">
+  <timeline>
+    <DOMTimeline name="player20_socks">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999966"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!672 371S1|789 51!789 51[733 49 683 32!683 32[654 24 631 0!631 0|628 0!628 0|628 1!628 1|569 375!569 375|672 371!101 375|272 59!272 59|191 67!191 67|117 32!117 32|3 373!3 373|0 379!0 379|101 375"/>
+                    <Edge cubics="!628 0(;628,0 631,0 631,0q628 0 631 0);"/>
+                    <Edge cubics="!683 32(;664,27 646,16 631,0q683 32Q654 24q631 0);"/>
+                    <Edge cubics="!628 0(;628,0 628,1 628,1q628 0 628 1);"/>
+                    <Edge cubics="!789 51(;752,50 716,43 683,32q789 51Q733 49q683 32);"/>
+                    <Edge cubics="!672 371(;672,371 569,375 569,375q672 371 569 375);"/>
+                    <Edge cubics="!628 1(;628,1 569,375 569,375q628 1 569 375);"/>
+                    <Edge cubics="!672 371(;672,371 789,51 789,51q672 371 789 51);"/>
+                    <Edge cubics="!117 32(;117,32 191,67 191,67q117 32 191 67);"/>
+                    <Edge cubics="!191 67(;191,67 272,59 272,59q191 67 272 59);"/>
+                    <Edge cubics="!3 373(;3,373 0,379 0,379q3 373 0 379);"/>
+                    <Edge cubics="!117 32(;117,32 3,373 3,373q117 32 3 373);"/>
+                    <Edge cubics="!101 375(;101,375 272,59 272,59q101 375 272 59);"/>
+                    <Edge cubics="!101 375(;101,375 0,379 0,379q101 375 0 379);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

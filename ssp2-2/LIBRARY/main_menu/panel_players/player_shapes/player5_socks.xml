@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player5_socks" itemID="4ded49be-00000d4f" lastModified="1307400143">
+  <timeline>
+    <DOMTimeline name="player5_socks">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-2.65" ty="-57.65"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999966"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!260 1153/197 1350!197 1350/248 1385!248 1385/369 1175!369 1175/260 1153!124 1516/183 1505!183 1505/179 1209!179 1209/53 1217!53 1217/124 1516"/>
+                    <Edge cubics="!183 1505(;183,1505 179,1209 179,1209q183 1505 179 1209);"/>
+                    <Edge cubics="!179 1209(;179,1209 53,1217 53,1217q179 1209 53 1217);"/>
+                    <Edge cubics="!124 1516(;124,1516 183,1505 183,1505q124 1516 183 1505);"/>
+                    <Edge cubics="!53 1217(;53,1217 124,1516 124,1516q53 1217 124 1516);"/>
+                    <Edge cubics="!260 1153(;260,1153 197,1350 197,1350q260 1153 197 1350);"/>
+                    <Edge cubics="!197 1350(;197,1350 248,1385 248,1385q197 1350 248 1385);"/>
+                    <Edge cubics="!248 1385(;248,1385 369,1175 369,1175q248 1385 369 1175);"/>
+                    <Edge cubics="!369 1175(;369,1175 260,1153 260,1153q369 1175 260 1153);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

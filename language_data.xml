@@ -1,0 +1,359 @@
+<?xml version="1.1" encoding="utf-8"?>
+<language_tags>
+  <buttons>
+    <_InterfaceCopyClipboard>Copy to Clipboard</_InterfaceCopyClipboard>
+    <_addAll>Add All</_addAll>
+    <_addPeriod>Add Period</_addPeriod>
+    <_addSetPiece>Add Set-Piece</_addSetPiece>
+    <_btnInterfaceAddImage>Add Image</_btnInterfaceAddImage>
+    <_btnInterfaceApply>Apply</_btnInterfaceApply>
+    <_btnInterfaceCancel>Cancel</_btnInterfaceCancel>
+    <_btnInterfaceDone>Done</_btnInterfaceDone>
+    <_btnInterfaceNow>Now</_btnInterfaceNow>
+    <_btnInterfaceOk>Ok</_btnInterfaceOk>
+    <_btnInterfacePrint>Print</_btnInterfacePrint>
+    <_btnInterfaceRetry>Retry</_btnInterfaceRetry>
+    <_btnInterfaceSave>Save</_btnInterfaceSave>
+    <_btnInterfaceSaveToPC>Save to PC</_btnInterfaceSaveToPC>
+    <_btnLinesReset>Reset Line Styles</_btnLinesReset>
+    <_btnMinutesAdd>Add</_btnMinutesAdd>
+    <_btnMinutesCancelEdit>Cancel</_btnMinutesCancelEdit>
+    <_btnMinutesClockAuto>Switch to Auto</_btnMinutesClockAuto>
+    <_btnMinutesClockManual>Switch to Manual</_btnMinutesClockManual>
+    <_btnMinutesClockStart>Start Play</_btnMinutesClockStart>
+    <_btnMinutesClockStop>Stop Play</_btnMinutesClockStop>
+    <_btnMinutesPlayerList>Player List</_btnMinutesPlayerList>
+    <_btnMinutesUpdate>Update</_btnMinutesUpdate>
+    <_btnSettings>Filing Settings</_btnSettings>
+    <_btnTabComments>Comments</_btnTabComments>
+    <_btnTabMinutes>Minutes</_btnTabMinutes>
+    <_btnTabVideos>Videos</_btnTabVideos>
+    <_btnTeamApplyLayout>Apply Layout</_btnTeamApplyLayout>
+    <_clear>CLEAR PITCH</_clear>
+    <_menuBtnAddPlayer>Add a Player</_menuBtnAddPlayer>
+    <_menuBtnDummyTeam>Generate Dummy Team</_menuBtnDummyTeam>
+    <_menuBtnKit1>Kit 1</_menuBtnKit1>
+    <_menuBtnKit2>Kit 2</_menuBtnKit2>
+    <_menuBtnOfficials>Officials</_menuBtnOfficials>
+    <_menuBtnSelectTeam>Select team from squad</_menuBtnSelectTeam>
+    <_menuTabActions>Actions</_menuTabActions>
+    <_menuTabKitDesigner>Kit Designer</_menuTabKitDesigner>
+    <_removeAll>Remove All</_removeAll>
+    <_save>SAVE</_save>
+    <_selectAll>Select All</_selectAll>
+    <_selectNone>Select None</_selectNone>
+  </buttons>
+  <errors>
+    <_001>An unexpected error occurred.  Please send your session to the Support team who will investigate and try to upload it for you. Click the 'Save to PC' button,  then e-mail the saved file to support@SportSessionPlanner.com</_001>
+    <_100>Invalid token</_100>
+    <_101>A validation error prevented your session from saving.  This may have been caused by a program or communications error.  If error persists, send details including this message to support@SportSessionPlanner.com.</_101>
+    <_101SessionTransition>Error trying to save a drill that was deleted on the server. (This can happen if coaches are sharing a single account.)</_101SessionTransition>
+    <_104>Account no longer active.</_104>
+    <_200>A time-out occurred communicating with server.  Please check your network connection.</_200>
+    <_201>A problem occurred communicating with server.  Please check your network connection. If error persists, send details including this message to support@SportSessionPlanner.com.</_201>
+    <_300>Unable to load session data. Please click to try again.</_300>
+    <_301>Unable to load language data file.  Please click to try again.</_301>
+  </errors>
+  <menu>
+    <_custom_player_help>Changing the player selected on the pitch.  (Note: any changes made here will no longer be updated with the kit)</_custom_player_help>
+    <_lines_help_click>Click a line...</_lines_help_click>
+    <_menuBtnEditText>Edit Text</_menuBtnEditText>
+    <_menuPleaseSelect>Please Select</_menuPleaseSelect>
+    <_menuTextDragOntoPitch>Drag Onto Pitch</_menuTextDragOntoPitch>
+    <_optionSemiTransparent>Semi-transparent</_optionSemiTransparent>
+    <_optionSpeedChute>Speed chute</_optionSpeedChute>
+    <_rclickCloneScreen>Clone Screen</_rclickCloneScreen>
+    <_rclickPinToCursor>Pin to cursor</_rclickPinToCursor>
+    <_soccer_lines_custom>Custom Movement</_soccer_lines_custom>
+    <_soccer_lines_custompass>Custom Pass</_soccer_lines_custompass>
+    <_soccer_lines_dribble>Dribble</_soccer_lines_dribble>
+    <_soccer_lines_grid>Shaded Pitch Area</_soccer_lines_grid>
+    <_soccer_lines_help_custom>Draw a freehand line on the pitch with a pen, or in a dragging action with your mouse. When complete, the line will be tidied.</_soccer_lines_help_custom>
+    <_soccer_lines_help_dribble>'Dribble' lines represents the action of dribbling a ball.  Click on the pitch where you want the line to start and end.</_soccer_lines_help_dribble>
+    <_soccer_lines_help_grid>Shaded Pitch Areas' mark separate activity areas. Click on the pitch and drag the mouse to the diagonal corner of the box.</_soccer_lines_help_grid>
+    <_soccer_lines_help_movement>'Movement' lines represent player movement on the pitch.  Click on the pitch where you want the line to start and end.</_soccer_lines_help_movement>
+    <_soccer_lines_help_pass>'Pass' lines movement of the ball between players.  Click on the pitch where you want the line to start and end.</_soccer_lines_help_pass>
+    <_soccer_lines_help_pitch>'Pitch Line' will draw white lines on the pitch.  Click on the pitch where you want the line to start and end.</_soccer_lines_help_pitch>
+    <_soccer_lines_line>Pitch Line 1</_soccer_lines_line>
+    <_soccer_lines_line2>Pitch Line 2</_soccer_lines_line2>
+    <_soccer_lines_line3>Pitch Line 3</_soccer_lines_line3>
+    <_soccer_lines_line4>Pitch Line 4</_soccer_lines_line4>
+    <_soccer_lines_movement>Movement</_soccer_lines_movement>
+    <_soccer_lines_pass>Pass</_soccer_lines_pass>
+    <_titleEquipment>EQUIPMENT</_titleEquipment>
+    <_titleKits>KITS</_titleKits>
+    <_titleLines>LINES</_titleLines>
+    <_titleMatchDay>TEAM</_titleMatchDay>
+    <_titlePlayers>PLAYERS</_titlePlayers>
+    <_titleText>TEXT</_titleText>
+  </menu>
+  <messages>
+    <_filingErrorDateTimeMandatory>Error: Event date/time required</_filingErrorDateTimeMandatory>
+    <_filingErrorVideoInvalid>Error: Invalid video URL</_filingErrorVideoInvalid>
+    <_filingVideoTitle>Title: </_filingVideoTitle>
+    <_filingVideoUnverifiable>Could not verify: click 'Apply' to retry.</_filingVideoUnverifiable>
+    <_filingVideoYouTubeHowto>How to Upload to YouTube</_filingVideoYouTubeHowto>
+    <_filingWarningMidnight>Warning: start time is midnight</_filingWarningMidnight>
+    <_filingWarningPastTime>Warning: time is in the past</_filingWarningPastTime>
+    <_helpMinutesIntro>&lt;p align='center'&gt;&lt;font size='+4'&gt;&lt;b&gt;Getting Started with Minutes&lt;/b&gt;&lt;/font&gt;&lt;/p&gt; &lt;p&gt;&lt;i&gt;Click &lt;b&gt;Start Play&lt;/b&gt; to begin Period 1 play.  All Players on the pitch in Period 1 will be recorded, and play starts.&lt;/i&gt; &lt;li&gt;Use &lt;b&gt;Auto-clock&lt;/b&gt; to record match action during live play.&lt;/li&gt;&lt;li&gt;Use &lt;b&gt;Manual-Clock&lt;/b&gt; to record match action later.&lt;/li&gt;&lt;/p&gt;</_helpMinutesIntro>
+    <_interfaceAreYouSure>Are you sure?</_interfaceAreYouSure>
+    <_interfaceLateSaveSuccess>The server responded late: your session saved successfully.  Click OK to exit.</_interfaceLateSaveSuccess>
+    <_minutesCantAddError>To Add a Minutes record, you need at least a valid time, a Player and an Action.</_minutesCantAddError>
+    <_minutesCantBeDeletedError>This Minutes record can't be deleted at the moment.</_minutesCantBeDeletedError>
+    <_minutesCantBeEditedError>This Minutes record can't be edited.</_minutesCantBeEditedError>
+    <_minutesGeneralTimeError>This time entered is invalid for this Minutes record, so it can't be Updated.  Please make sure it is between the Start and Stop time for the period.</_minutesGeneralTimeError>
+    <_minutesLostIfDeleteWarning>Warning: You will lose the Minutes for this Period if you delete this screen</_minutesLostIfDeleteWarning>
+    <_minutesNoPeriodScreenError>There is no Period available to Start Play again.  Maybe you need to make a new Period screen?</_minutesNoPeriodScreenError>
+    <_minutesNoPlayersPeriodWarning>There are no players on the pitch for this period.  Are you sure you want to Start Play?</_minutesNoPlayersPeriodWarning>
+    <_minutesStopTimeError>The Stop Time entered is invalid, so it can't be Updated. Please make sure it is later than any other Activity time in the Period.</_minutesStopTimeError>
+    <_msgErrorCompleteFields>Please complete the fields below before saving your session.</_msgErrorCompleteFields>
+    <_msgErrorTimeFormat>Please enter time in minutes:seconds format.</_msgErrorTimeFormat>
+    <_teamUseMinutesOffWarning>Warning: Switching off 'Minutes' will remove any existing 'Minutes' records you have added.</_teamUseMinutesOffWarning>
+  </messages>
+  <options>
+    <_interfaceOff>OFF</_interfaceOff>
+    <_interfaceOn>ON</_interfaceOn>
+    <_teamLayoutPeriodMy>Show My Team</_teamLayoutPeriodMy>
+    <_teamLayoutPeriodTwo>Show Both Teams</_teamLayoutPeriodTwo>
+    <_teamLayoutSetPieces>Set pieces</_teamLayoutSetPieces>
+    <_teamShowFamily>Family Name</_teamShowFamily>
+    <_teamShowFamilyGiven>Family Name + Given Name</_teamShowFamilyGiven>
+    <_teamShowFullName>Full Name</_teamShowFullName>
+    <_teamShowGiven>Given Name</_teamShowGiven>
+    <_teamShowGivenInitial>Given Name + Initial</_teamShowGivenInitial>
+    <_teamShowInitialFamily>Initial + Family Name</_teamShowInitialFamily>
+    <_teamShowInitials>Initials</_teamShowInitials>
+    <_teamShowListModel>Player Model [Removed]</_teamShowListModel>
+    <_teamShowListModelNumber>Player Model + Number [Removed]</_teamShowListModelNumber>
+    <_teamShowPitchModel>Player Model</_teamShowPitchModel>
+    <_teamShowPitchModelNumber>Player Model + Number</_teamShowPitchModelNumber>
+    <_teamWePlayAway>Away</_teamWePlayAway>
+    <_teamWePlayHome>Home</_teamWePlayHome>
+  </options>
+  <tags>
+    <_btnAddPeriod>Add a match period</_btnAddPeriod>
+    <_btnAddScreen>Add a screen</_btnAddScreen>
+    <_btnAddSetPiece>Add a match set-piece</_btnAddSetPiece>
+    <_btnAngle>Vertically Raise/Lower Line</_btnAngle>
+    <_btnArrowHeadPosition>Arrow head position</_btnArrowHeadPosition>
+    <_btnBold>Bold</_btnBold>
+    <_btnCameraDown>Camera Down</_btnCameraDown>
+    <_btnCameraLeft>Rotate pitch clockwise</_btnCameraLeft>
+    <_btnCameraRight>Rotate pitch anti-clockwise</_btnCameraRight>
+    <_btnCameraUp>Camera Up</_btnCameraUp>
+    <_btnCameraView>Change Camera Centre Position</_btnCameraView>
+    <_btnChangeColour>Recolour selected equipment</_btnChangeColour>
+    <_btnCloneObject>Clone selected object</_btnCloneObject>
+    <_btnCustomPlayer>Customise selected player</_btnCustomPlayer>
+    <_btnDownloadImage>Download large .JPG image of screen</_btnDownloadImage>
+    <_btnEditPlayer>Edit Player</_btnEditPlayer>
+    <_btnFilingRemoveTime>Remove the date and time</_btnFilingRemoveTime>
+    <_btnFlipPlayer>Flip Player Left/Right</_btnFlipPlayer>
+    <_btnFullScreen>Toggle: Window/Full Screen</_btnFullScreen>
+    <_btnItalic>Italic</_btnItalic>
+    <_btnLinesConfigure>Line properties</_btnLinesConfigure>
+    <_btnLockOn>Lock/Unlock Freehand Pitch Rotation</_btnLockOn>
+    <_btnMatchSettings>Match Settings</_btnMatchSettings>
+    <_btnObjectElevation>Elevate selected object</_btnObjectElevation>
+    <_btnObjectScale>Change scale of players and objects</_btnObjectScale>
+    <_btnObjectSize>Change size of selected object</_btnObjectSize>
+    <_btnObjectTransparency>Make object semi-transparent</_btnObjectTransparency>
+    <_btnPinToCursor>Pin line to cursor</_btnPinToCursor>
+    <_btnPitchStyle>Change ground of pitch</_btnPitchStyle>
+    <_btnPitchViewDelete>Delete Selected Object</_btnPitchViewDelete>
+    <_btnPlaceText>Drag text into position; or click on button, then on pitch.</_btnPlaceText>
+    <_btnPlayersMirror>Flip players to face left/right</_btnPlayersMirror>
+    <_btnPrint>Print Screens at Full Page size</_btnPrint>
+    <_btnRemovePlayer>Remove Player from Team</_btnRemovePlayer>
+    <_btnRotateLeft>Rotate Selected Object Left</_btnRotateLeft>
+    <_btnRotateRight>Rotate Selected Object Right</_btnRotateRight>
+    <_btnScribble>Allow Mouse/Pen Annotation</_btnScribble>
+    <_btnSelect>Select an Object</_btnSelect>
+    <_btnSelectTeamAddAll>Add all players from this squad to the team.</_btnSelectTeamAddAll>
+    <_btnSessionSettings>Session Settings</_btnSessionSettings>
+    <_btnTabComments>Outline Comments</_btnTabComments>
+    <_btnTabMinutes>Match Minutes</_btnTabMinutes>
+    <_btnTabVideos>Tutorial Videos</_btnTabVideos>
+    <_btnTeamDeletePlayers>Delete all players from this team</_btnTeamDeletePlayers>
+    <_btnTeamListCycleNameStyle>Change Name style in Team List</_btnTeamListCycleNameStyle>
+    <_btnTeamListToggleCompactLong>Show with/without Player Position</_btnTeamListToggleCompactLong>
+    <_btnTeamListTogglePoseNumber>Show Player Model or Number</_btnTeamListTogglePoseNumber>
+    <_btnTeamSettings>Team Settings</_btnTeamSettings>
+    <_btnTurnOffPinToCursor>Turn off 'Pin to cursor'</_btnTurnOffPinToCursor>
+    <_btnUnderline>Underline</_btnUnderline>
+    <_btnZoomIn>Zoom In</_btnZoomIn>
+    <_btnZoomOut>Zoom Out</_btnZoomOut>
+    <_btn_showTools>Toggle: Show/Hide Tools</_btn_showTools>
+    <_dayFri>Fri</_dayFri>
+    <_dayMon>Mon</_dayMon>
+    <_daySat>Sat</_daySat>
+    <_daySun>Sun</_daySun>
+    <_dayThu>Thu</_dayThu>
+    <_dayTue>Tue</_dayTue>
+    <_dayWed>Wed</_dayWed>
+    <_monthApril>April</_monthApril>
+    <_monthAugust>August</_monthAugust>
+    <_monthDecember>December</_monthDecember>
+    <_monthFebruary>February</_monthFebruary>
+    <_monthJanuary>January</_monthJanuary>
+    <_monthJuly>July</_monthJuly>
+    <_monthJune>June</_monthJune>
+    <_monthMarch>March</_monthMarch>
+    <_monthMay>May</_monthMay>
+    <_monthNovember>November</_monthNovember>
+    <_monthOctober>October</_monthOctober>
+    <_monthSeptember>September</_monthSeptember>
+    <_tagEquipment01>Flag</_tagEquipment01>
+    <_tagEquipment02>Football</_tagEquipment02>
+    <_tagEquipment03>Large Cone</_tagEquipment03>
+    <_tagEquipment04>Ladder</_tagEquipment04>
+    <_tagEquipment05>Hurdle</_tagEquipment05>
+    <_tagEquipment06>Small cone</_tagEquipment06>
+    <_tagEquipment07>Pole</_tagEquipment07>
+    <_tagEquipment08>Mannequin</_tagEquipment08>
+    <_tagEquipment09>Goal</_tagEquipment09>
+    <_tagEquipment10>Mini-goal</_tagEquipment10>
+    <_tagEquipment11>Passing Arc</_tagEquipment11>
+    <_tagEquipment12>Balance Ball</_tagEquipment12>
+    <_tagEquipment13>Large Hurdle</_tagEquipment13>
+    <_tagEquipment14>Rebound Box (single)</_tagEquipment14>
+    <_tagEquipment15>Rebound Box (double)</_tagEquipment15>
+    <_tagEquipment16>Agility Cones</_tagEquipment16>
+    <_tagEquipment17>Speed Rings</_tagEquipment17>
+    <_tagEquipment18>Goal (to scale)</_tagEquipment18>
+    <_tagEquipment24>Car Tyre</_tagEquipment24>
+    <_tagEquipment31>Disc Marker</_tagEquipment31>
+    <_tagEquipment32>Footprint (left)</_tagEquipment32>
+    <_tagEquipment33>Footprint (right)</_tagEquipment33>
+    <_tagEquipment34>Head Tennis net</_tagEquipment34>
+    <_tagPosition01>Running</_tagPosition01>
+    <_tagPosition02>Kick-in</_tagPosition02>
+    <_tagPosition03>Striking</_tagPosition03>
+    <_tagPosition04>Glancing header</_tagPosition04>
+    <_tagPosition05>Jumping header</_tagPosition05>
+    <_tagPosition06>Dribbling</_tagPosition06>
+    <_tagPosition07>Volley</_tagPosition07>
+    <_tagPosition08>Passing</_tagPosition08>
+    <_tagPosition09>Standing</_tagPosition09>
+    <_tagPosition10>Goalkeeper: Diving</_tagPosition10>
+    <_tagPosition11>Goalkeeper: Ready position</_tagPosition11>
+    <_tagPosition12>Goalkeeper: High catch</_tagPosition12>
+    <_tagPosition13>Goalkeeper: Low receive</_tagPosition13>
+    <_tagPosition14>Receiving</_tagPosition14>
+    <_tagPosition15>Feeding the Ball</_tagPosition15>
+    <_tagPosition16>Receiving the Ball</_tagPosition16>
+    <_tagPosition17>Goalkeeper: Feeding the Ball</_tagPosition17>
+    <_tagPosition18>Goalkeeper: Receiving the Ball</_tagPosition18>
+    <_tagPosition19>Goalkeeper: Set Position</_tagPosition19>
+    <_tagPosition20>Goalkeeper: Scoop Catch</_tagPosition20>
+    <_tagPosition21>Goalkeeper: Head Height Catch</_tagPosition21>
+    <_tagPosition22>Goalkeeper: Diving Save</_tagPosition22>
+    <_tagPosition23>Goalkeeper: Overarm throw</_tagPosition23>
+    <_tagPosition24>Goalkeeper: Underarm throw</_tagPosition24>
+    <_tagsBtnTeamPlayerPose>Change player model</_tagsBtnTeamPlayerPose>
+  </tags>
+  <titles>
+    <_comments>COMMENTS</_comments>
+    <_filingCalendarHour>Hours:</_filingCalendarHour>
+    <_filingCalendarMinute>Minutes:</_filingCalendarMinute>
+    <_filingCalendarTime>Time:</_filingCalendarTime>
+    <_filingCategory>Category</_filingCategory>
+    <_filingDifficultyLevel>Difficulty Level</_filingDifficultyLevel>
+    <_filingDownloadImage>Download Screen Image</_filingDownloadImage>
+    <_filingDrillDuration>Drill Duration</_filingDrillDuration>
+    <_filingDrillDurationUnits>mins</_filingDrillDurationUnits>
+    <_filingGeneralSettings>General Settings</_filingGeneralSettings>
+    <_filingLanguage>Session Language</_filingLanguage>
+    <_filingMatchSettings>Match Settings</_filingMatchSettings>
+    <_filingMatchStartTime>Match Start Date and Time</_filingMatchStartTime>
+    <_filingObjectivesPhysical>Physical:</_filingObjectivesPhysical>
+    <_filingObjectivesPsychological>Psychological:</_filingObjectivesPsychological>
+    <_filingObjectivesSocial>Social:</_filingObjectivesSocial>
+    <_filingObjectivesTactical>Tactical:</_filingObjectivesTactical>
+    <_filingObjectivesTechnical>Technical:</_filingObjectivesTechnical>
+    <_filingObjectivesTitle>Learning Objectives:</_filingObjectivesTitle>
+    <_filingOverallComment>Overall Description:</_filingOverallComment>
+    <_filingPeriodDuration>Period Duration</_filingPeriodDuration>
+    <_filingPeriodTitles>Period Title </_filingPeriodTitles>
+    <_filingRequiredField>Required Field</_filingRequiredField>
+    <_filingScreenTitles>Screen Title </_filingScreenTitles>
+    <_filingSessionStartTime>Session Start Date and Time</_filingSessionStartTime>
+    <_filingSetpieceTitles>Set-Piece Title </_filingSetpieceTitles>
+    <_filingSkillLevel>Skill Level</_filingSkillLevel>
+    <_filingSkillMixUse>Use skills mix?</_filingSkillMixUse>
+    <_filingSkillsMix>Skills Mix:</_filingSkillsMix>
+    <_filingSkillsPhysical>Physical</_filingSkillsPhysical>
+    <_filingSkillsPsychological>Psychological</_filingSkillsPsychological>
+    <_filingSkillsSocial>Social</_filingSkillsSocial>
+    <_filingSkillsTactical>Tactical</_filingSkillsTactical>
+    <_filingSkillsTechnical>Technical</_filingSkillsTechnical>
+    <_filingUploadImage>Upload Picture</_filingUploadImage>
+    <_filingVideoOverallSession>Overall Session</_filingVideoOverallSession>
+    <_filingVideoSettings>Videos and Images</_filingVideoSettings>
+    <_filingVideoUrl>Video URL</_filingVideoUrl>
+    <_interfaceRequiredField>Required Field</_interfaceRequiredField>
+    <_teamDummyHelp>Don't know the Opposition team Members?</_teamDummyHelp>
+    <_teamDummyOppositionFamilyName>Player </_teamDummyOppositionFamilyName>
+    <_teamDummyOppositionGivenName>Opposition</_teamDummyOppositionGivenName>
+    <_teamEditFamilyName>Family Name:</_teamEditFamilyName>
+    <_teamEditGivenName>Given Name:</_teamEditGivenName>
+    <_teamEditModel>Model:</_teamEditModel>
+    <_teamEditNumber>Number:</_teamEditNumber>
+    <_teamEditPosition>Position:</_teamEditPosition>
+    <_teamName>Name:</_teamName>
+    <_teamNameOppositionDefault>Opposition Team</_teamNameOppositionDefault>
+    <_teamNameOursDefault>Our Team</_teamNameOursDefault>
+    <_teamOmitPlayerIdentity>Layout without player identities</_teamOmitPlayerIdentity>
+    <_teamPitchFormationOpposition>Formation Opposition</_teamPitchFormationOpposition>
+    <_teamPitchFormationOurs>Formation Ours</_teamPitchFormationOurs>
+    <_teamPitchLayout>Pitch Layout:</_teamPitchLayout>
+    <_teamPlayerPosition>Player Position</_teamPlayerPosition>
+    <_teamPlayersPerTeam>Players per team:</_teamPlayersPerTeam>
+    <_teamShowInList>Show team in list</_teamShowInList>
+    <_teamShowOnPitch>Show on Pitch:</_teamShowOnPitch>
+    <_teamUseMinutes>Match Minutes:</_teamUseMinutes>
+    <_teamWePlay>We Play:</_teamWePlay>
+    <_titleArrowheadPosition>Arrowhead Position</_titleArrowheadPosition>
+    <_titleArrowheadSize>Arrowhead Size</_titleArrowheadSize>
+    <_titleBarDefault>[Add Title...]</_titleBarDefault>
+    <_titleEditLineAppearance>Edit Line Appearance</_titleEditLineAppearance>
+    <_titleFiling>Settings</_titleFiling>
+    <_titleLineColour>Line Colour</_titleLineColour>
+    <_titleLineName>Line Name</_titleLineName>
+    <_titleLineWidth>Line Width</_titleLineWidth>
+    <_titleMatchCategory>Match Category</_titleMatchCategory>
+    <_titleMatchTitle>Match Title</_titleMatchTitle>
+    <_titleMinutesPlayerAction>Action:</_titleMinutesPlayerAction>
+    <_titleMinutesPlayerComment>Comment:</_titleMinutesPlayerComment>
+    <_titleMinutesPlayerName>Player:</_titleMinutesPlayerName>
+    <_titlePeriodScreen>Period @~~@</_titlePeriodScreen>
+    <_titlePlayerActions>ACTIONS</_titlePlayerActions>
+    <_titlePlayerKit>KIT DESIGNER</_titlePlayerKit>
+    <_titlePrintAll>All Screens</_titlePrintAll>
+    <_titlePrintCurrent>Current Screen</_titlePrintCurrent>
+    <_titlePrintScreens>Print Screen(s)</_titlePrintScreens>
+    <_titlePrintSelected>Selected Screen(s)</_titlePrintSelected>
+    <_titleScore>Score</_titleScore>
+    <_titleScreen>Screen @~~@</_titleScreen>
+    <_titleScreenCategories>Screen Category</_titleScreenCategories>
+    <_titleSession>Session Title</_titleSession>
+    <_titleSessionCategory>Session Category</_titleSessionCategory>
+    <_titleSessionLanguage>Session Language</_titleSessionLanguage>
+    <_titleSessionTitle>Session Title</_titleSessionTitle>
+    <_titleSetpieceCategories>Set-piece Category</_titleSetpieceCategories>
+    <_titleSetpieceScreen>Set-piece @~~@</_titleSetpieceScreen>
+    <_titleSettings>Settings</_titleSettings>
+    <_titleSettingsTeams>Teams</_titleSettingsTeams>
+    <_titleTeamAdd>Add Player</_titleTeamAdd>
+    <_titleTeamEdit>Edit Player</_titleTeamEdit>
+    <_titleTeamOpp>Opp</_titleTeamOpp>
+    <_titleTeamOpposition>Opposition</_titleTeamOpposition>
+    <_titleTeamOurs>Our Team</_titleTeamOurs>
+    <_titleTeamSelectDragPlayers>Drag Players into Team</_titleTeamSelectDragPlayers>
+    <_titleTeamSelectFixture>This Match is a Fixture for:</_titleTeamSelectFixture>
+    <_titleTeamSelectFromSquad>Select Team from Squad</_titleTeamSelectFromSquad>
+    <_titleTeamSelectSquad>Squad Selector:</_titleTeamSelectSquad>
+    <_titleTeamThisMatch>This Match:</_titleTeamThisMatch>
+    <_titleTeamUs>Us</_titleTeamUs>
+  </titles>
+</language_tags>

@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_head_tennis_net" itemID="55e5f9e4-0000092d" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_head_tennis_net" lastModified="1441135180">
+  <timeline>
+    <DOMTimeline name="mc_head_tennis_net">
+      <layers>
+        <DOMLayer name="Layer 1" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="equipment/icon_head_tennis_net.png">
+                  <matrix>
+                    <Matrix tx="-25" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

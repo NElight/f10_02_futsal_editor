@@ -1,0 +1,132 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/mc_kits_panel" itemID="4de8c17d-0000707a" linkageExportForAS="true" linkageClassName="mc_kits_panel" lastModified="1363692532" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="mc_kits_panel">
+      <layers>
+        <DOMLayer name="tabs_line" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#2D8BEE"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!60 10160|-40 10160!-40 10160|-40 0!-40 0|60 0!60 0|60 10160"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="players_kits_tab" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players_kit_tab" name="players_kits_tab" centerPoint3DX="111.25" centerPoint3DY="286.85">
+                  <matrix>
+                    <Matrix tx="113" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="53" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="players_actions_tab" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players_actions_tab" name="players_actions_tab" centerPoint3DX="111.25" centerPoint3DY="287.85">
+                  <matrix>
+                    <Matrix tx="4" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="53" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="custom_kit_tab" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/custom_kit_tab" name="player_custom_tab" centerPoint3DX="111.25" centerPoint3DY="298.85">
+                  <matrix>
+                    <Matrix tx="113" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-1.75" y="280.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tabs_bg_gradients" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient focalPointRatio="0.156862745098039">
+                        <matrix>
+                          <Matrix a="0.021484375" d="0.021484375" tx="-11.4" ty="20.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0.474509803921569"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <RadialGradient focalPointRatio="0.156862745098039">
+                        <matrix>
+                          <Matrix a="-0.021484375" d="0.021484375" tx="234.4" ty="20.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0.474509803921569"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="2" edges="!4448 650[4454 656 4460 662!4460 662|4460 158!4460 158[4454 163 4448 169!4448 169[4348 269 4348 410!4348 410[4348 551 4448 650"/>
+                    <Edge fillStyle1="1" edges="!12 169[112 269 112 410!112 410[112 551 12 650!12 650[6 656 0 662!0 662|0 158!0 158[6 163 12 169"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tabs_bg" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.0201416015625" c="0.01953125" d="0" tx="111.5" ty="16.05"/>
+                        </matrix>
+                        <GradientEntry color="#999999" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.392156862745098"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!4460 641|0 641!0 641|0 1!0 1|4460 1!4460 1|4460 641"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

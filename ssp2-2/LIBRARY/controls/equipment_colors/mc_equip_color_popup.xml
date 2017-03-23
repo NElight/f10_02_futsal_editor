@@ -1,0 +1,213 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/equipment_colors/mc_equip_color_popup" itemID="4f4b59d1-0000045e" lastModified="1447711037" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="mc_equip_color_popup">
+      <layers>
+        <DOMLayer name="Colours" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_00" symbolType="button">
+                  <matrix>
+                    <Matrix tx="23" ty="-97"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#E4E4E4"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_01" symbolType="button">
+                  <matrix>
+                    <Matrix ty="-97"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#00FFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_02" symbolType="button">
+                  <matrix>
+                    <Matrix ty="-74"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#0000FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_03" symbolType="button">
+                  <matrix>
+                    <Matrix ty="-51"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#8500FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_04" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-23" ty="-97"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#00FF00"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_05" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-23" ty="-51"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#FFFF00"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_06" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-46" ty="-51"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#FF8000"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_07" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-46" ty="-97"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#FF0000"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_08" symbolType="button">
+                  <matrix>
+                    <Matrix tx="23" ty="-51"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#FFCCEE"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_10" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-23" ty="-74"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#009900"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_09" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-46" ty="-74"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#990000"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="controls/equipment_colors/btnColorTemplate" name="btn_11" symbolType="button">
+                  <matrix>
+                    <Matrix tx="23" ty="-74"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.8" tintColor="#333333"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grey_background" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/CheckBox" name="cbSemiTransparent" centerPoint3DX="-33.6" centerPoint3DY="-14.95" uniqueID="6">
+                  <matrix>
+                    <Matrix a="0.972091674804688" d="0.772323608398438" tx="-48.25" ty="-26"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Semi-transparent" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grey_background" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!939 -2039/920 -2040!920 -2040/-940 -2040!-940 -2040[-1005 -2040 -1005 -1963!-1005 -1963/-1005 -198!-1005 -198[-1005 -121 -940 -121!-940 -121/-124 -124!-124 -124/0 0!0 0/124 -124!124 -124/684 -124!684 -124/684 -123!684 -123/939 -120!939
+ -120[1004 -120 1004 -197!1004 -197/1004 -1962!1004 -1962[1004 -2039 939 -2039"/>
+                    <Edge cubics="!1004 -1962(;1004,-2013 982,-2039 939,-2039q1004 -1962Q1004 -2039q939 -2039);"/>
+                    <Edge cubics="!939 -2039(;939,-2039 920,-2040 920,-2040q939 -2039 920 -2040);"/>
+                    <Edge cubics="!684 -124(;684,-124 684,-123 684,-123q684 -124 684 -123);"/>
+                    <Edge cubics="!124 -124(;124,-124 684,-124 684,-124q124 -124 684 -124);"/>
+                    <Edge cubics="!939 -120(;982,-120 1004,-146 1004,-197q939 -120Q1004 -120q1004 -197);"/>
+                    <Edge cubics="!1004 -197(;1004,-197 1004,-1962 1004,-1962q1004 -197 1004 -1962);"/>
+                    <Edge cubics="!684 -123(;684,-123 939,-120 939,-120q684 -123 939 -120);"/>
+                    <Edge cubics="!0 0(;0,0 124,-124 124,-124q0 0 124 -124);"/>
+                    <Edge cubics="!-940 -2040(;-983,-2040 -1005,-2014 -1005,-1963q-940 -2040Q-1005 -2040q-1005 -1963);"/>
+                    <Edge cubics="!-1005 -198(;-1005,-147 -983,-121 -940,-121q-1005 -198Q-1005 -121q-940 -121);"/>
+                    <Edge cubics="!-940 -121(;-940,-121 -124,-124 -124,-124q-940 -121 -124 -124);"/>
+                    <Edge cubics="!-1005 -1963(;-1005,-1963 -1005,-198 -1005,-198q-1005 -1963 -1005 -198);"/>
+                    <Edge cubics="!-124 -124(;-124,-124 0,0 0,0q-124 -124 0 0);"/>
+                    <Edge cubics="!920 -2040(;920,-2040 -940,-2040 -940,-2040q920 -2040 -940 -2040);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

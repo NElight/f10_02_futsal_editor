@@ -1,0 +1,295 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/main_panel_tabs/mc_accordion" itemID="50a12dc3-00000591" linkageExportForAS="true" linkageClassName="mc_accordion" lastModified="1366642246" hasValidCenterPoint="true" lastUniqueIdentifier="56" transformCenterPoint="8.75, #14.D2">
+  <timeline>
+    <DOMTimeline name="mc_accordion">
+      <layers>
+        <DOMLayer name="mcTabBgFoot" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TabBar/mcTabBgFoot" name="mcTabBgFoot" centerPoint3DX="123.5" centerPoint3DY="531.5">
+                  <matrix>
+                    <Matrix ty="528"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="123.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtTitle" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txtTitle" width="238" height="18" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="4" ty="4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>EQUIPMENT</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0.4" size="14" bitmapSize="280" face="_sans" fillColor="#4C4C4C"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcMainMenuTop1" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTop1" name="mcMainMenuTop1" centerPoint3DX="123.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="123.5" y="11.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcMainMenuTop2" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTop2" name="mcMainMenuTop2" centerPoint3DX="123.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="123.5" y="11.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcMainMenuTop3" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTop3" name="mcMainMenuTop3" centerPoint3DX="123.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="123.5" y="11.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcMainMenuTop4" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTop4" name="mcMainMenuTop4" centerPoint3DX="123.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="123.5" y="11.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcMainMenuTop5" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTop5" name="mcMainMenuTop5" centerPoint3DX="123.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="123.5" y="11.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcMainMenuTopDefault" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTopDefault" name="mcMainMenuTopDefault" centerPoint3DX="123.5" centerPoint3DY="12">
+                  <transformationPoint>
+                    <Point x="123.5" y="11.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel5" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel4" color="#4FFFFF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_text/mc_panel4" name="panel4" centerPoint3DX="135.25" centerPoint3DY="304.85">
+                  <matrix>
+                    <Matrix tx="24" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel3" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_lines/mc_panel3" name="panel3" centerPoint3DX="135.5" centerPoint3DY="304.85">
+                  <matrix>
+                    <Matrix tx="24" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.25" y="280.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel2" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_equipment/mc_panel2" name="panel2" centerPoint3DX="135.25" centerPoint3DY="304.8">
+                  <matrix>
+                    <Matrix tx="24" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="111.55" y="280.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="panel1" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/mc_panel1" name="panel1" centerPoint3DX="135.25" centerPoint3DY="35.95">
+                  <matrix>
+                    <Matrix tx="24" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tabs" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTabPlayers" name="button1" centerPoint3DX="14.35" centerPoint3DY="79.45">
+                  <matrix>
+                    <Matrix tx="2" ty="29"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="50.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTabEquipment" name="button2" centerPoint3DX="13.9" centerPoint3DY="179.5">
+                  <matrix>
+                    <Matrix tx="2" ty="129"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="50.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTabLines" name="button3" centerPoint3DX="14.35" centerPoint3DY="279.55">
+                  <matrix>
+                    <Matrix tx="2" ty="229"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="50.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTabText" name="button4" centerPoint3DX="14.45" centerPoint3DY="379.75">
+                  <matrix>
+                    <Matrix tx="2" ty="329"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="50.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/main_panel_tabs/mcMainMenuTabTeam" name="button5" centerPoint3DX="14.45" centerPoint3DY="479.4">
+                  <matrix>
+                    <Matrix tx="2" ty="429"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="50.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!4920 0|4920 10640!4920 10640|480 10640!480 10640|480 0!480 0|4920 0"/>
+                    <Edge cubics="!4920 0(4920,0;4920,0 4920,10640 4920,10640q4920 0 4920 10640);"/>
+                    <Edge cubics="!480 0(;480,0 4920,0 4920,0q480 0 4920 0);"/>
+                    <Edge cubics="!4920 10640(4920,10640;4920,10640 480,10640 480,10640q4920 10640 480 10640)480,10640;"/>
+                    <Edge cubics="!480 10640(480,10640;480,10640 480,0 480,0q480 10640 480 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="scroll_bg" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.02197265625" d="0.32470703125" tx="20" ty="266"/>
+                        </matrix>
+                        <GradientEntry color="#2F2F2F" ratio="0"/>
+                        <GradientEntry color="#4D4D4D" ratio="0.117647058823529"/>
+                        <GradientEntry color="#6A6A6A" ratio="0.513725490196078"/>
+                        <GradientEntry color="#737373" ratio="0.701960784313725"/>
+                        <GradientEntry color="#373737" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!600 0S2|600 10640!600 10640|0 10640!0 10640|0 0!0 0|600 0"/>
+                    <Edge cubics="!0 0(;0,0 600,0 600,0q0 0 600 0);"/>
+                    <Edge cubics="!600 0(;600,0 600,10640 600,10640q600 0 600 10640);"/>
+                    <Edge cubics="!600 10640(;600,10640 0,10640 0,10640q600 10640 0 10640);"/>
+                    <Edge cubics="!0 10640(;0,10640 0,0 0,0q0 10640 0 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

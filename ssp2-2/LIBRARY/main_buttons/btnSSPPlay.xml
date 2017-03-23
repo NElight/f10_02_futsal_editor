@@ -1,0 +1,80 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_buttons/btnSSPPlay" itemID="522efffa-00002477" symbolType="button" lastModified="1378811913" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="btnSSPPlay">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!140 340|320 220!320 220|140 100!140 100|140 340"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!330 230|150 110!150 110|150 350!150 350|330 230"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Component Assets/ButtonSkins/Button_upSkin" centerPoint3DX="11" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix a="0.268295288085938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="41" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Component Assets/ButtonSkins/Button_overSkin" centerPoint3DX="11" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix a="0.268295288085938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="41" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Component Assets/ButtonSkins/Button_downSkin" centerPoint3DX="11" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix a="0.268295288085938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="41" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

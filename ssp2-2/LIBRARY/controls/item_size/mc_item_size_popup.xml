@@ -1,0 +1,130 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="controls/item_size/mc_item_size_popup" itemID="55e747d2-00002cab" lastModified="1441532733" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="mc_item_size_popup" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;-10&lt;/guideline&gt;&lt;guideline direction="h"&gt;-54&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="reset" color="#009999" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/btn_item_reset" name="btnReset" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-57" ty="-38"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="slider" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/Slider" name="mcSlider" centerPoint3DX="14" centerPoint3DY="-28" uniqueID="3">
+                  <matrix>
+                    <Matrix tx="-26" ty="-29.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="1.5"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="horizontal" enumeration="horizontal,vertical" type="List"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="liveDragging">
+      <Inspectable name="liveDragging" variable="liveDragging" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="maximum">
+      <Inspectable name="maximum" variable="maximum" category="" verbose="0" defaultValue="2" type="Number"/>
+   </property>
+   <property id="minimum">
+      <Inspectable name="minimum" variable="minimum" category="" verbose="0" defaultValue="0.2" type="Number"/>
+   </property>
+   <property id="snapInterval">
+      <Inspectable name="snapInterval" variable="snapInterval" category="" verbose="0" defaultValue="0.2" type="Number"/>
+   </property>
+   <property id="tickInterval">
+      <Inspectable name="tickInterval" variable="tickInterval" category="" verbose="0" defaultValue="0.2" type="Number"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="white_background" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0F0F0"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#333333"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!1255 -860|1255 -210!1255 -210|-1254 -210!-1254 -210|-1254 -860!-1254 -860|1255 -860"/>
+                    <Edge cubics="!1255 -860(1255,-860;1255,-860 1255,-210 1255,-210q1255 -860 1255 -210)1255,-210;"/>
+                    <Edge cubics="!-1254 -210(;-1254,-210 -1254,-860 -1254,-860q-1254 -210 -1254 -860);"/>
+                    <Edge cubics="!1255 -210(;1255,-210 -1254,-210 -1254,-210q1255 -210 -1254 -210);"/>
+                    <Edge cubics="!-1254 -860(;-1254,-860 1255,-860 1255,-860q-1254 -860 1255 -860);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grey_background" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1280 -940/1261 -941!1261 -941/-1280 -940!-1280 -940[-1345 -940 -1345 -863!-1345 -863/-1339 -200!-1339 -200[-1339 -123 -1274 -123!-1274 -123/-122 -124!-122 -124|2 0!2 0|125 -123!125 -123/1286 -123!1286 -123[1351 -123 1351 -200!1351 -200
+/1345 -863!1345 -863[1345 -940 1280 -940"/>
+                    <Edge cubics="!1345 -863(;1345,-914 1323,-940 1280,-940q1345 -863Q1345 -940q1280 -940);"/>
+                    <Edge cubics="!1286 -123(;1329,-123 1351,-149 1351,-200q1286 -123Q1351 -123q1351 -200);"/>
+                    <Edge cubics="!125 -123(;125,-123 1286,-123 1286,-123q125 -123 1286 -123);"/>
+                    <Edge cubics="!1351 -200(;1351,-200 1345,-863 1345,-863q1351 -200 1345 -863);"/>
+                    <Edge cubics="!2 0(;2,0 125,-123 125,-123q2 0 125 -123);"/>
+                    <Edge cubics="!-1280 -940(;-1323,-940 -1345,-914 -1345,-863q-1280 -940Q-1345 -940q-1345 -863);"/>
+                    <Edge cubics="!-1274 -123(;-1274,-123 -122,-124 -122,-124q-1274 -123 -122 -124);"/>
+                    <Edge cubics="!-1339 -200(;-1339,-149 -1317,-123 -1274,-123q-1339 -200Q-1339 -123q-1274 -123);"/>
+                    <Edge cubics="!-1345 -863(;-1345,-863 -1339,-200 -1339,-200q-1345 -863 -1339 -200);"/>
+                    <Edge cubics="!-122 -124(;-122,-124 2,0 2,0q-122 -124 2 0);"/>
+                    <Edge cubics="!1261 -941(;1261,-941 -1280,-940 -1280,-940q1261 -941 -1280 -940);"/>
+                    <Edge cubics="!1280 -940(;1280,-940 1261,-941 1261,-941q1280 -940 1261 -941);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

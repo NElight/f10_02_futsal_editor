@@ -1,0 +1,91 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TabBar/mcTabSep" itemID="520a3d77-000020ae" linkageExportForAS="true" linkageClassName="mcTabSep" lastModified="1376402927">
+  <timeline>
+    <DOMTimeline name="mcTabSep">
+      <layers>
+        <DOMLayer name="separator_bar" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix tx="-27"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#6C9830"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#DDDDDD"/>
+                    </FillStyle>
+                    <FillStyle index="3">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                    <FillStyle index="4">
+                      <SolidColor color="#B2B2B2"/>
+                    </FillStyle>
+                    <FillStyle index="5">
+                      <SolidColor alpha="0.298039215686275"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" fillStyle1="4" edges="!660 -620S3|680 -620"/>
+                    <Edge fillStyle1="5" edges="!560 -140S2|540 -140!540 -140|540 -620!540 -620|560 -620"/>
+                    <Edge fillStyle0="1" fillStyle1="3" edges="!560 -620S3|580 -620"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!660 -620S3|580 -620"/>
+                    <Edge fillStyle1="1" edges="!560 -620S2|560 -640!560 -640|680 -640!680 -640|680 -620"/>
+                    <Edge fillStyle1="3" edges="!580 -120S2|560 -120!560 -120|560 -140"/>
+                    <Edge fillStyle1="4" edges="!680 -620S2|680 -120!680 -120|660 -120"/>
+                    <Edge fillStyle1="2" edges="!660 -120S2|660 -100!660 -100|580 -100!580 -100|580 -120"/>
+                    <Edge fillStyle0="5" fillStyle1="3" edges="!560 -140S3|560 -620"/>
+                    <Edge fillStyle0="2" fillStyle1="3" edges="!580 -620S3|580 -120"/>
+                    <Edge fillStyle0="2" fillStyle1="4" edges="!660 -120S3|660 -620"/>
+                    <Edge cubics="!560 -120(;560,-120 580,-120 580,-120q560 -120 580 -120);"/>
+                    <Edge cubics="!660 -120(;660,-120 680,-120 680,-120q660 -120 680 -120);"/>
+                    <Edge cubics="!660 -620(;660,-620 660,-120 660,-120q660 -620 660 -120);"/>
+                    <Edge cubics="!580 -620(580,-620;580,-620 560,-620 560,-620q580 -620 560 -620)560,-620;"/>
+                    <Edge cubics="!560 -620(560,-620;560,-620 540,-620 540,-620q560 -620 540 -620)540,-620;"/>
+                    <Edge cubics="!680 -620(;680,-620 660,-620 660,-620q680 -620 660 -620);"/>
+                    <Edge cubics="!660 -620(;660,-620 580,-620 580,-620q660 -620 580 -620);"/>
+                    <Edge cubics="!680 -120(;680,-120 680,-620 680,-620q680 -120 680 -620);"/>
+                    <Edge cubics="!580 -620(;580,-620 580,-120 580,-120q580 -620 580 -120);"/>
+                    <Edge cubics="!540 -140(;540,-140 560,-140 560,-140q540 -140 560 -140);"/>
+                    <Edge cubics="!560 -140(560,-140;560,-140 560,-620 560,-620q560 -140 560 -620);"/>
+                    <Edge cubics="!540 -620(;540,-620 540,-140 540,-140q540 -620 540 -140);"/>
+                    <Edge cubics="!560 -120(560,-120;560,-120 560,-140 560,-140q560 -120 560 -140)560,-140;"/>
+                    <Edge cubics="!580 -100(;580,-100 660,-100 660,-100q580 -100 660 -100);"/>
+                    <Edge cubics="!660 -120(;660,-120 660,-100 660,-100q660 -120 660 -100);"/>
+                    <Edge cubics="!580 -120(;580,-120 580,-100 580,-100q580 -120 580 -100);"/>
+                    <Edge cubics="!680 -640(;680,-640 680,-620 680,-620q680 -640 680 -620);"/>
+                    <Edge cubics="!560 -640(;560,-640 680,-640 680,-640q560 -640 680 -640);"/>
+                    <Edge cubics="!560 -620(;560,-620 560,-640 560,-640q560 -620 560 -640);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="transparent_bg" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix a="0.31817626953125"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999999" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!440 -540S2|440 0!440 0|0 0!0 0|0 -540!0 -540|440 -540"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

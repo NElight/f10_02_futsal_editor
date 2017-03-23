@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/main_panel_tabs/mcIconEquipment" itemID="5148646d-0000053f" symbolType="graphic" lastModified="1375354162" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="mcIconEquipment">
+      <layers>
+        <DOMLayer name="Layer 9" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1051 785[1154 1175 1255 1564!1255 1564/1581 1564!1581 1564/1581 1682!1581 1682/767 1720!767 1720/40 1682!40 1682/40 1564!40 1564/310 1564!310 1564/830 0!830 0[844 6 1051 785"/>
+                    <Edge cubics="!40 1682(;40,1682 40,1564 40,1564q40 1682 40 1564);"/>
+                    <Edge cubics="!1581 1564(;1581,1564 1581,1682 1581,1682q1581 1564 1581 1682);"/>
+                    <Edge cubics="!1255 1564(;1255,1564 1581,1564 1581,1564q1255 1564 1581 1564);"/>
+                    <Edge cubics="!40 1564(;40,1564 310,1564 310,1564q40 1564 310 1564);"/>
+                    <Edge cubics="!767 1720(;767,1720 40,1682 40,1682q767 1720 40 1682);"/>
+                    <Edge cubics="!1581 1682(;1581,1682 767,1720 767,1720q1581 1682 767 1720);"/>
+                    <Edge cubics="!830 0(;852,9 1255,1564 1255,1564q830 0Q844 6q1051 785Q1154 1175q1255 1564);"/>
+                    <Edge cubics="!830 0(;830,0 310,1564 310,1564q830 0 310 1564);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

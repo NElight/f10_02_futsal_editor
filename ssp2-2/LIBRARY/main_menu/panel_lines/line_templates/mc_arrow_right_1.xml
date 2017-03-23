@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_lines/line_templates/mc_arrow_right_1" itemID="4e54f0aa-000007f4" lastModified="1314189482">
+  <timeline>
+    <DOMTimeline name="mc_arrow_right_1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!192 71S2|0 140!0 140|0 0!0 0|192 71"/>
+                    <Edge cubics="!192 71(;192,71 0,140 0,140q192 71 0 140);"/>
+                    <Edge cubics="!0 0(;0,0 192,71 192,71q0 0 192 71);"/>
+                    <Edge cubics="!0 140(;0,140 0,0 0,0q0 140 0 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,273 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="pitch_scroller/pitches_container" itemID="4db0040f-00001c94" lastModified="1425578306">
+  <timeline>
+    <DOMTimeline name="pitches_container">
+      <layers>
+        <DOMLayer name="actions" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[function test():void {
+	trace("function exucuted");
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch13" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch14" name="btnPitch13" selected="true" symbolType="button" centerPoint3DX="8" centerPoint3DY="318">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="318"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch12" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch13" name="btnPitch12" symbolType="button" centerPoint3DX="7.9" centerPoint3DY="814">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="7.9" ty="814"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch00" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch4" name="btnPitch00" symbolType="button" centerPoint3DX="8" centerPoint3DY="8">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch01" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch1" name="btnPitch01" symbolType="button" centerPoint3DX="8" centerPoint3DY="70">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="70"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch02" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch2" name="btnPitch02" symbolType="button" centerPoint3DX="8" centerPoint3DY="132">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="132"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch11" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch12" name="btnPitch11" symbolType="button" centerPoint3DX="8" centerPoint3DY="194">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="194"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch03" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch3" name="btnPitch03" symbolType="button" centerPoint3DX="8" centerPoint3DY="256">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="256"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch04" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch5" name="btnPitch04" symbolType="button" centerPoint3DX="8" centerPoint3DY="380">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="380"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch05" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch6" name="btnPitch05" symbolType="button" centerPoint3DX="8" centerPoint3DY="442">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="442"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch06" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch7" name="btnPitch06" symbolType="button" centerPoint3DX="8" centerPoint3DY="504">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="504"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch07" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch8" name="btnPitch07" symbolType="button" centerPoint3DX="8" centerPoint3DY="566">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="566"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch08" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch9" name="btnPitch08" symbolType="button" centerPoint3DX="8" centerPoint3DY="628">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="628"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch09" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch10" name="btnPitch09" symbolType="button" centerPoint3DX="8" centerPoint3DY="690">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="690"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnPitch10" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="pitch_scroller/btn_pitch11" name="btnPitch10" symbolType="button" centerPoint3DX="8" centerPoint3DY="752">
+                  <matrix>
+                    <Matrix a="0.771163940429688" d="0.771560668945313" tx="8" ty="752"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1740 4181|1740 0!1740 0|0 0!0 0|0 4181"/>
+                    <Edge fillStyle0="1" fillStyle1="1" edges="!0 4181S2|1740 4181!1740 13064|0 13064"/>
+                    <Edge fillStyle0="1" edges="!0 4181S1|0 13064!1740 13064|1740 4181"/>
+                    <Edge fillStyle0="1" edges="!0 13064|0 18440!0 18440|1740 18440!1740 18440|1740 13064"/>
+                    <Edge cubics="!1740 0(1740,0;1740,0 0,0 0,0q1740 0 0 0);"/>
+                    <Edge cubics="!0 18440(;0,18440 1740,18440 1740,18440q0 18440 1740 18440);"/>
+                    <Edge cubics="!1740 18440(;1740,18440 1740,13064 1740,13064q1740 18440 1740 13064)1740,13064;"/>
+                    <Edge cubics="!1740 13064(;1740,13064 1740,4181 1740,4181q1740 13064 1740 4181);"/>
+                    <Edge cubics="!1740 4181(;1740,4181 1740,0 1740,0q1740 4181 1740 0);"/>
+                    <Edge cubics="!0 0(;0,0 0,4181 0,4181q0 0 0 4181);"/>
+                    <Edge cubics="!0 4181(;0,4181 0,13064 0,13064q0 4181 0 13064);"/>
+                    <Edge cubics="!0 13064(;0,13064 0,18440 0,18440q0 13064 0 18440);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

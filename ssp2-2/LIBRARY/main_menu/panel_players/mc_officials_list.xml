@@ -1,0 +1,112 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/mc_officials_list" itemID="5038becb-00000e13" linkageExportForAS="true" linkageClassName="mc_officials_list" lastModified="1446588940" lastUniqueIdentifier="18">
+  <timeline>
+    <DOMTimeline name="mc_officials_list">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player1" name="official01" centerPoint3DX="20.2" centerPoint3DY="38.3">
+                  <matrix>
+                    <Matrix a="0.792861938476563" d="0.7933349609375" tx="20" ty="76"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player2_futsal" name="official02" centerPoint3DX="70.05" centerPoint3DY="38">
+                  <matrix>
+                    <Matrix a="0.800003051757813" d="0.800003051757813" tx="70.05" ty="76"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player3" name="official03" centerPoint3DX="119.7" centerPoint3DY="38">
+                  <matrix>
+                    <Matrix a="0.799591064453125" d="0.800003051757813" tx="119.7" ty="76"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player4" name="official04" centerPoint3DX="170.1" centerPoint3DY="38.1">
+                  <matrix>
+                    <Matrix a="0.797195434570313" d="0.797775268554688" tx="170.05" ty="76"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player5" name="official05" centerPoint3DX="20" centerPoint3DY="121.4">
+                  <matrix>
+                    <Matrix a="0.7991943359375" d="0.79888916015625" tx="20" ty="159.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player6" name="official06" centerPoint3DX="70.05" centerPoint3DY="121.35">
+                  <matrix>
+                    <Matrix a="0.800003051757813" d="0.800003051757813" tx="70.05" ty="159.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player7" name="official07" centerPoint3DX="119.7" centerPoint3DY="121.4">
+                  <matrix>
+                    <Matrix a="0.798782348632813" d="0.79888916015625" tx="119.7" ty="159.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player8" name="official08" centerPoint3DX="170.1" centerPoint3DY="121.5">
+                  <matrix>
+                    <Matrix a="0.796401977539063" d="0.796661376953125" tx="170.05" ty="159.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player9" name="official09" centerPoint3DX="20" centerPoint3DY="202.75">
+                  <matrix>
+                    <Matrix a="0.7998046875" d="0.800003051757813" tx="20" ty="240.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player14" name="official14" centerPoint3DX="69.05" centerPoint3DY="202.75">
+                  <matrix>
+                    <Matrix a="0.7998046875" d="0.800003051757813" tx="69.05" ty="240.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player15" name="official15" centerPoint3DX="119.75" centerPoint3DY="203.05">
+                  <matrix>
+                    <Matrix a="0.792861938476563" d="0.7933349609375" tx="119.55" ty="240.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player16" name="official16" centerPoint3DX="169.8" centerPoint3DY="203.05">
+                  <matrix>
+                    <Matrix a="0.792861938476563" d="0.7933349609375" tx="169.6" ty="240.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

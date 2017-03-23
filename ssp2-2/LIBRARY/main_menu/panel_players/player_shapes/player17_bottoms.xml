@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player17_bottoms" itemID="56391423-00003b0a" lastModified="1446581283">
+  <timeline>
+    <DOMTimeline name="player17_bottoms">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#66FF99"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!424 134S2|457 111!457 111|449 125!449 125|520 384!520 384|519 385!519 385[519 386 518 387!518 387|464 406!464 406|463 405!463 405[462 404 461 405!461 405|450 406!450 406|449 406!449 406|443 407!443 407|443 406!443 406|442 406!442 406
+|442 407!442 407|303 417!303 417|262 412!262 412|260 410!260 410|236 316!236 316|227 420!227 420[226 420 226 421!226 421[225 422 224 422!224 422|196 424!196 424[195 423 194 423!194 423|43 421!43 421[42 420 42 421!42 421|41 422!41 422
+|2 405!2 405|1 404!1 404[0 403 1 402!1 402|38 4!38 4|105 8!105 8|216 0!216 0|289 92!289 92|290 93!290 93|294 93!294 93|325 125!325 125|364 139!364 139|422 135!422 135[423 134 424 134"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

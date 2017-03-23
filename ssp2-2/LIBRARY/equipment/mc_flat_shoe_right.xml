@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_flat_shoe_right" itemID="53bbd93d-000005ed" linkageExportForAS="true" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_flat_shoe_right" lastModified="1404820797">
+  <timeline>
+    <DOMTimeline name="mc_flat_shoe_right">
+      <layers>
+        <DOMLayer name="Layer 1" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="equipment/icon_flat_shoe_right.png">
+                  <matrix>
+                    <Matrix tx="-25" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

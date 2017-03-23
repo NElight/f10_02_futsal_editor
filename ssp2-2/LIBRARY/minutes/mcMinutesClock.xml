@@ -1,0 +1,124 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="minutes/mcMinutesClock" itemID="5188e6c6-00001155" linkageExportForAS="true" linkageClassName="src.minutes.MinutesClock" lastModified="1368612166" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="mcMinutesClock" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;301&lt;/guideline&gt;&lt;guideline direction="v"&gt;114&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="buttonManualAuto" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="minutes/mcBtnManualAuto" name="buttonManualAuto" tabIndex="5" hasAccessibleData="true" centerPoint3DX="230" centerPoint3DY="8.6">
+                  <matrix>
+                    <Matrix tx="188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51.75" y="8.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buttonStartPlay" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="minutes/mcBtnStartPlay" name="buttonStartPlay" tabIndex="4" hasAccessibleData="true" centerPoint3DX="25" centerPoint3DY="8.6">
+                  <transformationPoint>
+                    <Point x="30.7" y="8.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buttonStopPlay" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="minutes/mcBtnStopPlay" name="buttonStopPlay" tabIndex="3" hasAccessibleData="true" centerPoint3DX="41.75" centerPoint3DY="7.75">
+                  <transformationPoint>
+                    <Point x="41.8" y="8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="textEditSeconds" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="textEditSeconds" selected="true" fontRenderingMode="standard" width="21.25" height="20.55" tabIndex="3" hasAccessibleData="true">
+                  <matrix>
+                    <Matrix tx="160.2" ty="0.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="18" bitmapSize="360" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="textEditMinutes" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="textEditMinutes" fontRenderingMode="standard" width="32" height="20.55" tabIndex="2" hasAccessibleData="true">
+                  <matrix>
+                    <Matrix tx="120" ty="0.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>000</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="18" bitmapSize="360" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mcEditClockBg" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="minutes/mcEditClockBg" name="mcEditClockBg" centerPoint3DX="150.65" centerPoint3DY="10.5">
+                  <matrix>
+                    <Matrix tx="118.8" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31.85" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buttonClock" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="minutes/mcBtnClock" name="buttonClock" centerPoint3DX="166" centerPoint3DY="10.75">
+                  <matrix>
+                    <Matrix tx="114"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51.75" y="10.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

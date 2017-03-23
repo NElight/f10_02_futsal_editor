@@ -1,0 +1,549 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="settings/settings_3_screen" itemID="515dfe8e-000033a5" linkageExportForAS="true" linkageClassName="src.settings.ScreenSettingsContainer" lastModified="1372090246" lastUniqueIdentifier="46">
+  <timeline>
+    <DOMTimeline name="settings_3_screen">
+      <layers>
+        <DOMLayer name="txtScreenTitle" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtScreenTitle" width="216" height="18" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="141" ty="24.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cbxScreenCategory" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/ComboBox" name="cmbScreenCategory" centerPoint3DX="637.85" centerPoint3DY="33.6" uniqueID="43">
+                  <matrix>
+                    <Matrix a="2" tx="537.85" ty="22.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="dataProvider">
+      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 0, 0" type="Collection"/>
+   </property>
+   <property id="editable">
+      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="prompt">
+      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="restrict">
+      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
+   </property>
+   <property id="rowCount">
+      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!225 5000|15025 5000!225 3200|15025 3200!225 1600|15025 1600"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sldScreenTimeSpent" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/SSPSlider" name="sldScreenTimeSpent" centerPoint3DX="226.9" centerPoint3DY="116.5" uniqueID="46">
+                  <matrix>
+                    <Matrix a="5.41326904296875" tx="187.45" ty="115"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="horizontal" enumeration="horizontal,vertical" type="List"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="liveDragging">
+      <Inspectable name="liveDragging" variable="liveDragging" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="maximum">
+      <Inspectable name="maximum" variable="maximum" category="" verbose="0" defaultValue="120" type="Number"/>
+   </property>
+   <property id="minimum">
+      <Inspectable name="minimum" variable="minimum" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="snapInterval">
+      <Inspectable name="snapInterval" variable="snapInterval" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="tickInterval">
+      <Inspectable name="tickInterval" variable="tickInterval" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sldScreenTimeSpentNumbers" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!10849 2620|10849 2792!10849 2792|10828 2792!10828 2792|10828 2658!10828 2658[10821 2665 10808 2672!10808 2672[10796 2679 10786 2683!10786 2683|10786 2663!10786 2663[10804 2654 10817 2642!10817 2642[10830 2631 10836 2620!10836 2620|10849
+ 2620!10909 2658[10916 2640 10928 2630!10928 2630[10940 2620 10959 2620!10959 2620[10973 2620 10983 2625!10983 2625[10994 2631 11000 2641!11000 2641[11007 2652 11011 2667!11011 2667[11015 2682 11015 2707!11015 2707[11015 2738 11009 2756
+!11009 2756[11003 2775 10990 2785!10990 2785[10978 2795 10959 2795!10959 2795[10934 2795 10920 2777!10920 2777[10903 2756 10903 2707!10903 2707[10903 2677 10909 2658!11148 2707[11148 2738 11142 2756!11142 2756[11136 2775 11123 2785!11123
+ 2785[11111 2795 11092 2795!11092 2795[11067 2795 11053 2777!11053 2777[11036 2756 11036 2707!11036 2707[11036 2677 11042 2658!11042 2658[11049 2640 11061 2630!11061 2630[11073 2620 11092 2620!11092 2620[11106 2620 11116 2625!11116 2625
+[11127 2631 11133 2641!11133 2641[11140 2652 11144 2667!11144 2667[11148 2682 11148 2707!10936 2649[10925 2665 10925 2707!10925 2707[10925 2750 10935 2764!10935 2764[10944 2778 10959 2778!10959 2778[10974 2778 10983 2764!10983 2764[10993
+ 2749 10993 2707!10993 2707[10993 2665 10983 2651!10983 2651[10974 2637 10959 2637!10959 2637[10944 2637 10936 2649!11058 2707[11058 2750 11068 2764!11068 2764[11077 2778 11092 2778!11092 2778[11107 2778 11116 2764!11116 2764[11126 2749
+ 11126 2707!11126 2707[11126 2665 11116 2651!11116 2651[11107 2637 11092 2637!11092 2637[11077 2637 11069 2649!11069 2649[11058 2665 11058 2707!12400 2620[12425 2620 12439 2633!12439 2633[12454 2647 12454 2667!12454 2667[12454 2678 12449
+ 2687!12449 2687[12445 2697 12435 2708!12435 2708[12426 2719 12403 2739!12403 2739[12384 2755 12378 2760!12378 2760[12373 2766 12370 2772!12370 2772|12454 2772!12454 2772|12454 2792!12454 2792|12340 2792!12340 2792[12340 2784 12343 2777
+!12343 2777[12347 2766 12357 2755!12357 2755[12366 2743 12384 2728!12384 2728[12412 2706 12422 2692!12422 2692[12432 2679 12432 2667!12432 2667[12432 2654 12423 2646!12423 2646[12414 2637 12400 2637!12400 2637[12384 2637 12375 2646!12375
+ 2646[12366 2655 12366 2671!12366 2671|12344 2669!12344 2669[12346 2645 12361 2632!12361 2632[12376 2620 12400 2620!12482 2658[12489 2640 12501 2630!12501 2630[12513 2620 12532 2620!12532 2620[12546 2620 12556 2625!12556 2625[12567 2631
+ 12573 2641!12573 2641[12580 2652 12584 2667!12584 2667[12588 2682 12588 2707!12588 2707[12588 2738 12582 2756!12582 2756[12576 2775 12563 2785!12563 2785[12551 2795 12532 2795!12532 2795[12507 2795 12493 2777!12493 2777[12476 2756 12476
+ 2707!12476 2707[12476 2677 12482 2658!12498 2707[12498 2750 12508 2764!12508 2764[12517 2778 12532 2778!12532 2778[12547 2778 12556 2764!12556 2764[12566 2749 12566 2707!12566 2707[12566 2665 12556 2651!12556 2651[12547 2637 12532 2637
+!12532 2637[12517 2637 12509 2649!12509 2649[12498 2665 12498 2707!12248 2672[12236 2679 12226 2683!12226 2683|12226 2663!12226 2663[12244 2654 12257 2642!12257 2642[12270 2631 12276 2620!12276 2620|12289 2620!12289 2620|12289 2792!12289
+ 2792|12268 2792!12268 2792|12268 2658!12268 2658[12261 2665 12248 2672!7964 2639[7980 2620 8008 2620!8008 2620[8028 2620 8041 2631!8041 2631[8054 2642 8056 2662!8056 2662|8035 2664!8035 2664[8033 2651 8027 2646!8027 2646[8019 2637 8006
+ 2637!8006 2637[7996 2637 7989 2642!7989 2642[7979 2650 7973 2664!7973 2664[7967 2678 7967 2703!7967 2703[7975 2692 7986 2686!7986 2686[7997 2681 8009 2681!8009 2681[8030 2681 8045 2696!8045 2696[8059 2712 8059 2736!8059 2736[8059 2752
+ 8053 2766!8053 2766[8046 2780 8033 2788!8033 2788[8021 2795 8006 2795!8006 2795[7979 2795 7963 2776!7963 2776[7946 2756 7946 2712!7946 2712[7946 2662 7964 2639!8086 2658[8093 2640 8105 2630!8105 2630[8117 2620 8136 2620!8136 2620[8150
+ 2620 8160 2625!8160 2625[8171 2631 8177 2641!8177 2641[8184 2652 8188 2667!8188 2667[8192 2682 8192 2707!8192 2707[8192 2738 8186 2756!8186 2756[8180 2775 8167 2785!8167 2785[8155 2795 8136 2795!8136 2795[8111 2795 8097 2777!8097 2777
+[8080 2756 8080 2707!8080 2707[8080 2677 8086 2658!8005 2699[7990 2699 7980 2710!7980 2710[7970 2720 7970 2736!7970 2736[7970 2747 7975 2757!7975 2757[7980 2767 7988 2772!7988 2772[7996 2778 8005 2778!8005 2778[8019 2778 8028 2767!8028
+ 2767[8038 2756 8038 2738!8038 2738[8038 2720 8028 2710!8028 2710[8019 2699 8005 2699!6696 2637[6681 2637 6673 2649!6673 2649[6662 2665 6662 2707!6662 2707[6662 2750 6672 2764!6672 2764[6681 2778 6696 2778!6696 2778[6711 2778 6720 2764
+!6720 2764[6730 2749 6730 2707!6730 2707[6730 2665 6720 2651!6720 2651[6711 2637 6696 2637!6752 2707[6752 2738 6746 2756!6746 2756[6740 2775 6727 2785!6727 2785[6715 2795 6696 2795!6696 2795[6671 2795 6657 2777!6657 2777[6640 2756 6640
+ 2707!6640 2707[6640 2677 6646 2658!6646 2658[6653 2640 6665 2630!6665 2630[6677 2620 6696 2620!6696 2620[6710 2620 6720 2625!6720 2625[6731 2631 6737 2641!6737 2641[6744 2652 6748 2667!6748 2667[6752 2682 6752 2707!6596 2620|6596 2732
+!6596 2732|6619 2732!6619 2732|6619 2751!6619 2751|6596 2751!6596 2751|6596 2792!6596 2792|6575 2792!6575 2792|6575 2751!6575 2751|6500 2751!6500 2751|6500 2732!6500 2732|6578 2620!6578 2620|6596 2620!6575 2732|6575 2654!6575 2654|6521
+ 2732!6521 2732|6575 2732!9617 2641[9624 2652 9628 2667!9628 2667[9632 2682 9632 2707!9632 2707[9632 2738 9626 2756!9626 2756[9620 2775 9607 2785!9607 2785[9595 2795 9576 2795!9576 2795[9551 2795 9537 2777!9537 2777[9520 2756 9520 2707
+!9520 2707[9520 2677 9526 2658!9526 2658[9533 2640 9545 2630!9545 2630[9557 2620 9576 2620!9576 2620[9590 2620 9600 2625!9600 2625[9611 2631 9617 2641!9576 2637[9561 2637 9553 2649!9553 2649[9542 2665 9542 2707!9542 2707[9542 2750 9552
+ 2764!9552 2764[9561 2778 9576 2778!9576 2778[9591 2778 9600 2764!9600 2764[9610 2749 9610 2707!9610 2707[9610 2665 9600 2651!9600 2651[9591 2637 9576 2637!9394 2664[9394 2645 9407 2632!9407 2632[9421 2620 9443 2620!9443 2620[9465 2620
+ 9479 2633!9479 2633[9493 2646 9493 2664!9493 2664[9493 2676 9487 2685!9487 2685[9480 2694 9468 2699!9468 2699[9483 2704 9492 2715!9492 2715[9500 2727 9500 2743!9500 2743[9500 2765 9484 2780!9484 2780[9469 2795 9443 2795!9443 2795[9418
+ 2795 9402 2780!9402 2780[9387 2765 9387 2742!9387 2742[9387 2726 9395 2714!9395 2714[9404 2703 9419 2699!9419 2699[9406 2694 9400 2685!9400 2685[9394 2676 9394 2664!9443 2637[9431 2637 9423 2645!9423 2645[9415 2652 9415 2663!9415 2663
+[9415 2675 9423 2683!9423 2683[9431 2691 9443 2691!9443 2691[9456 2691 9463 2683!9463 2683[9471 2675 9471 2664!9471 2664[9471 2653 9463 2645!9463 2645[9455 2637 9443 2637!9418 2718[9408 2728 9408 2742!9408 2742[9408 2751 9413 2760!9413
+ 2760[9417 2768 9425 2773!9425 2773[9434 2778 9444 2778!9444 2778[9459 2778 9469 2768!9469 2768[9478 2758 9478 2743!9478 2743[9478 2728 9468 2718!9468 2718[9458 2708 9443 2708!9443 2708[9428 2708 9418 2718!8113 2649[8102 2665 8102 2707
+!8102 2707[8102 2750 8112 2764!8112 2764[8121 2778 8136 2778!8136 2778[8151 2778 8160 2764!8160 2764[8170 2749 8170 2707!8170 2707[8170 2665 8160 2651!8160 2651[8151 2637 8136 2637!8136 2637[8121 2637 8113 2649!3715 2700[3715 2743 3725
+ 2757!3725 2757[3734 2771 3749 2771!3749 2771[3764 2771 3773 2757!3773 2757[3783 2742 3783 2700!3783 2700[3783 2658 3773 2644!3773 2644[3764 2630 3749 2630!3749 2630[3734 2630 3726 2642!3726 2642[3715 2658 3715 2700!3699 2651[3706 2633
+ 3718 2623!3718 2623[3730 2613 3749 2613!3749 2613[3763 2613 3773 2618!3773 2618[3784 2624 3790 2634!3790 2634[3797 2645 3801 2660!3801 2660[3805 2675 3805 2700!3805 2700[3805 2731 3799 2749!3799 2749[3793 2768 3780 2778!3780 2778[3768
+ 2788 3749 2788!3749 2788[3724 2788 3710 2770!3710 2770[3693 2749 3693 2700!3693 2700[3693 2670 3699 2651!5147 2639[5138 2630 5124 2630!5124 2630[5108 2630 5099 2639!5099 2639[5090 2648 5090 2664!5090 2664|5068 2662!5068 2662[5070 2638
+ 5085 2625!5085 2625[5100 2613 5124 2613!5124 2613[5149 2613 5163 2626!5163 2626[5178 2640 5178 2660!5178 2660[5178 2671 5173 2680!5173 2680[5169 2690 5159 2701!5159 2701[5150 2712 5127 2732!5127 2732[5108 2748 5102 2753!5102 2753[5097
+ 2759 5094 2765!5094 2765|5178 2765!5178 2765|5178 2785!5178 2785|5064 2785!5064 2785[5064 2777 5067 2770!5067 2770[5071 2759 5081 2748!5081 2748[5090 2736 5108 2721!5108 2721[5136 2699 5146 2685!5146 2685[5156 2672 5156 2660!5156 2660
+[5156 2647 5147 2639!5222 2700[5222 2743 5232 2757!5232 2757[5241 2771 5256 2771!5256 2771[5271 2771 5280 2757!5280 2757[5290 2742 5290 2700!5290 2700[5290 2658 5280 2644!5280 2644[5271 2630 5256 2630!5256 2630[5241 2630 5233 2642!5233
+ 2642[5222 2658 5222 2700!5256 2613[5270 2613 5280 2618!5280 2618[5291 2624 5297 2634!5297 2634[5304 2645 5308 2660!5308 2660[5312 2675 5312 2700!5312 2700[5312 2731 5306 2749!5306 2749[5300 2768 5287 2778!5287 2778[5275 2788 5256 2788
+!5256 2788[5231 2788 5217 2770!5217 2770[5200 2749 5200 2700!5200 2700[5200 2670 5206 2651!5206 2651[5213 2633 5225 2623!5225 2623[5237 2613 5256 2613"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblScreenTimeSpentCount" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblScreenTimeSpentCount" fontRenderingMode="standard" width="85" height="18" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="642" ty="109.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Minutes</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lbTimeSpent" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblScreenTimeSpent" fontRenderingMode="standard" width="187" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="24" ty="96.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Time Spent:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblScreenCategory" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblScreenCategory" fontRenderingMode="standard" width="113" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="412" ty="25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Screen Category:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblScreenTitle" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblScreenTitle" fontRenderingMode="standard" width="113" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="24" ty="25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Titulo Pantalla 1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillMix" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblSkillMix" fontRenderingMode="standard" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="24" ty="175.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Skill mix for drill:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsLearningObjectives" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblLearningObjectives" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="24" ty="267"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Learning Objectives</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsTechnical" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesTechnical" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="272"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Technical</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsTechnical" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesTechnical" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="272"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsTactical" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesTactical" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="312"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Tactical</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsTactical" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesTactical" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="312"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsPhysical" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesPhysical" fontRenderingMode="standard" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="352"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Physical</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsPhysical" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesPhysical" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="352"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsPsychological" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesPsychological" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="392"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Psychological</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsPsychological" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesPsychological" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="392"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblSkillsSocial" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="lblObjectivesSocial" width="196" height="24" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="102" ty="432"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Social</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtSkillsSocial" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtObjectivesSocial" width="331" height="24" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="302.95" ty="432"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.15228271484375" d="1.237060546875" tx="-51.85" ty="-85.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="376.6" y="263"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!14160 9140|900 9140!900 9140|900 1380!900 1380|14160 1380!14160 1380|14160 9140"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

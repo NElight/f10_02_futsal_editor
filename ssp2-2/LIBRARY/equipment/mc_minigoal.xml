@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_minigoal" itemID="4df72df0-000026d9" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="mc_minigoal" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_minigoal" lastModified="1346667059">
+  <timeline>
+    <DOMTimeline name="mc_minigoal">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="equipment/mini_goal.png">
+                  <matrix>
+                    <Matrix tx="-19" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

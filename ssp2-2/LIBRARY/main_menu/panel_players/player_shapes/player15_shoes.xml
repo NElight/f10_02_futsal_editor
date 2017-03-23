@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player15_shoes" itemID="56391361-00003ac1" lastModified="1446581089">
+  <timeline>
+    <DOMTimeline name="player15_shoes">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#33FFCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!447 122S2|350 125!350 125|349 124!349 124|268 75!268 75|267 74!267 74[266 73 267 72!267 72|286 2!286 2|374 0!374 0|417 42!417 42|449 117!449 117[449 118 449 119!449 119[448 119 448 121!448 121[447 120 447 122!177 92|170 132!170 132[167
+ 131 169 135!169 135|167 135!167 135|31 125!31 125|1 110!1 110[0 109 1 109!1 109|1 108!1 108|25 18!25 18|25 17!25 17|110 11!110 11[111 10 112 11!112 11|175 91!175 91|177 92"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

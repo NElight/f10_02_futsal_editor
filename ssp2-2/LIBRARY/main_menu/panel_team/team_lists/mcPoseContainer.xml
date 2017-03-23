@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_team/team_lists/mcPoseContainer" itemID="50abcbc6-0000055a" lastModified="1446588940">
+  <timeline>
+    <DOMTimeline name="mcPoseContainer">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/players/mc_player1" name="player01" centerPoint3DX="20" centerPoint3DY="37.65">
+                  <matrix>
+                    <Matrix a="0.792861938476563" d="0.7933349609375" tx="19.8" ty="75.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

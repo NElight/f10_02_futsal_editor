@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="misc/ssp_final.ai copy" itemID="4d7e2ae9-0000483e" symbolType="graphic" lastModified="1317291860">
+  <timeline>
+    <DOMTimeline name="ssp_final.ai copy">
+      <layers>
+        <DOMLayer name="Comments" color="#FF00FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="unused&amp;#063/comments/mc_scrollbar" selected="true">
+                      <matrix>
+                        <Matrix tx="626" ty="19.4"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="10" y="51"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

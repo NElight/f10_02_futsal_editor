@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player7_socks" itemID="4ded4a61-00000ebf" lastModified="1307400305">
+  <timeline>
+    <DOMTimeline name="player7_socks">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="5.8" ty="-41.35"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999966"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!126 827/-116 930!-116 930/-102 980!-102 980/162 910!162 910/126 827!576 1225/491 1226!491 1226/519 1483!519 1483/570 1479!570 1479/576 1225"/>
+                    <Edge cubics="!-102 980(;-102,980 162,910 162,910q-102 980 162 910);"/>
+                    <Edge cubics="!162 910(;162,910 126,827 126,827q162 910 126 827);"/>
+                    <Edge cubics="!-116 930(;-116,930 -102,980 -102,980q-116 930 -102 980);"/>
+                    <Edge cubics="!126 827(;126,827 -116,930 -116,930q126 827 -116 930);"/>
+                    <Edge cubics="!491 1226(;491,1226 519,1483 519,1483q491 1226 519 1483);"/>
+                    <Edge cubics="!519 1483(;519,1483 570,1479 570,1479q519 1483 570 1479);"/>
+                    <Edge cubics="!570 1479(;570,1479 576,1225 576,1225q570 1479 576 1225);"/>
+                    <Edge cubics="!576 1225(;576,1225 491,1226 491,1226q576 1225 491 1226);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

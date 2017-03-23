@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="equipment/mc_agility_cones" itemID="4fd70dd6-00002162" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="mc_agility_cones" linkageBaseClass="src3d.models.soccer.equipment.MCEquipment" linkageClassName="mc_agility_cones" lastModified="1346667059">
+  <timeline>
+    <DOMTimeline name="mc_agility_cones">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="equipment/agility_cones_icon.png">
+                  <matrix>
+                    <Matrix tx="-25" ty="-50"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

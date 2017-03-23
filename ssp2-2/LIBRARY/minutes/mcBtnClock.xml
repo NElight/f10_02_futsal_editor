@@ -1,0 +1,305 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="minutes/mcBtnClock" itemID="5188d3dd-000005cf" linkageExportForAS="true" linkageBaseClass="src.minutes.SSPButtonClock" linkageClassName="mcBtnClock" lastModified="1368530688">
+  <timeline>
+    <DOMTimeline name="mcBtnClock">
+      <layers>
+        <DOMLayer name="actions" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" name="_up" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="_over" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" name="_down" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" name="_hit" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="btnArea" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_buttons/main_button" name="btnArea" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.601760864257813" d="0.724716186523438"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.013671875" c="-0.0121002197265625" d="0" tx="37" ty="10.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.501960784313725" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1480 420S2|0 420!0 420|0 0!0 0|1480 0!1480 0|1480 420"/>
+                    <Edge cubics="!0 420(;0,420 0,0 0,0q0 420 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 1480,0 1480,0q0 0 1480 0);"/>
+                    <Edge cubics="!1480 420(;1480,420 0,420 0,420q1480 420 0 420);"/>
+                    <Edge cubics="!1480 0(;1480,0 1480,420 1480,420q1480 0 1480 420);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="textSeconds" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="textSeconds" selected="true" width="20.2" height="20.55" autoExpand="true" isSelectable="false" tabIndex="3" hasAccessibleData="true">
+                  <matrix>
+                    <Matrix tx="46.25" ty="0.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="textMinutes" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="textMinutes" selected="true" width="30.5" height="20.55" isSelectable="false" tabIndex="2" hasAccessibleData="true">
+                  <matrix>
+                    <Matrix tx="7.5" ty="0.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>000</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="18" bitmapSize="360" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="colon" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix tx="-0.5"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!835 307S2|835 271!835 271|871 271!871 271|871 307!871 307|835 307!871 156|835 156!835 156|835 120!835 120|871 120!871 120|871 156"/>
+                    <Edge cubics="!835 271(;835,271 871,271 871,271q835 271 871 271);"/>
+                    <Edge cubics="!871 271(;871,271 871,307 871,307q871 271 871 307);"/>
+                    <Edge cubics="!871 307(871,307;871,307 835,307 835,307q871 307 835 307);"/>
+                    <Edge cubics="!835 307(;835,307 835,271 835,271q835 307 835 271)835,271;"/>
+                    <Edge cubics="!835 120(835,120;835,120 871,120 871,120q835 120 871 120);"/>
+                    <Edge cubics="!871 120(871,120;871,120 871,156 871,156q871 120 871 156);"/>
+                    <Edge cubics="!871 156(871,156;871,156 835,156 835,156q871 156 835 156);"/>
+                    <Edge cubics="!835 156(835,156;835,156 835,120 835,120q835 156 835 120);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="timeBg" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#FFF0AA"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1480 10|0 10"/>
+                    <Edge cubics="!1480 10(;1480,10 0,10 0,10q1480 10 0 10);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#FFF0AA"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!10 0|10 420"/>
+                    <Edge cubics="!10 0(;10,0 10,420 10,420q10 0 10 420);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#D7B900"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1470 0|1470 420"/>
+                    <Edge cubics="!1470 0(;1470,0 1470,420 1470,420q1470 0 1470 420);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line_b" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#D7B900"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1480 410|0 410"/>
+                    <Edge cubics="!1480 410(;1480,410 0,410 0,410q1480 410 0 410);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix a="0.711532592773438"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.013641357421875" c="-0.016998291015625" d="0" tx="52" ty="10.5"/>
+                        </matrix>
+                        <GradientEntry color="#FDE886" ratio="0"/>
+                        <GradientEntry color="#FFDC00" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2080 419S2|0 419!0 419|0 0!0 0|2080 0!2080 0|2080 419"/>
+                    <Edge cubics="!0 0(;0,0 2080,0 2080,0q0 0 2080 0);"/>
+                    <Edge cubics="!0 419(;0,419 0,0 0,0q0 419 0 0);"/>
+                    <Edge cubics="!2080 419(;2080,419 0,419 0,419q2080 419 0 419);"/>
+                    <Edge cubics="!2080 0(;2080,0 2080,419 2080,419q2080 0 2080 419);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.013641357421875" c="0.0121002197265625" d="0" tx="37" ty="10.4"/>
+                        </matrix>
+                        <GradientEntry color="#FDE886" ratio="0"/>
+                        <GradientEntry color="#FFDC00" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1480 -1|1480 418!1480 418|0 418!0 418|0 -1!0 -1|1480 -1"/>
+                    <Edge cubics="!0 418(;0,418 0,-1 0,-1q0 418 0 -1);"/>
+                    <Edge cubics="!1480 418(;1480,418 0,418 0,418q1480 418 0 418);"/>
+                    <Edge cubics="!1480 -1(;1480,-1 1480,418 1480,418q1480 -1 1480 418);"/>
+                    <Edge cubics="!0 -1(;0,-1 1480,-1 1480,-1q0 -1 1480 -1);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,145 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/CellRendererSkins/CellRenderer_upSkin" itemID="453f806e-000004da" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="CellRenderer_upSkin" sourceFlashFilepath="../../f10_01_football_editor/ssp2-1.fla" sourceLibraryItemHRef="Component Assets/CellRendererSkins/CellRenderer_upSkin" sourceLastModified="1338224252" scaleGridLeft="1" scaleGridRight="151" scaleGridTop="1" scaleGridBottom="21" lastModified="1338224252" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="CellRenderer_upSkin">
+      <layers>
+        <DOMLayer name="border" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.00787353515625" c="-0.00787353515625" d="0" tx="143.5" ty="7.55"/>
+                        </matrix>
+                        <GradientEntry color="#D6D6D6" ratio="0"/>
+                        <GradientEntry color="#E9E9E9" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.0006103515625" d="0.012054443359375" tx="151.5" ty="10.85"/>
+                        </matrix>
+                        <GradientEntry color="#D6D6D6" ratio="0"/>
+                        <GradientEntry color="#E9E9E9" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                    <FillStyle index="3">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.0006103515625" d="0.012054443359375" tx="0.5" ty="10.85"/>
+                        </matrix>
+                        <GradientEntry color="#D6D6D6" ratio="0"/>
+                        <GradientEntry color="#E9E9E9" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!3020 415S3|3040 415"/>
+                    <Edge fillStyle1="1" edges="!3040 415S2|3040 440!3040 440|0 440!0 440|0 415"/>
+                    <Edge fillStyle0="2" edges="!3020 20S1|3020 415"/>
+                    <Edge fillStyle0="1" edges="!3020 415S1|3020 420!3020 420|20 420!20 420|20 415"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!3020 20S3|3040 20"/>
+                    <Edge fillStyle1="2" edges="!3040 20S2|3040 415"/>
+                    <Edge fillStyle1="1" edges="!0 20S2|0 0!0 0|3040 0!3040 0|3040 20"/>
+                    <Edge fillStyle0="3" fillStyle1="1" edges="!0 415S3|20 415"/>
+                    <Edge fillStyle0="3" edges="!20 415S1|20 20"/>
+                    <Edge fillStyle0="1" fillStyle1="3" edges="!0 20S3|20 20"/>
+                    <Edge fillStyle1="3" edges="!0 415S2|0 20"/>
+                    <Edge fillStyle0="1" edges="!20 20S1|3020 20"/>
+                    <Edge cubics="!20 20(;20,20 3020,20 3020,20q20 20 3020 20);"/>
+                    <Edge cubics="!3020 420(;3020,420 20,420 20,420q3020 420 20 420);"/>
+                    <Edge cubics="!0 440(;0,440 3040,440 3040,440q0 440 3040 440);"/>
+                    <Edge cubics="!3040 0(;3040,0 0,0 0,0q3040 0 0 0)0,0;"/>
+                    <Edge cubics="!3040 440(;3040,440 3040,415 3040,415q3040 440 3040 415);"/>
+                    <Edge cubics="!3020 415(;3020,415 3020,420 3020,420q3020 415 3020 420)3020,420;"/>
+                    <Edge cubics="!3040 415(;3040,415 3020,415 3020,415q3040 415 3020 415);"/>
+                    <Edge cubics="!3020 20(;3020,20 3020,415 3020,415q3020 20 3020 415);"/>
+                    <Edge cubics="!3040 415(;3040,415 3040,20 3040,20q3040 415 3040 20);"/>
+                    <Edge cubics="!3040 20(;3040,20 3040,0 3040,0q3040 20 3040 0);"/>
+                    <Edge cubics="!3040 20(;3040,20 3020,20 3020,20q3040 20 3020 20);"/>
+                    <Edge cubics="!20 415(;20,415 20,20 20,20q20 415 20 20);"/>
+                    <Edge cubics="!0 20(;0,20 0,415 0,415q0 20 0 415);"/>
+                    <Edge cubics="!0 415(;0,415 0,440 0,440q0 415 0 440);"/>
+                    <Edge cubics="!20 415(;20,415 0,415 0,415q20 415 0 415);"/>
+                    <Edge cubics="!20 420(;20,420 20,415 20,415q20 420 20 415);"/>
+                    <Edge cubics="!0 0(;0,0 0,20 0,20q0 0 0 20);"/>
+                    <Edge cubics="!0 20(;0,20 20,20 20,20q0 20 20 20);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fill" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFF8EC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3039.5 440.5|-0.5 440.5!-0.5 440.5|-0.5 0.5!-0.5 0.5|3039.5 0.5!3039.5 0.5|3039.5 440.5"/>
+                    <Edge cubics="!0 441(;0,441 0,1 0,1q0 441 0 1);"/>
+                    <Edge cubics="!3040 1(;3040,1 3040,441 3040,441q3040 1 3040 441);"/>
+                    <Edge cubics="!0 1(;0,1 3040,1 3040,1q0 1 3040 1);"/>
+                    <Edge cubics="!3040 441(;3040,441 0,441 0,441q3040 441 0 441);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fill" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFDE7"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3039.5 440.5|-0.5 440.5!-0.5 440.5|-0.5 0.5!-0.5 0.5|3039.5 0.5!3039.5 0.5|3039.5 440.5"/>
+                    <Edge cubics="!0 441(;0,441 0,1 0,1q0 441 0 1);"/>
+                    <Edge cubics="!3040 1(;3040,1 3040,441 3040,441q3040 1 3040 441);"/>
+                    <Edge cubics="!0 1(;0,1 3040,1 3040,1q0 1 3040 1);"/>
+                    <Edge cubics="!3040 441(;3040,441 0,441 0,441q3040 441 0 441);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fill" color="#9933CC" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F2F2F2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3039.5 440.5|-0.5 440.5!-0.5 440.5|-0.5 0.5!-0.5 0.5|3039.5 0.5!3039.5 0.5|3039.5 440.5"/>
+                    <Edge cubics="!0 441(;0,441 0,1 0,1q0 441 0 1);"/>
+                    <Edge cubics="!3040 1(;3040,1 3040,441 3040,441q3040 1 3040 441);"/>
+                    <Edge cubics="!0 1(;0,1 3040,1 3040,1q0 1 3040 1);"/>
+                    <Edge cubics="!3040 441(;3040,441 0,441 0,441q3040 441 0 441);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

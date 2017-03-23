@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="scribble_pad/mc_scribble_pad" itemID="4e43b014-000003fc" linkageExportForAS="true" linkageClassName="src.popup.ScribblePad" lastModified="1350749186">
+  <timeline>
+    <DOMTimeline name="mc_scribble_pad">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20000 -1|20000 11493!20000 11493|60 11493!60 11493|60 11499!60 11499|0 11499!0 11499|0 0!0 0|19940 0!19940 0|19940 -1!19940 -1|20000 -1!60 11433|19940 11433!19940 11433|19940 59!19940 59|60 59!60 59|60 11433"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="misc/pad" selected="true" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="332" y="194"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

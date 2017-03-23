@@ -1,0 +1,123 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/kits/custom_kit_tab" itemID="4e01b7d1-000010c4" lastModified="1366286026" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="custom_kit_tab">
+      <layers>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="kits" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="main_menu/panel_players/kits/mc_kit_design" name="customKit">
+                  <matrix>
+                    <Matrix tx="-67.5" ty="72.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="82" y="80.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="customkit_help" width="196" height="125.4" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-102" ty="288.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" bitmapSize="240" face="_sans" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMComponentInstance libraryItemName="ui_components/CheckBox" name="cbSemiTransparent" centerPoint3DX="-4" centerPoint3DY="252.35" uniqueID="4">
+                  <matrix>
+                    <Matrix a="2" tx="-104" ty="241.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Semi-transparent" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="ui_components/CheckBox" name="cbSpeedChute" centerPoint3DX="-4" centerPoint3DY="274.35" uniqueID="5" isVisible="false">
+                  <matrix>
+                    <Matrix a="2" tx="-104" ty="263.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="Speed Chute" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="false" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix d="0.88525390625" ty="2.75"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2180 11234S2|-2260 11234!-2260 11234|-2260 480!-2260 480|2180 480!2180 480|2180 11234"/>
+                    <Edge cubics="!-2260 11234(-2260,11234;-2260,11234 -2260,480 -2260,480q-2260 11234 -2260 480);"/>
+                    <Edge cubics="!2180 480(2180,480;2180,480 2180,11234 2180,11234q2180 480 2180 11234)2180,11234;"/>
+                    <Edge cubics="!2180 11234(;2180,11234 -2260,11234 -2260,11234q2180 11234 -2260 11234);"/>
+                    <Edge cubics="!-2260 480(-2260,480;-2260,480 2180,480 2180,480q-2260 480 2180 480)2180,480;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

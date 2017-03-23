@@ -1,0 +1,133 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="message_box/btnMinimizeVideo" itemID="51f6318f-00000d84" linkageExportForAS="true" linkageClassName="btnMinimizeVideo" symbolType="button" lastModified="1375110591" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="btnMinimizeVideo">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!297 122|326 122!326 122|326 174!326 174|379 174!379 174|379 204!379 204[379 210 380 214!380 214|305.5 214!305.5 214[#12D.B8 #D5.E8 299 213!299 213[295 211 292 208!292 208[#121.75 #CD.75 288 202.5!288 202.5[286 #C6.9C 286 194!286 194
+|286 120!286 120[291 121 297 122!214 120|214 194!214 194[214 #C5.4C 213 200.5!213 200.5[#D3.87 #CC.79 208 208!208 208[205 211 202 213!202 213[#C6.6 #D5.E8 195 214!195 214|120 214!120 214[121 209 122 203!122 203|122 174!122 174|174 174
+!174 174|174 122!174 122|203 122!203 122[209 121 214 120"/>
+                    <Edge fillStyle0="1" edges="
+!194.5 286|120 286!120 286[121 291 122 297!122 297|122 326!122 326|174 326!174 326|174 379!174 379|203 379!203 379[209 379 214 380!214 380|214 306!214 306[214 #12E.B4 213 299.5!213 299.5[#D3.87 #127.87 208 292!208 292[205 289 202 288
+!202 288[#C6.4 #11E.2 194.5 286"/>
+                    <Edge fillStyle1="1" edges="
+!379 296|379 326!379 326|326 326!326 326|326 379!326 379|297 379!297 379[291 379 286 380!286 380|286 306!286 306[286 #12D.64 288 297.5!288 297.5[#121.75 #126.8B 292 292!292 292[295 289 299 288!299 288[#12D.D #11E.2 305.5 286!305.5 286
+|380 286!380 286[379 291 379 296"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!407 324|407 354!407 354|354 354!354 354|354 407!354 407|325 407!325 407[319 407 314 408!314 408|314 334!314 334[314 329 316 326!316 326[317 323 320 320!320 320[323 317 327 316!327 316[330 314 334 314!334 314|408 314!408 314[407 319 407
+ 324!408 242|334 242!334 242[330 242 327 241!327 241[323 239 320 236!320 236[317 233 316 231!316 231[314 227 314 222!314 222|314 148!314 148[319 149 325 150!325 150|354 150!354 150|354 202!354 202|407 202!407 202|407 232!407 232[407 238
+ 408 242!230 241[226 242 223 242!223 242|148 242!148 242[149 237 150 231!150 231|150 202!150 202|202 202!202 202|202 150!202 150|231 150!231 150[237 149 242 148!242 148|242 222!242 222[242 225 241 229!241 229[240 232 236 236!236 236[233
+ 239 230 241"/>
+                    <Edge fillStyle0="1" edges="
+!150 325|150 354!150 354|202 354!202 354|202 407!202 407|231 407!231 407[237 407 242 408!242 408|242 334!242 334[242 331 241 328!241 328[240 324 236 320!236 320[233 317 230 316!230 316[226 314 223 314!223 314|148 314!148 314[149 319 150
+ 325"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="2.5">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!249 474S6[155 474 89 408!89 408[24 343 24 249!24 249[24 155 89 89!89 89[155 24 249 24!249 24[343 24 408 89!408 89[474 155 474 249!474 249[474 343 408 408!408 408[343 474 249 474"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" weight="2.5">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!117 436[52 371 52 277!52 277[52 183 117 117!117 117[183 52 277 52!277 52[371 52 436 117!436 117[502 183 502 277!502 277[502 371 436 436!436 436[371 502 277 502!277 502[183 502 117 436"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.0177001953125" d="0.0177001953125" tx="14.4" ty="14.4"/>
+                        </matrix>
+                        <GradientEntry ratio="0.525490196078431"/>
+                        <GradientEntry alpha="0.333333333333333" ratio="0.752941176470588"/>
+                        <GradientEntry alpha="0" ratio="0.956862745098039"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!493 492[575 408 575 288!575 288[575 169 492 84!492 84[408 0 288 0!288 0[169 0 84 84!84 84[0 169 0 288!0 288[0 408 84 492!84 492[101 509 120 522!120 522[193 575 288 575!288 575[384 575 458 522!458 522[476 509 492 493!492 493|493 492"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

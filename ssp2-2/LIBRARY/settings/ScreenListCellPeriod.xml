@@ -1,0 +1,274 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="settings/ScreenListCellPeriod" itemID="51c85c72-00008f3e" linkageExportForAS="true" linkageClassName="src.settings.ScreenListCellPeriod" lastModified="1378205520" lastUniqueIdentifier="31">
+  <timeline>
+    <DOMTimeline name="ScreenListCellPeriod" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;706&lt;/guideline&gt;&lt;guideline direction="h"&gt;39&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="sldScreenTimeSpentNumbers" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!13937 911S2[13927 917 13919 920!13919 920|13919 903!13919 903[13934 896 13945 886!13945 886[13956 877 13960 867!13960 867|13972 867!13972 867|13972 1011!13972 1011|13954 1011!13954 1011|13954 899!13954 899[13948 905 13937 911!14035 911
+|14017 909!14017 909[14019 888 14031 878!14031 878[14043 867 14064 867!14064 867[14084 867 14096 879!14096 879[14108 890 14108 907!14108 907[14108 916 14105 924!14105 924[14101 932 14093 941!14093 941[14085 951 14066 967!14066 967[14050
+ 980 14046 985!14046 985[14041 989 14038 994!14038 994|14109 994!14109 994|14109 1011!14109 1011|14014 1011!14014 1011[14014 1005 14016 999!14016 999[14020 989 14028 980!14028 980[14036 970 14051 958!14051 958[14074 939 14082 928!14082
+ 928[14090 917 14090 907!14090 907[14090 896 14083 889!14083 889[14075 882 14063 882!14063 882[14051 882 14043 889!14043 889[14036 897 14035 911!14154 892[14145 905 14145 940!14145 940[14145 976 14154 987!14154 987[14162 999 14174 999
+!14174 999[14186 999 14194 987!14194 987[14203 976 14203 940!14203 940[14203 905 14194 893!14194 893[14186 882 14174 882!14174 882[14162 882 14154 892!14174 867[14186 867 14194 872!14194 872[14203 877 14209 885!14209 885[14214 894 14217
+ 907!14217 907[14221 919 14221 940!14221 940[14221 966 14215 981!14215 981[14210 997 14200 1005!14200 1005[14190 1013 14174 1013!14174 1013[14153 1013 14141 999!14141 999[14127 981 14127 940!14127 940[14127 915 14133 900!14133 900[14138
+ 884 14148 876!14148 876[14158 867 14174 867!13337 867|13337 1011!13337 1011|13319 1011!13319 1011|13319 899!13319 899[13313 905 13302 911!13302 911[13292 917 13284 920!13284 920|13284 903!13284 903[13299 896 13310 886!13310 886[13321
+ 877 13325 867!13325 867|13337 867!13463 885[13468 894 13471 907!13471 907[13475 919 13475 940!13475 940[13475 966 13469 981!13469 981[13464 997 13454 1005!13454 1005[13444 1013 13428 1013!13428 1013[13407 1013 13395 999!13395 999[13381
+ 981 13381 940!13381 940[13381 915 13387 900!13387 900[13392 884 13402 876!13402 876[13412 867 13428 867!13428 867[13440 867 13448 872!13448 872[13457 877 13463 885!13428 882[13416 882 13408 892!13408 892[13399 905 13399 940!13399 940
+[13399 976 13408 987!13408 987[13416 999 13428 999!13428 999[13440 999 13448 987!13448 987[13457 976 13457 940!13457 940[13457 905 13448 893!13448 893[13440 882 13428 882!13519 892[13510 905 13510 940!13510 940[13510 976 13519 987!13519
+ 987[13527 999 13539 999!13539 999[13551 999 13559 987!13559 987[13568 976 13568 940!13568 940[13568 905 13559 893!13559 893[13551 882 13539 882!13539 882[13527 882 13519 892!13559 872[13568 877 13574 885!13574 885[13579 894 13582 907
+!13582 907[13586 919 13586 940!13586 940[13586 966 13580 981!13580 981[13575 997 13565 1005!13565 1005[13555 1013 13539 1013!13539 1013[13518 1013 13506 999!13506 999[13492 981 13492 940!13492 940[13492 915 13498 900!13498 900[13503 884
+ 13513 876!13513 876[13523 867 13539 867!13539 867[13551 867 13559 872!12238 907[12242 919 12242 940!12242 940[12242 966 12236 981!12236 981[12231 997 12221 1005!12221 1005[12211 1013 12195 1013!12195 1013[12174 1013 12162 999!12162 999
+[12148 981 12148 940!12148 940[12148 915 12154 900!12154 900[12159 884 12169 876!12169 876[12179 867 12195 867!12195 867[12207 867 12215 872!12215 872[12224 877 12230 885!12230 885[12235 894 12238 907!12175 892[12166 905 12166 940!12166
+ 940[12166 976 12175 987!12175 987[12183 999 12195 999!12195 999[12207 999 12215 987!12215 987[12224 976 12224 940!12224 940[12224 905 12215 893!12215 893[12207 882 12195 882!12195 882[12183 882 12175 892!12735 888[12728 882 12718 882
+!12718 882[12708 882 12701 888!12701 888[12695 895 12695 904!12695 904[12695 914 12701 920!12701 920[12708 927 12718 927!12718 927[12729 927 12735 920!12735 920[12742 914 12742 905!12742 905[12742 895 12735 888!12748 878[12760 889 12760
+ 905!12760 905[12760 915 12754 922!12754 922[12749 929 12738 933!12738 933[12752 938 12759 947!12759 947[12765 957 12765 970!12765 970[12765 988 12752 1001!12752 1001[12739 1013 12718 1013!12718 1013[12697 1013 12684 1001!12684 1001[12671
+ 988 12671 970!12671 970[12671 956 12678 946!12678 946[12685 937 12698 933!12698 933[12687 929 12682 922!12682 922[12677 915 12677 904!12677 904[12677 889 12688 878!12688 878[12699 867 12718 867!12718 867[12737 867 12748 878!12689 970
+[12689 977 12693 984!12693 984[12696 991 12703 995!12703 995[12710 999 12718 999!12718 999[12731 999 12739 991!12739 991[12747 983 12747 970!12747 970[12747 958 12739 949!12739 949[12731 941 12718 941!12718 941[12705 941 12697 949!12697
+ 949[12689 957 12689 970!12829 882[12817 882 12809 892!12809 892[12800 905 12800 940!12800 940[12800 976 12809 987!12809 987[12817 999 12829 999!12829 999[12841 999 12849 987!12849 987[12858 976 12858 940!12858 940[12858 905 12849 893
+!12849 893[12841 882 12829 882!12849 872[12858 877 12864 885!12864 885[12869 894 12872 907!12872 907[12876 919 12876 940!12876 940[12876 966 12870 981!12870 981[12865 997 12855 1005!12855 1005[12845 1013 12829 1013!12829 1013[12808 1013
+ 12796 999!12796 999[12782 981 12782 940!12782 940[12782 915 12788 900!12788 900[12793 884 12803 876!12803 876[12813 867 12829 867!12829 867[12841 867 12849 872!11380 961|11445 868!11445 868|11459 868!11459 868|11459 961!11459 961|11479
+ 961!11479 961|11479 977!11479 977|11459 977!11459 977|11459 1011!11459 1011|11442 1011!11442 1011|11442 977!11442 977|11380 977!11380 977|11380 961!11517 876[11527 867 11543 867!11543 867[11555 867 11563 872!11563 872[11572 877 11578
+ 885!11578 885[11583 894 11586 907!11586 907[11590 919 11590 940!11590 940[11590 966 11584 981!11584 981[11579 997 11569 1005!11569 1005[11559 1013 11543 1013!11543 1013[11522 1013 11510 999!11510 999[11496 981 11496 940!11496 940[11496
+ 915 11502 900!11502 900[11507 884 11517 876!11523 987[11531 999 11543 999!11543 999[11555 999 11563 987!11563 987[11572 976 11572 940!11572 940[11572 905 11563 893!11563 893[11555 882 11543 882!11543 882[11531 882 11523 892!11523 892
+[11514 905 11514 940!11514 940[11514 976 11523 987!11442 896|11397 961!11397 961|11442 961!11442 961|11442 896!12104 889[12097 882 12087 882!12087 882[12078 882 12072 886!12072 886[12064 892 12059 904!12059 904[12054 916 12054 937!12054
+ 937[12060 928 12070 923!12070 923[12079 918 12089 918!12089 918[12106 918 12119 931!12119 931[12131 944 12131 965!12131 965[12131 978 12125 990!12125 990[12119 1001 12109 1007!12109 1007[12099 1013 12086 1013!12086 1013[12064 1013 12050
+ 997!12050 997[12037 981 12037 944!12037 944[12037 903 12052 884!12052 884[12065 867 12088 867!12088 867[12105 867 12116 877!12116 877[12126 886 12129 903!12129 903|12111 904!12111 904[12109 894 12104 889!12065 942[12057 951 12057 965
+!12057 965[12057 974 12061 982!12061 982[12064 990 12071 995!12071 995[12078 999 12086 999!12086 999[12097 999 12105 990!12105 990[12113 981 12113 966!12113 966[12113 951 12105 942!12105 942[12097 934 12085 934!12085 934[12073 934 12065
+ 942!10932 865[10941 870 10947 878!10947 878[10952 887 10955 900!10955 900[10959 912 10959 933!10959 933[10959 959 10953 974!10953 974[10948 990 10938 998!10938 998[10928 1006 10912 1006!10912 1006[10891 1006 10879 992!10879 992[10865
+ 974 10865 933!10865 933[10865 908 10871 893!10871 893[10876 877 10886 869!10886 869[10896 860 10912 860!10912 860[10924 860 10932 865!10801 875[10789 875 10781 882!10781 882[10774 890 10773 904!10773 904|10755 902!10755 902[10757 881
+ 10769 871!10769 871[10781 860 10802 860!10802 860[10822 860 10834 872!10834 872[10846 883 10846 900!10846 900[10846 909 10843 917!10843 917[10839 925 10831 934!10831 934[10823 944 10804 960!10804 960[10788 973 10784 978!10784 978[10779
+ 982 10776 987!10776 987|10847 987!10847 987|10847 1004!10847 1004|10752 1004!10752 1004[10752 998 10754 992!10754 992[10758 982 10766 973!10766 973[10774 963 10789 951!10789 951[10812 932 10820 921!10820 921[10828 910 10828 900!10828
+ 900[10828 889 10821 882!10821 882[10813 875 10801 875!10912 875[10900 875 10892 885!10892 885[10883 898 10883 933!10883 933[10883 969 10892 980!10892 980[10900 992 10912 992!10912 992[10924 992 10932 980!10932 980[10941 969 10941 933
+!10941 933[10941 898 10932 886!10932 886[10924 875 10912 875!10226 865[10235 870 10241 878!10241 878[10246 887 10249 900!10249 900[10253 912 10253 933!10253 933[10253 959 10247 974!10247 974[10242 990 10232 998!10232 998[10222 1006 10206
+ 1006!10206 1006[10185 1006 10173 992!10173 992[10159 974 10159 933!10159 933[10159 908 10165 893!10165 893[10170 877 10180 869!10180 869[10190 860 10206 860!10206 860[10218 860 10226 865!10186 885[10177 898 10177 933!10177 933[10177
+ 969 10186 980!10186 980[10194 992 10206 992!10206 992[10218 992 10226 980!10226 980[10235 969 10235 933!10235 933[10235 898 10226 886!10226 886[10218 875 10206 875!10206 875[10194 875 10186 885"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sldScreenTimeSpent" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/SSPSlider" name="sldScreenTimeSpent" selected="true" centerPoint3DX="531.9" centerPoint3DY="29" uniqueID="26">
+                  <matrix>
+                    <Matrix a="2.41361999511719" tx="510.9" ty="27.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.6" y="1.5"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="horizontal" enumeration="horizontal,vertical" type="List"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="liveDragging">
+      <Inspectable name="liveDragging" variable="liveDragging" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="maximum">
+      <Inspectable name="maximum" variable="maximum" category="" verbose="0" defaultValue="120" type="Number"/>
+   </property>
+   <property id="minimum">
+      <Inspectable name="minimum" variable="minimum" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="snapInterval">
+      <Inspectable name="snapInterval" variable="snapInterval" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="tickInterval">
+      <Inspectable name="tickInterval" variable="tickInterval" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblScreenTimeSpent" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/Label" name="lblScreenTimeSpent" selected="true" centerPoint3DX="407.15" centerPoint3DY="31" uniqueID="27">
+                  <matrix>
+                    <Matrix a="1.50022888183594" tx="357" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="autoSize">
+      <Inspectable name="autoSize" variable="autoSize" category="" verbose="0" defaultValue="none" enumeration="left,center,right,none" type="List"/>
+   </property>
+   <property id="condenseWhite">
+      <Inspectable name="condenseWhite" variable="condenseWhite" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="htmlText">
+      <Inspectable name="htmlText" variable="htmlText" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="selectable">
+      <Inspectable name="selectable" variable="selectable" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="text">
+      <Inspectable name="text" variable="text" category="" verbose="0" defaultValue="Label" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="wordWrap">
+      <Inspectable name="wordWrap" variable="wordWrap" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="txtScreenTitle" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="txtScreenTitle" selected="true" width="191" height="18" maxCharacters="100" border="true">
+                  <matrix>
+                    <Matrix tx="140" ty="22"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0.4" size="11" bitmapSize="220" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lblScreenTitle" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="ui_components/Label" name="lblScreenTitle" selected="true" centerPoint3DX="166.3" centerPoint3DY="31" uniqueID="28">
+                  <matrix>
+                    <Matrix a="1.2503662109375" tx="10.9" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="autoSize">
+      <Inspectable name="autoSize" variable="autoSize" category="" verbose="0" defaultValue="none" enumeration="left,center,right,none" type="List"/>
+   </property>
+   <property id="condenseWhite">
+      <Inspectable name="condenseWhite" variable="condenseWhite" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="htmlText">
+      <Inspectable name="htmlText" variable="htmlText" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="selectable">
+      <Inspectable name="selectable" variable="selectable" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="text">
+      <Inspectable name="text" variable="text" category="" verbose="0" defaultValue="Label" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="wordWrap">
+      <Inspectable name="wordWrap" variable="wordWrap" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!10 0S4|14810 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#CCCCCC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!0 1180S4|14800 1180"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!14800 1200|0 1200!0 1200|0 0!0 0|14800 0!14800 0|14800 1200"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

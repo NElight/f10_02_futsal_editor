@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_buttons/btnSSPCalendarDelete" itemID="516c27df-00013188" linkageExportForAS="true" linkageClassName="btnSSPCalendarDelete" symbolType="button" lastModified="1369149932" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="btnSSPCalendarDelete">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="controls/del_cross" centerPoint3DX="11.75" centerPoint3DY="12.95">
+                  <matrix>
+                    <Matrix a="1.25" d="1.25" tx="4.9" ty="6.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="5.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="main_buttons/calendar_icon.png">
+                  <matrix>
+                    <Matrix a="0.949996948242188" d="0.949996948242188" tx="-1.95" ty="-1.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

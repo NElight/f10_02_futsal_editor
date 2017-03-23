@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="main_menu/panel_players/player_shapes/player1_socks" itemID="4ded437b-000008be" lastModified="1307398539">
+  <timeline>
+    <DOMTimeline name="player1_socks">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-5.35" ty="-46.15"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999966"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!107 970/260 1098!260 1098/287 1020!287 1020/127 923!127 923/107 970!580 1270/494 1271!494 1271/494 1503!494 1503/545 1512!545 1512/580 1270"/>
+                    <Edge cubics="!107 970(;107,970 260,1098 260,1098q107 970 260 1098);"/>
+                    <Edge cubics="!260 1098(;260,1098 287,1020 287,1020q260 1098 287 1020);"/>
+                    <Edge cubics="!127 923(;127,923 107,970 107,970q127 923 107 970);"/>
+                    <Edge cubics="!287 1020(;287,1020 127,923 127,923q287 1020 127 923);"/>
+                    <Edge cubics="!494 1271(;494,1271 494,1503 494,1503q494 1271 494 1503);"/>
+                    <Edge cubics="!494 1503(;494,1503 545,1512 545,1512q494 1503 545 1512);"/>
+                    <Edge cubics="!545 1512(;545,1512 580,1270 580,1270q545 1512 580 1270);"/>
+                    <Edge cubics="!580 1270(;580,1270 494,1271 494,1271q580 1270 494 1271);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
